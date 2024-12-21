@@ -1,6 +1,6 @@
 getgenv().petsGoConfig = {
     CONSUME_EVENT_GIFT_BAG = true,
-    CONSUME_EVENT_EGG = true, -- Hype eggs not included
+    CONSUME_EVENT_EGG = false, -- Hype eggs not included
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1314971162169573447/3keC5Hj-7h7FsT2jK1Cf6QS-ZE4XxNpuiIIBx4--ils7GEI1H86-ZiYYHzUY1cBuB6AF",
     MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1314971092338737165/y0eXIQ4Ri94OBgLCuYb4TfSl2OLOQl0KUPtYdkhgONI9ca-NSXyPqxtOZxvpsaYEMuVy",
@@ -12,7 +12,7 @@ getgenv().petsGoConfig = {
     MAILING = true,  -- Auto mail
     MAIL_FISHING_ROD = true,  -- true = mail, false = keep fishing rod on account (FASTER Fishing)
     MAIL_WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger MAIL Webhook
-    MAIL_PET_ODDS = 500000000,  -- Minimum Pet Odds To Mail
+    MAIL_PET_ODDS = 100000000,  -- Minimum Pet Odds To Mail
     USERNAME_TO_MAIL = "9motionMgaming8453" -- Mail Pet To Username
 }
 
