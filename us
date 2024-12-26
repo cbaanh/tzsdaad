@@ -1,0 +1,19 @@
+getgenv().petsGoConfig = {
+    CONSUME_EVENT_GIFT_BAG = true,
+    CONSUME_EVENT_EGG = true, -- Hype eggs not included
+
+    WEBHOOK_URL = "https://discord.com/api/webhooks/1321776985625854015/47M_J3Xo4c4d--xEQ0yiIjUw7o1Oy47KTqu_KFkQvKPlDcmU6V69wyw400SKParn2Vq2",
+    MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1321777141884387348/Fht_F8aQ2WPFh34Bq8KL6lkZhdjxRw13UYhCv8cwZ1I1AsFKUUTukqDsVd0i0NNI1nNS",
+    DISCORD_ID = "1028193618890068070",  -- Required!!! (For public-webhook)
+    WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger Webhook
+
+    DIAMOND_EGG = false,  -- true = Diamond Egg, false = F2P Egg
+    
+    MAILING = true,  -- Auto mail
+    MAIL_FISHING_ROD = true,  -- true = mail, false = keep fishing rod on account (FASTER Fishing)
+    MAIL_WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger MAIL Webhook
+    MAIL_PET_ODDS = 100000000,  -- Minimum Pet Odds To Mail
+    USERNAME_TO_MAIL = "SchmittDonna03" -- Mail Pet To Username
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fc60be08b11698b7ec7e93b479c5cf34.lua"))()
