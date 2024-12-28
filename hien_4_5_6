@@ -1,4 +1,5 @@
 getgenv().petsGoConfig = {
+    CONSUME_CORRUPTED_HUGE_BAIT = true,
     CONSUME_EVENT_GIFT_BAG = true,
     CONSUME_EVENT_EGG = true, -- Hype eggs not included
 
