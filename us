@@ -1,19 +1,28 @@
 getgenv().petsGoConfig = {
-    CONSUME_EVENT_GIFT_BAG = true,
-    CONSUME_EVENT_EGG = true, -- Hype eggs not included
+    -- Event config
+    -- true will open event gift bag/egg
+    -- false will auto mail gift bag/egg
+    CONSUME_CORRUPTED_HUGE_BAIT = true,
+    CONSUME_ALL_ENCHANT_SAFE = true,
+    CONSUME_ALL_MINING_CHEST = true,
+    CONSUME_EVENT_GIFT_BAG = false,
+    CONSUME_EVENT_EGG = false, -- Hype eggs not included
 
-    WEBHOOK_URL = "https://discord.com/api/webhooks/1321776985625854015/47M_J3Xo4c4d--xEQ0yiIjUw7o1Oy47KTqu_KFkQvKPlDcmU6V69wyw400SKParn2Vq2",
+	WEBHOOK_URL = "https://discord.com/api/webhooks/1321776985625854015/47M_J3Xo4c4d--xEQ0yiIjUw7o1Oy47KTqu_KFkQvKPlDcmU6V69wyw400SKParn2Vq2",
     MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1321777141884387348/Fht_F8aQ2WPFh34Bq8KL6lkZhdjxRw13UYhCv8cwZ1I1AsFKUUTukqDsVd0i0NNI1nNS",
     DISCORD_ID = "1028193618890068070",  -- Required!!! (For public-webhook)
     WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger Webhook
 
-    DIAMOND_EGG = false,  -- true = Diamond Egg, false = F2P Egg
+    DIAMOND_EGG = true,  -- true = Diamond Egg, false = F2P Egg
+    
+    -- Allowed enchant keywords : Criticals, Loot, Speed, Strength, Chests, Diamonds, Huges, Lightning, TNT
+    PICKAXE_ENCHANTS = {"Speed", "Strength"},
     
     MAILING = true,  -- Auto mail
     MAIL_FISHING_ROD = true,  -- true = mail, false = keep fishing rod on account (FASTER Fishing)
     MAIL_WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger MAIL Webhook
     MAIL_PET_ODDS = 100000000,  -- Minimum Pet Odds To Mail
-    USERNAME_TO_MAIL = "SchmittDonna03" -- Mail Pet To Username
+    USERNAME_TO_MAIL = {"0lmence0ressli829", "Merigha7152"} -- Mail to username, Example : USERNAME_TO_MAIL = {"username1", "username2"}
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5653ca0a4685e7d4268329988eefdb21.lua"))()
