@@ -9,7 +9,7 @@ getgenv().petsGoConfig = {
     DISCORD_ID = "1028193618890068070",  -- Required!!! (For public-webhook)
     WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger Webhook
 
-    DIAMOND_EGG = false,  -- true = Diamond Egg, false = F2P Egg
+    DIAMOND_EGG = true,  -- true = Diamond Egg, false = F2P Egg
     
     MAILING = true,  -- Auto mail
     MAIL_FISHING_ROD = true,  -- true = mail, false = keep fishing rod on account (FASTER Fishing)
