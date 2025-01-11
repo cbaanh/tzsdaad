@@ -1,6 +1,10 @@
 getgenv().petsGoConfig = {
-	CONSUME_ALL_MINING_CHEST = true,
+    -- Event config
+    -- true will open event gift bag/egg
+    -- false will auto mail gift bag/egg
     CONSUME_CORRUPTED_HUGE_BAIT = true,
+    CONSUME_ALL_ENCHANT_SAFE = true,
+    CONSUME_ALL_MINING_CHEST = true,
     CONSUME_EVENT_GIFT_BAG = false,
     CONSUME_EVENT_EGG = false, -- Hype eggs not included
 
@@ -10,6 +14,8 @@ getgenv().petsGoConfig = {
     WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger Webhook
 
     DIAMOND_EGG = false,  -- true = Diamond Egg, false = F2P Egg
+	
+    PICKAXE_ENCHANTS = {"Speed", "Strength"},
     
     MAILING = true,  -- Auto mail
     MAIL_FISHING_ROD = true,  -- true = mail, false = keep fishing rod on account (FASTER Fishing)
