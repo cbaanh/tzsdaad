@@ -3,9 +3,9 @@ getgenv().petsGoConfig = {
     -- true will open event gift bag/egg
     -- false will auto mail gift bag/egg
     CONSUME_CORRUPTED_HUGE_BAIT = true,
-    CONSUME_ALL_ENCHANT_SAFE = true,
-    CONSUME_ALL_MINING_CHEST = true,
-    CONSUME_EVENT_GIFT_BAG = false,
+    CONSUME_ALL_ENCHANT_SAFE = false,
+    CONSUME_ALL_MINING_CHEST = false,
+    CONSUME_EVENT_GIFT_BAG = true,
     CONSUME_EVENT_EGG = false, -- Hype eggs not included
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1314814707768754257/2LYNt33bNaVn2FbGp2Hiw5soM3kb5lbI6VH5v_AM752yEYEB3-svSEN703qbfP0hfKqf",
