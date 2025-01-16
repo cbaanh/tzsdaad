@@ -21,7 +21,7 @@ getgenv().petsGoConfig = {
     MAILING = true,  -- Auto mail
     MAIL_FISHING_ROD = true,  -- true = mail, false = keep fishing rod on account (FASTER Fishing)
     MAIL_WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger MAIL Webhook
-    MAIL_PET_ODDS = 100000000,  -- Minimum Pet Odds To Mail
+    MAIL_PET_ODDS = 500000000,  -- Minimum Pet Odds To Mail
     USERNAME_TO_MAIL = {"nEfnWJNTIDc", "KgthsZhYeWc"} -- Mail Pet To Username
 }
 
