@@ -1,7 +1,4 @@
 getgenv().petsGoConfig = {
-    -- Event config
-    -- true will open event gift bag/egg
-    -- false will auto mail gift bag/egg
     CONSUME_CORRUPTED_HUGE_BAIT = true,
     CONSUME_ALL_ENCHANT_SAFE = true,
     CONSUME_ALL_MINING_CHEST = true,
@@ -22,7 +19,7 @@ getgenv().petsGoConfig = {
     MAIL_FISHING_ROD = true,  -- true = mail, false = keep fishing rod on account (FASTER Fishing)
     MAIL_WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger MAIL Webhook
     MAIL_PET_ODDS = 500000000,  -- Minimum Pet Odds To Mail
-    USERNAME_TO_MAIL = {"9iopsersi879", "3variskin919"} -- Mail Pet To Username
+    USERNAME_TO_MAIL = {"MedinaMandyy39", "JenningsKiaray87"} -- Mail Pet To Username
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5653ca0a4685e7d4268329988eefdb21.lua"))()
