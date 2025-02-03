@@ -1,5 +1,4 @@
 getgenv().petsGoConfig = {
-    IGNORE_FULL_CHARGE_MEGA_EGG = false,
     CONSUME_CORRUPTED_HUGE_BAIT = true,
     CONSUME_ALL_ENCHANT_SAFE = true,
     CONSUME_ALL_MINING_CHEST = true,
@@ -24,16 +23,13 @@ getgenv().petsGoConfig = {
 
     MIN_MAIL_AMOUNT = {  -- Rare items not listed, default min 1
       -- General
-      INSTA_POTION_IV = 10,
-      CORRUPTED_HUGE_BAIT = 100,
+      INSTA_POTION_IV = 5,
+      CORRUPTED_HUGE_BAIT = 20,
       CRYSTAL_KEY = 5, CRYSTAL_KEY_UPPER_HALF = 20, CRYSTAL_KEY_LOWER_HALF = 20,
-      EXCLUSIVE_TREASURE_CHEST = 10, ABYSSAL_TREASURE_CHEST = 10,
-      CELESTIAL_MINING_CHEST = 10, RUNIC_MINING_CHEST = 5,
-      CELESTIAL_ENCHANT_SAFE = 10,
-      -- Event
-      HUGE_CHARGE_TOKEN = 10, TITANIC_CHARGE_TOKEN = 5,
-      EVENT_GIFT_BAG = 10,
-    },  
+      EXCLUSIVE_TREASURE_CHEST = 5, ABYSSAL_TREASURE_CHEST = 5,
+      CELESTIAL_MINING_CHEST = 5, RUNIC_MINING_CHEST = 5,
+      CELESTIAL_ENCHANT_SAFE = 1,
+    }, 
   
     USERNAME_TO_MAIL = {"DukeSheriu772", "RainbowCraign632"} -- Mail Pet To Username
 }
