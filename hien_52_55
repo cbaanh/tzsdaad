@@ -33,7 +33,7 @@ getgenv().petsGoConfig = {
       CELESTIAL_ENCHANT_SAFE = 1,
     }, 
   
-    USERNAME_TO_MAIL = {"FarrellCourtneyt85", "LuceroJohno7"} -- Mail to username, Example : USERNAME_TO_MAIL = {"username1", "username2"}
+    USERNAME_TO_MAIL = {"JacobsonChelseaj50", "CedarBlossomb907"} -- Mail Pet To Username
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5653ca0a4685e7d4268329988eefdb21.lua"))()
