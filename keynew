@@ -3,9 +3,10 @@ getgenv().petsGoConfig = {
     CONSUME_ALL_ENCHANT_SAFE = true,
     CONSUME_ALL_MINING_CHEST = true,
     CONSUME_EVENT_GIFT_BAG = true,
-    CONSUME_EVENT_EGG = false, -- Hype eggs not included
+    CONSUME_EVENT_EGG = true, -- Hype eggs not included
+    IGNORE_DICE_COMBO = false, -- Consume Insta Luck 3 without combo
 
-	WEBHOOK_URL = "https://discord.com/api/webhooks/1337462252130795520/pYzp12rs7UZnqIURn_KNhpVwTWeoFqAU6D1sasPOo9yeeY3T2uB_OM2GlQ3fhY779GfQ",
+    WEBHOOK_URL = "https://discord.com/api/webhooks/1337462252130795520/pYzp12rs7UZnqIURn_KNhpVwTWeoFqAU6D1sasPOo9yeeY3T2uB_OM2GlQ3fhY779GfQ",
     MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1337462121360785528/b79Hl8h6R2EvH2eI_DhgYqGIHN83GoqtY4LxEACQQLT-E1Zinby28jKhtVvHoc1EnCRx",
     DISCORD_ID = "1028193618890068070",  -- Required!!! (For public-webhook)
     WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger Webhook
@@ -24,12 +25,14 @@ getgenv().petsGoConfig = {
       -- General
       INSTA_POTION_IV = 5,
       CORRUPTED_HUGE_BAIT = 20,
-      CRYSTAL_KEY = 5, CRYSTAL_KEY_UPPER_HALF = 20, CRYSTAL_KEY_LOWER_HALF = 20,
+      CRYSTAL_KEY = 5, CRYSTAL_KEY_UPPER_HALF = 10, CRYSTAL_KEY_LOWER_HALF = 20,
       EXCLUSIVE_TREASURE_CHEST = 5, ABYSSAL_TREASURE_CHEST = 5,
       CELESTIAL_MINING_CHEST = 5, RUNIC_MINING_CHEST = 5,
       CELESTIAL_ENCHANT_SAFE = 1,
+      EVENT_GIFT_BAG = 1,
+      EVENT_EGG = 40,
     }, 
-    USERNAME_TO_MAIL = {"WilkinsonBunnio4", "SapphireDakotam2505", "BowersKennethr9", "DawsonJasmint3"} -- Mail Pet To Username
+    USERNAME_TO_MAIL = {"PriceSonyab537", "HooperEdgari991", "MarshChristiant38", "BaxterJamiep060", "HudsonWandab4675"} -- Mail Pet To Username
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/cd1c29852c6641789162a7b0a4c97428.lua"))()
