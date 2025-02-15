@@ -32,7 +32,7 @@ getgenv().petsGoConfig = {
       EVENT_GIFT_BAG = 1,
       EVENT_EGG = 40,
     }, 
-    USERNAME_TO_MAIL = {"NguyenMariot9501", "RosarioAliciap8", "FrySamanthat6192", "LeeLukeh62"} -- Mail Pet To Username
+    USERNAME_TO_MAIL = {"WernerBrittanyx40", "HuffAnnez7107", "CisnerosNormay020", "MendozaKatief040"} -- Mail Pet To Username
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5653ca0a4685e7d4268329988eefdb21.lua"))()
