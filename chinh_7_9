@@ -2,10 +2,11 @@ getgenv().petsGoConfig = {
     CONSUME_CORRUPTED_HUGE_BAIT = true,
     CONSUME_ALL_ENCHANT_SAFE = true,
     CONSUME_ALL_MINING_CHEST = true,
-    CONSUME_EVENT_GIFT_BAG = false,
-    CONSUME_EVENT_EGG = false, -- Hype eggs not included
+    CONSUME_EVENT_GIFT_BAG = true,
+    CONSUME_EVENT_EGG = true, -- Hype eggs not included
+    IGNORE_DICE_COMBO = false, -- Consume Insta Luck 3 without combo
 
-	WEBHOOK_URL = "https://discord.com/api/webhooks/1313081334939385947/cs5isXuQfH4UEr5uCPci7fjMs_Ia9peBEfRz4_Vm8RbxzCp8cn6PbMMqrm3J0P2jw4IP",
+    WEBHOOK_URL = "https://discord.com/api/webhooks/1313081334939385947/cs5isXuQfH4UEr5uCPci7fjMs_Ia9peBEfRz4_Vm8RbxzCp8cn6PbMMqrm3J0P2jw4IP",
     MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1313081243977646140/9ud2EKoF9aOI06VKfxh49rbe6S4nT6Z8PVDo9JdHj8ZS_RbZentQ2s_L2YklGFvLm2qt",
     DISCORD_ID = "1028193618890068070",  -- Required!!! (For public-webhook)
     WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger Webhook
@@ -13,7 +14,7 @@ getgenv().petsGoConfig = {
     DIAMOND_EGG = true,  -- true = Diamond Egg, false = F2P Egg
     MINE_ALL_ORES = true,  -- true = all ore, false = runic & event ore
 	
-    PICKAXE_ENCHANTS = {"Speed", "Strength", "Huges"},
+    PICKAXE_ENCHANTS = {"Speed", "Loot", "Criticals"},
     
     MAILING = true,  -- Auto mail
     MAIL_FISHING_ROD = false,  -- true = mail, false = keep fishing rod on account (FASTER Fishing)
@@ -25,13 +26,15 @@ getgenv().petsGoConfig = {
       -- General
       INSTA_POTION_IV = 5,
       CORRUPTED_HUGE_BAIT = 20,
-      CRYSTAL_KEY = 5, CRYSTAL_KEY_UPPER_HALF = 20, CRYSTAL_KEY_LOWER_HALF = 20,
+      CRYSTAL_KEY = 5, CRYSTAL_KEY_UPPER_HALF = 10, CRYSTAL_KEY_LOWER_HALF = 20,
       EXCLUSIVE_TREASURE_CHEST = 5, ABYSSAL_TREASURE_CHEST = 5,
       CELESTIAL_MINING_CHEST = 5, RUNIC_MINING_CHEST = 5,
       CELESTIAL_ENCHANT_SAFE = 1,
+      EVENT_GIFT_BAG = 1,
+      EVENT_EGG = 40,
     }, 
   
-    USERNAME_TO_MAIL = {"OsbornMichaelw4566", "MaloneSharih6363", "CeruleanGabriellas85", "CamposTheodorer7824"} -- Mail Pet To Username
+    USERNAME_TO_MAIL = {"MasonHeidio241", "GonzalesKathleenk27", "GonzalezJeremyr5888", "JarvisMeredithm1"} -- Mail Pet To Username
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5653ca0a4685e7d4268329988eefdb21.lua"))()
