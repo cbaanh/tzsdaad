@@ -3,17 +3,18 @@ getgenv().petsGoConfig = {
     CONSUME_ALL_ENCHANT_SAFE = true,
     CONSUME_ALL_MINING_CHEST = true,
     CONSUME_EVENT_GIFT_BAG = true,
-    CONSUME_EVENT_EGG = false, -- Hype eggs not included
+    CONSUME_EVENT_EGG = true, -- Hype eggs not included
+    IGNORE_DICE_COMBO = false, -- Consume Insta Luck 3 without combo
 
-	WEBHOOK_URL = "https://discord.com/api/webhooks/1337462252130795520/pYzp12rs7UZnqIURn_KNhpVwTWeoFqAU6D1sasPOo9yeeY3T2uB_OM2GlQ3fhY779GfQ",
-    MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1337462121360785528/b79Hl8h6R2EvH2eI_DhgYqGIHN83GoqtY4LxEACQQLT-E1Zinby28jKhtVvHoc1EnCRx",
+	WEBHOOK_URL = "https://discord.com/api/webhooks/1340212092854206474/05r1_5HKHmCUbLD-xkZiYj_ZstUDwlxATQhMfskxsaCeoH_VrCry2lQ2X0Wq7kQYFpXr",
+    MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1340212045450313769/mEynvdk6X2HBcIq6kp2lBSlaqFovshLBT31ky-sQb3Scz7Wo9SyemeqsDvTRQUv_lHNG",
     DISCORD_ID = "1028193618890068070",  -- Required!!! (For public-webhook)
     WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger Webhook
 
     DIAMOND_EGG = true,  -- true = Diamond Egg, false = F2P Egg
     MINE_ALL_ORES = true,  -- true = all ore, false = runic & event ore
 
-    PICKAXE_ENCHANTS = {"Speed", "Strength", "Huges"},
+    PICKAXE_ENCHANTS = {"Speed", "Loot", "Criticals"},
     
     MAILING = true,  -- Auto mail
     MAIL_FISHING_ROD = false,  -- true = mail, false = keep fishing rod on account (FASTER Fishing)
@@ -24,12 +25,14 @@ getgenv().petsGoConfig = {
       -- General
       INSTA_POTION_IV = 5,
       CORRUPTED_HUGE_BAIT = 20,
-      CRYSTAL_KEY = 5, CRYSTAL_KEY_UPPER_HALF = 20, CRYSTAL_KEY_LOWER_HALF = 20,
+      CRYSTAL_KEY = 5, CRYSTAL_KEY_UPPER_HALF = 10, CRYSTAL_KEY_LOWER_HALF = 20,
       EXCLUSIVE_TREASURE_CHEST = 5, ABYSSAL_TREASURE_CHEST = 5,
       CELESTIAL_MINING_CHEST = 5, RUNIC_MINING_CHEST = 5,
       CELESTIAL_ENCHANT_SAFE = 1,
-    },
-    USERNAME_TO_MAIL = {"ReeseBethanyz4288", "FernandezJeane041", "EatonJessek7416", "GrossShelbyi1", "MonroeBrandym581", "RossRobertv857", "RosyVanessal2708", "HudsonLukew36", "SolisDeannac8", "BlakeAaronv30", "FrederickMeganv1", "ArroyoJesusm088", "HurstAdamb3", "UmberEdwards006", "McconnellKatien3899", "BowenJimmyr232", "StuartJoannr1321", "BonillaReneeu4", "StrawberrySheenaa839", "IngramSarav3", "AtkinsonDannyi68", "ValdezSylviao664", "BestSheenag995", "WilcoxAutumnu796", "RiceCathys9793", "HaleLydiar2", "MayJennyl861", "SummersVincentr49", "PooleMelodyj741", "GreenYolandaw1806", "MoodyDianee7", "NguyenCassidys701", "BatesCaitlyne911", "CarlsonDorothyf014", "HuberStaceyc133", "WolfeAndrewo0", "HullSuev9", "BrightBethanyr7747", "RichardKittyc36", "RothBobbyo7905", "BatesEduardoc1", "StanleyCharlenei3", "GreeneVickis82", "FisherBruceb7", "EvansTracyi269"}
+      EVENT_GIFT_BAG = 1,
+      EVENT_EGG = 40,
+    }, 
+    USERNAME_TO_MAIL = {"WernerBrittanyx40", "HuffAnnez7107", "CisnerosNormay020", "MendozaKatief040", "NorrisLeei48", "LeCoreyf6804", "LeonAustinf713", "WatsonRebeccao89", "TranVictoriaf444", "MosesMakaylaz122", "BradfordNeild796", "CarrilloRoberto95", "SheaCarlya375", "NickelScottp556", "TapiaPigletp683", "MoranLorih35", "McguireSherryq45", "MurphyKathrynm2", "GallagherClairev26", "PalmerKrystalp3183", "MasonHeidio241", "GonzalesKathleenk27", "GonzalezJeremyr5888", "JarvisMeredithm1", "SmithXavierb4", "NavarroLindseyy4978", "FieldsErnestz16", "HoltLindsayc15", "AndersenJoseb259", "TuckerJoy3", "TerryDarrylm0", "HayesRobertoq105", "RainbowSeths8", "AzureSaraht214", "DrakeSaraj0", "KlineRalphy66", "TapiaCathyq03", "UnderwoodJiml44", "PrattLucasa682", "RichTannerf7", "PriceSonyab537", "HooperEdgari991", "MarshChristiant38", "BaxterJamiep060", "HudsonWandab4675"}
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/cd1c29852c6641789162a7b0a4c97428.lua"))()
