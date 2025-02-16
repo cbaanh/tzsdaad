@@ -20,7 +20,7 @@ getgenv().petsGoConfig = {
     MAIL_FISHING_ROD = false,  -- true = mail, false = keep fishing rod on account (FASTER Fishing)
     MAIL_WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger MAIL Webhook
     MAIL_PET_ODDS = 500000000,  -- Minimum Pet Odds To Mail
-    MAIL_GEMS_MIN = 100000,  -- Minimum Gems to mail out
+    MAIL_GEMS_MIN = 50000,  -- Minimum Gems to mail out
     MIN_MAIL_AMOUNT = {  -- Rare items not listed, default min 1
       -- General
       INSTA_POTION_IV = 5,
@@ -32,7 +32,7 @@ getgenv().petsGoConfig = {
       EVENT_GIFT_BAG = 1,
       EVENT_EGG = 40,
     }, 
-    USERNAME_TO_MAIL = {"WernerBrittanyx40", "HuffAnnez7107", "CisnerosNormay020", "MendozaKatief040", "NorrisLeei48", "LeCoreyf6804", "LeonAustinf713", "WatsonRebeccao89", "TranVictoriaf444", "MosesMakaylaz122", "BradfordNeild796", "CarrilloRoberto95", "SheaCarlya375", "NickelScottp556", "TapiaPigletp683", "MoranLorih35", "McguireSherryq45", "MurphyKathrynm2", "GallagherClairev26", "PalmerKrystalp3183", "MasonHeidio241", "GonzalesKathleenk27", "GonzalezJeremyr5888", "JarvisMeredithm1", "SmithXavierb4", "NavarroLindseyy4978", "FieldsErnestz16", "HoltLindsayc15", "AndersenJoseb259", "TuckerJoy3", "TerryDarrylm0", "HayesRobertoq105", "RainbowSeths8", "AzureSaraht214", "DrakeSaraj0", "KlineRalphy66", "TapiaCathyq03", "UnderwoodJiml44", "PrattLucasa682", "RichTannerf7", "PriceSonyab537", "HooperEdgari991", "MarshChristiant38", "BaxterJamiep060", "HudsonWandab4675"}
+    USERNAME_TO_MAIL = {"BananaPrestonu499", "MillsLeaff087", "RosarioErnestw90", "ThomasAshleyy8", "WoodAlexanderq570", "LevyFroggiem5", "GatesBaileyi728", "NormanAngelah486", "CastanedaDeannaq9797", "RamosWaynes9", "YoungChristinam686", "CoffeySusani779", "PattonCaseyh6454", "MccartyKaitlynq2", "NewmanVanessav23", "ForbesSierram18", "BrightJoyh57", "GreenNicolasl2", "AquaVickic67", "FerrellAlexandriaf4", "MoralesKristinz003", "WarnerShelbyy1", "MckeeDarint955", "HintonBryanj474", "DanielsRonaldg14", "AzureEvelynx8", "BradleyChloeo7", "HaysDeans2", "ChandlerChristinac36", "MclaughlinSummerh70", "HoffmanTarah545", "ShieldsJesusa9025", "GomezPatriciam5061"}
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/cd1c29852c6641789162a7b0a4c97428.lua"))()
