@@ -4,7 +4,8 @@ getgenv().petsGoConfig = {
     CONSUME_ALL_MINING_CHEST = true,
     CONSUME_EVENT_GIFT_BAG = true,
     CONSUME_EVENT_EGG = true, -- Hype eggs not included
-    CONSUME_EVENT_TICKET = false,
+    CONSUME_EVENT_TICKET = true,
+    CONSUME_INSTA_LUCK_4 = true,
     IGNORE_DICE_COMBO = false, -- Consume Insta Luck 3 without combo
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1313081334939385947/cs5isXuQfH4UEr5uCPci7fjMs_Ia9peBEfRz4_Vm8RbxzCp8cn6PbMMqrm3J0P2jw4IP",
@@ -35,7 +36,7 @@ getgenv().petsGoConfig = {
       EVENT_EGG = 40,
     }, 
   
-    USERNAME_TO_MAIL = {"PattonCaseyh6454", "MccartyKaitlynq2", "NewmanVanessav23"} -- Mail Pet To Username
+    USERNAME_TO_MAIL = {"PorterAliciaa6", "ReidJeffs763", "GainesTimothyp3771"} -- Mail Pet To Username
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5653ca0a4685e7d4268329988eefdb21.lua"))()
