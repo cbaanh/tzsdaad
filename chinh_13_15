@@ -16,7 +16,7 @@ getgenv().petsGoConfig = {
     DIAMOND_EGG = true,  -- true = Diamond Egg, false = F2P Egg
     MINE_ALL_ORES = true,  -- true = all ore, false = runic & event ore
 	
-    PICKAXE_ENCHANTS = {"Speed", "Strength", "Huges"},
+    PICKAXE_ENCHANTS = {"Speed", "Loot", "Criticals"},
     
     MAILING = true,  -- Auto mail
     MAIL_FISHING_ROD = false,  -- true = mail, false = keep fishing rod on account (FASTER Fishing)
