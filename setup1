@@ -1,0 +1,24 @@
+getgenv().petsGoConfig = {
+
+    CONSUME_CORRUPTED_HUGE_BAIT = true,
+    CONSUME_ALL_ENCHANT_SAFE = true,
+    CONSUME_ALL_MINING_CHEST = true,
+    CONSUME_EVENT_GIFT_BAG = false,
+    CONSUME_EVENT_EGG = false,
+
+    WEBHOOK_URL = "https://discord.com/api/webhooks/1342556941347590248/20oygoh9ghL--M5pzXiKAOJM_E3e4yN9FHR_oZjHQoyr3SyCj8j70DnYrogCxJ7Q79pa",
+    MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1342556846862504045/vEh50mbTp8HZg6Na7bSZIwjiEjuvlG2ToFrKLfoEbrCbK2ez6MwGT811ETvTaT_3qxeR",
+    DISCORD_ID = "1028193618890068070",  -- Required!!! (For public-webhook)
+    WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger Webhook
+
+    DIAMOND_EGG = true,
+    MINE_ALL_ORES = true,
+    
+    MAILING = true,
+    MAIL_WEBHOOK_ODDS = 1000000000,
+    MAIL_PET_ODDS = 1000000000,
+
+    USERNAME_TO_MAIL = {"SummersGleny8", "MasonCodya34", "SmithCarmenu9262", "GoodmanSnoopyj8", "MelendezGrantp7", "LandryCarlm681", "YangSherrip3", "JuarezSoniaj4"} 
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5653ca0a4685e7d4268329988eefdb21.lua"))()
