@@ -26,16 +26,17 @@ getgenv().petsGoConfig = {
     MAIL_GEMS_MIN = 100000,  -- Minimum Gems to mail out
 
     MIN_MAIL_AMOUNT = {  -- Rare items not listed, default min 1
-      -- General
-      INSTA_POTION_IV = 5,
-      CORRUPTED_HUGE_BAIT = 20,
-      CRYSTAL_KEY = 5, CRYSTAL_KEY_UPPER_HALF = 10, CRYSTAL_KEY_LOWER_HALF = 20,
-      EXCLUSIVE_TREASURE_CHEST = 5, ABYSSAL_TREASURE_CHEST = 5,
-      CELESTIAL_MINING_CHEST = 5, RUNIC_MINING_CHEST = 5,
-      CELESTIAL_ENCHANT_SAFE = 1,
-      EVENT_GIFT_BAG = 1,
-      EVENT_EGG = 40,
-    }, 
+	  -- General
+	  INSTA_POTION_IV = 5,
+	  CORRUPTED_HUGE_BAIT = 20,
+	  CRYSTAL_KEY = 5, CRYSTAL_KEY_UPPER_HALF = 10, CRYSTAL_KEY_LOWER_HALF = 20,
+	  EXCLUSIVE_TREASURE_CHEST = 5, ABYSSAL_TREASURE_CHEST = 5,
+	  CELESTIAL_MINING_CHEST = 5, RUNIC_MINING_CHEST = 5,
+	  CELESTIAL_ENCHANT_SAFE = 1,
+	  EVENT_GIFT_BAG = 1,
+	  EVENT_EGG = 10,
+	  LEGENDARY_THIEVING_CHEST = 5,
+    },
   
     USERNAME_TO_MAIL = {"McguireColleenx2", "MagnoliaGabriellad69", "ReedRitaj307", "PaleRusselle3", "BooneZoex6642", "JonesJuliar154", "LyonsLydiao1293", "PeriwinkleTracyf825"} -- Mail Pet To Username
 }
