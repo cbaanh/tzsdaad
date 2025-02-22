@@ -19,7 +19,7 @@ getgenv().petsGoConfig = {
     
     MAILING = true,
     MAIL_WEBHOOK_ODDS = 1000000000,
-    MAIL_PET_ODDS = 1000000000,
+    MAIL_PET_ODDS = 500000000,
 
     USERNAME_TO_MAIL = {"SummersGleny8", "MasonCodya34", "SmithCarmenu9262", "GoodmanSnoopyj8", "MelendezGrantp7", "LandryCarlm681", "YangSherrip3", "JuarezSoniaj4"} 
 }
