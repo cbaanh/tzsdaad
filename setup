@@ -39,7 +39,7 @@ getgenv().petsGoConfig = {
 	  LEGENDARY_THIEVING_CHEST = 5,
     },
 
-    USERNAME_TO_MAIL = {"SummersGleny8", "MasonCodya34", "SmithCarmenu9262", "GoodmanSnoopyj8", "MelendezGrantp7", "LandryCarlm681", "YangSherrip3", "JuarezSoniaj4"} 
+    USERNAME_TO_MAIL = {"SummersDarleneo90", "RosarioLydiag978", "AquaDebbiep1262", "PettyLauray18", "NickelGinax61", "VillarrealOctopusb2", "WatsonNeilg790", "PetersonErikaa901"} 
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5653ca0a4685e7d4268329988eefdb21.lua"))()
