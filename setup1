@@ -4,7 +4,7 @@ getgenv().petsGoConfig = {
     CONSUME_CORRUPTED_HUGE_BAIT = true,
     CONSUME_ALL_ENCHANT_SAFE = false,
     CONSUME_ALL_MINING_CHEST = false,
-    CONSUME_EVENT_EGG = false, -- Hype eggs not included
+    CONSUME_EVENT_EGG = true, -- Hype eggs not included
     CONSUME_ALL_THIEVING_CHEST = false,
     CONSUME_INSTA_LUCK_4 = true,
     IGNORE_DICE_COMBO = false, -- Consume Insta Luck 3 without combo
@@ -17,13 +17,13 @@ getgenv().petsGoConfig = {
     DIAMOND_EGG = true,
     MINE_ALL_ORES = true,
     
-    PICKAXE_ENCHANTS = {"Speed", "Loot", "Criticals"},
+    PICKAXE_ENCHANTS = {"Speed", "Strength", "Huges"},
     
     MAILING = true,  -- Auto mail
     MAIL_FISHING_ROD = false,  -- true = mail, false = keep fishing rod on account (FASTER Fishing)
     MAIL_PICKAXE = false,
     MAIL_WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger MAIL Webhook
-    MAIL_PET_ODDS = 500000000,  -- Minimum Pet Odds To Mail
+    MAIL_PET_ODDS = 1000000000,  -- Minimum Pet Odds To Mail
     MAIL_GEMS_MIN = 100000,  -- Minimum Gems to mail out
 
     MIN_MAIL_AMOUNT = {  -- Rare items not listed, default min 1
