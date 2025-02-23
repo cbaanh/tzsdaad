@@ -9,7 +9,7 @@ getgenv().petsGoConfig = {
     CONSUME_INSTA_LUCK_4 = true,
     IGNORE_DICE_COMBO = false, -- Consume Insta Luck 3 without combo
 
-    WEBHOOK_URL = "https://discord.com/api/webhooks/1314814707768754257/2LYNt33bNaVn2FbGp2Hiw5soM3kb5lbI6VH5v_AM752yEYEB3-svSEN703qbfP0hfKqf",
+    WEBHOOK_URL = "https://discord.com/api/webhooks/1314814653976674304/a1IGsdgoCcUVqBVJEMSH9exQSwo9JjgDXDuDLIn19g8KCx-PoPqO_Oot5WYJ1Dxezw94",
     MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1314814653976674304/a1IGsdgoCcUVqBVJEMSH9exQSwo9JjgDXDuDLIn19g8KCx-PoPqO_Oot5WYJ1Dxezw94",
     DISCORD_ID = "1028193618890068070",  -- Required!!! (For public-webhook)
     WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger Webhook
