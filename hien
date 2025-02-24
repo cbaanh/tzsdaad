@@ -10,7 +10,7 @@ getgenv().petsGoConfig = {
     IGNORE_DICE_COMBO = false, -- Consume Insta Luck 3 without combo
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1314814653976674304/a1IGsdgoCcUVqBVJEMSH9exQSwo9JjgDXDuDLIn19g8KCx-PoPqO_Oot5WYJ1Dxezw94",
-    MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1314814653976674304/a1IGsdgoCcUVqBVJEMSH9exQSwo9JjgDXDuDLIn19g8KCx-PoPqO_Oot5WYJ1Dxezw94",
+    MAILING_WEBHOOK_URL = "",
     DISCORD_ID = "1028193618890068070",  -- Required!!! (For public-webhook)
     WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger Webhook
 
@@ -39,7 +39,7 @@ getgenv().petsGoConfig = {
 	  LEGENDARY_THIEVING_CHEST = 5,
     },
   
-    USERNAME_TO_MAIL = {"MorseVickiu5637", "ReeseBearyg592", "RayKennethr73", "RedDouglasq1", "CraneBunnc5", "OrozcoKatherinez016"} -- Mail Pet To Username
+    USERNAME_TO_MAIL = {"AndrewsRubenv52", "RandolphErikay8", "BlanchardJosephv274", "GallegosFlowerq72", "HernandezAlexl959", "KingTheresac61"} -- Mail Pet To Username
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5653ca0a4685e7d4268329988eefdb21.lua"))()
