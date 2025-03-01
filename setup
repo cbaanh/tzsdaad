@@ -3,11 +3,12 @@ getgenv().petsGoConfig = {
     -- true/false (true = consume, false = automail)
     CONSUME_CORRUPTED_HUGE_BAIT = true,
     CONSUME_ALL_ENCHANT_SAFE = false,
-    CONSUME_ALL_MINING_CHEST = false,
+    CONSUME_ALL_MINING_CHEST = true,
     CONSUME_EVENT_EGG = true, -- Hype eggs not included
     CONSUME_ALL_THIEVING_CHEST = false,
     CONSUME_INSTA_LUCK_4 = true,
     IGNORE_DICE_COMBO = false, -- Consume Insta Luck 3 without combo
+    CONSUME_VAULT_KEY = true,
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1314971092338737165/y0eXIQ4Ri94OBgLCuYb4TfSl2OLOQl0KUPtYdkhgONI9ca-NSXyPqxtOZxvpsaYEMuVy",
     MAILING_WEBHOOK_URL = "",
