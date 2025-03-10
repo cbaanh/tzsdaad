@@ -48,7 +48,7 @@ getgenv().petsGoConfig = {
     BUCKET_O_CHUM = 5,
     },
 
-    USERNAME_TO_MAIL = {"aduck82mzzz", "aducz666z"},
+    USERNAME_TO_MAIL = {"aduck82mzzz", "zaioa82n5knafaf"},
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5653ca0a4685e7d4268329988eefdb21.lua"))()
