@@ -48,6 +48,6 @@ getgenv().petsGoConfig = {
     BUCKET_O_CHUM = 5,
     },
 
-    USERNAME_TO_MAIL = {"235regdfhfghjhgf", "346dfgdfdhhyyh", "345dfh45u7tyiu", "2763trusdyg", "723465tsufygfdg", "8734ytuyisdfhgiud", "762t3rusgdgf", "346dfgdfhgf", "4tdfhrthfgj5u", "23325sdfg5yrfh", "3256erydfdfgh", "325sdgdfbrytj7"},
+    USERNAME_TO_MAIL = {"235regdfhfghjhgf", "346dfgdfdhhyyh", "345dfh45u7tyiu", "2763trusdyg", "723465tsufygfdg", "8734ytuyisdfhgiud", "762t3rusgdgf", "346dfgdfhgf", "4tdfhrthfgj5u", "23325sdfg5yrfh", "3256erydfdfgh", "325sdgdfbrytj7", "235tsdg34g", "34t7y8sdtgyf78", "8346tusgdyf", "325eryhgdfbdfb", "8743tyisdfghfdu", "2365sdfgdfgfd", "86734t8g7eyr", "346rety45yu", "34ydfg234tgf", "8734tiuhsdfg", "78634tuydgf", "243tsdfgdfbhb"},
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5653ca0a4685e7d4268329988eefdb21.lua"))()
