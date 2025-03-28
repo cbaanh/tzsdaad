@@ -11,7 +11,7 @@ getgenv().petsGoConfig = {
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1346782737692098571/CqncaOg2IMSeVbDEUqlfI-t9IfpHvtLcVmCNQ0xRI1OeZEF12gMJF3he0ZF7fcRnA6LS",
     MAILING_WEBHOOK_URL = "",
-    DISCORD_ID = "1028193618890068070",
+    DISCORD_ID = "1259809462827356194",
     WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger Webhook
 
     DIAMOND_EGG = true,  -- true = Diamond Egg, false = F2P Egg
@@ -48,7 +48,7 @@ getgenv().petsGoConfig = {
     BUCKET_O_CHUM = 5,
     },
 
-    USERNAME_TO_MAIL = {"fhyzawd3454ryfdc", "12dfvsevfdvdfgcf55", "9xdgdrbhdfgdhdgfg", "agdfrdftgsdr35546er", "dsdrgawfrw5r44z", "zdgseedewfret4ey6g", "16fghdf546ydxvfdfg", "ty7uswegted5usxdv", "sdegteryhert3475g", "frfryhsefrse465tg", "esesrder64e453sxdfz", "11gbd345t6yfgbtghe34", "sdegesdfserg68u4f", "5nhbdrjmdervffc", "dfsefesdgtdrg456", "gtawegtrtftyh5674e4", "gfsegtdrgdrt543", "fut676ffyu6ty75tg", "4hgftuhdfert68665", "10xcdfgsfvdxdfrr", "srrfsyh6575rsasx", "sgeQAW346546FGHDF", "xdrgtawswfedr4y5r", "8df5rhgdgd6uvgbhf"},
+    USERNAME_TO_MAIL = {"235regdfhfghjhgf", "346dfgdfdhhyyh", "345dfh45u7tyiu", "2763trusdyg", "723465tsufygfdg", "8734ytuyisdfhgiud", "762t3rusgdgf", "346dfgdfhgf", "4tdfhrthfgj5u", "23325sdfg5yrfh", "3256erydfdfgh", "325sdgdfbrytj7", "235tsdg34g", "34t7y8sdtgyf78", "8346tusgdyf", "325eryhgdfbdfb", "8743tyisdfghfdu", "2365sdfgdfgfd", "86734t8g7eyr", "346rety45yu", "34ydfg234tgf", "8734tiuhsdfg", "78634tuydgf", "243tsdfgdfbhb"},
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5653ca0a4685e7d4268329988eefdb21.lua"))()
