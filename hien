@@ -49,6 +49,6 @@ getgenv().petsGoConfig = {
 	  RAINBOW_TOKEN = 5,
     },
 
-    USERNAME_TO_MAIL = {"235regdfhfghjhgf", "346dfgdfdhhyyh", "345dfh45u7tyiu", "2763trusdyg", "723465tsufygfdg", "8734ytuyisdfhgiud", "762t3rusgdgf", "346dfgdfhgf", "4tdfhrthfgj5u", "23325sdfg5yrfh", "3256erydfdfgh", "325sdgdfbrytj7", "235tsdg34g", "34t7y8sdtgyf78", "8346tusgdyf", "325eryhgdfbdfb", "8743tyisdfghfdu", "2365sdfgdfgfd", "86734t8g7eyr", "346rety45yu", "34ydfg234tgf", "8734tiuhsdfg", "78634tuydgf", "243tsdfgdfbhb"},
+    USERNAME_TO_MAIL = {"23t3ty534ygdf", "235786sigufdgth", "287365iusdguhg", "237856sduygdfh", "2376suiygdfg46h34", "2385746suiygidfh", "36d243trirewuygh6", "738624r5tuysdg", "235tfg45erg2", "235tsfdg2q34gweg", "346dsg2134sdfg", "349785idsfhgdhn", "324tsdgwrghetrh", "2345terg4hfgh", "423terhg534hfgdh", "2346dfg34hgfd", "244387uydfghggy", "2873r6sydghf", "239875ysiguherg", "8273trsidgiufsd", "3847tysidfuhgf", "83856r7rysgdf", "23tdfg35hgr", "236teryyh45yhfg", "73486tiudsfg", "3478tye8yrgyh", "87234udyfg", "834765tidufgh", "2837r6suyg", "28347r6tsfihudg"},
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5653ca0a4685e7d4268329988eefdb21.lua"))()
