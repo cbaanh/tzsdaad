@@ -52,4 +52,4 @@ getgenv().petsGoConfig = {
 
     USERNAME_TO_MAIL = {"anhcaottv"} 
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5653ca0a4685e7d4268329988eefdb21.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/9618dfeb71c6b22ad3c589bd20f8c8a1.lua"))()
