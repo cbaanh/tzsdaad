@@ -1,6 +1,6 @@
 getgenv().petsGoConfig = {
     DISCORD_ID = "1028193618890068070",
-    PLAZA_WEBHOOK_URL = "https://discord.com/api/webhooks/1316378613939048478/evQAEAwRbzfDLWLArK_iLSJcwOQiSEZvXK6XbInNOv8G58F6aFTFA-_WO1Djo6duMJlX",
+    PLAZA_WEBHOOK_URL = "https://discord.com/api/webhooks/1311066714108330015/6qwj90MVS6BnVAK4oXsBNnAFalyMZnEiQ8R9fjIvfr_t8lSdf18C8PY74JgEys5i-qZT",
     MAIL_GEM_WEBHOOK_URL = "https://discord.com/api/webhooks/1361579186082418800/ICc2snsrmiaf58vmIWjpfoZCjLO3QKLxk8u7xGtn6h8uQzqaJQQfubGE6Lr2UZBuRvkp",
 
     -- Plaza hop delay will reset if someone purchase something.
