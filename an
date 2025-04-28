@@ -44,6 +44,53 @@ getgenv().UserConfig = {
         }
     },
 
+    ["Alien Shop"] = {
+        Enable = false,
+        ["Min Gems"] = "20m",
+        ["Items Needed"] = {
+            -- "Golden Key",
+            -- "Mystery Box",
+            -- "Coins III",
+            -- "Coins IV",
+            -- "Lucky III",
+            -- "Speed III",
+            "Lucky IV",
+            "Speed IV"
+        }
+    },
+
+    ["Black Market"] = {
+        Enable = false,
+        ["Min Gems"] = "20m",
+        ["Items Needed"] = {
+            -- "Coins Evolved",
+            -- "Speed V",
+            -- "Lucky V",
+            -- "Coins V",
+            -- "Mythic V",
+            "Lucky Evolved",
+            "Mythic Evolved",
+            "Speed Evolved"
+        }
+    },
+
+    Competitive = {
+        Choosing = "2,1,1,2,1,1,2,2,1,2"
+    },
+
+    ["Star Shop"] = {
+        Enable = true,
+        MinStars = "300",
+        ["Items Needed"] = {
+            -- "Speed V",
+            -- "Lucky V",
+            -- "Mythic V",
+            "Speed Evolved",
+            "Lucky Evolved",
+            "Mythic Evolved"
+        }
+    },
+
     -- Automation Features
     ["Rifts"] = {
         AlwaysFindRifts = true,
