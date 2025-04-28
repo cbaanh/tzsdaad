@@ -65,7 +65,7 @@ getgenv().UserConfig = {
             "Legendary",
             "Secret"
         }, -- General rarity filter
-        Legendary = "1m" -- Only send webhook when hatching a Legendary pet with a value >= Config
+        Legendary = "1m", -- Only send webhook when hatching a Legendary pet with a value >= Config
         ["Special Pets"] = {"Avernus", "Patronus"}
     }
 }
