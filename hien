@@ -1,56 +1,71 @@
-getgenv().petsGoConfig = {
-    AUTO_RESTART = true,
-    -- true/false (true = consume, false = automail)
-    CONSUME_CORRUPTED_HUGE_BAIT = true,
-    CONSUME_ALL_MINING_CHEST = true,
-    CONSUME_EVENT_EGG = true, -- Hype eggs not included
-    CONSUME_INSTA_LUCK_4 = true,
-    CONSUME_VAULT_KEY = true,
-    CONSUME_KRAKEN_TENTACLE = true,
-    CONSUME_BUCKET_O_CHUM = true,
+getgenv().UserConfig = {
+    FPS = 10,
 
-    WEBHOOK_URL = "https://discord.com/api/webhooks/1351616809014657164/ZEEMHqCCH8vkNEYHdN_J9oX_e0XtXDxEJH7aEcREDrG18_oCVpMY7q5c5StSXwl-LsiJ",
-    MAILING_WEBHOOK_URL = "",
-    DISCORD_ID = "1259809462827356194",
-    WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger Webhook
+    AddFriends = true,
 
-    DIAMOND_EGG = true,  -- true = Diamond Egg, false = F2P Egg
-    MINE_ALL_ORES = false,  -- true = all ore, false = runic & event ore
-    
-    PICKAXE_ENCHANTS = {"Speed", "Strength", "Huges"},
-	
-    MAILING = true,  -- Auto mail
-    SHOW_PET_WEBHOOK_USERNAME = true,
-    MAIL_WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger MAIL Webhook
-    MAIL_PET_ODDS = 1000000000,  -- Minimum Pet Odds To Mail
-	
-    BREAK_PINATA = false,
-    CONSUME_ALL_FISHING_CHEST = false,
-    CONSUME_ALL_ENCHANT_SAFE = false,
-    CONSUME_ALL_THIEVING_CHEST = false,  -- false = have smart auto-open ensure at least 1 scroll active
-    CONSUME_EVENT_GIFT_BAG = false,
-    IGNORE_DICE_COMBO = false, -- Consume Insta Luck 3 without combo
-    MAIL_FISHING_ROD = false,  -- true = mail, false = keep fishing rod on account (FASTER Fishing)
-    MAIL_PICKAXE = false, -- true = mail (smart mail [keep best pickaxe, mail excess])
-    MAIL_GEMS_MIN = 500000,
-    MASTERY_CAPE = "Rolling",  -- Rolling, Breakables, Fishing, Mining, Thieving, Master Skill
-	
-    MIN_MAIL_AMOUNT = {  -- Rare items not listed, default min 1
-	  -- General
-	  INSTA_POTION_IV = 5,
-	  CORRUPTED_HUGE_BAIT = 20,
-	  CRYSTAL_KEY = 5, CRYSTAL_KEY_UPPER_HALF = 10, CRYSTAL_KEY_LOWER_HALF = 20,
-	  EXCLUSIVE_TREASURE_CHEST = 5, ABYSSAL_TREASURE_CHEST = 5,
-	  CELESTIAL_MINING_CHEST = 5, RUNIC_MINING_CHEST = 5,
-	  CELESTIAL_ENCHANT_SAFE = 1,
-	  EVENT_GIFT_BAG = 1,
-	  EVENT_EGG = 10,
-	  LEGENDARY_THIEVING_CHEST = 5,
-	  KRAKEN_TENTACLE = 5,
-	  BUCKET_O_CHUM = 5,
-	  RAINBOW_TOKEN = 5,
+    RedeemCode = {"RELEASE", "THANKS", "LUCKY", "Easter", "Throwback", "update2"},
+
+    ["Detector"] = {
+        Enable = true,
+        ["Name Needed"] = {"Holy Shock", "Cardinal Bunny"}, -- Blue
+        ["Rarity Needed"] = {
+            "Legendary", -- Green
+            "Mythic", -- Red
+            "Secret" -- Yellow
+        }
     },
 
-    USERNAME_TO_MAIL = {"23t3ty534ygdf", "235786sigufdgth", "287365iusdguhg", "237856sduygdfh", "2376suiygdfg46h34", "2385746suiygidfh", "738624r5tuysdg", "235tsfdg2q34gweg", "349785idsfhgdhn", "324tsdgwrghetrh", "2345terg4hfgh", "423terhg534hfgdh", "2873r6sydghf", "239875ysiguherg", "8273trsidgiufsd", "83856r7rysgdf", "23tdfg35hgr", "27364uweygfyuewrg", "73486tiudsfg", "3478tye8yrgyh", "87234udyfg", "834765tidufgh", "2837r6suyg", "28347r6tsfihudg", "23r5sdf34gdfg", "32rsdgf544hfdd", "124wert34gtfdg", "124876weuyfsdv", "25gg3ydfg234r23r", "238746siudyfsdgyuig"},
+    ["Craft Potions"] = {
+        Enable = true,
+        MinGems = "20m",
+        ["Potion Needed"] = {
+            {"Coins", Level = 5},
+            {"Speed", Level = 5},
+            {"Lucky", Level = 5},
+            {"Mythic", Level = 5}
+        }
+    },
+
+    ["Mastery"] = {
+        Pets = 15,
+        Buffs = 20,
+        Shops = 0
+    },
+
+    ["Enchant"] = {
+        Enable = true,
+        ["Rarity Needed"] = {
+            {"Legendary", MinDifficult = "500k"},
+            "Mythic",
+            "Secret"
+        },
+        ["Reroll Needed"] = {
+            -- ["Gleaming"] = {MinLevel = 2, HigherLevels = true},
+            -- ["Looter"] = {MinLevel = 3, HigherLevels = true},
+            ["Team Up"] = {MinLevel = 5, HigherLevels = true}
+        }
+    },
+
+    -- Automation Features
+    ["Rifts"] = {
+        AlwaysFindRifts = true,
+        Targets = {"Silly Egg", "Throwback Egg", "Nightmare Egg"},
+        Luck = 5 -- Minimum luck required for a rift target to be considered
+    },
+
+    FindDuck = "100M Egg", -- Target egg for normal egg hatching when Rifts.Luck is not met. Ex: Infinity Egg
+
+    -- Webhook Configuration
+    ["Webhook"] = {
+        Enable = true, -- Enable/disable pet hatch notification webhook
+        Note = getgenv().DuckHook, -- Note displayed on the webhook 
+        ID = "1028193618890068070", -- Enter your Discord ID here
+        URL = "https://discord.com/api/webhooks/1351616809014657164/ZEEMHqCCH8vkNEYHdN_J9oX_e0XtXDxEJH7aEcREDrG18_oCVpMY7q5c5StSXwl-LsiJ", -- Add your webhook URL here
+        Rarity = {
+            "Legendary",
+            "Secret"
+        }, -- General rarity filter
+        Legendary = "500k" -- Only send webhook when hatching a Legendary pet with a value >= Config
+    }
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/9618dfeb71c6b22ad3c589bd20f8c8a1.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ae874051b88894e1e6afe9b9ec17f034.lua"))()
