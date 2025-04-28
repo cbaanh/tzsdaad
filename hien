@@ -1,5 +1,5 @@
 getgenv().UserConfig = {
-    FPS = 10,
+    FPS = 3,
 
     AddFriends = true,
 
