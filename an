@@ -59,8 +59,8 @@ getgenv().UserConfig = {
     ["Webhook"] = {
         Enable = true, -- Enable/disable pet hatch notification webhook
         Note = getgenv().DuckHook, -- Note displayed on the webhook 
-        ID = "", -- Enter your Discord ID here
-        URL = "", -- Add your webhook URL here
+        ID = "1325037610443477073", -- Enter your Discord ID here
+        URL = "https://discord.com/api/webhooks/1366339236285911122/BFShZYB5kLDWx69pFqk5-IX1vCf9dJh_346ipx_rDoAaSKJHDnzBpLt0WzDOZQQGReHj", -- Add your webhook URL here
         Rarity = {
             "Legendary",
             "Secret"
