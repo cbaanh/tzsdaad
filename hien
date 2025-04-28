@@ -68,4 +68,4 @@ getgenv().UserConfig = {
         Legendary = "500k" -- Only send webhook when hatching a Legendary pet with a value >= Config
     }
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ae874051b88894e1e6afe9b9ec17f034.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b85c17425e59b76c0487999c21ef4557.lua"))()
