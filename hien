@@ -1,51 +1,54 @@
 getgenv().UserConfig = {
     FPS                 = 3,
     AddFriends          = false,
-
     RedeemCode = {"RELEASE", "THANKS", "LUCKY", "Easter", "Throwback", "update2"},
-
+    ["Giant Chest"] = true,
+    ["Void Chest"] = true,
+    ["Golden Chest"] = true,
+    ["Royal Chest"] = true,
+    Competitive = {
+        Choosing = "1,2,1,2,1,1,2,2,1,2"
+    },
     ["Detector"] = {
         Enable = true,
-        ["Name Needed"] = {"Avernus", "Patronus"}, -- Blue
+        ["Name Needed"] = {"Avernus", "Patronus"}, -- Blue background
         ["Rarity Needed"] = {
-            "Legendary", -- Green
-            "Mythic", -- Red
-            "Secret" -- Yellow
+            "Legendary",
+            "Mythic",
+            "Secret" -- Red Background
         }
     },
-
     ["Alien Shop"] = {
-        Enable = false,
+        Enable = true,
         ["Min Gems"] = "1m",
         ["Items Needed"] = {
-            -- "Mystery Box",
-            -- "Coins III",
-            -- "Coins IV",
-            -- "Lucky III",
-            -- "Lucky IV",
-            -- "Speed III",
-            -- "Speed IV",
-            "Golden Key"
+            "Golden Key",
+            "Mystery Box",
+            "Coins III",
+            "Coins IV",
+            "Lucky III",
+            "Lucky IV",
+            "Speed III",
+            "Speed IV"
         }
     },
     ["Black Market"] = {
-        Enable = false,
+        Enable = true,
         ["Min Gems"] = "1m",
         ["Items Needed"] = {
-            -- "Lucky Evolved",
-            -- "Coins Evolved",
-            -- "Mythic Evolved",
-            -- "Speed Evolved",
-            -- "Lucky V",
-            -- "Coins V",
-            -- "Mythic V",
+            "Lucky Evolved",
+            "Coins Evolved",
+            "Mythic Evolved",
+            "Speed Evolved",
+            "Lucky V",
+            "Coins V",
+            "Mythic V",
             "Speed V"
         }
     },
-
     ["Craft Potions"] = {
-        Enable = false,
-        MinGems = 20000,
+        Enable = true,
+        MinGems = "100k",
         ["Potion Needed"] = {
             {"Coins", Level = 5},
             {"Speed", Level = 5},
@@ -53,40 +56,26 @@ getgenv().UserConfig = {
             {"Mythic", Level = 5}
         }
     },
-
     ["Mastery"] = {
         Pets = 15,
         Buffs = 15,
         Shops = 10
     },
-
-
-    Competitive = {
-        Choosing = "1,2,1,2,1,1,2,2,1,2"
-    },
-
     ["Star Shop"] = {
-        Enable = false,
-        MinStars = "1k",
+        Enable = true,
+        MinStars = 100,
         ["Items Needed"] = {
             "Speed V",
             "Lucky V",
             "Mythic V"
         }
     },
-
-    ["Mastery"] = {
-        Pets = 15,
-        Buffs = 15,
-        Shops = 10
-    },
-
     ["Rifts"] = {
         AlwaysFindRifts = true,
-        Targets = {"Silly Egg", "Throwback Egg", "Nightmare Egg"},
+        Targets = {"Silly Egg", "Nightmare Egg"},
         Luck = 5
     },
-    ["Min gems"] = "5m", -- Farm min gems trước khi hatch FindDuck
+    ["Min gems"] = "2m", -- Farm min gems trước khi hatch FindDuck
     FindDuck = "100M Egg", -- Hatch 1x Egg
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1},
     ["Gems coefficient"] = 24, -- Tìm pets >= tổng hệ số gems thì đi lên Zen farm Mastery và hatch Rainbow
@@ -95,10 +84,10 @@ getgenv().UserConfig = {
 
     ["Webhook"] = {
         Enable = true, -- Enable/disable pet hatch notification webhook
-        Note = getgenv().DuckHook, -- Note displayed on the webhook
+        Note = "Duck Hub", -- Note displayed on the webhook
         ID = "1028193618890068070", -- Enter your Discord ID here
         URL = "https://discord.com/api/webhooks/1351616809014657164/ZEEMHqCCH8vkNEYHdN_J9oX_e0XtXDxEJH7aEcREDrG18_oCVpMY7q5c5StSXwl-LsiJ", -- Add your webhook URL here
-        Rarity = {
+		Rarity = {
             "Legendary",
             "Secret"
         }, -- General rarity filter
