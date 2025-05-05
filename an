@@ -75,12 +75,15 @@ getgenv().UserConfig = {
         Targets = {"Silly Egg", "Cyber Egg"},
         Luck = 5
     },
-    ["Min gems"] = "20m", -- Farm min gems trước khi hatch FindDuck
+    ["Min gems"] = "3m", -- Farm min gems trước khi hatch FindDuck
     FindDuck = "Cyber Egg",
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1},
     ["Gems coefficient"] = 24, -- Tìm pets >= tổng hệ số gems thì đi lên Zen farm Mastery và hatch Rainbow
     ["Replace 100M Egg"] = "Nightmare Egg", -- Server không có 100M Egg thì chuyển qua đây hatch dự phòng
     ["Auto Restart"] = true,
+    AutoMinigames       = true,
+    AutoRollDice        = true,
+    ["Super Ticket"]    = "Robot Claw",
 
     ["Webhook"] = {
         Enable = true, -- Enable/disable pet hatch notification webhook
