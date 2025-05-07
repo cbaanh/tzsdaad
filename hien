@@ -1,25 +1,30 @@
 getgenv().UserConfig = {
     FPS                 = 3,
-    AddFriends          = false,
-    RedeemCode = {"RELEASE", "THANKS", "LUCKY", "Easter", "Throwback", "update2"},
-    ["Giant Chest"] = true,
-    ["Void Chest"] = true,
-    ["Golden Chest"] = true,
-    ["Royal Chest"] = true,
+    AddFriends          = true,
+    RedeemCode = {"RELEASE", "THANKS", "LUCKY", "Easter", "Throwback", "update2", "sylentlyssorry"},
+    EquipBestFlavorGum  = true,
+    BuyFlavorGum        = true,
+    AutoMinigames       = true,
+    AutoRollDice        = true,
+    ["Super Ticket"]    = "Robot Claw",
+    ["Giant Chest"] = false,
+    ["Void Chest"] = false,
+    ["Golden Chest"] = false,
+    ["Royal Chest"] = false,
     Competitive = {
         Choosing = "1,2,1,2,1,1,2,2,1,2"
     },
     ["Detector"] = {
         Enable = true,
-        ["Name Needed"] = {"Avernus", "Patronus"}, -- Blue background
+        ["Name Needed"] = {"Avernus", "Patronus"},
         ["Rarity Needed"] = {
             "Legendary",
             "Mythic",
-            "Secret" -- Red Background
+            "Secret"
         }
     },
     ["Alien Shop"] = {
-        Enable = true,
+        Enable = false,
         ["Min Gems"] = "1m",
         ["Items Needed"] = {
             "Golden Key",
@@ -37,11 +42,11 @@ getgenv().UserConfig = {
         ["Min Gems"] = "1m",
         ["Items Needed"] = {
             "Lucky Evolved",
-            "Coins Evolved",
+            -- "Coins Evolved",
             "Mythic Evolved",
             "Speed Evolved",
             "Lucky V",
-            "Coins V",
+            -- "Coins V",
             "Mythic V",
             "Speed V"
         }
@@ -72,10 +77,10 @@ getgenv().UserConfig = {
     },
     ["Rifts"] = {
         AlwaysFindRifts = true,
-        Targets = {"Silly Egg", "Cyber Egg", "Game Egg"},
+        Targets = {"Silly Egg", "Cyber Egg", "Game Egg", "Nightmare Egg"},
         Luck = 5
     },
-    ["Min gems"] = "3m",
+    ["Min gems"] = "5m",
     FindDuck = "Game Egg",
     ["Best Potions Find Duck"] = true,
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1},
@@ -83,19 +88,17 @@ getgenv().UserConfig = {
     ["Tickets coefficient"] = 100,
     ["Replace FindDuck"] = "Cyber Egg",
     ["Auto Restart"] = true,
-    AutoMinigames       = true,
-    AutoRollDice        = true,
-    ["Super Ticket"]    = "Robot Claw",
+
     ["Webhook"] = {
-        Enable = true, -- Enable/disable pet hatch notification webhook
+        Enable = true,
         Note = getgenv().DuckHook,
         ID = "1259809462827356194", -- Enter your Discord ID here
         URL = "https://discord.com/api/webhooks/1351616809014657164/ZEEMHqCCH8vkNEYHdN_J9oX_e0XtXDxEJH7aEcREDrG18_oCVpMY7q5c5StSXwl-LsiJ", -- Add your webhook URL here
-		Rarity = {
+        Rarity = {
             "Legendary",
             "Secret"
-        }, -- General rarity filter
-        Legendary = "1m", -- Threshold for Legendary (e.g., 100k = 1/100,000) - only send if chance >= threshold
+        },
+        Legendary = "1m",
         ["Special Pets"] = {"Avernus", "Patronus"}
     }
 }
