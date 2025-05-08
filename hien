@@ -77,16 +77,16 @@ getgenv().UserConfig = {
     },
     ["Rifts"] = {
         AlwaysFindRifts = true,
-        Targets = {"Silly Egg", "Cyber Egg", "Game Egg", "Nightmare Egg"},
+        Targets = {"Silly Egg", "Cyber Egg", "Game Egg"},
         Luck = 5
     },
-    ["Min gems"] = "5m",
-    FindDuck = "Game Egg",
+    ["Min gems"] = "3m",
+    FindDuck = "Nightmare Egg",
     ["Best Potions Find Duck"] = true,
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1},
     ["Gems coefficient"] = 24,
     ["Tickets coefficient"] = 100,
-    ["Replace FindDuck"] = "Cyber Egg",
+    ["Replace FindDuck"] = "Common Egg",
     ["Auto Restart"] = true,
 
     ["Webhook"] = {
