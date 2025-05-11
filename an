@@ -1,25 +1,29 @@
 getgenv().UserConfig = {
     FPS                 = 3,
-    AddFriends          = false,
-    RedeemCode = {"RELEASE", "THANKS", "LUCKY", "Easter", "Throwback", "update2"},
-    ["Giant Chest"] = true,
-    ["Void Chest"] = true,
-    ["Golden Chest"] = true,
-    ["Royal Chest"] = true,
-    Competitive = {
-        Choosing = "1,2,1,2,1,1,2,2,1,2"
-    },
+    AddFriends          = true,
+    RedeemCode = {"RELEASE", "THANKS", "LUCKY", "Easter", "Throwback", "update2", "sylentlyssorry"},
+    EquipBestFlavorGum  = true,
+    BuyFlavorGum        = true,
+    AutoMinigames       = true,
+    AutoRollDice        = true,
+    ["Super Ticket"]    = "Robot Claw",
+    ["Use Super Ticket"] = true,
+    ["Season Challenges"] = true,
+    ["Giant Chest"] = false,
+    ["Void Chest"] = false,
+    ["Golden Chest"] = false,
+    ["Royal Chest"] = false,
     ["Detector"] = {
         Enable = true,
-        ["Name Needed"] = {"Avernus", "Patronus"}, -- Blue background
+        ["Name Needed"] = {"Avernus", "Patronus"},
         ["Rarity Needed"] = {
             "Legendary",
             "Mythic",
-            "Secret" -- Red Background
+            "Secret"
         }
     },
     ["Alien Shop"] = {
-        Enable = true,
+        Enable = false,
         ["Min Gems"] = "1m",
         ["Items Needed"] = {
             "Golden Key",
@@ -33,21 +37,21 @@ getgenv().UserConfig = {
         }
     },
     ["Black Market"] = {
-        Enable = true,
+        Enable = false,
         ["Min Gems"] = "1m",
         ["Items Needed"] = {
             "Lucky Evolved",
-            "Coins Evolved",
+            -- "Coins Evolved",
             "Mythic Evolved",
             "Speed Evolved",
             "Lucky V",
-            "Coins V",
+            -- "Coins V",
             "Mythic V",
             "Speed V"
         }
     },
     ["Craft Potions"] = {
-        Enable = true,
+        Enable = false,
         MinGems = "100k",
         ["Potion Needed"] = {
             {"Coins", Level = 5},
@@ -72,20 +76,17 @@ getgenv().UserConfig = {
     },
     ["Rifts"] = {
         AlwaysFindRifts = true,
-        Targets = {"Silly Egg", "Cyber Egg", "Game Egg"},
+        Targets = {"Underworld Egg 3","Underworld Egg 2","Underworld Egg 1" }, --add rainbow egg if have secret bounty
         Luck = 5
     },
-    ["Min gems"] = "3m",
-    FindDuck = "Game Egg",
+    ["Min gems"] = "1m",
+    FindDuck = "200M Egg", -- Nightmare Egg, Common Egg, Cyber Egg
+    ["Replace FindDuck"] = "Rainbow Egg",
     ["Best Potions Find Duck"] = true,
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1},
-    ["Gems coefficient"] = 24,
-    ["Tickets coefficient"] = 100,
-    ["Replace FindDuck"] = "Cyber Egg",
+    ["Gems coefficient"] = 1,
+    ["Tickets coefficient"] = 50,
     ["Auto Restart"] = true,
-    AutoMinigames       = true,
-    AutoRollDice        = true,
-    ["Super Ticket"]    = "Robot Claw",
     ["Webhook"] = {
         Enable = true, -- Enable/disable pet hatch notification webhook
         Note = getgenv().DuckHook, -- Note displayed on the webhook
