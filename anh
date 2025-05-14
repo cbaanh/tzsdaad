@@ -1,60 +1,66 @@
+wait(15)
 getgenv().UserConfig = {
     FPS                 = 3,
     AddFriends          = true,
+
     RedeemCode = {"RELEASE", "THANKS", "LUCKY", "Easter", "Throwback", "update2", "sylentlyssorry"},
-    EquipBestFlavorGum  = true,
-    BuyFlavorGum        = true,
+    EquipBestFlavorGum  = true, -- false cái này là ko làm quest đc
+    BuyFlavorGum        = true, -- false cái này là ko làm quest đc
     AutoMinigames       = true,
     AutoRollDice        = true,
     ["Super Ticket"]    = "Robot Claw",
-    ["Use Super Ticket"] = true,
-    ["Season Challenges"] = true,
-
     ["Giant Chest"] = false,
     ["Void Chest"] = false,
     ["Golden Chest"] = false,
     ["Royal Chest"] = false,
+    ["Use Super Ticket"] = true,
+    ["Season Challenges"] = true,
+    ["Min coins"] = "3b",
+    ["Min tickets"] = "5b",
+    
 
     ["Detector"] = {
-        Enable = true,
-        ["Name Needed"] = {"Avernus", "Patronus"},
+        Enable = false,
+        ["Name Needed"] = {"Avernus", "Patronus"}, -- Blue
         ["Rarity Needed"] = {
-            "Legendary",
-            "Mythic",
-            "Secret"
+            "Legendary", -- Green
+            "Mythic", -- Red
+            "Secret" -- Yellow
         }
     },
+
     ["Alien Shop"] = {
         Enable = false,
         ["Min Gems"] = "1m",
         ["Items Needed"] = {
-            "Golden Key",
-            "Mystery Box",
-            "Coins III",
-            "Coins IV",
-            "Lucky III",
-            "Lucky IV",
-            "Speed III",
-            "Speed IV"
+            -- "Mystery Box",
+            -- "Coins III",
+            -- "Coins IV",
+            -- "Lucky III",
+            -- "Lucky IV",
+            -- "Speed III",
+            -- "Speed IV",
+            "Golden Key"
         }
     },
     ["Black Market"] = {
         Enable = false,
         ["Min Gems"] = "1m",
         ["Items Needed"] = {
-            "Lucky Evolved",
+            -- "Lucky Evolved",
             -- "Coins Evolved",
-            "Mythic Evolved",
-            "Speed Evolved",
-            "Lucky V",
+            -- "Mythic Evolved",
+            -- "Speed Evolved",
+            -- "Lucky V",
             -- "Coins V",
-            "Mythic V",
+            -- "Mythic V",
             "Speed V"
         }
     },
+
     ["Craft Potions"] = {
         Enable = true,
-        MinGems = "100k",
+        ["Min Gems"] = "1m",
         ["Potion Needed"] = {
             {"Coins", Level = 5},
             {"Speed", Level = 5},
@@ -62,45 +68,61 @@ getgenv().UserConfig = {
             {"Mythic", Level = 5}
         }
     },
+
     ["Mastery"] = {
         Pets = 15,
         Buffs = 15,
         Shops = 10
     },
+
+
+    Competitive = {
+        Choosing = "1,2,1,2,1,1,2,2,1,2"
+    },
+
     ["Star Shop"] = {
         Enable = true,
-        MinStars = 100,
+        MinStars = "1k",
         ["Items Needed"] = {
             "Speed V",
             "Lucky V",
             "Mythic V"
         }
     },
-    ["Rifts"] = {
+
+    ["Mastery"] = {
+        Pets = 15,
+        Buffs = 15,
+        Shops = 10
+    },
+
+   ["Rifts"] = {
         AlwaysFindRifts = true,
-        Targets = {"Silly Egg", "Cyber Egg"},
+        Targets = {"Silly Egg", "Underworld Egg 3","Underworld Egg 2","Underworld Egg 1" }, --add rainbow egg if have secret bounty
         Luck = 5
     },
-    ["Min gems"] = "3m",
-    FindDuck = "Game Egg",
+    ["Secret Bounty"] = {"Prophet", "D0GGY1337", "Queen Kitty"},
+    ["Min gems"] = "1m",
+    FindDuck = "200M Egg", -- Nightmare Egg, Common Egg, Cyber Egg  Void Egg
+    ["Replace FindDuck"] = "Rainbow Egg",
     ["Best Potions Find Duck"] = true,
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1},
-    ["Gems coefficient"] = 24,
-    ["Tickets coefficient"] = 100,
-    ["Replace FindDuck"] = "Cyber Egg",
-    ["Auto Restart"] = true,
+    ["Gems coefficient"] = 1,
+    ["Tickets coefficient"] = 40,
+    ["Auto Restart"] = false,
 
     ["Webhook"] = {
-        Enable = true,
+        Enable = true, -- Enable/disable pet hatch notification webhook
         Note = getgenv().DuckHook,
         ID = "1259809462827356194", -- Enter your Discord ID here
         URL = "https://discord.com/api/webhooks/1351616809014657164/ZEEMHqCCH8vkNEYHdN_J9oX_e0XtXDxEJH7aEcREDrG18_oCVpMY7q5c5StSXwl-LsiJ", -- Add your webhook URL here
-		Rarity = {
+        
+        Rarity = {
             "Legendary",
             "Secret"
-        },
-        Legendary = "1m",
-        ["Special Pets"] = {"Luminosity"}
+        }, -- General rarity filter
+        Legendary = "40m", -- Threshold for Legendary (e.g., 100k = 1/100,000) - only send if chance >= threshold     
+        ["Special Pets"] = {"Avernus", "Patronus", "Overseer", "Seraph", "NULLVoid", "Luminosity", "Jackpot"}  
     }
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b85c17425e59b76c0487999c21ef4557.lua"))()
