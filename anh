@@ -1,7 +1,6 @@
 getgenv().UserConfig = {
-    FPS                 = 3,
-    AddFriends          = false,
-    RedeemCode = {"RELEASE", "THANKS", "update2", "sylentlyssorry", "update3"},
+    AddFriends          = true,
+    RedeemCode = {"RELEASE","Lucky", "update2","Easter","Sylentlyssorry", "update4"},
     EquipBestFlavorGum  = true,
     BuyFlavorGum        = true,
     AutoMinigames       = true,
@@ -9,7 +8,7 @@ getgenv().UserConfig = {
     ["Super Ticket"]    = "Robot Claw",
     ["Use Super Ticket"] = true,
     ["Season Challenges"] = true, -- True means there is a chance of getting the secret Luminosity but less hatching xxx false means there is more hatching but no luminosity 
-    ["Min gems"] = "2m",
+    ["Min gems"] = "1m",
     ["Min tickets"] = "10b", -- Default if not set in UserConfig
     ["Min coins"] = "5b", -- Default if not set in UserConfig
     ["Giant Chest"] = false,
@@ -79,14 +78,14 @@ getgenv().UserConfig = {
     },
     ["Rifts"] = {
         AlwaysFindRifts = true,
-        Targets = {"Underworld Egg 3","Underworld Egg 2","Underworld Egg 1","Silly Egg"}, -- delete cyber egg and nightmare egg if u want
+        Targets = {"Underworld Egg 3","Underworld Egg 2","Underworld Egg 1", "Neon Egg", "Chance Egg"},
         Luck = 5 -- dont change
     },
     ["Secret Bounty"] = {"Prophet", "D0GGY1337", "Queen Kitty"}, -- delete pet name if you dont want that pet
-    FindDuck = "200M Egg", -- Nightmare Egg, Common Egg, Cyber Egg
-    ["Replace FindDuck"] = "Common Egg",
+    FindDuck = "Chance Egg", -- Nightmare Egg, Common Egg, Cyber Egg, Neon Egg
+    ["Replace FindDuck"] = "Neon Egg",
     ["Best Potions Find Duck"] = true, --false if there are only few potions 
-    ["Enchant Team 1"] = {enable = true, ["team-up"] = 1},
+    ["Enchant Team 1"] = {enable = true, ["team-up"] = 1}, -- can set 2 or 3
     ["Gems coefficient"] = 1,
     ["Tickets coefficient"] = 490,
     ["Auto Restart"] = true,
@@ -100,7 +99,7 @@ getgenv().UserConfig = {
             "Legendary",
             "Secret"
         }, -- General rarity filter
-        Legendary = "40m",
+        Legendary = "100m",
         ["Special Pets"] = {"Avernus", "Patronus","Dementor","Jackpot","Luminosity"}
     }
 }
