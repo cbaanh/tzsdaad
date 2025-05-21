@@ -1,5 +1,5 @@
 getgenv().UserConfig = {
-    FPS                 = 1,
+    fps                 = 1,
     AddFriends          = true,
     RedeemCode = {"RELEASE","Lucky", "update2","Easter","Sylentlyssorry", "update4"},
     EquipBestFlavorGum  = true,
