@@ -5,9 +5,8 @@ getgenv().UserConfig = {
     BuyFlavorGum        = true,
     AutoMinigames       = true,
     AutoRollDice        = true,
-    ["Super Ticket"]    = "Robot Claw",
     ["Use Super Ticket"] = true,
-    ["Season Challenges"] = false, -- false bc ss end 
+    ["Season Challenges"] = false, -- true if u want secret monolith 
     ["Giant Chest"] = false,
     ["Void Chest"] = false,
     ["Golden Chest"] = false,
@@ -15,6 +14,7 @@ getgenv().UserConfig = {
     ["Dice Chest"] = true, -- default is false if not set
     ["Summer Shop"] = true, -- default is true if not set
     ["Force X2"] = true,
+    ["Super Ticket"]    = "Robot Claw", -- Hyper Darts (20s-40s) or Robot Claw (1s-5s)
     ["Mastery"] = {Pets = 15,Buffs = 10,Shops = 10},
     ["Craft Potions"] = {
         Enable = true,
@@ -37,22 +37,22 @@ getgenv().UserConfig = {
     },
     ["Rifts"] = {
         AlwaysFindRifts = true,
-        Targets = {"Fruit Egg"},
+        Targets = {"Neon Egg"},
         Luck = 5 -- dont change
     },
     ["Secret Bounty"] = {"Overlord Plushie", "Everblaze", "Beelzebub"},
     ["Secret Bounty x1 Egg"] = false, -- true = 100% Secret Bounty
     ["Skip Event"] = "All", -- All: skip event seashells, Jungle: skip new island event seashells, None: not skip event seashells
     ["Light and Dark"]  = "Both", -- Both: hatch Light and Dark, Light Egg: only hatch if available, Dark Egg: only hatch if available
-    FindDuck = "Fruit Egg", -- Fruit Egg, Nightmare Egg, Common Egg, Cyber Egg, Neon Egg
-    ["Replace FindDuck"] = "Fruit Egg",
+    FindDuck = "Neon Egg", -- Fruit Egg, Nightmare Egg, Common Egg, Cyber Egg, Neon Egg
+    ["Replace FindDuck"] = "Neon Egg",
     ["Best Potions Find Duck"] = true, --false if there are only few potions 
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1}, -- can set 2 or 3
     ["Min gems"] = "1m",
     ["Min coins"] = "500m",
     ["Min tickets"] = "10m",
-    ["Min seashells"] = "100m",
-    ["Gems coefficient"] = 24,
+    ["Min seashells"] = "1b",
+    ["Gems coefficient"] = 0,
     ["Tickets coefficient"] = 100,
     ["Seashells coefficient"] = 24,
     ["Auto Restart"] = true,
