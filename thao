@@ -1,0 +1,72 @@
+getgenv().UserConfig = {
+    AddFriends          = true,
+    RedeemCode = {"RELEASE","Lucky", "update2","Easter","Sylentlyssorry", "update4"},
+    EquipBestFlavorGum  = true,
+    BuyFlavorGum        = true,
+    AutoMinigames       = true,
+    AutoRollDice        = true,
+    ["Use Super Ticket"] = true,
+    ["Season Challenges"] = false, -- true if u want secret monolith 
+    ["Giant Chest"] = false,
+    ["Void Chest"] = false,
+    ["Golden Chest"] = false,
+    ["Royal Chest"] = true,
+    ["Dice Chest"] = true, -- default is false if not set
+    ["Summer Shop"] = true, -- default is true if not set
+    ["Force X2"] = true,
+    ["Super Ticket"]    = "Robot Claw", -- Hyper Darts (20s-40s) or Robot Claw (1s-5s)
+    ["Mastery"] = {Pets = 15,Buffs = 10,Shops = 10},
+    ["Craft Potions"] = {
+        Enable = true,
+        MinGems = "100k",
+        ["Potion Needed"] = {
+            {"Coins", Level = 5},
+            {"Speed", Level = 5},
+            {"Lucky", Level = 5},
+            {"Mythic", Level = 5}
+        }
+    },
+    ["Star Shop"] = {
+        Enable = true,
+        MinStars = 100,
+        ["Items Needed"] = {
+            "Speed V",
+            "Lucky V",
+            "Mythic V"
+        }
+    },
+    ["Rifts"] = {
+        AlwaysFindRifts = true,
+        Targets = {"Neon Egg"},
+        Luck = 5 -- dont change
+    },
+    ["Secret Bounty"] = {"Overlord Plushie", "Everblaze", "Beelzebub"},
+    ["Secret Bounty x1 Egg"] = false, -- true = 100% Secret Bounty
+    ["Skip Event"] = "All", -- All: skip event seashells, Jungle: skip new island event seashells, None: not skip event seashells
+    ["Light and Dark"]  = "Both", -- Both: hatch Light and Dark, Light Egg: only hatch if available, Dark Egg: only hatch if available
+    FindDuck = "Neon Egg", -- Fruit Egg, Nightmare Egg, Common Egg, Cyber Egg, Neon Egg
+    ["Replace FindDuck"] = "Neon Egg",
+    ["Best Potions Find Duck"] = true, --false if there are only few potions 
+    ["Enchant Team 1"] = {enable = true, ["team-up"] = 1}, -- can set 2 or 3
+    ["Min gems"] = "1m",
+    ["Min coins"] = "100m",
+    ["Min tickets"] = "3m",
+    ["Min seashells"] = "1b",
+    ["Gems coefficient"] = 0,
+    ["Tickets coefficient"] = 100,
+    ["Seashells coefficient"] = 24,
+    ["Auto Restart"] = false,
+    ["Webhook"] = {
+        Enable = true,
+        Note = getgenv().DuckHook,
+        ID = "1208813636156653581", -- Enter your Discord ID here
+        URL = "https://discord.com/api/webhooks/1337041742695759933/2M1oCN31KNEs3yPQMcrmU7zu_wl2U4Z9ydwfgCH7Ylsekxvh8Hsh6txVPXMCjrgVd2nB", -- Add your webhook URL here
+        Rarity = {
+            "Legendary",
+            "Secret"
+        }, -- General rarity filter
+        Legendary = "100m",
+        ["Special Pets"] = {"Monolith"}
+    }
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b85c17425e59b76c0487999c21ef4557.lua"))()
