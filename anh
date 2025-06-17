@@ -1,6 +1,6 @@
 getgenv().UserConfig = {
     AddFriends          = true,
-    RedeemCode = {"RELEASE","Lucky", "update2","Easter","Sylentlyssorry", "update4"},
+    RedeemCode = {"update5","update6","update7","update8"},
     EquipBestFlavorGum  = true,
     BuyFlavorGum        = true,
     AutoMinigames       = true,
@@ -14,6 +14,7 @@ getgenv().UserConfig = {
     ["Dice Chest"] = true, -- default is false if not set
     ["Summer Shop"] = true, -- default is true if not set
     ["Force X2"] = true,
+    ["Min X2"] = 5,
     ["Super Ticket"]    = "Robot Claw", -- Hyper Darts (20s-40s) or Robot Claw (1s-5s)
     ["Mastery"] = {Pets = 15,Buffs = 10,Shops = 10},
     ["Craft Potions"] = {
@@ -37,25 +38,22 @@ getgenv().UserConfig = {
     },
     ["Rifts"] = {
         AlwaysFindRifts = true,
-        Targets = {"Neon Egg"},
-        Luck = 5 -- dont change
+        Targets = {"Voidcrystal Egg"},
+        Luck = 5
     },
-    ["Secret Bounty"] = {"Overlord Plushie", "Everblaze", "Beelzebub", "Golden Retreiver"},
+    ["Secret Bounty"] = {"King Slime", "Golden Retreiver", "True Titan"},
     ["Secret Bounty x1 Egg"] = false, -- true = 100% Secret Bounty
-    ["Skip Event"] = "All", -- All: skip event seashells, Jungle: skip new island event seashells, None: not skip event seashells
-    ["Light and Dark"]  = "Both", -- Both: hatch Light and Dark, Light Egg: only hatch if available, Dark Egg: only hatch if available
-    FindDuck = "Lunar Egg", -- Fruit Egg, Nightmare Egg, Common Egg, Cyber Egg, Neon Egg
-    ["Replace FindDuck"] = "Lunar Egg",
+    FindDuck = "Voidcrystal Egg", -- Fruit Egg, Nightmare Egg, Common Egg, Cyber Egg, Neon Egg
+    ["Replace FindDuck"] = "Voidcrystal Egg",
     ["Best Potions Find Duck"] = true, --false if there are only few potions 
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1}, -- can set 2 or 3
     ["Min gems"] = "1m",
     ["Min coins"] = "100m",
-    ["Min tickets"] = "3m",
-    ["Min seashells"] = "10b",
+    ["Min tickets"] = "10m",
     ["Gems coefficient"] = 0,
     ["Tickets coefficient"] = 100,
     ["Seashells coefficient"] = 24,
-    ["Auto Restart"] = false,
+    ["Auto Restart"] = true,
     ["Webhook"] = {
         Enable = true,
         Note = getgenv().DuckHook,
