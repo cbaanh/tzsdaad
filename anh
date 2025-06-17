@@ -40,7 +40,7 @@ getgenv().UserConfig = {
         Targets = {"Neon Egg"},
         Luck = 5 -- dont change
     },
-    ["Secret Bounty"] = {"Overlord Plushie", "Everblaze", "Beelzebub"},
+    ["Secret Bounty"] = {"Overlord Plushie", "Everblaze", "Beelzebub", "Golden Retreiver"},
     ["Secret Bounty x1 Egg"] = false, -- true = 100% Secret Bounty
     ["Skip Event"] = "All", -- All: skip event seashells, Jungle: skip new island event seashells, None: not skip event seashells
     ["Light and Dark"]  = "Both", -- Both: hatch Light and Dark, Light Egg: only hatch if available, Dark Egg: only hatch if available
