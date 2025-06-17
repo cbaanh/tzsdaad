@@ -44,8 +44,8 @@ getgenv().UserConfig = {
     ["Secret Bounty x1 Egg"] = false, -- true = 100% Secret Bounty
     ["Skip Event"] = "All", -- All: skip event seashells, Jungle: skip new island event seashells, None: not skip event seashells
     ["Light and Dark"]  = "Both", -- Both: hatch Light and Dark, Light Egg: only hatch if available, Dark Egg: only hatch if available
-    FindDuck = "Neon Egg", -- Fruit Egg, Nightmare Egg, Common Egg, Cyber Egg, Neon Egg
-    ["Replace FindDuck"] = "Neon Egg",
+    FindDuck = "Lunar Egg", -- Fruit Egg, Nightmare Egg, Common Egg, Cyber Egg, Neon Egg
+    ["Replace FindDuck"] = "Lunar Egg",
     ["Best Potions Find Duck"] = true, --false if there are only few potions 
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1}, -- can set 2 or 3
     ["Min gems"] = "1m",
