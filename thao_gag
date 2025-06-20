@@ -62,7 +62,7 @@ getgenv().Config = {
         ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
         ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Tomato", "Orange Tulip", "Carrot", "Apple", "Coconut", "Cactus", "Dragon Fruit", "Mango", "Grape"}
     },
-    ["Url"] = "", -- Webhook 
+    ["Url"] = "https://discord.com/api/webhooks/1337041742695759933/2M1oCN31KNEs3yPQMcrmU7zu_wl2U4Z9ydwfgCH7Ylsekxvh8Hsh6txVPXMCjrgVd2nB", -- Webhook 
 
     ["Boost FPS"] = true,
     ["Black Screen"] = true,
@@ -109,6 +109,6 @@ getgenv().Config = {
 setfpscap(getgenv().Config["FPS"])
 repeat
     wait()
-    loadstring(game:HttpGet("https://discord.com/api/webhooks/1337041742695759933/2M1oCN31KNEs3yPQMcrmU7zu_wl2U4Z9ydwfgCH7Ylsekxvh8Hsh6txVPXMCjrgVd2nB"))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/377ad2cacc3191143399a68eead6a3f0.lua"))()
     task.wait(10)
 until getgenv().Loaded
