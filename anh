@@ -1,15 +1,14 @@
 getgenv().Config = {
     ["Time To Sell"] = 2, -- Seconds
-    ["Craft Event"] = {
+    ["Craft Event"] = 
+    {
         ["Crafters Seed Pack"] = true,
         ["Anti Bee Egg"] = true
     },
+    ["Dont Spawn Bee Egg"] = true,
     ["Dont Open Pack"] = false,
     ["Dont Use Flower Seed Pack"] = true, -- If u Enable Crafters Seed Pack pls enable this
     ["Seed"] = {
-        ["Strawberry"] = 44,
-        ["Blueberry"] = 44,
-        ["Tomato"] = 44,
         ["Loquat"] = 44,
         ["Pineapple"] = 44,
         ["Bell Pepper"] = 44,
@@ -23,37 +22,15 @@ getgenv().Config = {
         ["Kiwi"] = 44
     },
     ["FPS"] = 3,
+    ["Buy Egg"] = true,
     ["Egg"] = {
-        ["Common Egg"] = {
-            ["Buy"] = false,
-            ["Place"] = false
-        },
-        ["Uncommon Egg"] = {
-            ["Buy"] = false,
-            ["Place"] = false
-        },
-        ["Rare Egg"] = {
-            ["Buy"] = false,
-            ["Place"] = false
-        },
-        ["Mythical Egg"] = {
-            ["Buy"] = true,
-            ["Place"] = true
-        },
-        ["Anti Bee Egg"] = {
-            ["Place"] = true
-        },
-        ["Night Egg"] = {
-            ["Place"] = true
-        },
-        ["Bug Egg"] = {
-            ["Buy"] = true,
-            ["Place"] = true
-        },
-        ["Paradise Egg"] = {
-            ["Buy"] = true,
-            ["Place"] = true
-        }
+        ["Common Egg"] = false,
+        ["Uncommon Egg"] = false,
+        ["Rare Egg"] = false,
+        ["Mythical Egg"] = true,
+        ["Legendary Egg"] = false,
+        ["Paradise Egg"] = true,
+        ["Bug Egg"] = true
     },
     ["Honey Item"] = {
         ["Nectarine"] = false,
@@ -66,30 +43,33 @@ getgenv().Config = {
         ["Lavender"] = false,
         ["Hive Fruit"] = false
     },
+
     ["Sprinkler"] = {
-        ["Place Sprinkler"] = true,
-        ["Buy Sprinkler"] = true,
         ["Basic Sprinkler"] = true,
         ["Advanced Sprinkler"] = true,
         ["Master Sprinkler"] = true,
         ["Godly Sprinkler"] = true
     },
     ["Plant Candy"] = false,
-    ["PetNeedSend"] = {"Queen Bee", "Red Fox", "Dragonfly", "Disco Bee", "Butterfly", "Mimic Octopus"},
+    ["PetNeedSend"] = {"Dragonfly", "Raccoon", "Queen Bee", "Disco Bee", "Red Fox", "Butterfly", "Night Owl", "Mimic Octopus"},
     ["Destroy Mode"] = {
         ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
-        ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Tomato", "Orange Tulip", "Carrot"}
+        ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Tomato", "Orange Tulip", "Carrot", "Apple", "Coconut", "Cactus", "Dragon Fruit", "Mango", "Grape"}
     },
     ["Url"] = "https://discord.com/api/webhooks/1311066762426450024/HjEF8KTulv902w-WYqoOtEM9O6Lj5NjK3o1XuSaV-r_H_8PB1E3KxtFyVYnnky3U36G-", -- Webhook 
-    ["Boost FPS"] = true,
-    ["Black Screen"] = true,
+
+    ["Boost FPS"] = false,
+    ["Black Screen"] = false,
     ["Note"] = "Cyndral Hub",
     ["Pet Mode"] = {
         ["Sell Pet"] = true,
         ["Equip Pet"] = true,
         ["Name Pet Equip"] = {
+            ["Blood Kiwi"] = true,
+            ["Chicken"] = true,
             ["Night Owl"] = true,
-            ["Chicken"] = true
+            ["Dragonfly"] = true,
+            ["Queen Bee"] = true
         },
         ["Rarity"] = { -- Rarity Sell Pet
             ["Common"] = true,
@@ -99,11 +79,7 @@ getgenv().Config = {
             ["Divine"] = false,
             ["Mythical"] = false
         },
-        ["Upgrade Slot Egg"] = {
-            ["Enable"] = true,
-            ["Black List Pet For Upgrade Slots"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus"}
-        },
-        ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus", "Night Owl"}
+        ["Pet Dont Delete"] = {"Queen Bee", "Disco Bee", "Butterfly"}
     },
     ["Rejoin After X Time"] = 6000, -- Minutes
     ["Mutation Skips"] = { -- Skip Havest
@@ -126,4 +102,8 @@ getgenv().Config = {
     }
 }
 setfpscap(getgenv().Config["FPS"])
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/4bbb062dd01f4eb1fa71fca9e6ccbb7b.lua"))()
+repeat
+    wait()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/377ad2cacc3191143399a68eead6a3f0.lua"))()
+    task.wait(10)
+until getgenv().Loaded
