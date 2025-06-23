@@ -1,6 +1,7 @@
 getgenv().Config = {
     ["Time To Sell"] = 2, -- Seconds
-    ["Craft Event"] = {
+    ["Craft Event"] = 
+    {
         ["Crafters Seed Pack"] = true,
         ["Anti Bee Egg"] = true
     },
@@ -19,7 +20,6 @@ getgenv().Config = {
         ["Prickly Pear"] = 44,
         ["Watermelon"] = 44,
         ["Kiwi"] = 44
-
     },
     ["FPS"] = 3,
     ["Buy Egg"] = true,
@@ -27,7 +27,7 @@ getgenv().Config = {
         ["Common Egg"] = false,
         ["Uncommon Egg"] = false,
         ["Rare Egg"] = false,
-        ["Mythical Egg"] = true,
+        ["Mythical Egg"] = false,
         ["Legendary Egg"] = false,
         ["Paradise Egg"] = true,
         ["Bug Egg"] = true
@@ -43,6 +43,7 @@ getgenv().Config = {
         ["Lavender"] = false,
         ["Hive Fruit"] = false
     },
+
     ["Sprinkler"] = {
         ["Basic Sprinkler"] = true,
         ["Advanced Sprinkler"] = true,
@@ -64,8 +65,11 @@ getgenv().Config = {
         ["Sell Pet"] = true,
         ["Equip Pet"] = true,
         ["Name Pet Equip"] = {
+            ["Blood Kiwi"] = true,
+            ["Chicken"] = true,
             ["Night Owl"] = true,
-            ["Chicken"] = true
+            ["Dragonfly"] = true,
+            ["Queen Bee"] = true
         },
         ["Rarity"] = { -- Rarity Sell Pet
             ["Common"] = true,
