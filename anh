@@ -1,70 +1,133 @@
-getgenv().UserConfig = {
-    AddFriends          = true,
-    RedeemCode = {"update5","update6","update7","update8"},
-    EquipBestFlavorGum  = true,
-    BuyFlavorGum        = true,
-    AutoMinigames       = true,
-    AutoRollDice        = true,
-    ["Use Super Ticket"] = true,
-    ["Season Challenges"] = false, -- true if u want secret monolith 
-    ["Giant Chest"] = false,
-    ["Void Chest"] = false,
-    ["Golden Chest"] = false,
-    ["Royal Chest"] = true,
-    ["Dice Chest"] = true, -- default is false if not set
-    ["Summer Shop"] = true, -- default is true if not set
-    ["Force X2"] = true,
-    ["Min X2"] = 5,
-    ["Super Ticket"]    = "Robot Claw", -- Hyper Darts (20s-40s) or Robot Claw (1s-5s)
-    ["Mastery"] = {Pets = 15,Buffs = 10,Shops = 10},
-    ["Craft Potions"] = {
-        Enable = true,
-        MinGems = "100k",
-        ["Potion Needed"] = {
-            {"Coins", Level = 5},
-            {"Speed", Level = 5},
-            {"Lucky", Level = 5},
-            {"Mythic", Level = 5}
+getgenv().Config = {
+    ["Time To Sell"] = 2, -- Seconds
+    ["Craft Event"] = {
+        ["Crafters Seed Pack"] = true,
+        ["Anti Bee Egg"] = true
+    },
+    ["Dont Open Pack"] = false,
+    ["Dont Use Flower Seed Pack"] = true, -- If u Enable Crafters Seed Pack pls enable this
+    ["Seed"] = {
+        ["Strawberry"] = 44,
+        ["Blueberry"] = 44,
+        ["Tomato"] = 44,
+        ["Loquat"] = 44,
+        ["Pineapple"] = 44,
+        ["Bell Pepper"] = 44,
+        ["Green Apple"] = 44,
+        ["Feijoa"] = 44,
+        ["Avocado"] = 44,
+        ["Sugar Apple"] = 44,
+        ["Banana"] = 44,
+        ["Prickly Pear"] = 44,
+        ["Watermelon"] = 44,
+        ["Kiwi"] = 44
+    },
+    ["FPS"] = 3,
+    ["Egg"] = {
+        ["Common Egg"] = {
+            ["Buy"] = false,
+            ["Place"] = false
+        },
+        ["Uncommon Egg"] = {
+            ["Buy"] = false,
+            ["Place"] = false
+        },
+        ["Rare Egg"] = {
+            ["Buy"] = false,
+            ["Place"] = false
+        },
+        ["Mythical Egg"] = {
+            ["Buy"] = true,
+            ["Place"] = true
+        },
+        ["Anti Bee Egg"] = {
+            ["Place"] = true
+        },
+        ["Night Egg"] = {
+            ["Place"] = true
+        },
+        ["Bug Egg"] = {
+            ["Buy"] = true,
+            ["Place"] = true
+        },
+        ["Paradise Egg"] = {
+            ["Buy"] = true,
+            ["Place"] = true
         }
     },
-    ["Star Shop"] = {
-        Enable = true,
-        MinStars = 100,
-        ["Items Needed"] = {
-            "Speed V",
-            "Lucky V",
-            "Mythic V"
-        }
+    ["Honey Item"] = {
+        ["Nectarine"] = false,
+        ["Flower Seed Pack"] = true,
+        ["Honey Sprinkler"] = false,
+        ["Bee Egg"] = true,
+        ["Pollen Radar"] = false,
+        ["Nectar Staff"] = false,
+        ["Nectarshade"] = false,
+        ["Lavender"] = false,
+        ["Hive Fruit"] = false
     },
-    ["Rifts"] = {
-        AlwaysFindRifts = true,
-        Targets = {"Voidcrystal Egg"},
-        Luck = 5
+    ["Sprinkler"] = {
+        ["Place Sprinkler"] = true,
+        ["Buy Sprinkler"] = true,
+        ["Basic Sprinkler"] = true,
+        ["Advanced Sprinkler"] = true,
+        ["Master Sprinkler"] = true,
+        ["Godly Sprinkler"] = true
     },
-    ["Secret Bounty"] = {"King Slime", "Golden Retreiver", "True Titan"},
-    ["Secret Bounty x1 Egg"] = false, -- true = 100% Secret Bounty
-    FindDuck = "Voidcrystal Egg", -- Fruit Egg, Nightmare Egg, Common Egg, Cyber Egg, Neon Egg
-    ["Replace FindDuck"] = "Voidcrystal Egg",
-    ["Best Potions Find Duck"] = true, --false if there are only few potions 
-    ["Enchant Team 1"] = {enable = true, ["team-up"] = 1}, -- can set 2 or 3
-    ["Min gems"] = "1m",
-    ["Min coins"] = "100m",
-    ["Min tickets"] = "10m",
-    ["Gems coefficient"] = 0,
-    ["Tickets coefficient"] = 100,
-    ["Seashells coefficient"] = 24,
-    ["Auto Restart"] = true,
-    ["Webhook"] = {
-        Enable = true,
-        Note = getgenv().DuckHook,
-        ID = "1259809462827356194", -- Enter your Discord ID here
-        URL = "https://discord.com/api/webhooks/1342556846862504045/vEh50mbTp8HZg6Na7bSZIwjiEjuvlG2ToFrKLfoEbrCbK2ez6MwGT811ETvTaT_3qxeR", -- Add your webhook URL here
-        Rarity = {
-            "Legendary",
-            "Secret"
-        }, -- General rarity filter
-        Legendary = "100m",
-        ["Special Pets"] = {"Monolith"}
+    ["Plant Candy"] = false,
+    ["PetNeedSend"] = {"Dragonfly", "Raccoon", "Queen Bee", "Disco Bee", "Red Fox", "Butterfly", "Night Owl", "Mimic Octopus"},
+    ["Destroy Mode"] = {
+        ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
+        ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Tomato", "Orange Tulip", "Carrot"}
+    },
+    ["Url"] = "https://discord.com/api/webhooks/1311066762426450024/HjEF8KTulv902w-WYqoOtEM9O6Lj5NjK3o1XuSaV-r_H_8PB1E3KxtFyVYnnky3U36G-", -- Webhook 
+    ["Boost FPS"] = true,
+    ["Black Screen"] = true,
+    ["Note"] = "Cyndral Hub",
+    ["Pet Mode"] = {
+        ["Sell Pet"] = true,
+        ["Equip Pet"] = true,
+        ["Name Pet Equip"] = {
+            ["Night Owl"] = true,
+            ["Chicken"] = true
+        },
+        ["Rarity"] = { -- Rarity Sell Pet
+            ["Common"] = true,
+            ["Uncommon"] = true,
+            ["Rare"] = true,
+            ["Legendary"] = false,
+            ["Divine"] = false,
+            ["Mythical"] = false
+        },
+        ["Upgrade Slot Egg"] = {
+            ["Enable"] = true,
+            ["Black List Pet For Upgrade Slots"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus"}
+        },
+        ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus"}
+    },
+    ["Rejoin After X Time"] = 6000, -- Minutes
+    ["Mutation Skips"] = { -- Skip Havest
+        ["Pollinated"] = false,
+        ["Disco"] = false,
+        ["Twisted"] = false,
+        ["Wet"] = false,
+        ["Choc"] = false,
+        ["Bloodlit"] = false,
+        ["Celestial"] = false,
+        ["Moonlit"] = false,
+        ["Chilled"] = false,
+        ["Zombified"] = false,
+        ["Plasma"] = false,
+        ["Burnt"] = false,
+        ["Frozen"] = false,
+        ["Voidtouched"] = false,
+        ["HoneyGlazed"] = false,
+        ["Shocked"] = false
     }
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b85c17425e59b76c0487999c21ef4557.lua"))()
+setfpscap(getgenv().Config["FPS"])
+repeat
+    wait()
+	loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/4bbb062dd01f4eb1fa71fca9e6ccbb7b.lua"))()
+    task.wait(10)
+until getgenv().Loaded
