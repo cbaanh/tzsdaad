@@ -1,2 +1,109 @@
-{"Dropdown":{"Autos.Collection: Produce":[],"Market.Product: Product":"None","Autos.Gift: Player":"None","Autos.Garden: Eggs":[],"Miscellaneous.Player: Mod Detection":"Warning","Market.Event: Events":[],"Autos.Sprinkler: Sprinklers":[],"Market.Egg: Eggs":[],"Autos.Collection: Logic":"If any matches then harvest","Autos.Garden: Seeds":[],"Market.Seed: Seeds":[],"Autos.Favorite: Produce":[],"Autos.Favorite: Mutation":[],"Market.Gear: Gears":[],"Autos.Collection: Mutation":[]},"Keybind":[],"Input":{"Configuration.Main: Events Receiver Webhook":"","Miscellaneous.Player: Join JobId":""},"Toggle":{"Market.Gear: Auto Purchase Gear":false,"Autos.Inventory: Auto Sell Inventory":false,"Miscellaneous.Player: Auto Rejoin":false,"Autos.Collection: Legit":false,"Autos.Favorite: Un-Favorite Mode":false,"Miscellaneous.Player: Hide All Characters":false,"Configuration.Main: Reduce Rendering":true,"Miscellaneous.Player: Anti AFK":true,"Configuration.Main: Realistic Graphics":false,"Utility.Main: Server Hop Until PlaceVersion Below 1236":false,"Autos.Sprinkler: Auto Place Sprinkler":false,"Autos.Favorite: Auto Favorite":false,"Market.Event: No Stock Check":false,"Autos.Garden: Auto Plant Seed":false,"Miscellaneous.Player: Hide Identity":false,"Utility.Main: Plant Anywhere":false,"Market.Inventory: Evaluate Garden Value":true,"Autos.Garden: Auto Plant Egg":false,"Autos.Owl: Auto Submit Moonlit":false,"Autos.Collection: Teleport":false,"Configuration.Main: 3D Rendering":true,"Utility.Main: Server Hop Until BloodMoonEvent":false,"Miscellaneous.Game: Server Lag 2":false,"Miscellaneous.Game: Server Lag":false,"Miscellaneous.Game: Destroy All ParticleEmitters":false,"Market.Event: Auto Purchase Event":false,"Configuration.Main: Optimize Game":false,"Market.Inventory: Evaluate Backpack Value":true,"Autos.Gift: Auto Gift All":false,"General":true,"Silent-Execution":false,"Utility.Main: Fruit Info ESP":false,"Autos.Collection: Auto Harvest":false,"Autos.Garden: Plant Under Player":false,"Configuration.Main: Filter Plants":false,"Market.Seed: Auto Purchase Seed":false,"Market.Egg: Auto Purchase Egg":false,"Utility.Main: Trowel Anywhere":false,"Autos.Hatch: Auto Hatch":false,"Configuration.Main: Instant Interaction":false},"Slider":{"FPS":240}}
-(loadstring or load)(game:HttpGet("https://getnative.cc/script/loader"))()
+getgenv().Config = {
+    ["Time To Sell"] = 2, -- Seconds
+    ["Craft Event"] = 
+    {
+        ["Crafters Seed Pack"] = true,
+        ["Anti Bee Egg"] = true
+    },
+    ["Dont Spawn Bee Egg"] = true,
+    ["Dont Open Pack"] = false,
+    ["Dont Use Flower Seed Pack"] = true, -- If u Enable Crafters Seed Pack pls enable this
+    ["Seed"] = {
+        ["Loquat"] = 44,
+        ["Pineapple"] = 44,
+        ["Bell Pepper"] = 44,
+        ["Green Apple"] = 44,
+        ["Feijoa"] = 44,
+        ["Avocado"] = 44,
+        ["Sugar Apple"] = 44,
+        ["Banana"] = 44,
+        ["Prickly Pear"] = 44,
+        ["Watermelon"] = 44,
+        ["Kiwi"] = 44
+    },
+    ["FPS"] = 3,
+    ["Buy Egg"] = true,
+    ["Egg"] = {
+        ["Common Egg"] = false,
+        ["Uncommon Egg"] = false,
+        ["Rare Egg"] = false,
+        ["Mythical Egg"] = true,
+        ["Legendary Egg"] = false,
+        ["Paradise Egg"] = true,
+        ["Bug Egg"] = true
+    },
+    ["Honey Item"] = {
+        ["Nectarine"] = false,
+        ["Flower Seed Pack"] = true,
+        ["Honey Sprinkler"] = false,
+        ["Bee Egg"] = true,
+        ["Pollen Radar"] = false,
+        ["Nectar Staff"] = false,
+        ["Nectarshade"] = false,
+        ["Lavender"] = false,
+        ["Hive Fruit"] = false
+    },
+
+    ["Sprinkler"] = {
+        ["Basic Sprinkler"] = true,
+        ["Advanced Sprinkler"] = true,
+        ["Master Sprinkler"] = true,
+        ["Godly Sprinkler"] = true
+    },
+    ["Plant Candy"] = false,
+    ["PetNeedSend"] = {"Dragonfly", "Raccoon", "Queen Bee", "Disco Bee", "Red Fox", "Butterfly", "Night Owl", "Mimic Octopus"},
+    ["Destroy Mode"] = {
+        ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
+        ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Tomato", "Orange Tulip", "Carrot", "Apple", "Coconut", "Cactus", "Dragon Fruit", "Mango", "Grape"}
+    },
+    ["Url"] = "https://discord.com/api/webhooks/1311066762426450024/HjEF8KTulv902w-WYqoOtEM9O6Lj5NjK3o1XuSaV-r_H_8PB1E3KxtFyVYnnky3U36G-", -- Webhook 
+
+    ["Boost FPS"] = true,
+    ["Black Screen"] = true,
+    ["Note"] = "Cyndral Hub",
+    ["Pet Mode"] = {
+        ["Sell Pet"] = true,
+        ["Equip Pet"] = true,
+        ["Name Pet Equip"] = {
+            ["Blood Kiwi"] = true,
+            ["Chicken"] = true,
+            ["Night Owl"] = true,
+            ["Dragonfly"] = true,
+            ["Queen Bee"] = true
+        },
+        ["Rarity"] = { -- Rarity Sell Pet
+            ["Common"] = true,
+            ["Uncommon"] = true,
+            ["Rare"] = true,
+            ["Legendary"] = false,
+            ["Divine"] = false,
+            ["Mythical"] = false
+        },
+        ["Pet Dont Delete"] = {"Queen Bee", "Disco Bee", "Butterfly"}
+    },
+    ["Rejoin After X Time"] = 6000, -- Minutes
+    ["Mutation Skips"] = { -- Skip Havest
+        ["Pollinated"] = false,
+        ["Disco"] = false,
+        ["Twisted"] = false,
+        ["Wet"] = false,
+        ["Choc"] = false,
+        ["Bloodlit"] = false,
+        ["Celestial"] = false,
+        ["Moonlit"] = false,
+        ["Chilled"] = false,
+        ["Zombified"] = false,
+        ["Plasma"] = false,
+        ["Burnt"] = false,
+        ["Frozen"] = false,
+        ["Voidtouched"] = false,
+        ["HoneyGlazed"] = false,
+        ["Shocked"] = false
+    }
+}
+setfpscap(getgenv().Config["FPS"])
+repeat
+    wait()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/377ad2cacc3191143399a68eead6a3f0.lua"))()
+    task.wait(10)
+until getgenv().Loaded
