@@ -75,7 +75,7 @@ getgenv().Config = {
         ["Godly Sprinkler"] = true
     },
     ["Plant Candy"] = false,
-    ["PetNeedSend"] = {"Dragonfly", "Raccoon", "Queen Bee", "Disco Bee", "Red Fox", "Butterfly", "Night Owl", "Mimic Octopus"},
+    ["PetNeedSend"] = {"Queen Bee", "Red Fox", "Dragonfly", "Disco Bee", "Butterfly", "Mimic Octopus"},
     ["Destroy Mode"] = {
         ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
         ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Tomato", "Orange Tulip", "Carrot"}
@@ -103,7 +103,7 @@ getgenv().Config = {
             ["Enable"] = true,
             ["Black List Pet For Upgrade Slots"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus"}
         },
-        ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus"}
+        ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus", "Night Owl"}
     },
     ["Rejoin After X Time"] = 6000, -- Minutes
     ["Mutation Skips"] = { -- Skip Havest
@@ -126,8 +126,4 @@ getgenv().Config = {
     }
 }
 setfpscap(getgenv().Config["FPS"])
-repeat
-    wait()
-	loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/4bbb062dd01f4eb1fa71fca9e6ccbb7b.lua"))()
-    task.wait(10)
-until getgenv().Loaded
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/4bbb062dd01f4eb1fa71fca9e6ccbb7b.lua"))()
