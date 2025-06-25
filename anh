@@ -1,16 +1,18 @@
 getgenv().Config = {
-    ["Time To Sell"] = 2, -- Seconds
-    ["Craft Event"] = 
-    {
+    ["Time To Sell"] = 5, -- Seconds
+    ["Craft Event"] = {
         ["Crafters Seed Pack"] = true,
         ["Anti Bee Egg"] = true
     },
-    ["Dont Spawn Bee Egg"] = true,
     ["Dont Open Pack"] = false,
-    ["Dont Use Flower Seed Pack"] = true, -- If u Enable Crafters Seed Pack pls enable this
+    ["Dont Use Flower Seed Pack"] = false, -- If u Enable Crafters Seed Pack pls enable this
     ["Seed"] = {
+        ["Strawberry"] = 44,
+        ["Blueberry"] = 44,
+        ["Tomato"] = 44,
         ["Loquat"] = 44,
         ["Pineapple"] = 44,
+        ["Carrot"] = 44,
         ["Bell Pepper"] = 44,
         ["Green Apple"] = 44,
         ["Feijoa"] = 44,
@@ -21,16 +23,32 @@ getgenv().Config = {
         ["Watermelon"] = 44,
         ["Kiwi"] = 44
     },
+
     ["FPS"] = 3,
-    ["Buy Egg"] = true,
     ["Egg"] = {
-        ["Common Egg"] = false,
-        ["Uncommon Egg"] = false,
-        ["Rare Egg"] = false,
-        ["Mythical Egg"] = true,
-        ["Legendary Egg"] = false,
-        ["Paradise Egg"] = true,
-        ["Bug Egg"] = true
+        ["Mythical Egg"] = {
+            ["Buy"] = true,
+            ["Place"] = true,
+            ["Priority"] = 5
+        },
+        ["Anti Bee Egg"] = {
+            ["Place"] = true,
+            ["Priority"] = 1
+        },
+        ["Night Egg"] = {
+            ["Place"] = true,
+            ["Priority"] = 4
+        },
+        ["Bug Egg"] = {
+            ["Buy"] = true,
+            ["Place"] = true,
+            ["Priority"] = 3
+        },
+        ["Paradise Egg"] = {
+            ["Buy"] = true,
+            ["Place"] = true,
+            ["Priority"] = 2
+        }
     },
     ["Honey Item"] = {
         ["Nectarine"] = false,
@@ -43,23 +61,24 @@ getgenv().Config = {
         ["Lavender"] = false,
         ["Hive Fruit"] = false
     },
-
     ["Sprinkler"] = {
+        ["Place Sprinkler"] = true,
+        ["Buy Sprinkler"] = true,
         ["Basic Sprinkler"] = true,
         ["Advanced Sprinkler"] = true,
         ["Master Sprinkler"] = true,
         ["Godly Sprinkler"] = true
     },
     ["Plant Candy"] = false,
-    ["PetNeedSend"] = {"Dragonfly", "Raccoon", "Queen Bee", "Disco Bee", "Red Fox", "Butterfly", "Night Owl", "Mimic Octopus"},
+    ["PetNeedSend"] = {"Queen Bee", "Red Fox", "Dragonfly", "Disco Bee", "Butterfly", "Mimic Octopus"},
     ["Destroy Mode"] = {
         ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
         ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Tomato", "Orange Tulip", "Carrot", "Apple", "Coconut", "Cactus", "Dragon Fruit", "Mango", "Grape"}
     },
     ["Url"] = "https://discord.com/api/webhooks/1311066762426450024/HjEF8KTulv902w-WYqoOtEM9O6Lj5NjK3o1XuSaV-r_H_8PB1E3KxtFyVYnnky3U36G-", -- Webhook 
 
-    ["Boost FPS"] = false,
-    ["Black Screen"] = false,
+    ["Boost FPS"] = true,
+    ["Black Screen"] = true,
     ["Note"] = "Cyndral Hub",
     ["Pet Mode"] = {
         ["Sell Pet"] = true,
@@ -79,9 +98,19 @@ getgenv().Config = {
             ["Divine"] = false,
             ["Mythical"] = false
         },
-        ["Pet Dont Delete"] = {"Queen Bee", "Disco Bee", "Butterfly"}
+        ["Upgrade Slot Egg"] = {
+            ["Enable"] = true,
+            ["Black List Pet For Upgrade Slots"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee",
+                                                    "Butterfly", "Mimic Octopus"}
+        },
+        ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus", "Night Owl"}
     },
-    ["Rejoin After X Time"] = 6000, -- Minutes
+    ["Rejoin Mode"] = {
+        ["Auto rejoin on script update"] = true,
+        ["Enable Rejoin After X Time"] = false,
+        ["Rejoin After X Time"] = 6000 -- Minutes
+    },
+
     ["Mutation Skips"] = { -- Skip Havest
         ["Pollinated"] = false,
         ["Disco"] = false,
