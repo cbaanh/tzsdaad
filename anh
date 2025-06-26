@@ -90,14 +90,6 @@ getgenv().Config = {
             ["Dragonfly"] = true,
             ["Queen Bee"] = true
         },
-        ["Rarity"] = { -- Rarity Sell Pet
-            ["Common"] = true,
-            ["Uncommon"] = true,
-            ["Rare"] = true,
-            ["Legendary"] = false,
-            ["Divine"] = false,
-            ["Mythical"] = false
-        },
         ["Upgrade Slot Egg"] = {
             ["Enable"] = true,
             ["Black List Pet For Upgrade Slots"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee",
