@@ -50,16 +50,13 @@ getgenv().Config = {
             ["Priority"] = 2
         }
     },
-    ["Honey Item"] = {
-        ["Nectarine"] = false,
-        ["Flower Seed Pack"] = true,
-        ["Honey Sprinkler"] = false,
-        ["Bee Egg"] = true,
-        ["Pollen Radar"] = false,
-        ["Nectar Staff"] = false,
-        ["Nectarshade"] = false,
-        ["Lavender"] = false,
-        ["Hive Fruit"] = false
+    ["SummerEvent"] = {
+        ["Traveler's Fruit"] = false,
+        ["Summer Seed Pack"] = false,
+        ["Hamster"] = true,
+        ["Oasis Egg"] = true,
+        ["Delphinium"] = false,
+        ["Lily of the Valley"] = false,
     },
     ["Sprinkler"] = {
         ["Place Sprinkler"] = true,
