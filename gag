@@ -1,7 +1,7 @@
 getgenv().UserConfig = {
     ["Buy Seed"] = {"Sugar Apple", "Pitcher Plant", "Feijoa", "Loquat", "Prickly Pear", "Bell Pepper", "Kiwi", "Pineapple", "Banana", "Avocado", "Green Apple", "Rafflesia", "Watermelon", "Cauliflower", "Tomato", "Blueberry", "Strawberry", "Carrot"},
     ["Plant Seed"] = {},
-    ["Limit Plants"] = 750,
+    ["Limit Plants"] = 250,
     ["Buy Gear"] = {"Basic Sprinkler", "Advanced Sprinkler", "Godly Sprinkler"},
     ["Buy Egg"] = {"Common Summer Egg", "Rare Summer Egg", "Mythical Egg", "Paradise Egg", "Bug Egg"},
     ["Place Egg"] = {},
