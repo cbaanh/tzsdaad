@@ -113,7 +113,7 @@ getgenv().Config = {
                                "Hamster"}
     },
     ["Webhook Mode"] = {
-        ["Enable Send Pet Weight"] = false,
+        ["Enable Send Pet Weight"] = true,
         ["Weight"] = 10 -- if Weight >= 10 they will send wh
     },
     ["Rejoin Mode"] = {
