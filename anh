@@ -80,7 +80,7 @@ getgenv().Config = {
         ["Godly Sprinkler"] = true
     },
     ["Plant Candy"] = false,
-    ["PetNeedSend"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus",
+    ["PetNeedSend"] = {"Queen Bee", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus",
                        "Fennec Fox"},
     ["Destroy Mode"] = {
         ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
