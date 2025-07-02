@@ -4,7 +4,7 @@ getgenv().UserConfig = {
     ["Limit Plants"] = 250,
     ["Buy Gear"] = {"Basic Sprinkler", "Advanced Sprinkler", "Godly Sprinkler"},
     ["Buy Egg"] = {"Common Summer Egg", "Rare Summer Egg", "Mythical Egg", "Paradise Egg", "Bug Egg"},
-    ["Place Egg"] = {"Paradise Egg", "Bug Egg", "Oasis Egg", "Mythical Egg"},
+    ["Place Egg"] = {},
     ["Pet Dont Delete"] = {"Hyacinth Macaw", "Fennec Fox", "Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus", "Kiwi", "Blood Kiwi", "Rooster", "Chicken"},
     ["Rarity Dont Delete"] = {
         ["Common"] = "10kg",
@@ -28,6 +28,5 @@ getgenv().UserConfig = {
     },
     ["Webhook Url"] = "https://discord.com/api/webhooks/1311066762426450024/HjEF8KTulv902w-WYqoOtEM9O6Lj5NjK3o1XuSaV-r_H_8PB1E3KxtFyVYnnky3U36G-",
     ["Discord ID"] = "1259809462827356194",
-    ["Note Webhook"] = "Danny",
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/8484a69ad23bcd37498dffd02e43e830.lua"))()
