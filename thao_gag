@@ -95,6 +95,7 @@ getgenv().Config = {
         ["Sell Pet"] = true,
         ["Equip Pet"] = true,
         ["Name Pet Equip"] = {
+            ["Night Owl"] = true,
             ["Kiwi"] = true,
             ["Blood Kiwi"] = true,
             ["Rooster"] = true,
@@ -107,7 +108,7 @@ getgenv().Config = {
                                                     "Butterfly", "Mimic Octopus", "Fennec Fox",
                                                     "Hamster"}
         },
-        ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
+        ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Night Owl",
 							   "Kiwi", "Blood Kiwi", "Rooster", "Chicken",
                                "Mimic Octopus", "Meerkat", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
                                "Hamster"}
