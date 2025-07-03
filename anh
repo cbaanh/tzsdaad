@@ -33,11 +33,11 @@ getgenv().Config = {
         ["Mythical Egg"] = {
             ["Buy"] = true,
             ["Place"] = true,
-            ["Priority"] = 6
+            ["Priority"] = 5
         },
         ["Oasis Egg"] = {
             ["Place"] = true,
-            ["Priority"] = 4
+            ["Priority"] = 6
         },
         ["Anti Bee Egg"] = {
             ["Place"] = true,
@@ -45,7 +45,7 @@ getgenv().Config = {
         },
         ["Night Egg"] = {
             ["Place"] = true,
-            ["Priority"] = 5
+            ["Priority"] = 4
         },
         ["Bug Egg"] = {
             ["Buy"] = true,
@@ -81,10 +81,12 @@ getgenv().Config = {
     },
     ["Plant Candy"] = false,
     ["PetNeedSend"] = {"Queen Bee", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus",
-                       "Fennec Fox"},
-    ["Destroy Mode"] = {
+                       "Fennec Fox"},   
+	["Destroy Mode"] = {
         ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
-        ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Tomato", "Orange Tulip", "Carrot", "Apple", "Coconut", "Cactus", "Dragon Fruit", "Mango", "Grape"}
+        ["Mode Destroy"] = "Auto", --"Custom"
+        ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Tomato", "Orange Tulip", "Carrot", "Apple", "Coconut", "Cactus", "Dragon Fruit", "Mango", "Grape"},
+        ["Rarity Destroy Auto"] = {"Common","Uncommon","Rare"}
     },
     ["Url"] = "https://discord.com/api/webhooks/1311066762426450024/HjEF8KTulv902w-WYqoOtEM9O6Lj5NjK3o1XuSaV-r_H_8PB1E3KxtFyVYnnky3U36G-", -- Webhook 
 
@@ -142,7 +144,7 @@ getgenv().Config = {
         ["HoneyGlazed"] = false,
         ["Shocked"] = false
     }
-}
+} 
 setfpscap(getgenv().Config["FPS"])
 repeat
     wait()
