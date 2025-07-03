@@ -9,8 +9,8 @@ getgenv().Config = {
     ["Mode Plant"] = "Custom", -- "Custom"
     ["Seed"] = { -- Seed Plant Custom
         ["Pitcher Plant"] = 20,
-		["Rafflesia"] = 20,
-		["Cauliflower"] = 20,
+        ["Rafflesia"] = 20,
+        ["Cauliflower"] = 20,
         ["Strawberry"] = 20,
         ["Blueberry"] = 20,
         ["Tomato"] = 20,
@@ -30,14 +30,39 @@ getgenv().Config = {
     ["Keep Seed"] = {"Dragon Pepper", "Elephant Ears", "Sunflower", "Candy Blossom"},
     ["FPS"] = 3,
     ["Egg"] = {
+        ["Common Egg"] = {
+            ["Buy"] = true,
+            ["Place"] = true,
+            ["Priority"] = 11
+        },
+        ["Uncommon Egg"] = {
+            ["Buy"] = true,
+            ["Place"] = true,
+            ["Priority"] = 10
+        },
+        ["Rare Egg"] = {
+            ["Buy"] = true,
+            ["Place"] = true,
+            ["Priority"] = 9
+        },
+        ["Rare Summer Egg"] = {
+            ["Buy"] = true,
+            ["Place"] = true,
+            ["Priority"] = 7
+        },
+        ["Common Summer Egg"] = {
+            ["Buy"] = true,
+            ["Place"] = true,
+            ["Priority"] = 8
+        },
         ["Mythical Egg"] = {
             ["Buy"] = true,
             ["Place"] = true,
-            ["Priority"] = 6
+            ["Priority"] = 5
         },
         ["Oasis Egg"] = {
             ["Place"] = true,
-            ["Priority"] = 4
+            ["Priority"] = 6
         },
         ["Anti Bee Egg"] = {
             ["Place"] = true,
@@ -45,7 +70,7 @@ getgenv().Config = {
         },
         ["Night Egg"] = {
             ["Place"] = true,
-            ["Priority"] = 5
+            ["Priority"] = 4
         },
         ["Bug Egg"] = {
             ["Buy"] = true,
@@ -81,10 +106,12 @@ getgenv().Config = {
     },
     ["Plant Candy"] = false,
     ["PetNeedSend"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus",
-                       "Fennec Fox"},
+                       "Fennec Fox"},   
     ["Destroy Mode"] = {
         ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
-        ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Tomato", "Orange Tulip", "Carrot", "Apple", "Coconut", "Cactus", "Dragon Fruit", "Mango", "Grape"}
+        ["Mode Destroy"] = "Auto", --"Custom"
+        ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Tomato", "Orange Tulip", "Carrot", "Apple", "Coconut", "Cactus", "Dragon Fruit", "Mango", "Grape"},
+        ["Rarity Destroy Auto"] = {"Common","Uncommon","Rare"}
     },
     ["Url"] = "https://discord.com/api/webhooks/1337041742695759933/2M1oCN31KNEs3yPQMcrmU7zu_wl2U4Z9ydwfgCH7Ylsekxvh8Hsh6txVPXMCjrgVd2nB", -- Webhook 
 
@@ -108,9 +135,9 @@ getgenv().Config = {
                                                     "Butterfly", "Mimic Octopus", "Fennec Fox",
                                                     "Hamster"}
         },
-        ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Night Owl",
-							   "Kiwi", "Blood Kiwi", "Rooster", "Chicken",
-                               "Mimic Octopus", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
+        ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus", "Night Owl",
+				"Kiwi", "Blood Kiwi", "Rooster", "Chicken",
+                               "Fennec Fox", "Axolotl", "Hyacinth Macaw",
                                "Hamster"}
     },
     ["Webhook Mode"] = {
@@ -142,7 +169,7 @@ getgenv().Config = {
         ["HoneyGlazed"] = false,
         ["Shocked"] = false
     }
-}
+} 
 setfpscap(getgenv().Config["FPS"])
 repeat
     wait()
