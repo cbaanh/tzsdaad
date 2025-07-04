@@ -131,8 +131,8 @@ getgenv().Config = {
                                                     "Hamster", "Golden Lab"}
         },
         ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
-                               "Mimic Octopus", "Fennec Fox",
-							   "Kiwi", "Blood Kiwi", "Rooster", "Chicken",
+                               "Mimic Octopus", "Fennec Fox", "Night Owl",
+				"Kiwi", "Blood Kiwi", "Rooster", "Chicken",
                                "Hamster", "Golden Lab"},
         ["Dont Sell Pet If Weight > x"] = 10 -- Script dont sell pet if this weight >= 10
     },
