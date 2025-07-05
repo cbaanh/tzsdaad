@@ -7,16 +7,14 @@ getgenv().Config = {
     ["Dont Open Pack"] = false,
     ["Dont Use Flower Seed Pack"] = true, -- If u Enable Crafters Seed Pack pls enable this
     ["Mode Plant"] = "Auto", -- "Custom"
+
     ["Seed"] = { -- Seed Plant Custom
-        ["Carrot"] = 44,
-        ["Tomato"] = 44,
-        ["Pitcher Plant"] = 44,
-        ["Rafflesia"] = 44,
-        ["Cauliflower"] = 44,
         ["Strawberry"] = 44,
         ["Blueberry"] = 44,
+        ["Tomato"] = 44,
         ["Loquat"] = 44,
         ["Pineapple"] = 44,
+        ["Carrot"] = 44,
         ["Bell Pepper"] = 44,
         ["Green Apple"] = 44,
         ["Feijoa"] = 44,
@@ -79,12 +77,12 @@ getgenv().Config = {
         }
     },
     ["SummerEvent"] = {
-        ["Traveler's Fruit"] = true,
+        ["Traveler's Fruit"] = false,
         ["Summer Seed Pack"] = false,
         ["Hamster"] = true,
         ["Oasis Egg"] = true,
-        ["Delphinium"] = true,
-        ["Lily of the Valley"] = true
+        ["Delphinium"] = false,
+        ["Lily of the Valley"] = false
     },
     ["Sprinkler"] = {
         ["Place Sprinkler"] = true,
@@ -99,13 +97,22 @@ getgenv().Config = {
                        "Fennec Fox"},
     ["Destroy Mode"] = {
         ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
-        ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Tomato", "Orange Tulip", "Carrot", "Apple", "Coconut", "Cactus", "Dragon Fruit", "Mango", "Grape"}
+        ["Mode Destroy"] = "Auto", -- "Custom"
+        ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Tomato", "Orange Tulip", "Carrot", "Apple", "Coconut", "Cactus", "Dragon Fruit", "Mango", "Grape"},
+        ["Rarity Destroy Auto"] = {"Common", "Uncommon", "Rare", "Legendary"},
+        ["Destroy Untill"] = 450
     },
     ["Url"] = "https://discord.com/api/webhooks/1336292908344807434/KkiKk-uuRNj-oRfNacKJ31gw8uGwZRiGwvUOQGskjs6Wp_5-LEZAUlYFyeXwnOzBd4Gb", -- Webhook 
+    ["4th July Event"] = {
+        ["Firework Flower"] = false,
+        ["Firework"] = false,
+        ["Bald Eagle"] = true,
+        ["Liberty Lily"] = false
 
+    },
     ["Boost FPS"] = true,
     ["Black Screen"] = true,
-    ["Note"] = "Cyndral Hub",
+    ["Note"] = "az",
     ["Pet Mode"] = {
         ["Sell Pet"] = true,
         ["Equip Pet"] = true,
@@ -116,17 +123,18 @@ getgenv().Config = {
             ["Rooster"] = true,
             ["Chicken"] = true
         },
-        ["Max Slot Pet To Sell"] = 1, -- If Total Pet In Inventory >= ["Max Slot Pet To Sell"] script will sell pet
+        ["Max Slot Pet To Sell"] = 40, -- If Total Pet In Inventory >= ["Max Slot Pet To Sell"] script will sell pet
         ["Upgrade Slot Egg"] = {
             ["Enable"] = true,
             ["Black List Pet For Upgrade Slots"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee",
                                                     "Butterfly", "Mimic Octopus", "Fennec Fox",
                                                     "Hamster"}
         },
-        ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Night Owl",
-							   "Kiwi", "Blood Kiwi", "Rooster", "Chicken",
-                               "Mimic Octopus", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
-                               "Hamster"}
+        ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
+                               "Mimic Octopus", "Fennec Fox", "Night Owl",
+				"Kiwi", "Blood Kiwi", "Rooster", "Chicken",
+                               "Hamster", "Golden Lab"},
+        ["Dont Sell Pet If Weight > x"] = 10 -- Script dont sell pet if this weight >= 10
     },
     ["Webhook Mode"] = {
         ["Enable Send Pet Weight"] = true,
@@ -136,7 +144,7 @@ getgenv().Config = {
         ["Auto Rejoin When Error Module Egg"] = true,
         ["Auto rejoin on script update"] = false,
         ["Enable Rejoin After X Time"] = false,
-        ["Rejoin After X Time"] = 6000 -- Minutes
+        ["Rejoin After X Time"] = 60 -- Minutes
     },
     ["Limit Tree"] = 400,
     ["Mutation Skips"] = { -- Skip Havest
