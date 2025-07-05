@@ -76,14 +76,6 @@ getgenv().Config = {
             ["Priority"] = 3
         }
     },
-    ["SummerEvent"] = {
-        ["Traveler's Fruit"] = false,
-        ["Summer Seed Pack"] = false,
-        ["Hamster"] = true,
-        ["Oasis Egg"] = true,
-        ["Delphinium"] = false,
-        ["Lily of the Valley"] = false
-    },
     ["Sprinkler"] = {
         ["Place Sprinkler"] = true,
         ["Buy Sprinkler"] = true,
