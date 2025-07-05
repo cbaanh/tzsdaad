@@ -93,7 +93,7 @@ getgenv().Config = {
         ["Godly Sprinkler"] = true
     },
     ["Plant Candy"] = false,
-    ["PetNeedSend"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus",
+    ["PetNeedSend"] = {"Queen Bee", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus",
                        "Fennec Fox"},
     ["Destroy Mode"] = {
         ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
@@ -112,7 +112,7 @@ getgenv().Config = {
     },
     ["Boost FPS"] = true,
     ["Black Screen"] = true,
-    ["Note"] = "Test",
+    ["Note"] = "az",
     ["Pet Mode"] = {
         ["Sell Pet"] = true,
         ["Equip Pet"] = true,
@@ -133,16 +133,16 @@ getgenv().Config = {
         ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
                                "Mimic Octopus", "Fennec Fox", "Night Owl",
 				"Kiwi", "Blood Kiwi", "Rooster", "Chicken",
-                               "Hamster"},
+                               "Hamster", "Golden Lab"},
         ["Dont Sell Pet If Weight > x"] = 10 -- Script dont sell pet if this weight >= 10
     },
     ["Webhook Mode"] = {
-        ["Enable Send Pet Weight"] = false,
+        ["Enable Send Pet Weight"] = true,
         ["Weight"] = 10 -- if Weight >= 10 they will send wh
     },
     ["Rejoin Mode"] = {
         ["Auto Rejoin When Error Module Egg"] = true,
-        ["Auto rejoin on script update"] = true,
+        ["Auto rejoin on script update"] = false,
         ["Enable Rejoin After X Time"] = false,
         ["Rejoin After X Time"] = 60 -- Minutes
     },
