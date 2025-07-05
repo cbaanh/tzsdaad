@@ -6,30 +6,43 @@ getgenv().Config = {
     },
     ["Dont Open Pack"] = false,
     ["Dont Use Flower Seed Pack"] = true, -- If u Enable Crafters Seed Pack pls enable this
-    ["Mode Plant"] = "Custom", -- "Custom"
+    ["Mode Plant"] = "Auto", -- "Custom"
+
     ["Seed"] = { -- Seed Plant Custom
-        ["Pitcher Plant"] = 20,
-        ["Rafflesia"] = 20,
-        ["Cauliflower"] = 20,
-        ["Strawberry"] = 20,
-        ["Blueberry"] = 20,
-        ["Tomato"] = 20,
-        ["Loquat"] = 20,
-        ["Pineapple"] = 20,
-        ["Carrot"] = 20,
-        ["Bell Pepper"] = 20,
-        ["Green Apple"] = 20,
-        ["Feijoa"] = 20,
-        ["Avocado"] = 20,
-        ["Sugar Apple"] = 20,
-        ["Banana"] = 20,
-        ["Prickly Pear"] = 20,
-        ["Watermelon"] = 20,
-        ["Kiwi"] = 20
+        ["Strawberry"] = 44,
+        ["Blueberry"] = 44,
+        ["Tomato"] = 44,
+        ["Loquat"] = 44,
+        ["Pineapple"] = 44,
+        ["Carrot"] = 44,
+        ["Bell Pepper"] = 44,
+        ["Green Apple"] = 44,
+        ["Feijoa"] = 44,
+        ["Avocado"] = 44,
+        ["Sugar Apple"] = 44,
+        ["Banana"] = 44,
+        ["Prickly Pear"] = 44,
+        ["Watermelon"] = 44,
+        ["Kiwi"] = 44
     },
     ["Keep Seed"] = {"Dragon Pepper", "Elephant Ears", "Sunflower", "Candy Blossom"},
     ["FPS"] = 3,
     ["Egg"] = {
+        ["Uncommon Egg"] = {
+            ["Buy"] = true,
+            ["Place"] = true,
+            ["Priority"] = 10
+        },
+        ["Rare Egg"] = {
+            ["Buy"] = true,
+            ["Place"] = true,
+            ["Priority"] = 9
+        },
+        ["Rare Summer Egg"] = {
+            ["Buy"] = true,
+            ["Place"] = true,
+            ["Priority"] = 7
+        },
         ["Mythical Egg"] = {
             ["Buy"] = true,
             ["Place"] = true,
@@ -64,12 +77,12 @@ getgenv().Config = {
         }
     },
     ["SummerEvent"] = {
-        ["Traveler's Fruit"] = true,
+        ["Traveler's Fruit"] = false,
         ["Summer Seed Pack"] = false,
         ["Hamster"] = true,
         ["Oasis Egg"] = true,
-        ["Delphinium"] = true,
-        ["Lily of the Valley"] = true
+        ["Delphinium"] = false,
+        ["Lily of the Valley"] = false
     },
     ["Sprinkler"] = {
         ["Place Sprinkler"] = true,
@@ -81,18 +94,25 @@ getgenv().Config = {
     },
     ["Plant Candy"] = false,
     ["PetNeedSend"] = {"Queen Bee", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus",
-                       "Fennec Fox"},   
+                       "Fennec Fox"},
     ["Destroy Mode"] = {
         ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
-        ["Mode Destroy"] = "Auto", --"Custom"
+        ["Mode Destroy"] = "Auto", -- "Custom"
         ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Tomato", "Orange Tulip", "Carrot", "Apple", "Coconut", "Cactus", "Dragon Fruit", "Mango", "Grape"},
-        ["Rarity Destroy Auto"] = {"Common","Uncommon","Rare"}
+        ["Rarity Destroy Auto"] = {"Common", "Uncommon", "Rare", "Legendary"},
+        ["Destroy Untill"] = 450
     },
     ["Url"] = "https://discord.com/api/webhooks/1311066762426450024/HjEF8KTulv902w-WYqoOtEM9O6Lj5NjK3o1XuSaV-r_H_8PB1E3KxtFyVYnnky3U36G-", -- Webhook 
+    ["4th July Event"] = {
+        ["Firework Flower"] = false,
+        ["Firework"] = false,
+        ["Bald Eagle"] = true,
+        ["Liberty Lily"] = false
 
+    },
     ["Boost FPS"] = true,
     ["Black Screen"] = true,
-    ["Note"] = "Cyndral Hub",
+    ["Note"] = "az",
     ["Pet Mode"] = {
         ["Sell Pet"] = true,
         ["Equip Pet"] = true,
@@ -110,10 +130,11 @@ getgenv().Config = {
                                                     "Butterfly", "Mimic Octopus", "Fennec Fox",
                                                     "Hamster"}
         },
-        ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus", "Night Owl",
+        ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
+                               "Mimic Octopus", "Fennec Fox", "Night Owl",
 				"Kiwi", "Blood Kiwi", "Rooster", "Chicken",
-                               "Fennec Fox", "Axolotl", "Hyacinth Macaw",
-                               "Hamster"}
+                               "Hamster", "Golden Lab"},
+        ["Dont Sell Pet If Weight > x"] = 10 -- Script dont sell pet if this weight >= 10
     },
     ["Webhook Mode"] = {
         ["Enable Send Pet Weight"] = true,
@@ -123,7 +144,7 @@ getgenv().Config = {
         ["Auto Rejoin When Error Module Egg"] = true,
         ["Auto rejoin on script update"] = false,
         ["Enable Rejoin After X Time"] = false,
-        ["Rejoin After X Time"] = 6000 -- Minutes
+        ["Rejoin After X Time"] = 60 -- Minutes
     },
     ["Limit Tree"] = 400,
     ["Mutation Skips"] = { -- Skip Havest
@@ -144,7 +165,7 @@ getgenv().Config = {
         ["HoneyGlazed"] = false,
         ["Shocked"] = false
     }
-} 
+}
 setfpscap(getgenv().Config["FPS"])
 repeat
     wait()
