@@ -106,7 +106,7 @@ getgenv().Config = {
         ["Auto Restart Quest"] = true,
         ["Auto Trade Eggs"] = true,
         ["Pet Dont Trade"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
-                               "Mimic Octopus", "Fennec Fox", "Kiwi", "Blood Kiwi", "Rooster", "Chicken",
+                               "Mimic Octopus", "Fennec Fox", "Kiwi", "Blood Kiwi", "Rooster", "Chicken", "T-Rex"
                                "Hamster", "Golden Lab"}
     },
     ["Note"] = "az",
@@ -125,12 +125,12 @@ getgenv().Config = {
             ["Enable"] = true,
             ["Black List Pet For Upgrade Slots"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee",
                                                     "Butterfly", "Mimic Octopus", "Fennec Fox",
-                                                    "Hamster"}
+                                                    "Hamster", "T-Rex"}
         },
         ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
                                "Mimic Octopus", "Fennec Fox", "Night Owl",
 				"Kiwi", "Blood Kiwi", "Rooster", "Chicken",
-                               "Hamster", "Golden Lab"},
+                               "Hamster", "Golden Lab", "T-Rex"},
         ["Dont Sell Pet If Weight > x"] = 10 -- Script dont sell pet if this weight >= 10
     },
     ["Webhook Mode"] = {
