@@ -96,7 +96,7 @@ getgenv().Config = {
         ["Mode Destroy"] = "Custom", -- "Custom"
         ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Tomato", "Orange Tulip", "Carrot", "Apple", "Coconut", "Cactus", "Dragon Fruit", "Mango", "Grape"},
         ["Rarity Destroy Auto"] = {"Common", "Uncommon", "Rare", "Legendary"},
-        ["Destroy Untill"] = 450
+        ["Destroy Untill"] = 150
     },
     ["Url"] = "https://discord.com/api/webhooks/1311066762426450024/HjEF8KTulv902w-WYqoOtEM9O6Lj5NjK3o1XuSaV-r_H_8PB1E3KxtFyVYnnky3U36G-", -- Webhook 
     ["Boost FPS"] = true,
