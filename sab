@@ -1,0 +1,12 @@
+getgenv().Settings = {
+    ["Auto Buy Pet"] = true,
+    ["Auto Buy Pet Spam"] = true,
+    ["Boost Speed"] = true,
+    ["Sell Pet Low Price when have New Pet"] = true,
+    ["Auto Collect"] = true,
+    ["Auto Kick If Have Player"] = true,
+    ["Rarity Send"] = {"Secret"},
+    ["Webhook Url"] = 'https://discord.com/api/webhooks/1342556846862504045/vEh50mbTp8HZg6Na7bSZIwjiEjuvlG2ToFrKLfoEbrCbK2ez6MwGT811ETvTaT_3qxeR'
+}
+script_key="mXnTDrnIrQzFDgmqmReCpOqFnRlbIHeJ";
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a289b4828831d3446caed93ddfb4c279.lua"))() 
