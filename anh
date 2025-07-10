@@ -107,7 +107,7 @@ getgenv().Config = {
         ["Auto Trade Eggs"] = true,
         ["Pet Dont Trade"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
                                "Mimic Octopus", "Fennec Fox", "Kiwi", "Blood Kiwi", "Rooster", "Chicken", "T-Rex",
-                               "Hamster", "Golden Lab"}
+                               "Hamster", "Golden Lab", "Hyacinth Macaw"}
     },
     ["Note"] = "az",
     ["Pet Mode"] = {
@@ -130,7 +130,7 @@ getgenv().Config = {
         ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
                                "Mimic Octopus", "Fennec Fox", "Night Owl",
 				"Kiwi", "Blood Kiwi", "Rooster", "Chicken",
-                               "Hamster", "Golden Lab", "T-Rex"},
+                               "Hamster", "Golden Lab", "T-Rex", "Hyacinth Macaw"},
         ["Dont Sell Pet If Weight > x"] = 10 -- Script dont sell pet if this weight >= 10
     },
     ["Webhook Mode"] = {
