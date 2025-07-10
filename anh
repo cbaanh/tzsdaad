@@ -26,7 +26,6 @@ getgenv().Config = {
         ["Kiwi"] = 44
     },
     ["Keep Seed"] = {"Dragon Pepper", "Elephant Ears", "Sunflower", "Candy Blossom"},
-    ["FPS"] = 3,
     ["Egg"] = {
         ["Uncommon Egg"] = {
             ["Buy"] = true,
@@ -80,6 +79,7 @@ getgenv().Config = {
             ["Priority"] = 3
         }
     },
+
     ["Sprinkler"] = {
         ["Place Sprinkler"] = true,
         ["Buy Sprinkler"] = true,
@@ -99,6 +99,7 @@ getgenv().Config = {
         ["Destroy Untill"] = 150
     },
     ["Url"] = "https://discord.com/api/webhooks/1311066762426450024/HjEF8KTulv902w-WYqoOtEM9O6Lj5NjK3o1XuSaV-r_H_8PB1E3KxtFyVYnnky3U36G-", -- Webhook 
+
     ["Boost FPS"] = true,
     ["Black Screen"] = true,
     ["Dino Event"] = {
@@ -109,7 +110,7 @@ getgenv().Config = {
                                "Mimic Octopus", "Fennec Fox", "Kiwi", "Blood Kiwi", "Rooster", "Chicken", "T-Rex",
                                "Hamster", "Golden Lab", "Hyacinth Macaw"}
     },
-    ["Note"] = "az",
+    ["Note"] = "Cyndral Hub",
     ["Pet Mode"] = {
         ["Sell Pet"] = true,
         ["Equip Pet"] = true,
@@ -129,7 +130,7 @@ getgenv().Config = {
         },
         ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
                                "Mimic Octopus", "Fennec Fox", "Night Owl",
-				"Kiwi", "Blood Kiwi", "Rooster", "Chicken",
+								"Kiwi", "Blood Kiwi", "Rooster", "Chicken",
                                "Hamster", "Golden Lab", "T-Rex", "Hyacinth Macaw"},
         ["Dont Sell Pet If Weight > x"] = 10 -- Script dont sell pet if this weight >= 10
     },
@@ -138,30 +139,12 @@ getgenv().Config = {
         ["Weight"] = 10 -- if Weight >= 10 they will send wh
     },
     ["Rejoin Mode"] = {
-        ["Auto Rejoin When Error Module Egg"] = false,
+        ["Auto Rejoin When Error Module Egg"] = true,
         ["Auto rejoin on script update"] = false,
         ["Enable Rejoin After X Time"] = false,
         ["Rejoin After X Time"] = 60 -- Minutes
     },
-    ["Limit Tree"] = 400,
-    ["Mutation Skips"] = { -- Skip Havest
-        ["Pollinated"] = false,
-        ["Disco"] = false,
-        ["Twisted"] = false,
-        ["Wet"] = false,
-        ["Choc"] = false,
-        ["Bloodlit"] = false,
-        ["Celestial"] = false,
-        ["Moonlit"] = false,
-        ["Chilled"] = false,
-        ["Zombified"] = false,
-        ["Plasma"] = false,
-        ["Burnt"] = false,
-        ["Frozen"] = false,
-        ["Voidtouched"] = false,
-        ["HoneyGlazed"] = false,
-        ["Shocked"] = false
-    }
+    ["Limit Tree"] = 250,
+    ["White Screen"] = true
 }
-setfpscap(getgenv().Config["FPS"])
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/377ad2cacc3191143399a68eead6a3f0.lua"))()
