@@ -1,8 +1,9 @@
 getgenv().Config = {
-    ["Time To Sell"] = 2, -- Seconds
+    ["Time To Sell"] = 35, -- Seconds
     ["Craft Event"] = {
         ["Crafters Seed Pack"] = true,
-        ["Anti Bee Egg"] = true
+        ["Anti Bee Egg"] = true,
+        ["Ancient Seed Pack"] = true
     },
     ["Dont Open Pack"] = false,
     ["Dont Use Flower Seed Pack"] = true, -- If u Enable Crafters Seed Pack pls enable this
@@ -90,7 +91,7 @@ getgenv().Config = {
     },
     ["Plant Candy"] = false,
     ["PetNeedSend"] = {"Queen Bee", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus",
-                       "Fennec Fox", "T-Rex"},
+                       "Fennec Fox", "T-Rex", "Brontosaurus"},
     ["Destroy Mode"] = {
         ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
         ["Mode Destroy"] = "Custom", -- "Custom"
@@ -105,10 +106,11 @@ getgenv().Config = {
     ["Dino Event"] = {
         ["Auto Claim Quest"] = true,
         ["Auto Restart Quest"] = true,
+        ["Auto Submit"] = true,
         ["Auto Trade Eggs"] = true,
         ["Pet Dont Trade"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
                                "Mimic Octopus", "Fennec Fox", "Kiwi", "Blood Kiwi", "Rooster", "Chicken", "T-Rex",
-                               "Hamster", "Golden Lab", "Hyacinth Macaw"}
+                               "Hamster", "Golden Lab", "Hyacinth Macaw", "Brontosaurus"}
     },
     ["Note"] = "Cyndral Hub",
     ["Pet Mode"] = {
@@ -116,27 +118,26 @@ getgenv().Config = {
         ["Equip Pet"] = true,
         ["Name Pet Equip"] = {
             ["Night Owl"] = true,
+            ["Chicken"] = true,
             ["Kiwi"] = true,
             ["Blood Kiwi"] = true,
-            ["Rooster"] = true,
-            ["Chicken"] = true
+            ["Rooster"] = true
         },
-        ["Max Slot Pet To Sell"] = 10, -- If Total Pet In Inventory >= ["Max Slot Pet To Sell"] script will sell pet
+        ["Max Slot Pet To Sell"] = 40, -- If Total Pet In Inventory >= ["Max Slot Pet To Sell"] script will sell pet
         ["Upgrade Slot Egg"] = {
             ["Enable"] = true,
             ["Black List Pet For Upgrade Slots"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee",
-                                                    "Butterfly", "Mimic Octopus", "Fennec Fox",
-                                                    "Hamster", "T-Rex"}
+                                                    "Butterfly", "Mimic Octopus", "Meerkat", "Sand Snake", "Fennec Fox",
+                                                    "Axolotl", "Hyacinth Macaw", "Hamster", "T-Rex", "Brontosaurus"}
         },
         ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
-                               "Mimic Octopus", "Fennec Fox", "Night Owl",
-								"Kiwi", "Blood Kiwi", "Rooster", "Chicken",
-                               "Hamster", "Golden Lab", "T-Rex", "Hyacinth Macaw"},
+                               "Mimic Octopus", "Meerkat", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
+                               "Hamster", "Golden Lab", "T-Rex", "Brontosaurus"},
         ["Dont Sell Pet If Weight > x"] = 10 -- Script dont sell pet if this weight >= 10
     },
     ["Webhook Mode"] = {
         ["Enable Send Pet Weight"] = true,
-        ["Weight"] = 50 -- if Weight >= 10 they will send wh
+        ["Weight"] = 10 -- if Weight >= 10 they will send wh
     },
     ["Rejoin Mode"] = {
         ["Auto Rejoin When Error Module Egg"] = true,
@@ -145,6 +146,6 @@ getgenv().Config = {
         ["Rejoin After X Time"] = 60 -- Minutes
     },
     ["Limit Tree"] = 250,
-    ["White Screen"] = true
+    ["White Screen"] = false
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/377ad2cacc3191143399a68eead6a3f0.lua"))()
