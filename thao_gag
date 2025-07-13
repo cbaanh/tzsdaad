@@ -52,6 +52,10 @@ getgenv().Config = {
             ["Place"] = true,
             ["Priority"] = 5
         },
+        ["Primal Egg"] = {
+            ["Place"] = true,
+            ["Priority"] = 1
+        },
         ["Oasis Egg"] = {
             ["Place"] = true,
             ["Priority"] = 6
@@ -91,7 +95,7 @@ getgenv().Config = {
     },
     ["Plant Candy"] = false,
     ["PetNeedSend"] = {"Red Fox", "Queen Bee", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus",
-                       "Fennec Fox", "T-Rex", "Brontosaurus"},
+                       "Fennec Fox", "T-Rex", "Spinosaurus", "Ankylosaurus", "Brontosaurus"},
     ["Destroy Mode"] = {
         ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
         ["Mode Destroy"] = "Custom", -- "Custom"
@@ -99,7 +103,7 @@ getgenv().Config = {
         ["Rarity Destroy Auto"] = {"Common", "Uncommon", "Rare", "Legendary"},
         ["Destroy Untill"] = 150
     },
-    ["Url"] = "https://discord.com/api/webhooks/1337041742695759933/2M1oCN31KNEs3yPQMcrmU7zu_wl2U4Z9ydwfgCH7Ylsekxvh8Hsh6txVPXMCjrgVd2nB", -- Webhook 
+    ["Url"] = "https://discord.com/api/webhooks/1337041742695759933/2M1oCN31KNEs3yPQMcrmU7zu_wl2U4Z9ydwfgCH7Ylsekxvh8Hsh6txVPXMCjrgVd2nB", -- Webhook  
 
     ["Boost FPS"] = true,
     ["Black Screen"] = true,
@@ -110,7 +114,7 @@ getgenv().Config = {
         ["Auto Trade Eggs"] = true,
         ["Pet Dont Trade"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
                                "Mimic Octopus", "Fennec Fox", "Kiwi", "Blood Kiwi", "Rooster", "Chicken", "T-Rex",
-                               "Hamster", "Golden Lab", "Hyacinth Macaw", "Brontosaurus"}
+                               "Hamster", "Golden Lab", "Hyacinth Macaw", "Spinosaurus", "Ankylosaurus", "Brontosaurus"}
     },
     ["Note"] = "Cyndral Hub",
     ["Pet Mode"] = {
@@ -128,11 +132,11 @@ getgenv().Config = {
             ["Enable"] = true,
             ["Black List Pet For Upgrade Slots"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee",
                                                     "Butterfly", "Mimic Octopus", "Meerkat", "Sand Snake", "Fennec Fox",
-                                                    "Axolotl", "Hyacinth Macaw", "Hamster", "T-Rex", "Brontosaurus"}
+                                                    "Axolotl", "Hyacinth Macaw", "Hamster", "T-Rex", "Spinosaurus", "Ankylosaurus", "Brontosaurus"}
         },
         ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
                                "Mimic Octopus", "Meerkat", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
-                               "Hamster", "Golden Lab", "T-Rex", "Brontosaurus"},
+                               "Hamster", "Golden Lab", "T-Rex", "Spinosaurus", "Ankylosaurus", "Brontosaurus"},
         ["Dont Sell Pet If Weight > x"] = 10 -- Script dont sell pet if this weight >= 10
     },
     ["Webhook Mode"] = {
