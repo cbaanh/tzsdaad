@@ -31,30 +31,17 @@ getgenv().Config = {
         ["Uncommon Egg"] = {
             ["Buy"] = true,
             ["Place"] = true,
-            ["Priority"] = 10
+            ["Priority"] = 8
         },
         ["Rare Egg"] = {
             ["Buy"] = true,
             ["Place"] = true,
-            ["Priority"] = 9
-        },
-        ["Rare Summer Egg"] = {
-            ["Buy"] = true,
-            ["Place"] = true,
-            ["Priority"] = 8
+            ["Priority"] = 7
         },
         ["Mythical Egg"] = {
             ["Buy"] = true,
             ["Place"] = true,
-            ["Priority"] = 7
-        },
-        ["Dinosaur Egg"] = {
-            ["Place"] = true,
             ["Priority"] = 5
-        },
-        ["Primal Egg"] = {
-            ["Place"] = true,
-            ["Priority"] = 1
         },
         ["Oasis Egg"] = {
             ["Place"] = true,
@@ -82,6 +69,14 @@ getgenv().Config = {
             ["Buy"] = true,
             ["Place"] = false,
             ["Priority"] = 3
+        },
+        ["Dinosaur Egg"] = {
+            ["Place"] = true,
+            ["Priority"] = 1
+        },
+        ["Primal Egg"] = {
+            ["Place"] = true,
+            ["Priority"] = 1
         }
     },
 
