@@ -1,3 +1,4 @@
+setfpscap(2)
 getgenv().Config = {
     ["Time To Sell"] = 2, -- Seconds
     ["Craft Event"] = {
@@ -28,6 +29,11 @@ getgenv().Config = {
     },
     ["Keep Seed"] = {"Dragon Pepper", "Elephant Ears", "Sunflower", "Candy Blossom"},
     ["Egg"] = {
+        ["Common Summer Egg"] = {
+            ["Buy"] = true,
+            ["Place"] = true,
+            ["Priority"] = 7
+        },
         ["Rare Egg"] = {
             ["Buy"] = true,
             ["Place"] = true,
@@ -110,6 +116,7 @@ getgenv().Config = {
         ["Sell Pet"] = true,
         ["Equip Pet"] = true,
         ["Name Pet Equip"] = {
+            ["Starfish"] = true,
             ["Night Owl"] = true,
             ["Chicken"] = true,
             ["Rooster"] = true,
@@ -121,8 +128,9 @@ getgenv().Config = {
             ["Black List Pet For Upgrade Slots"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
                                "Mimic Octopus", "Fennec Fox", "T-Rex", "Spinosaurus"}
         },
-        ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
-                               "Mimic Octopus", "Fennec Fox", "T-Rex", "Spinosaurus"},
+        ["Pet Dont Delete"] = {"Dragonfly", "Raccoon", "Red Fox", "Queen Bee", "Disco Bee", "Butterfly",
+                               "Mimic Octopus", "Fennec Fox", "Night Owl", "T-Rex", "Brontosaurus",
+                               "Spinosaurus", "Ankylosaurus", "Dilophosaurus"},
         ["Dont Sell Pet If Weight > x"] = 10 -- Script dont sell pet if this weight >= 10
     },
     ["Webhook Mode"] = {
