@@ -1,3 +1,4 @@
+setfpscap(2)
 getgenv().Config = {
     ["Time To Sell"] = 5, -- Seconds
     ["Craft Event"] = {
@@ -133,6 +134,6 @@ getgenv().Config = {
         ["Rejoin After X Time"] = 60 -- Minutes
     },
     ["Limit Tree"] = 250,
-    ["White Screen"] = true
+    ["White Screen"] = false
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/377ad2cacc3191143399a68eead6a3f0.lua"))()
