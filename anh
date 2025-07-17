@@ -31,11 +31,11 @@ getgenv().Config = {
         ["Mythical Egg"] = {
             ["Buy"] = true,
             ["Place"] = true,
-            ["Priority"] = 5
+            ["Priority"] = 8
         },
         ["Oasis Egg"] = {
             ["Place"] = true,
-            ["Priority"] = 6
+            ["Priority"] = 7
         },
         ["Anti Bee Egg"] = {
             ["Place"] = true,
@@ -48,12 +48,12 @@ getgenv().Config = {
         ["Bug Egg"] = {
             ["Buy"] = true,
             ["Place"] = true,
-            ["Priority"] = 2
+            ["Priority"] = 6
         },
         ["Paradise Egg"] = {
             ["Buy"] = true,
             ["Place"] = true,
-            ["Priority"] = 3
+            ["Priority"] = 5
         },
         ["Bee Egg"] = {
             ["Buy"] = true,
@@ -62,11 +62,11 @@ getgenv().Config = {
         },
         ["Dinosaur Egg"] = {
             ["Place"] = true,
-            ["Priority"] = 1
+            ["Priority"] = 3
         },
         ["Primal Egg"] = {
             ["Place"] = true,
-            ["Priority"] = 1
+            ["Priority"] = 2
         }
     },
 
