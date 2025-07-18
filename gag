@@ -5,7 +5,7 @@ getgenv().ConfigsKaitun = {
 
 	["Limit Tree"] = {
 		["Limit"] = 250,
-		["Destroy Untill"] = 200,
+		["Destroy Untill"] = 150,
 
 		["Safe Tree"] = {
 			"Moon Blossom"
@@ -59,14 +59,13 @@ getgenv().ConfigsKaitun = {
 		Craft = {
 			"Primal Egg",
 			"Ancient Seed Pack",
-
+			"Bee Egg",
 			"Lightning Rod",
 			"Anti Bee Egg",
 		},
 		Shop = {
 			--"Traveler's Fruit",
 			"Summer Seed Pack",
-			"Hamster",
 			"Oasis Egg",
 			--"Delphinium",
 			"Lily of the Valley",
@@ -79,24 +78,26 @@ getgenv().ConfigsKaitun = {
 			"Basic Sprinkler",
 			"Godly Sprinkler",
 			"Advanced Sprinkler",
+			"Tanning Mirror",
 			"Lightning Rod",
-			"Tanning Mirror"
 		},
 		Lock = {
+			"Basic Sprinkler",
 			"Godly Sprinkler",
+			"Advanced Sprinkler",
 		},
 	},
 
 	Eggs = {
 		Place = {
-            "Primal Egg",
+            		"Primal Egg",
 			"Dinosaur Egg",
 			"Oasis Egg",
 			"Anti Bee Egg",
 			"Paradise Egg",
 			"Night Egg",
 			"Bug Egg",
-			"Mythical Egg",
+			"Common Summer Egg",
 		},
 		Buy = {
 			"Anti Bee Egg",
@@ -104,7 +105,7 @@ getgenv().ConfigsKaitun = {
 			"Bee Egg",
 			"Night Egg",
 			"Bug Egg",
-			"Mythical Egg"
+			"Common Summer Egg",
 		}
 	},
 
@@ -117,7 +118,6 @@ getgenv().ConfigsKaitun = {
 			["Equip When Done"] = {
 				"Blood Kiwi",
 				"Rooster",
-				"Seal",
 			},
 		},
 		Locked = {
@@ -134,14 +134,13 @@ getgenv().ConfigsKaitun = {
 			"Red Fox",
 			"Blood Owl",
 			"Blood Kiwi",
-			"Brontosaurus",
-            "Ankylosaurus",
-            "Dilophosaurus",
+		        "Ankylosaurus",
+		        "Dilophosaurus",
+			["Blood Kiwi"] = 5,
 			["Rooster"] = 5,
 		},
 		LockPet_Weight = 10, -- if Weight >= 10 they will locked,
 		Instant_Sell = {
-			"Dog",
 		}
 	},
 
