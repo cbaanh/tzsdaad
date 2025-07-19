@@ -8,7 +8,12 @@ getgenv().ConfigsKaitun = {
 		["Destroy Untill"] = 150,
 
 		["Safe Tree"] = {
-			"Moon Blossom"
+			"Moon Blossom",
+			"Bone Blossom",
+			"Moon Melon",
+			"Horned Dinoshroom",
+			"Firefly Fern",
+			"Fossilight"
 		}
 	},
 
@@ -64,11 +69,13 @@ getgenv().ConfigsKaitun = {
 			"Anti Bee Egg",
 		},
 		Shop = {
-			--"Traveler's Fruit",
-			"Summer Seed Pack",
-			"Oasis Egg",
-			--"Delphinium",
-			"Lily of the Valley",
+			"Zen Seed Pack",
+			"Zen Egg",
+			"Zenflare",
+			"Soft Sunshine",
+			--"Koi",
+			"Spiked Mango",
+			"Pet Shard Tranquil"
 		}
 	},
 
@@ -90,6 +97,7 @@ getgenv().ConfigsKaitun = {
 
 	Eggs = {
 		Place = {
+            		"Zen Egg",
             		"Primal Egg",
 			"Dinosaur Egg",
 			"Oasis Egg",
@@ -98,6 +106,7 @@ getgenv().ConfigsKaitun = {
 			"Night Egg",
 			"Bug Egg",
 			"Common Summer Egg",
+			"Rare Egg",
 		},
 		Buy = {
 			"Anti Bee Egg",
@@ -105,11 +114,13 @@ getgenv().ConfigsKaitun = {
 			"Bee Egg",
 			"Night Egg",
 			"Bug Egg",
+			"Rare Egg",
 			"Common Summer Egg",
 		}
 	},
 
 	Pets = {
+		["Start Delete Pet At"] = 40,
 		["Upgrade Slot"] = {
 			["Pet"] = {
 				"Starfish",
@@ -121,6 +132,7 @@ getgenv().ConfigsKaitun = {
 			},
 		},
 		Locked = {
+			"Kitsune",
 			"Spinosaurus",
 			"T-Rex",
 			"Dragonfly",
@@ -159,6 +171,7 @@ getgenv().ConfigsKaitun = {
 				"Idk",
 			},
 			Pets = {
+				"Kitsune",
 				"Spinosaurus",
 				"T-Rex",
 				"Dragonfly",
