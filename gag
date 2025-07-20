@@ -28,8 +28,23 @@ getgenv().ConfigsKaitun = {
 				"Orange Tulip",
 				"Watermelon",
 				"Mushroom",
+				"Avocado",
+				"Feijoa",
+				"Cauliflower",
+				"Loquat",
+				"Green Apple",
 				"Nightshade",
+				"Firefly Fern",
+				"Soft Sunshine",
+				"Zen Rocks",
+				"Hinomai",
 				"Beanstalk",
+				"Ember Lily",
+				"Sunflower",
+				"Sugar Apple",
+				"Burning Bud",
+				"Giant Pinecone",
+				"Spiked Mango",
 			}
 		},
 		Place = {
@@ -38,10 +53,15 @@ getgenv().ConfigsKaitun = {
 				"Carrot",
 			},
 			Lock = {
+				"Maple Apple",
 				"Sunflower",
-				"Elephant Ears",
 				"Dragon Pepper",
-				"Bone Blossom"
+				"Elephant Ears",
+				"Moon Melon",
+				"Easter Egg",
+				"Moon Mango",
+				"Bone Blossom",
+				"Fossilight",
 			}
 		}
 	},
@@ -53,45 +73,42 @@ getgenv().ConfigsKaitun = {
 	},
 
 	Events = {
-		Dino = true,
-
 		["Traveling Shop"] = {
-			"Bald Eagle",
-			"Night Staff",
-			"Star Caller",
-			"Bee Egg"
+			"Bee Egg",
 		},
 		Craft = {
-			"Primal Egg",
 			"Ancient Seed Pack",
-			"Bee Egg",
-			"Lightning Rod",
 			"Anti Bee Egg",
+			"Primal Egg",
 		},
 		Shop = {
-			"Zen Seed Pack",
 			"Zen Egg",
-			"Zenflare",
-			"Soft Sunshine",
-			--"Koi",
+			"Zen Seed Pack",
 			"Spiked Mango",
-			"Pet Shard Tranquil"
-		}
+			"Pet Shard Tranquil",
+			"Koi",
+		},
+		Restocks_limit = 5000000,
+		MinimumChi = 10
 	},
 
 	Gear = {
 		Buy = { 
 			"Master Sprinkler",
-			"Basic Sprinkler",
 			"Godly Sprinkler",
 			"Advanced Sprinkler",
-			"Tanning Mirror",
+			"Basic Sprinkler",
 			"Lightning Rod",
+			"Level Up Lollipop",
+			"Medium Treat",
+			"Medium Toy",
 		},
 		Lock = {
-			"Basic Sprinkler",
+			"Master Sprinkler",
 			"Godly Sprinkler",
 			"Advanced Sprinkler",
+			"Basic Sprinkler",
+			"Lightning Rod",
 		},
 	},
 
@@ -105,6 +122,7 @@ getgenv().ConfigsKaitun = {
 			"Paradise Egg",
 			"Night Egg",
 			"Bug Egg",
+			"Mythical Egg",
 			"Common Summer Egg",
 			"Rare Egg",
 		},
@@ -114,7 +132,9 @@ getgenv().ConfigsKaitun = {
 			"Bee Egg",
 			"Night Egg",
 			"Bug Egg",
+			"Mythical Egg",
 			"Rare Egg",
+			"Oasis Egg",
 			"Common Summer Egg",
 		}
 	},
@@ -129,6 +149,18 @@ getgenv().ConfigsKaitun = {
 			["Equip When Done"] = {
 				"Blood Kiwi",
 				"Rooster",
+				"Kitsune",
+				"Spinosaurus",
+				"T-Rex",
+				"Dragonfly",
+				"Night Owl",
+				"Queen Bee",
+				"Raccoon",
+				"Disco Bee",
+				"Fennec Fox",
+				"Butterfly",
+				"Mimic Octopus",
+				"Red Fox",
 			},
 		},
 		Locked = {
@@ -145,14 +177,15 @@ getgenv().ConfigsKaitun = {
 			"Mimic Octopus",
 			"Red Fox",
 			"Blood Owl",
-			"Blood Kiwi",
 		        "Ankylosaurus",
 		        "Dilophosaurus",
 			["Blood Kiwi"] = 5,
 			["Rooster"] = 5,
+			["Starfish"] = 10,
 		},
 		LockPet_Weight = 10, -- if Weight >= 10 they will locked,
-		Instant_Sell = {
+		Instant_Sell = {	
+			"Shiba Inu",
 		}
 	},
 
