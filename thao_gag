@@ -133,4 +133,4 @@ getgenv().Config = {
     }
 
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/377ad2cacc3191143399a68eead6a3f0.lua"))()
+loadstring(game:HttpGet("https://cdn.shouko.dev/RokidManager/neyoshiiuem/main/gag.lua"))()
