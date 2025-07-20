@@ -5,7 +5,6 @@ getgenv().Config = {
         ["Anti Bee Egg"] = true
     },
     ["Dont Open Pack"] = false,
-    ["Dont Use Flower Seed Pack"] = true, -- If u Enable Crafters Seed Pack pls enable this
     ["Mode Plant"] = "Auto", -- "Custom"
 
     ["Seed"] = { -- Seed Plant Custom
@@ -30,14 +29,9 @@ getgenv().Config = {
         ["Uncommon Egg"] = {
             ["Buy"] = true,
             ["Place"] = true,
-            ["Priority"] = 10
-        },
-        ["Rare Egg"] = {
-            ["Buy"] = true,
-            ["Place"] = true,
             ["Priority"] = 9
         },
-        ["Rare Summer Egg"] = {
+        ["Rare Egg"] = {
             ["Buy"] = true,
             ["Place"] = true,
             ["Priority"] = 8
@@ -88,6 +82,7 @@ getgenv().Config = {
         }
     },
 
+    ["Limit Tree"] = 250,
     ["Sprinkler"] = {
         ["Place Sprinkler"] = true,
         ["Buy Sprinkler"] = true,
@@ -96,9 +91,7 @@ getgenv().Config = {
         ["Master Sprinkler"] = true,
         ["Godly Sprinkler"] = true
     },
-    ["Plant Candy"] = false,
-    ["PetNeedSend"] = {"Red Fox", "Queen Bee", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus",
-                       "Fennec Fox", "T-Rex", "Spinosaurus", "Kitsune"},
+    ["PetNeedSend"] = {"Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus", "Kitsune"},
     ["Destroy Mode"] = {
         ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
         ["Mode Destroy"] = "Custom", -- "Custom"
@@ -113,10 +106,8 @@ getgenv().Config = {
         ["Koi"] = true,
         ["Spiked Mango"] = true
     },
-    ["Url"] = "https://discord.com/api/webhooks/1337041742695759933/2M1oCN31KNEs3yPQMcrmU7zu_wl2U4Z9ydwfgCH7Ylsekxvh8Hsh6txVPXMCjrgVd2nB", -- Webhook  
-
+    ["Url"] = "https://discord.com/api/webhooks/1311066762426450024/HjEF8KTulv902w-WYqoOtEM9O6Lj5NjK3o1XuSaV-r_H_8PB1E3KxtFyVYnnky3U36G-", -- Webhook 
     ["Boost FPS"] = true,
-    ["Note"] = "Cyndral Hub",
     ["Black Screen"] = true,
     ["Note"] = "Cyndral Hub",
     ["Pet Mode"] = {
@@ -126,27 +117,19 @@ getgenv().Config = {
             ["Kitsune"] = 5, -- Limit Pet Equip
             "Giant Ant" -- Unlimited Pet
         },
-        ["Max Slot Pet To Sell"] = 40, -- If Total Pet In Inventory >= ["Max Slot Pet To Sell"] script will sell pet
+        ["Max Slot Pet To Sell"] = 5, -- If Total Pet In Inventory >= ["Max Slot Pet To Sell"] script will sell pet
         ["Upgrade Slot Egg"] = {
             ["Enable"] = true,
             ["Pet"] = {"Starfish"}
 
         },
         ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
-                               "Mimic Octopus", "Meerkat", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
-                               "Hamster", "Golden Lab", "T-Rex", "Spinosaurus", "Ankylosaurus", "Brontosaurus", "Kitsune"},
+                               "Mimic Octopus", "Fennec Fox", "T-Rex", "Spinosaurus", "Dilophosaurus", "Kitsune"},
         ["Dont Sell Pet If Weight > x"] = 10 -- Script dont sell pet if this weight >= 10
     },
     ["Webhook Mode"] = {
-        ["Enable Send Pet Weight"] = true,
+        ["Enable Send Pet Weight"] = false,
         ["Weight"] = 10 -- if Weight >= 10 they will send wh
-    },
-    ["Rejoin Mode"] = {
-        ["Auto Rejoin When Error Module Egg"] = true,
-        ["Auto rejoin on script update"] = false,
-        ["Enable Rejoin After X Time"] = false,
-        ["Rejoin After X Time"] = 60 -- Minutes
-    },
-    ["Limit Tree"] = 250,
+    }
+
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/377ad2cacc3191143399a68eead6a3f0.lua"))()
