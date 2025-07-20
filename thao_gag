@@ -117,34 +117,21 @@ getgenv().Config = {
     ["Url"] = "https://discord.com/api/webhooks/1337041742695759933/2M1oCN31KNEs3yPQMcrmU7zu_wl2U4Z9ydwfgCH7Ylsekxvh8Hsh6txVPXMCjrgVd2nB", -- Webhook  
 
     ["Boost FPS"] = true,
+    ["Note"] = "Cyndral Hub",
     ["Black Screen"] = true,
-    ["Dino Event"] = {
-        ["Auto Claim Quest"] = true,
-        ["Auto Restart Quest"] = true,
-        ["Auto Submit"] = true,
-        ["Auto Trade Eggs"] = true,
-        ["Pet Dont Trade"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
-                               "Mimic Octopus", "Fennec Fox", "Kiwi", "Blood Kiwi", "Rooster", "Chicken", "T-Rex",
-                               "Hamster", "Golden Lab", "Hyacinth Macaw", "Spinosaurus", "Ankylosaurus", "Brontosaurus", "Kitsune"}
-    },
     ["Note"] = "Cyndral Hub",
     ["Pet Mode"] = {
         ["Sell Pet"] = true,
         ["Equip Pet"] = true,
         ["Name Pet Equip"] = {
-            ["Starfish"] = true,
-            ["Night Owl"] = true,
-            ["Chicken"] = true,
-            ["Kiwi"] = true,
-            ["Blood Kiwi"] = true,
-            ["Rooster"] = true
+            ["Kitsune"] = 5, -- Limit Pet Equip
+            "Giant Ant" -- Unlimited Pet
         },
         ["Max Slot Pet To Sell"] = 40, -- If Total Pet In Inventory >= ["Max Slot Pet To Sell"] script will sell pet
         ["Upgrade Slot Egg"] = {
             ["Enable"] = true,
-            ["Black List Pet For Upgrade Slots"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee",
-                                                    "Butterfly", "Mimic Octopus", "Meerkat", "Sand Snake", "Fennec Fox",
-                                                    "Axolotl", "Hyacinth Macaw", "Hamster", "T-Rex", "Spinosaurus", "Ankylosaurus", "Brontosaurus", "Kitsune"}
+            ["Pet"] = {"Starfish"}
+
         },
         ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
                                "Mimic Octopus", "Meerkat", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
