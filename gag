@@ -121,7 +121,7 @@ getgenv().ConfigsKaitun = {
 			"Bug Egg",
 			"Mythical Egg",
 			"Common Summer Egg",
-			"Rare Egg",
+			"Common Egg",
 		},
 		Buy = {
 			"Anti Bee Egg",
@@ -130,9 +130,9 @@ getgenv().ConfigsKaitun = {
 			"Night Egg",
 			"Bug Egg",
 			"Mythical Egg",
-			"Rare Egg",
 			"Oasis Egg",
 			"Common Summer Egg",
+			"Common Egg",
 		}
 	},
 
@@ -174,11 +174,10 @@ getgenv().ConfigsKaitun = {
 			"Mimic Octopus",
 			"Red Fox",
 			"Blood Owl",
-		        "Ankylosaurus",
 		        "Dilophosaurus",
 			["Blood Kiwi"] = 5,
 			["Rooster"] = 5,
-			["Starfish"] = 10,
+			["Starfish"] = 5,
 		},
 		LockPet_Weight = 10, -- if Weight >= 10 they will locked,
 		Instant_Sell = {	
