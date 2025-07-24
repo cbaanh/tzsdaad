@@ -1,13 +1,14 @@
 getgenv().ConfigsKaitun = {
-	["Stack Plant"] = true,
+	["Block Pet Gift"] = true,
+
 	["Low Cpu"] = true,
 	["Auto Rejoin"] = false,
 
 	["Rejoin When Update"] = false,
 
 	["Limit Tree"] = {
-		["Limit"] = 250,
-		["Destroy Untill"] = 150,
+		["Limit"] = 300,
+		["Destroy Untill"] = 280,
 
 		["Safe Tree"] = {
 			"Moon Blossom",
@@ -71,6 +72,18 @@ getgenv().ConfigsKaitun = {
 	},
 
 	Events = {
+		["Zen Event"] = {
+			["Restocking"] = { -- Minimumthing to restock
+				Max_Restocks_Price = 50_000_000,
+				Minimum_Money = 10_000_000,
+				Minimum_Chi = 200
+			},
+			["Doing"] = {
+				Minimum_Money = 1_000_000, -- minimum money to start play this event
+				First_Upgrade_Tree = 4,
+				Maximum_Chi = 250,
+			}
+		},
 		["Traveling Shop"] = {
 			"Bee Egg",
 		},
@@ -86,8 +99,6 @@ getgenv().ConfigsKaitun = {
 			"Pet Shard Tranquil",
 			"Koi",
 		},
-		Restocks_limit = 5000000,
-		MinimumChi = 10
 	},
 
 	Gear = {
@@ -137,16 +148,16 @@ getgenv().ConfigsKaitun = {
 		["Start Delete Pet At"] = 40,
 		["Upgrade Slot"] = {
 			["Pet"] = {
-				["Starfish"] = { 2, 100 },
+				["Starfish"] = { 2, 100, 1 },
 			},
 			["Limit Upgrade"] = 2,
 			["Equip When Done"] = {
-				["Blood Kiwi"] = { 1, 70 },
-				["Rooster"] = { 1, 70 },
-				["Kitsune"] = { 2, 70 },
+				["Seal"] = { 1, 70, 2 }, -- 1 mean equip only 1 pet , 70 mean equip only level pet lower than 70 the one on the last mean first priority will ues first if possible 
+				["Starfish"] = { 1, 70 },
+				["Kitsune"] = { 2, 70, 1 },
 				["Spinosaurus"] = { 1, 70 },
 				["T-Rex"] = { 1, 70 },
-				["Disco Bee"] = { 2, 70 },
+				["Disco Bee"] = { 1, 70 },
 				["Butterfly"] = { 1, 70 },
 				["Queen Bee"] = { 1, 70 },
 				["Dragonfly"] = { 1, 70 },
@@ -158,7 +169,6 @@ getgenv().ConfigsKaitun = {
 			},
 		},
 		Locked = {
-			"Koi",
 			"Kitsune",
 			"Spinosaurus",
 			"T-Rex",
@@ -173,12 +183,13 @@ getgenv().ConfigsKaitun = {
 			"Red Fox",
 			"Blood Owl",
 		        "Dilophosaurus",
+			"Koi",
 			["Blood Kiwi"] = 5,
 			["Rooster"] = 5,
 			["Starfish"] = 5,
 		},
-		LockPet_Weight = 5, -- if Weight >= 10 they will locked,
-		Instant_Sell = {	
+		LockPet_Weight = 7, -- if Weight >= 10 they will locked,
+		Instant_Sell = {		
 			"Shiba Inu",
 		}
 	},
