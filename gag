@@ -44,6 +44,9 @@ getgenv().ConfigsKaitun = {
 				"Burning Bud",
 				"Giant Pinecone",
 				"Spiked Mango",
+				"Taro Flower",
+				"Zenflar",
+				
 			}
 		},
 		Place = {
@@ -52,7 +55,6 @@ getgenv().ConfigsKaitun = {
 				"Carrot",
 			},
 			Lock = {
-				"Maple Apple",
 				"Sunflower",
 				"Dragon Pepper",
 				"Elephant Ears",
