@@ -1,0 +1,227 @@
+getgenv().ConfigsKaitun = {
+	["Block Pet Gift"] = true,
+
+	["Low Cpu"] = true,
+	["Auto Rejoin"] = false,
+
+	["Rejoin When Update"] = false,
+
+	["Limit Tree"] = {
+		["Limit"] = 300,
+		["Destroy Untill"] = 280,
+
+		["Safe Tree"] = {
+			"Moon Blossom",
+			"Fossilight",
+		}
+	},
+
+	Seed = {
+		Buy = {
+			Mode = "Custom", -- Custom , Auto
+			Custom = {
+				"Carrot",
+				"Bamboo",
+				"Pumpkin",
+				"Daffodil",
+				"Orange Tulip",
+				"Watermelon",
+				"Mushroom",
+				"Avocado",
+				"Feijoa",
+				"Cauliflower",
+				"Loquat",
+				"Green Apple",
+				"Nightshade",
+				"Firefly Fern",
+				"Soft Sunshine",
+				"Zen Rocks",
+				"Hinomai",
+				"Beanstalk",
+				"Ember Lily",
+				"Sunflower",
+				"Sugar Apple",
+				"Burning Bud",
+				"Giant Pinecone",
+				"Spiked Mango",
+				"Taro Flower",
+				"Zenflar",
+				
+			}
+		},
+		Place = {
+			Mode = "Lock", -- Select , Lock
+			Select = {
+				"Carrot",
+			},
+			Lock = {
+				"Sunflower",
+				"Dragon Pepper",
+				"Elephant Ears",
+				"Moon Melon",
+				"Easter Egg",
+				"Moon Mango",
+				"Bone Blossom",
+				"Fossilight",
+			}
+		}
+	},
+
+	["Seed Pack"] = {
+		Locked = {
+
+		}
+	},
+
+	Events = {
+		["Zen Event"] = {
+			["Restocking"] = { -- Minimumthing to restock
+				Max_Restocks_Price = 1_000_000_000,
+				Minimum_Money = 1_000_000_000,
+				Minimum_Chi = 30
+			},
+			["Doing"] = {
+				Minimum_Money = 100_000, -- minimum money to start play this event
+				First_Upgrade_Tree = 4,
+				Maximum_Chi = 150,
+			}
+		},
+		["Traveling Shop"] = {
+			"Bee Egg",
+		},
+		Craft = {
+			"Ancient Seed Pack",
+			"Anti Bee Egg",
+			"Primal Egg",
+		},
+		Shop = {
+			"Zen Egg",
+			"Zen Seed Pack",
+			"Koi",
+		},
+	},
+
+	Gear = {
+		Buy = { 
+			"Master Sprinkler",
+			"Godly Sprinkler",
+			"Advanced Sprinkler",
+			"Basic Sprinkler",
+			"Lightning Rod",
+			"Level Up Lollipop",
+			"Medium Treat",
+			"Medium Toy",
+		},
+		Lock = {
+			"Master Sprinkler",
+			"Godly Sprinkler",
+			"Advanced Sprinkler",
+			"Basic Sprinkler",
+			"Lightning Rod",
+		},
+	},
+
+	Eggs = {
+		Place = {
+            		"Zen Egg",
+            		"Primal Egg",
+			"Dinosaur Egg",
+			"Oasis Egg",
+			"Anti Bee Egg",
+			"Paradise Egg",
+			"Night Egg",
+			"Bug Egg",
+			"Mythical Egg",
+		},
+		Buy = {
+			"Anti Bee Egg",
+			"Paradise Egg",
+			"Bee Egg",
+			"Night Egg",
+			"Bug Egg",
+			"Mythical Egg",
+			"Oasis Egg",
+		}
+	},
+
+	Pets = {
+		["Start Delete Pet At"] = 40,
+		["Upgrade Slot"] = {
+			["Pet"] = {
+				["Starfish"] = { 2, 100, 1 },
+			},
+			["Limit Upgrade"] = 2,
+			["Equip When Done"] = {
+				["Seal"] = { 1, 70, 2 }, -- 1 mean equip only 1 pet , 70 mean equip only level pet lower than 70 the one on the last mean first priority will ues first if possible 
+				["Starfish"] = { 1, 70 },
+				["Kitsune"] = { 2, 70, 1 },
+				["Spinosaurus"] = { 1, 70 },
+				["T-Rex"] = { 1, 70 },
+				["Disco Bee"] = { 1, 70 },
+				["Butterfly"] = { 1, 70 },
+				["Queen Bee"] = { 1, 70 },
+				["Dragonfly"] = { 1, 70 },
+				["Raccoon"] = { 1, 70 },
+				["Fennec Fox"] = { 1, 70 },
+				["Mimic Octopus"] = { 1, 70 },
+				["Red Fox"] = { 1, 70 },
+				["Blood Owl"] = { 1, 70 },
+			},
+		},
+		Locked = {
+			"Kitsune",
+			"Spinosaurus",
+			"T-Rex",
+			"Dragonfly",
+			"Night Owl",
+			"Queen Bee",
+			"Raccoon",
+			"Disco Bee",
+			"Fennec Fox",
+			"Butterfly",
+			"Mimic Octopus",
+			"Red Fox",
+			"Blood Owl",
+		        "Dilophosaurus",
+			"Koi",
+			["Blood Kiwi"] = 5,
+			["Rooster"] = 5,
+			["Starfish"] = 5,
+		},
+		LockPet_Weight = 7, -- if Weight >= 10 they will locked,
+		Instant_Sell = {		
+			"Shiba Inu",
+		}
+	},
+
+	Webhook = {
+		UrlPet = "https://discord.com/api/webhooks/1342556846862504045/vEh50mbTp8HZg6Na7bSZIwjiEjuvlG2ToFrKLfoEbrCbK2ez6MwGT811ETvTaT_3qxeR",
+		UrlSeed = "",
+		PcName = "PC",
+
+		Noti = {
+			Seeds = {
+				"Sunflower",
+				"Dragon Pepper",
+				"Elephant Ears",
+			},
+			SeedPack = {
+				"Idk",
+			},
+			Pets = {
+				"Kitsune",
+				"Spinosaurus",
+				"T-Rex",
+				"Dragonfly",
+				"Queen Bee",
+				"Raccoon",
+				"Disco Bee",
+				"Fennec Fox",
+				"Butterfly",
+				"Mimic Octopus",
+			},
+			Pet_Weight_Noti = true,
+		}
+	},
+}
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Real-Aya/Loader/main/Init.lua'))()
