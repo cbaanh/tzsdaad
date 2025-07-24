@@ -7,12 +7,13 @@ getgenv().ConfigsKaitun = {
 	["Rejoin When Update"] = false,
 
 	["Limit Tree"] = {
-		["Limit"] = 300,
-		["Destroy Untill"] = 280,
+		["Limit"] = 250,
+		["Destroy Untill"] = 220,
 
 		["Safe Tree"] = {
-			"Moon Blossom",
-			"Fossilight",
+			"Zenflar",
+			"Burning Bud",
+			"Spiked Mango",
 		}
 	},
 
@@ -20,39 +21,45 @@ getgenv().ConfigsKaitun = {
 		Buy = {
 			Mode = "Custom", -- Custom , Auto
 			Custom = {
-				"Carrot",
-				"Bamboo",
-				"Pumpkin",
-				"Daffodil",
-				"Orange Tulip",
-				"Watermelon",
-				"Mushroom",
-				"Avocado",
-				"Feijoa",
-				"Cauliflower",
-				"Loquat",
-				"Green Apple",
-				"Nightshade",
-				"Firefly Fern",
-				"Soft Sunshine",
-				"Zen Rocks",
-				"Hinomai",
-				"Beanstalk",
-				"Ember Lily",
-				"Sunflower",
-				"Sugar Apple",
-				"Burning Bud",
-				"Giant Pinecone",
 				"Spiked Mango",
-				"Taro Flower",
+				"Burning Bud",
 				"Zenflar",
-				
+				"Soft Sunshine",
+				"Hinomai",
+				"Zen Rocks",
+				"Watermelon",
+				"Feijoa",
+				"Avocado",
+				"Sunflowers",
+				"Pumpkin",
+				"Carrot",
+				"Taro Flower",
+				"Green Apple",
+				"Loquat",
+				"Sunflower",
+				"Firefly Fern",
 			}
 		},
 		Place = {
-			Mode = "Lock", -- Select , Lock
+			Mode = "Select", -- Select , Lock
 			Select = {
+				"Spiked Mango",
+				"Burning Bud",
+				"Zenflar",
+				"Soft Sunshine",
+				"Hinomai",
+				"Zen Rocks",
+				"Watermelon",
+				"Feijoa",
+				"Avocado",
+				"Sunflowers",
+				"Pumpkin",
 				"Carrot",
+				"Taro Flower",
+				"Green Apple",
+				"Loquat",
+				"Sunflower",
+				"Firefly Fern",
 			},
 			Lock = {
 				"Sunflower",
@@ -78,12 +85,12 @@ getgenv().ConfigsKaitun = {
 			["Restocking"] = { -- Minimumthing to restock
 				Max_Restocks_Price = 1_000_000_000,
 				Minimum_Money = 1_000_000_000,
-				Minimum_Chi = 30
+				Minimum_Chi = 200
 			},
 			["Doing"] = {
 				Minimum_Money = 100_000, -- minimum money to start play this event
 				First_Upgrade_Tree = 4,
-				Maximum_Chi = 150,
+				Maximum_Chi = 250,
 			}
 		},
 		["Traveling Shop"] = {
@@ -123,15 +130,14 @@ getgenv().ConfigsKaitun = {
 
 	Eggs = {
 		Place = {
-            		"Zen Egg",
-            		"Primal Egg",
+            "Zen Egg",
+            "Primal Egg",
 			"Dinosaur Egg",
 			"Oasis Egg",
 			"Anti Bee Egg",
 			"Paradise Egg",
 			"Night Egg",
 			"Bug Egg",
-			"Mythical Egg",
 		},
 		Buy = {
 			"Anti Bee Egg",
@@ -139,7 +145,6 @@ getgenv().ConfigsKaitun = {
 			"Bee Egg",
 			"Night Egg",
 			"Bug Egg",
-			"Mythical Egg",
 			"Oasis Egg",
 		}
 	},
@@ -182,7 +187,7 @@ getgenv().ConfigsKaitun = {
 			"Mimic Octopus",
 			"Red Fox",
 			"Blood Owl",
-		        "Dilophosaurus",
+		    "Dilophosaurus",
 			"Koi",
 			["Blood Kiwi"] = 5,
 			["Rooster"] = 5,
@@ -197,7 +202,7 @@ getgenv().ConfigsKaitun = {
 	Webhook = {
 		UrlPet = "https://discord.com/api/webhooks/1342556846862504045/vEh50mbTp8HZg6Na7bSZIwjiEjuvlG2ToFrKLfoEbrCbK2ez6MwGT811ETvTaT_3qxeR",
 		UrlSeed = "",
-		PcName = "PC",
+		PcName = "Zen",
 
 		Noti = {
 			Seeds = {
