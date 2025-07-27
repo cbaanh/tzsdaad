@@ -27,6 +27,11 @@ getgenv().Config = {
     },
     ["Keep Seed"] = {"Dragon Pepper", "Elephant Ears", "Sunflower", "Candy Blossom"},
     ["Egg"] = {
+        ["Common Summer Egg"] = {
+            ["Buy"] = true,
+            ["Place"] = true,
+            ["Priority"] = 8
+        },
         ["Mythical Egg"] = {
             ["Buy"] = true,
             ["Place"] = true,
@@ -82,7 +87,7 @@ getgenv().Config = {
         ["Master Sprinkler"] = true,
         ["Godly Sprinkler"] = true
     },
-    ["PetNeedSend"] = {"Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus", "Kitsune"},
+    ["PetNeedSend"] = {"Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus", "Kitsune", "Corrupted Kitsune", "Tranquil Bloom"},
     ["Destroy Mode"] = {
         ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
         ["Mode Destroy"] = "Custom", -- "Custom"
@@ -105,18 +110,18 @@ getgenv().Config = {
         ["Sell Pet"] = true,
         ["Equip Pet"] = true,
         ["Name Pet Equip"] = {
-            ["Kitsune"] = 5, -- Limit Pet Equip
-            ["Dragonfly"] = 5, -- Limit Pet Equip
-            ["Raccoon"] = 5, -- Limit Pet Equip
-            ["Disco Bee"] = 5, -- Limit Pet Equip
-            ["Butterfly"] = 5, -- Limit Pet Equip
-            ["Mimic Octopus"] = 5, -- Limit Pet Equip
-            ["Red Fox"] = 5, -- Limit Pet Equip
-            ["Queen Bee"] = 5, -- Limit Pet Equip
-            ["T-Rex"] = 5, -- Limit Pet Equip
-            ["Fennec Fox"] = 5, -- Limit Pet Equip
-            ["Spinosaurus"] = 5, -- Limit Pet Equip
-            ["Starfish"] = 2, -- Limit Pet Equip
+            ["Kitsune"] = 1, -- Limit Pet Equip
+            ["Dragonfly"] = 1, -- Limit Pet Equip
+            ["Raccoon"] = 1, -- Limit Pet Equip
+            ["Disco Bee"] = 1, -- Limit Pet Equip
+            ["Butterfly"] = 1, -- Limit Pet Equip
+            ["Mimic Octopus"] = 1, -- Limit Pet Equip
+            ["Red Fox"] = 1, -- Limit Pet Equip
+            ["Queen Bee"] = 1, -- Limit Pet Equip
+            ["T-Rex"] = 1, -- Limit Pet Equip
+            ["Fennec Fox"] = 1, -- Limit Pet Equip
+            ["Spinosaurus"] = 1, -- Limit Pet Equip
+            ["Starfish"] = 5, -- Limit Pet Equip
 
         },
         ["Max Slot Pet To Sell"] = 40, -- If Total Pet In Inventory >= ["Max Slot Pet To Sell"] script will sell pet
@@ -126,7 +131,7 @@ getgenv().Config = {
 
         },
         ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
-                               "Mimic Octopus", "Fennec Fox", "T-Rex", "Spinosaurus", "Dilophosaurus", "Kitsune", "Kappa", "Koi", "Starfish"},
+                               "Mimic Octopus", "Fennec Fox", "T-Rex", "Spinosaurus", "Dilophosaurus", "Kitsune", "Corrupted Kitsune", "Tranquil Bloom"},
         ["Dont Sell Pet If Weight > x"] = 10 -- Script dont sell pet if this weight >= 10
     },
     ["Webhook Mode"] = {
