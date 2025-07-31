@@ -177,6 +177,8 @@ getgenv().ConfigsKaitun = {
 				["Ostrich"] = { 2, 100, 2 },
 			},
 		},
+		Favorite_LockedPet = true,
+		Locked_Pet_Age = 60, -- pet that age > 60 will lock
 		Locked = {
 			"Corrupted Kitsune",
 			"Kitsune",
