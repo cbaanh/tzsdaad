@@ -86,7 +86,7 @@ getgenv().ConfigsKaitun = {
 			["Restocking"] = { -- Minimumthing to restock
 				Max_Restocks_Price = 50_000_000_000,
 				Minimum_Money = 10_000_000,
-				Minimum_Chi = 200
+				Minimum_Chi = 60
 			},
 			["Doing"] = {
 				Minimum_Money = 30_000_000, -- minimum money to start play this event
@@ -94,8 +94,8 @@ getgenv().ConfigsKaitun = {
 				Maximum_Chi = 250,
 
 				-- // thing to skip doing
-				Skip_Fox = true, -- Skip The Middle Fox Trade (Corrupted Kitsune)
-				Skip_Corrupted_OldMan = true, -- Skip The Middle Fox Trade (Corrupted Kitsune)
+				Skip_Fox = false, -- Skip The Middle Fox Trade (Corrupted Kitsune)
+				Skip_Corrupted_OldMan = false, -- Skip The Middle Fox Trade (Corrupted Kitsune)
 				-- If u need to skip Tranquill OldMan Set "First Upgrade Tree" To 0 and Max Chi To 99999
 			}
 		},
@@ -151,7 +151,6 @@ getgenv().ConfigsKaitun = {
 			"Paradise Egg",
 			"Night Egg",
 			"Bug Egg",
-			"Common Summer Egg",
 		},
 		Buy = {
 			"Anti Bee Egg",
@@ -160,7 +159,6 @@ getgenv().ConfigsKaitun = {
 			"Night Egg",
 			"Bug Egg",
 			"Oasis Egg",
-			"Common Summer Egg",
 		}
 	},
 
