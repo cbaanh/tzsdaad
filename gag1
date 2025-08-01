@@ -1,5 +1,6 @@
 getgenv().ConfigsKaitun = {
 	["Block Pet Gift"] = true,
+	Collect_Cooldown = 30, -- cooldown to collect fruit
 
 	["Low Cpu"] = true,
 	["Auto Rejoin"] = false,
@@ -13,6 +14,7 @@ getgenv().ConfigsKaitun = {
 		["Safe Tree"] = {
 			"Moon Blossom",
 			"Fossilight",
+			-- locked fruit for zen event
 			["Tomato"] = 1, ["Strawberry"] = 1, ["Blueberry"] = 1,
 			["Orange Tulip"] = 1, ["Corn"] = 1, ["Daffodil"] = 1,
 			["Bamboo"] = 1, ["Apple"] = 1, ["Coconut"] = 1,
@@ -84,16 +86,16 @@ getgenv().ConfigsKaitun = {
 			["Restocking"] = { -- Minimumthing to restock
 				Max_Restocks_Price = 50_000_000_000,
 				Minimum_Money = 10_000_000,
-				Minimum_Chi = 200
+				Minimum_Chi = 60
 			},
 			["Doing"] = {
 				Minimum_Money = 30_000_000, -- minimum money to start play this event
-				First_Upgrade_Tree = 1,
+				First_Upgrade_Tree = 0,
 				Maximum_Chi = 250,
 
 				-- // thing to skip doing
-				Skip_Fox = true, -- Skip The Middle Fox Trade (Corrupted Kitsune)
-				Skip_Corrupted_OldMan = true, -- Skip The Middle Fox Trade (Corrupted Kitsune)
+				Skip_Fox = false, -- Skip The Middle Fox Trade (Corrupted Kitsune)
+				Skip_Corrupted_OldMan = false, -- Skip The Middle Fox Trade (Corrupted Kitsune)
 				-- If u need to skip Tranquill OldMan Set "First Upgrade Tree" To 0 and Max Chi To 99999
 			}
 		},
@@ -149,7 +151,6 @@ getgenv().ConfigsKaitun = {
 			"Paradise Egg",
 			"Night Egg",
 			"Bug Egg",
-			"Common Summer Egg",
 		},
 		Buy = {
 			"Anti Bee Egg",
@@ -157,9 +158,7 @@ getgenv().ConfigsKaitun = {
 			"Bee Egg",
 			"Night Egg",
 			"Bug Egg",
-			"Mythical Egg",
 			"Oasis Egg",
-			"Common Summer Egg",
 		}
 	},
 
@@ -196,8 +195,6 @@ getgenv().ConfigsKaitun = {
 			"Red Fox",
 			"Blood Owl",
 		        "Dilophosaurus",
-			"Koi",
-			"Tranquil Bloom",
 			["Blood Kiwi"] = 5,
 			["Rooster"] = 5,
 			["Starfish"] = 10,
