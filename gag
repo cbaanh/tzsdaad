@@ -172,8 +172,8 @@ getgenv().ConfigsKaitun = {
 			["Equip When Done"] = {
 				["Blood Kiwi"] = { 2, 100, 3 },
 				["Rooster"] = { 2, 100, 4 },
-				["Koi"] = { 2, 100, 1 },
-				["Tanchozuru"] = { 2, 100, 2 },
+				["Koi"] = { 3, 100, 1 },
+				["Tanchozuru"] = { 3, 100, 2 },
 			},
 		},
 		Favorite_LockedPet = true,
