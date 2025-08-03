@@ -1,14 +1,16 @@
 getgenv().ConfigsKaitun = {
 	["Block Pet Gift"] = true,
 
+	Collect_Cooldown = 60, -- cooldown to collect fruit
+	JustFuckingCollectAll = false, -- Collect all (fruit not wait mutation)
+
 	["Low Cpu"] = true,
 	["Auto Rejoin"] = false,
 
 	["Rejoin When Update"] = false,
-
 	["Limit Tree"] = {
 		["Limit"] = 230,
-		["Destroy Untill"] = 170,
+		["Destroy Untill"] = 180,
 
 		["Safe Tree"] = {
 			"Moon Blossom",
@@ -18,43 +20,18 @@ getgenv().ConfigsKaitun = {
 
 	Seed = {
 		Buy = {
-			Mode = "Custom", -- Custom , Auto
-			Custom = {
+			Mode = "Auto", -- Custom , Auto
+			Custom = { -- any fruit u need to place
 				"Carrot",
-				"Bamboo",
-				"Pumpkin",
-				"Daffodil",
-				"Orange Tulip",
-				"Watermelon",
-				"Mushroom",
-				"Avocado",
-				"Feijoa",
-				"Cauliflower",
-				"Loquat",
-				"Green Apple",
-				"Nightshade",
-				"Firefly Fern",
-				"Soft Sunshine",
-				"Zen Rocks",
-				"Hinomai",
-				"Beanstalk",
-				"Ember Lily",
-				"Sunflower",
-				"Sugar Apple",
-				"Burning Bud",
-				"Giant Pinecone",
-				"Spiked Mango",
-				"Taro Flower",
-				"Zenflar",
-				
 			}
 		},
 		Place = {
 			Mode = "Lock", -- Select , Lock
 			Select = {
-				"Carrot",
+				"Carrot"
 			},
 			Lock = {
+				"Maple Apple",
 				"Sunflower",
 				"Dragon Pepper",
 				"Elephant Ears",
@@ -74,6 +51,9 @@ getgenv().ConfigsKaitun = {
 	},
 
 	Events = {
+		["Cook Event"] = {
+			Minimum_Money = 30_000_000, -- minimum money to start play this event
+		},
 		["Zen Event"] = {
 			["Restocking"] = { -- Minimumthing to restock
 				Max_Restocks_Price = 50_000_000_000,
@@ -87,7 +67,7 @@ getgenv().ConfigsKaitun = {
 
 				-- // thing to skip doing
 				Skip_Fox = false, -- Skip The Middle Fox Trade (Corrupted Kitsune)
-				Skip_Corrupted_OldMan = false, -- Skip The Middle Fox Trade (Corrupted Kitsune)
+				Skip_Corrupted_OldMan = false, -- Skip The OldMan Trade (Kodama)
 				-- If u need to skip Tranquill OldMan Set "First Upgrade Tree" To 0 and Max Chi To 99999
 			}
 		},
@@ -135,24 +115,23 @@ getgenv().ConfigsKaitun = {
 
 	Eggs = {
 		Place = {
-            		"Zen Egg",
-            		"Primal Egg",
+			"Gourmet Egg",
+			"Zen Egg",
+			"Primal Egg",
 			"Dinosaur Egg",
 			"Oasis Egg",
 			"Anti Bee Egg",
-			"Paradise Egg",
 			"Night Egg",
 			"Bug Egg",
-			"Mythical Egg",
+			"Paradise Egg",
 		},
 		Buy = {
-			"Anti Bee Egg",
-			"Paradise Egg",
 			"Bee Egg",
+			"Oasis Egg",
+			"Paradise Egg",
+			"Anti Bee Egg",
 			"Night Egg",
 			"Bug Egg",
-			"Oasis Egg",
-			"Mythical Egg",
 		}
 	},
 
@@ -160,49 +139,48 @@ getgenv().ConfigsKaitun = {
 		["Start Delete Pet At"] = 50,
 		["Upgrade Slot"] = {
 			["Pet"] = {
-				["Starfish"] = { 8, 100, 1 },
+				["Starfish"] = { 5, 100, 1, true }, -- the "true" on the last is auto equip (use for like only need to use for upgrade pet)
 			},
 			["Limit Upgrade"] = 5,
 			["Equip When Done"] = {
-				["Tanchozuru"] = { 5, 100, 1 },
+				["Tanchozuru"] = { 5, 100, 1 }, -- 5 on the first mean equip only 5 | pet , 100 mean equip only level pet lower than 100 | the one on the last is priority it will ues first if possible 
 				["Ostrich"] = { 3, 100, 2 },
+				["Blood Kiwi"] = { 8, 100 },
+				["Seal"] = { 8, 100 },
+				["Rooster"] = { 8, 100 },
+				["Starfish"] = { 5, 75 },
 			},
 		},
 		Favorite_LockedPet = true,
 		Locked_Pet_Age = 60, -- pet that age > 60 will lock
 		Locked = {
+			"French Fry Ferret",
+			"Spaghetti Sloth",
 			"Corrupted Kitsune",
-			"Kitsune",
 			"Raiju",
+			"Kitsune",
+			"Dilophosaurus",
+			"Moon Cat",
 			"Spinosaurus",
 			"T-Rex",
-			"Dragonfly",
-			"Night Owl",
-			"Queen Bee",
-			"Raccoon",
 			"Disco Bee",
-			"Fennec Fox",
 			"Butterfly",
+			"Queen Bee",
+			"Dragonfly",
+			"Raccoon",
+			"Fennec Fox",
 			"Mimic Octopus",
 			"Red Fox",
 			"Blood Owl",
-		        "Dilophosaurus",
-			["Blood Kiwi"] = 5,
-			["Rooster"] = 5,
 			["Starfish"] = 10,
-			["Tanchozuru"] = 5,
-			["Ostrich"] = 5,
 		},
-		LockPet_Weight = 10, -- if Weight >= 10 they will locked,
-		Instant_Sell = {		
-			"Shiba Inu",
-		}
+		LockPet_Weight = 10, -- if Weight >= 10 they will locked
 	},
 
 	Webhook = {
 		UrlPet = "https://discord.com/api/webhooks/1337041742695759933/2M1oCN31KNEs3yPQMcrmU7zu_wl2U4Z9ydwfgCH7Ylsekxvh8Hsh6txVPXMCjrgVd2nB",
-		UrlSeed = "",
-		PcName = "PC",
+		UrlSeed = "xxx",
+		PcName = "xxx",
 
 		Noti = {
 			Seeds = {
@@ -211,20 +189,22 @@ getgenv().ConfigsKaitun = {
 				"Elephant Ears",
 			},
 			SeedPack = {
-				"Idk",
+				"Idk"
 			},
 			Pets = {
+				"French Fry Ferret",
 				"Corrupted Kitsune",
 				"Kitsune",
 				"Spinosaurus",
 				"T-Rex",
-				"Dragonfly",
-				"Queen Bee",
-				"Raccoon",
 				"Disco Bee",
-				"Fennec Fox",
 				"Butterfly",
 				"Mimic Octopus",
+				"Queen Bee",
+				"Fennec Fox",
+				"Dragonfly",
+				"Raccoon",
+				"Red Fox",
 			},
 			Pet_Weight_Noti = true,
 		}
