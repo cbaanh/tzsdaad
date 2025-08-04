@@ -73,6 +73,8 @@ getgenv().ConfigsKaitun = {
 		},
 		["Traveling Shop"] = {
 			"Bee Egg",
+			"Bell Pepper",
+			"Feijoa",
 		},
 		Craft = {
 			"Ancient Seed Pack",
@@ -87,6 +89,8 @@ getgenv().ConfigsKaitun = {
 			"Pet Shard Tranquil",
 			"Pet Shard Corrupted",
 			"Soft Sunshine",
+			"Bell Pepper",
+			"Feijoa",
 		},
 		Start_Do_Honey = 2_000_000 -- start trade fruit for honey at money
 	},
