@@ -146,14 +146,15 @@ getgenv().ConfigsKaitun = {
 		["Start Delete Pet At"] = 50,
 		["Upgrade Slot"] = {
 			["Pet"] = {
-				["Starfish"] = { 5, 100, 1, true }, -- the "true" on the last is auto equip (use for like only need to use for upgrade pet)
+				["Starfish"] = { 5, 100, 1}, -- the "true" on the last is auto equip (use for like only need to use for upgrade pet)
 			},
 			["Limit Upgrade"] = 5,
 			["Equip When Done"] = {
-				["Tanchozuru"] = { 5, 100, 1 },
-				["Ostrich"] = { 3, 100, 2 },
-				["Blood Kiwi"] = { 8, 100, 3 },
-				["Rooster"] = { 8, 100, 4 },
+				["Caterpillar"] = { 4, 100, 1 },
+				["Giant Ant"] = { 3, 100, 2 },
+				["Shiba Inu"] = { 1, 100, 3 },
+				["Blood Kiwi"] = { 8, 100, 4 },
+				["Rooster"] = { 8, 100, 5 },
 			},
 		},
 		Favorite_LockedPet = true,
@@ -178,6 +179,9 @@ getgenv().ConfigsKaitun = {
 			"Red Fox",
 			"Blood Owl",
 			["Starfish"] = 10,
+			["Caterpillar"] = 4,
+			["Giant Ant"] = 3,
+			["Shiba Inu"] = 1,
 		},
 		LockPet_Weight = 10, -- if Weight >= 10 they will locked
 	},
