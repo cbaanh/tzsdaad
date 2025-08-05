@@ -2,7 +2,7 @@ getgenv().ConfigsKaitun = {
 	Beta_Fix_Data_Sync = true,
 	["Block Pet Gift"] = true,
 
-	Collect_Cooldown = 60, -- cooldown to collect fruit
+	Collect_Cooldown = 30, -- cooldown to collect fruit
 	JustFuckingCollectAll = false, -- Collect all (fruit not wait mutation)
 
 	["Low Cpu"] = true,
@@ -103,12 +103,14 @@ getgenv().ConfigsKaitun = {
 			"Spiked Mango",
 			"Bell Pepper",
 			"Feijoa",
+			"Raiju",
 		},
 		Start_Do_Honey = 2_000_000 -- start trade fruit for honey at money
 	},
 
 	Gear = {
 		Buy = { 
+			"Grandmaster Sprinkler",
 			"Watering Can",
 			"Trowel",
 			"Recall Wrench",
@@ -124,7 +126,7 @@ getgenv().ConfigsKaitun = {
 			"Advanced Sprinkler",
 			"Medium Toy",
 			"Medium Treat",
-			"Levelup Lollipop",
+			"Level Up Lollipop",
 			"Lightning Rod",
 		},
 		Lock = {
@@ -205,7 +207,7 @@ getgenv().ConfigsKaitun = {
 	Webhook = {
 		UrlPet = "https://discord.com/api/webhooks/1342556846862504045/vEh50mbTp8HZg6Na7bSZIwjiEjuvlG2ToFrKLfoEbrCbK2ez6MwGT811ETvTaT_3qxeR",
 		UrlSeed = "xxx",
-		PcName = "xxx",
+		PcName = "PC",
 
 		Noti = {
 			Seeds = {
