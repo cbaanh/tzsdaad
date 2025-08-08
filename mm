@@ -88,7 +88,7 @@ getgenv().gagConfig = {
 				"Red Fox",
 				},
     NOTIFY_PETS_WEIGHT = { ["Red Giant Ant"] = 10, ["Bear Bee"] = 10, ["Tanchozuru"] = 10 },
-    DISCORD_ID = "1259809462827356194",
+    DISCORD_ID = "111zzz",
     WEBHOOK_NOTE = "PC",
     SHOW_WEBHOOK_USERNAME = false,
     SHOW_WEBHOOK_JOBID = false,
