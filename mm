@@ -1,5 +1,3 @@
-setfpscap(3)
-
 getgenv().gagConfig = {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg", "Ancient Seed Pack"},
