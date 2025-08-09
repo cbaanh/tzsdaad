@@ -4,6 +4,7 @@ getgenv().gagConfig = {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg", "Ancient Seed Pack"},
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
+    CLAIM_FOOD_CONNOISSEUR_REWARD = { "Culinarian Chest", "Gorilla Chef", "Gourmet Egg", "Sunny-Side Chicken", "Pet Shard Aromatic" },
     
     -- General:
     AUTO_UPDATE_RESTART = true,
@@ -28,6 +29,8 @@ getgenv().gagConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = { 
+			"Gorilla Chef",
+			"Sunny-Side Chicken",
 			"King Cabbage",
 			"Lobster Thermidor",
 			"Badlands Pepper",
