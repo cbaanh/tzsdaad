@@ -4,7 +4,8 @@ getgenv().gagConfig = {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg", "Ancient Seed Pack"},
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    CLAIM_FOOD_CONNOISSEUR_REWARD = { "Culinarian Chest", "Gorilla Chef", "Gourmet Egg", "Sunny-Side Chicken", "Pet Shard Aromatic" },
+    CLAIM_FOOD_CONNOISSEUR_REWARD = { "Culinarian Chest", "Gorilla Chef", "Gourmet Egg", "Sunny-Side Chicken", "Pet Shard Aromatic", "Cooking Cauldron", "Gourmet Seed Pack", "Bitter Melon Seed", "Pricklefruit Seed", "Butternut Squash Seed", "Spring Onion Seed", "Kitchen Crate", "Kitchen Flooring", "Kitchen Cart", "Smoothie Fountain" },
+	FORCE_COOK_MUTATION_ONLY = true,
     
     -- General:
     AUTO_UPDATE_RESTART = true,
@@ -99,7 +100,7 @@ getgenv().gagConfig = {
 				},
     NOTIFY_PETS_WEIGHT = { ["Red Giant Ant"] = 10, ["Bear Bee"] = 10, ["Tanchozuru"] = 10 },
     DISCORD_ID = "111zzz",
-    WEBHOOK_NOTE = "Testtttttttt",
+    WEBHOOK_NOTE = "PC",
     SHOW_WEBHOOK_USERNAME = true,
     SHOW_WEBHOOK_JOBID = false,
 }
