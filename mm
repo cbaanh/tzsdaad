@@ -5,7 +5,7 @@ getgenv().gagConfig = {
     CRAFT_EVENT = { "Anti Bee Egg", "Ancient Seed Pack"},
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     CLAIM_FOOD_CONNOISSEUR_REWARD = { "Culinarian Chest", "Gorilla Chef", "Gourmet Egg", "Sunny-Side Chicken", "Pet Shard Aromatic", "Cooking Cauldron", "Gourmet Seed Pack", "Bitter Melon Seed", "Pricklefruit Seed", "Butternut Squash Seed", "Spring Onion Seed", "Kitchen Crate", "Kitchen Flooring", "Kitchen Cart", "Smoothie Fountain" },
-	FORCE_COOK_MUTATION_ONLY = false,
+	FORCE_COOK_MUTATION_ONLY = true,
     
     -- General:
     AUTO_UPDATE_RESTART = true,
@@ -75,7 +75,7 @@ getgenv().gagConfig = {
 	},
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },  -- Unequip from garden
-	PLACE_COSMETIC = {"Cooking Cauldron"},
+	PLACE_COSMETIC = { ["Cooking Cauldron"] = 4 },
 
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Level Up Lollipop", "Trading Ticket" },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
