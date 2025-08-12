@@ -67,6 +67,7 @@ getgenv().gagConfig = {
     KEEP_PETS_AGE = { ["Starfish"] = 75 },
 
     EQUIP_PETS = { 
+				["Starfish"] = 5,
 				["Bald Eagle"] = 1,
 				["Caterpillar"] = 3,
 				["Giant Ant"] = 2,
