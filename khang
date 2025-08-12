@@ -31,12 +31,7 @@ getgenv().gagConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = { 
-			"Gorilla Chef",
-			"Sunny-Side Chicken",
-			"King Cabbage",
 			"Lobster Thermidor",
-			"Badlands Pepper",
-			"Hotdog Daschund",
 			"French Fry Ferret",
 			"Spaghetti Sloth",
 			"Corrupted Kitsune",
@@ -84,7 +79,6 @@ getgenv().gagConfig = {
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1393821040903192597/5dT0bXgHsawpApNIvE6tzRjQBgiGq9_jp87i3Z5JDPRmcXcqMTMPevtEFGV8QWxg07i-",
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = {
-				"King Cabbage",
 				"Lobster Thermidor",
 				"French Fry Ferret",
 				"Corrupted Kitsune",
