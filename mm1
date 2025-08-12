@@ -33,7 +33,6 @@ getgenv().gagConfig = {
     KEEP_PETS = { 
 			"Lobster Thermidor",
 			"French Fry Ferret",
-			"Spaghetti Sloth",
 			"Corrupted Kitsune",
 			"Raiju",
 			"Kitsune",
@@ -50,6 +49,9 @@ getgenv().gagConfig = {
 			"Mimic Octopus",
 			"Red Fox",
 			"Blood Owl",
+			["Gorilla Chef"] = 1,
+			["Sunny-Side Chicken"] = 1,
+			["Spaghetti Sloth"] = 1,
 			["Starfish"] = 10,
 			["Bald Eagle"] = 1,
 			["Caterpillar"] = 3,
@@ -62,12 +64,14 @@ getgenv().gagConfig = {
     KEEP_PETS_AGE = { ["Starfish"] = 75 },
 
     EQUIP_PETS = { 
-				["Bald Eagle"] = 1,
-				["Caterpillar"] = 3,
-				["Giant Ant"] = 2,
+				["Gorilla Chef"] = 1,
+				["Sunny-Side Chicken"] = 1,
+				["Spaghetti Sloth"] = 1,
+				["Caterpillar"] = 1,
+				["Giant Ant"] = 1,
 				["Shiba Inu"] = 1,
-				["Blood Kiwi"] = 2,
-				["Rooster"] = 2
+				["Blood Kiwi"] = 1,
+				["Rooster"] = 1
 	},
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },  -- Unequip from garden
