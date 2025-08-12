@@ -6,6 +6,7 @@ getgenv().gagConfig = {
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     CLAIM_FOOD_CONNOISSEUR_REWARD = { "Culinarian Chest", "Gorilla Chef", "Gourmet Egg", "Sunny-Side Chicken", "Pet Shard Aromatic", "Cooking Cauldron", "Gourmet Seed Pack", "Bitter Melon Seed", "Pricklefruit Seed", "Butternut Squash Seed", "Spring Onion Seed", "Kitchen Crate", "Kitchen Flooring", "Kitchen Cart", "Smoothie Fountain" },
 	FORCE_COOK_MUTATION_ONLY = true,
+	PLACE_COSMETIC = {"Cooking Cauldron"},
     
     -- General:
     AUTO_UPDATE_RESTART = true,
@@ -30,14 +31,8 @@ getgenv().gagConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = { 
-			"Gorilla Chef",
-			"Sunny-Side Chicken",
-			"King Cabbage",
 			"Lobster Thermidor",
-			"Badlands Pepper",
-			"Hotdog Daschund",
 			"French Fry Ferret",
-			"Spaghetti Sloth",
 			"Corrupted Kitsune",
 			"Raiju",
 			"Kitsune",
@@ -54,6 +49,9 @@ getgenv().gagConfig = {
 			"Mimic Octopus",
 			"Red Fox",
 			"Blood Owl",
+			["Gorilla Chef"] = 1,
+			["Sunny-Side Chicken"] = 1,
+			["Spaghetti Sloth"] = 1,
 			["Starfish"] = 10,
 			["Bald Eagle"] = 1,
 			["Caterpillar"] = 3,
@@ -66,16 +64,17 @@ getgenv().gagConfig = {
     KEEP_PETS_AGE = { ["Starfish"] = 75 },
 
     EQUIP_PETS = { 
-				["Bald Eagle"] = 1,
-				["Caterpillar"] = 3,
-				["Giant Ant"] = 2,
+				["Gorilla Chef"] = 1,
+				["Sunny-Side Chicken"] = 1,
+				["Spaghetti Sloth"] = 1,
+				["Caterpillar"] = 1,
+				["Giant Ant"] = 1,
 				["Shiba Inu"] = 1,
-				["Blood Kiwi"] = 2,
-				["Rooster"] = 2
+				["Blood Kiwi"] = 1,
+				["Rooster"] = 1
 	},
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },  -- Unequip from garden
-	PLACE_COSMETIC = { ["Cooking Cauldron"] = 4 },
 
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Level Up Lollipop", "Trading Ticket" },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
@@ -83,7 +82,6 @@ getgenv().gagConfig = {
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1351616809014657164/ZEEMHqCCH8vkNEYHdN_J9oX_e0XtXDxEJH7aEcREDrG18_oCVpMY7q5c5StSXwl-LsiJ",
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = {
-				"King Cabbage",
 				"Lobster Thermidor",
 				"French Fry Ferret",
 				"Corrupted Kitsune",
