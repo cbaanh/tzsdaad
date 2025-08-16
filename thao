@@ -87,6 +87,8 @@ getgenv().gagConfig = {
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = {
 				"Golden Goose",
+				"Lobster Thermidor",
+				"French Fry Ferret",
 				"Kitsune",
 				"Spinosaurus",
 				"T-Rex",
