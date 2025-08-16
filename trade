@@ -1,6 +1,6 @@
 _G.CF = {
     TreeConfig = {
-        Enabled = true,                         -- Enable/disable tree gifting
+        Enabled = false,                         -- Enable/disable tree gifting
         KickWhenEmpty = true,                   -- Kick when no more trees to gift
         Sender = "TreeSenderName",               -- Account that sends trees
         TreeName = "Oak",                        -- Tree name (partial match)
