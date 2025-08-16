@@ -16,6 +16,7 @@ _G.CF = {
             ["French Fry Ferret"] = 1,
             ["Drza"] = 1
         }
+        wait(5)
     }
 }
 loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/f3207df612e2e9d2"))()
