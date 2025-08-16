@@ -21,7 +21,7 @@ getgenv().gagConfig = {
     DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
     
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Zen Egg", },
-    PLANT_EGGS = { "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Oasis Egg"},
+    PLANT_EGGS = { "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Oasis Egg", "Sprout Egg"},
     
     BUY_SEED_SHOP = { "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
     KEEP_SEEDS = { "Bone Blossom" },
@@ -31,6 +31,11 @@ getgenv().gagConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = { 
+			"Dairy Cow",
+			"Jackalope",
+			"Sapling",
+			"Golem",
+			"Golden Goose",
 			"Lobster Thermidor",
 			"French Fry Ferret",
 			"Corrupted Kitsune",
@@ -82,9 +87,7 @@ getgenv().gagConfig = {
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1351616809014657164/ZEEMHqCCH8vkNEYHdN_J9oX_e0XtXDxEJH7aEcREDrG18_oCVpMY7q5c5StSXwl-LsiJ",
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = {
-				"Lobster Thermidor",
-				"French Fry Ferret",
-				"Corrupted Kitsune",
+				"Golden Goose",
 				"Kitsune",
 				"Spinosaurus",
 				"T-Rex",
