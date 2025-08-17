@@ -7,7 +7,7 @@ _G.CF = {
         TargetList = { "Player1", "Player2" },   -- Players to receive trees
         PerPlayer = 3                            -- Trees per player
     },
-
+    task.wait(5)
     PetConfig = {
         Enabled = true,                          -- Enable/disable pet gifting
         KickWhenEmpty = true,                    -- Kick when no more pets to gift
