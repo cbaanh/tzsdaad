@@ -10,7 +10,6 @@ _G.CF = {
 
     PetConfig = {
         Enabled = true,                          -- Enable/disable pet gifting
-        task.wait(5)
         KickWhenEmpty = false,                    -- Kick when no more pets to gift
         GiftForPlayer = "mghmghmgh9",       -- Account that receives pets
         ListPetGift = {                          -- Pet name and amount
