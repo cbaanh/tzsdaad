@@ -13,7 +13,7 @@ _G.CF = {
         KickWhenEmpty = true,                    -- Kick when no more pets to gift
         GiftForPlayer = "mghmghmgh9",       -- Account that receives pets
         ListPetGift = {                          -- Pet name and amount
-            ["French Fry Ferret"] = 1
+            ["Golden Goose"] = 1
         }
     }
 }
