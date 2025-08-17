@@ -14,6 +14,9 @@ _G.CF = {
         ListPetGift = {                          -- Pet name and amount
             ["French Fry Ferret"] = 10,
             ["Raccoon"] = 10
+            ["T-rex"] = 10,
+            ["Disco Bee"] = 10,
+            ["Butterfly"] = 10
         }
     }
 }
