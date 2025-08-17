@@ -10,7 +10,7 @@ _G.CF = {
 
     PetConfig = {
         Enabled = true,                          -- Enable/disable pet gifting
-        KickWhenEmpty = false,                    -- Kick when no more pets to gift
+        KickWhenEmpty = true,                    -- Kick when no more pets to gift
         GiftForPlayer = "mghmghmgh9",       -- Account that receives pets
         ListPetGift = {                          -- Pet name and amount
             ["Golden Goose"] = 1
