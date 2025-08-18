@@ -1,20 +1,34 @@
 -- Config
 _G.KeepAmount = {
-    ["Beanstalk"] = 20,       -- giữ lại 10 cây Beanstalk (dư event)
-    ["Giant Pinecone"] = 5,   -- giữ lại 5
-    ["Crown Melon"] = 5,      -- giữ lại 5
-    ["Tall Asparagus"] = 5,   -- giữ lại 5
-    ["Bamboo"] = 5,           -- giữ lại 5 (nếu thích trang trí thì tăng lên 10)
-    ["Cacao"] = 5             -- giữ lại 5 (có thể nâng lên 10 nếu muốn)
+    -- Event Beanstalk (~120)
+    ["Beanstalk"] = 20,
+    ["Burning Bud"] = 20,
+    ["Ember Lily"] = 20,
+    ["Flare Daisy"] = 20,
+    ["Duskpuff"] = 15,
+    ["Pepper"] = 15,
+    ["Jalapeño"] = 10,
+    ["Badlands Pepper"] = 5,
+    ["Sugarglaze"] = 10,
+
+    -- Farm tiền (~100)
+    ["Sugar Apple"] = 30,
+    ["Apple"] = 10,
+    ["Mango"] = 10,
+    ["Grape"] = 10,
+    ["Blueberry"] = 10,
+    ["Coconut"] = 10,
+    ["Corn"] = 10,
+    ["Onion"] = 10,
+    ["Strawberry"] = 10,
+    ["Tomato"] = 10,
+    ["Pumpkin"] = 5,
+    ["Watermelon"] = 5,
+    ["Dragon Fruit"] = 10
 }
 
 _G.Treelist = {
-    "Sugar Apple", "Burning Bud", "Ember Lily", "Flare Daisy",
-    "Duskpuff", "Pepper", "Dragon Fruit", "Sugarglaze",
-    "Elder Strawberry", "Orange Tulip", "Taco Fern",
-    "Apple", "Mango", "Grape", "Blueberry", "Coconut",
-    "Corn", "Onion", "Strawberry", "Tomato",
-    "Pumpkin", "Watermelon", "Badlands Pepper", "Romanesco"
+
 }
 _G.Remove = true
 
