@@ -23,11 +23,10 @@ _G.KeepAmount = {
     ["Strawberry"] = 10,
     ["Tomato"] = 10,
     ["Pumpkin"] = 5,
-    ["Watermelon"] = 5,
-    ["Dragon Fruit"] = 10
+    ["Watermelon"] = 5
 }
 _G.Treelist = {
-
+    "Dragon Fruit"
 }
 _G.Remove = true
 
