@@ -2,7 +2,7 @@ setfpscap(3)
 
 getgenv().gagConfig = {
     -- Event:
-    CRAFT_EVENT = { "Anti Bee Egg" },
+    CRAFT_EVENT = { "Anti Bee Egg", "Skyroot Chest" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     MAX_EVENT_RESTOCK_SHECKLES = 48_000_001,  -- Restock stop at 48m
     BUY_EVENT_SHOP = { "Sprout Egg", "Spriggan" },
@@ -30,6 +30,7 @@ getgenv().gagConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = { 
+			"Griffin",
 			"Golem",
 			"Golden Goose",
 			"Lobster Thermidor",
@@ -87,6 +88,7 @@ getgenv().gagConfig = {
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1337041742695759933/2M1oCN31KNEs3yPQMcrmU7zu_wl2U4Z9ydwfgCH7Ylsekxvh8Hsh6txVPXMCjrgVd2nB",
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = {
+				"Griffin",
 				"Golden Goose",
 				"Lobster Thermidor",
 				"French Fry Ferret",
