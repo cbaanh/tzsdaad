@@ -52,6 +52,7 @@ getgenv().gagConfig = {
 			"Mimic Octopus",
 			"Red Fox",
 			"Blood Owl",
+			["Gnome"] = 10,
 			["Dairy Cow"] = 5,
 			["Jackalope"] = 5,
 			["Sapling"] = 5,
@@ -104,7 +105,7 @@ getgenv().gagConfig = {
 				},
     NOTIFY_PETS_WEIGHT = { ["Red Giant Ant"] = 10, ["Bear Bee"] = 10, ["Tanchozuru"] = 10 },
     DISCORD_ID = "111zzz",
-    WEBHOOK_NOTE = "Testttttttttt",
+    WEBHOOK_NOTE = "PC",
     SHOW_WEBHOOK_USERNAME = true,
     SHOW_WEBHOOK_JOBID = false,
 }
