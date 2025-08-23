@@ -35,6 +35,8 @@ getgenv().gagConfig = {
 			"Jackalope",
 			"Sapling",
 			"Golem",
+        	"Gnome", 
+        	"Griffin",
 			"Golden Goose",
 			"Lobster Thermidor",
 			"French Fry Ferret",
@@ -87,6 +89,7 @@ getgenv().gagConfig = {
     PET_WEBHOOK_URL = "https://discordapp.com/api/webhooks/1405952428742021301/kHeZPGGPxh1ayFU5hXuZTFIT8o7df3HYq8xYoOgNVl2lVRcSJ830ATsJcSuJSQmGz-Lm",
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = {
+        		"Griffin",
 				"Golden Goose",
 				"Lobster Thermidor",
 				"French Fry Ferret",
