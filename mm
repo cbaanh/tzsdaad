@@ -2,11 +2,12 @@ setfpscap(3)
 
 getgenv().gagConfig = {
     -- Event:
-    CRAFT_EVENT = { "Anti Bee Egg", "Skyroot Chest", "Pet Shard GiantBean" },
+    CRAFT_EVENT = { "Anti Bee Egg", "Skyroot Chest" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     MAX_EVENT_RESTOCK_SHECKLES = 48_000_001,  -- Restock stop at 48m
-    BUY_EVENT_SHOP = { "Sprout Egg", "Spriggan", "Skyroot Chest", "Gnome", "Sprout Seed Pack", "Pet Shard GiantBean" },
+    BUY_EVENT_SHOP = { "Sprout Egg", "Spriggan", "Skyroot Chest", "Gnome", "Sprout Seed Pack" },
     PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
+    PLACE_COSMETIC = { "Cooking Kit" },
     
     -- General:
     AUTO_UPDATE_RESTART = true,
@@ -14,7 +15,7 @@ getgenv().gagConfig = {
     EXTRA_PET_SLOTS = 5,
     EXTRA_EGG_SLOTS = 5,
     ADD_FRIEND = true,
-    OPEN_ALL_SEED_PACK = false,
+    OPEN_ALL_SEED_PACK = true,
 
     MAX_PLANTS = 450,
     DESTROY_UNTIL_MIN_PLANTS = 400,
@@ -24,8 +25,8 @@ getgenv().gagConfig = {
     PLANT_EGGS = { "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Oasis Egg", "Sprout Egg"},
     
     BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
-    KEEP_SEEDS = { "abc" },
-    KEEP_SEEDS_AFTER_MAX_PLANTS = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
+    KEEP_SEEDS = { "Carrot" },
+    KEEP_SEEDS_AFTER_MAX_PLANTS = {},
     
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
