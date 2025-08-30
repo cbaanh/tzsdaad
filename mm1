@@ -6,7 +6,7 @@ getgenv().gagConfig = {
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     MAX_EVENT_RESTOCK_SHECKLES = 48_000_001,  -- Restock stop at 48m
     BUY_EVENT_SHOP = { "Sprout Egg", "Spriggan", "Skyroot Chest", "Sprout Seed Pack" },
-    PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
+    PLANT_EVENT_TREES = false,  -- This config will replace most plant related config
     PLACE_COSMETIC = { "Cooking Kit" },
     
     -- General:
@@ -17,9 +17,9 @@ getgenv().gagConfig = {
     ADD_FRIEND = true,
     OPEN_ALL_SEED_PACK = false,
 
-    -- MAX_PLANTS = 450,
-    -- DESTROY_UNTIL_MIN_PLANTS = 400,
-    -- DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
+    MAX_PLANTS = 450,
+    DESTROY_UNTIL_MIN_PLANTS = 400,
+    DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
     
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Zen Egg", "Uncommon Egg"},
     PLANT_EGGS = { "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Oasis Egg", "Sprout Egg"},
