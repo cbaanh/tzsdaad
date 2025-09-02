@@ -4,8 +4,8 @@ getgenv().gagConfig = {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    CLAIM_FAIRY_REWARD = { "Enchanted Egg", "FairyPoints", "Pet Shard Glimmering" },
-    PLANT_EVENT_TREES = false,  -- This config will replace most plant related config
+	CLAIM_FAIRY_REWARD = { "Enchanted Egg", "Mutation Spray Glimmering", "FairyPoints", "Enchanted Seed Pack" },
+    PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
     PLACE_COSMETIC = { "Cooking Kit" },
     
     -- General:
@@ -16,9 +16,9 @@ getgenv().gagConfig = {
     ADD_FRIEND = true,
     OPEN_ALL_SEED_PACK = true,
 
-    MAX_PLANTS = 450,
-    DESTROY_UNTIL_MIN_PLANTS = 400,
-    DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
+    -- MAX_PLANTS = 450,
+    -- DESTROY_UNTIL_MIN_PLANTS = 400,
+    -- DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
     
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Zen Egg"},
     PLANT_EGGS = { "Enchanted Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Oasis Egg", "Sprout Egg"},
@@ -33,6 +33,7 @@ getgenv().gagConfig = {
     KEEP_PETS = { 
 			"Cockatrice",
 			"Griffin",
+			"Glimmering Sprite",
 			"Golden Goose",
 			"Lobster Thermidor",
 			"French Fry Ferret",
@@ -53,7 +54,6 @@ getgenv().gagConfig = {
 			"Red Fox",
 			"Blood Owl",
 			["Imp"] = 5,
-			["Glimmering Sprite"] = 8,
 			["Pixie"] = 5,
 			["Golem"] = 5,
 			["Gnome"] = 5,
@@ -72,7 +72,7 @@ getgenv().gagConfig = {
     KEEP_PETS_AGE = { ["Starfish"] = 75 },
 
     EQUIP_PETS = { 
-				["Glimmering Sprite"] = 5,
+				["Glimmering Sprite"] = 8,
 				["Jackalope"] = 5,
 				["Caterpillar"] = 1,
 				["Giant Ant"] = 1,
