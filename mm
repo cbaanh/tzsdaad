@@ -4,7 +4,7 @@ getgenv().gagConfig = {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    CLAIM_FAIRY_REWARD = { "Enchanted Egg", "FairyPoints", "Pet Shard Glimmering" },
+	CLAIM_FAIRY_REWARD = { "Enchanted Egg", "Mutation Spray Glimmering", "FairyPoints", "Enchanted Seed Pack" },
     PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
     PLACE_COSMETIC = { "Cooking Kit" },
     
@@ -23,7 +23,7 @@ getgenv().gagConfig = {
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Zen Egg"},
     PLANT_EGGS = { "Enchanted Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Oasis Egg", "Sprout Egg"},
     
-    BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
+    BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Sunbulb", "Glowthorn", "Lightshoot", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50, ["Corn"] = 50 },
     KEEP_SEEDS = {},
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
     
@@ -33,6 +33,7 @@ getgenv().gagConfig = {
     KEEP_PETS = { 
 			"Cockatrice",
 			"Griffin",
+			"Glimmering Sprite",
 			"Golden Goose",
 			"Lobster Thermidor",
 			"French Fry Ferret",
@@ -53,7 +54,6 @@ getgenv().gagConfig = {
 			"Red Fox",
 			"Blood Owl",
 			["Imp"] = 5,
-			["Glimmering Sprite"] = 8,
 			["Pixie"] = 5,
 			["Golem"] = 5,
 			["Gnome"] = 5,
@@ -72,7 +72,7 @@ getgenv().gagConfig = {
     KEEP_PETS_AGE = { ["Starfish"] = 75 },
 
     EQUIP_PETS = { 
-				["Glimmering Sprite"] = 5,
+				["Glimmering Sprite"] = 8,
 				["Jackalope"] = 5,
 				["Caterpillar"] = 1,
 				["Giant Ant"] = 1,
