@@ -2,9 +2,12 @@ setfpscap(3)
 
 getgenv().gagConfig = {
     -- Event:
-    CRAFT_EVENT = { "Anti Bee Egg" },
+    CRAFT_EVENT = { "Fairy Net", "Enchanted Chest", "Anti Bee Egg", "Mutation Spray Glimmering" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-	CLAIM_FAIRY_REWARD = { "Enchanted Egg", "Mutation Spray Glimmering", "FairyPoints", "Enchanted Seed Pack" },
+    BUY_EVENT_SHOP = {"Enchanted Chest", "Luminous Sprite", "Drake" },
+    MAX_EVENT_RESTOCK_SHECKLES = 48000001,
+    
+    CLAIM_FAIRY_REWARD = { "Mutation Spray Glimmering", "Enchanted Egg", "Enchanted Seed Pack", "FairyPoints" },
     PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
     PLACE_COSMETIC = { "Cooking Kit" },
     
@@ -31,6 +34,7 @@ getgenv().gagConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = { 
+			"Phoenix",
 			"Cockatrice",
 			"Griffin",
 			"Golden Goose",
@@ -51,6 +55,9 @@ getgenv().gagConfig = {
 			"Mimic Octopus",
 			"Red Fox",
 			"Blood Owl",
+			["Drake"] = 10,
+			["Wisp"] = 5,
+			["Luminous Sprite"] = 5,
 			["Glimmering Sprite"] = 10,
 			["Imp"] = 5,
 			["Pixie"] = 5,
@@ -71,22 +78,18 @@ getgenv().gagConfig = {
 
     EQUIP_PETS = { 
 				["Glimmering Sprite"] = 8,
-				["Jackalope"] = 5,
-				["Caterpillar"] = 1,
-				["Giant Ant"] = 1,
-				["Shiba Inu"] = 1,
-				["Blood Kiwi"] = 1,
-				["Rooster"] = 1
+				["Rooster"] = 8
 	},
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },  -- Unequip from garden
 
-    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket" },
+    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", ["Harvest Tool"] = 10 },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
 
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1351616809014657164/ZEEMHqCCH8vkNEYHdN_J9oX_e0XtXDxEJH7aEcREDrG18_oCVpMY7q5c5StSXwl-LsiJ",
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = {
+				"Phoenix",
 				"Cockatrice",
 				"Kitsune",
 				"Spinosaurus",
@@ -102,7 +105,7 @@ getgenv().gagConfig = {
 				},
     NOTIFY_PETS_WEIGHT = { ["Red Giant Ant"] = 10, ["Bear Bee"] = 10, ["Tanchozuru"] = 10 },
     DISCORD_ID = "111zzz",
-    WEBHOOK_NOTE = "Testttttttttttttt",
+    WEBHOOK_NOTE = "Testtttttttt",
     SHOW_WEBHOOK_USERNAME = true,
     SHOW_WEBHOOK_JOBID = false,
 }
