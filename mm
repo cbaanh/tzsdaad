@@ -67,7 +67,7 @@ getgenv().gagConfig = {
     KEEP_PETS_WEIGHT = { ["Red Giant Ant"] = 5 },
     KEEP_PETS_AGE = { ["Starfish"] = 75 },
 	
-	MAX_REBIRTH_SHECKLES = 1_000_000_000_000_000,
+	MAX_REBIRTH_SHECKLES = 1_000_000_000_000,
 	BUY_ASCEND_SHOP = {"Egg Capacity Upgrade"},
 
     EQUIP_PETS = { 
