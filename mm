@@ -1,5 +1,4 @@
 setfpscap(3)
-
 getgenv().gagConfig = {
     -- Event:
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
@@ -18,6 +17,11 @@ getgenv().gagConfig = {
     OPEN_ALL_SEED_PACK = true,
 
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
+
+    -- MAX_PLANTS = 450,
+    -- DESTROY_UNTIL_MIN_PLANTS = 400,
+    -- DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
+    
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Zen Egg"},
     PLANT_EGGS = { "Fall Egg", "Bug Egg", "Paradise Egg", "Anti Bee Egg"},
     
@@ -29,6 +33,8 @@ getgenv().gagConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = { 
+			"Swan",
+			"Barn Owl",
 			"Phoenix",
 			"Cockatrice",
 			"Griffin",
@@ -61,7 +67,9 @@ getgenv().gagConfig = {
 	},
     KEEP_PETS_WEIGHT = { ["Red Giant Ant"] = 5 },
     KEEP_PETS_AGE = { ["Starfish"] = 75 },
-	
+
+	-- test
+	EQUIP_PET_SHARD = { ["Glimmering Sprite"] = "Glimmering" },
 	MAX_REBIRTH_SHECKLES = 1_000_000_000_000,
 	BUY_ASCEND_SHOP = {"Egg Capacity Upgrade"},
 
@@ -94,7 +102,7 @@ getgenv().gagConfig = {
 				},
     NOTIFY_PETS_WEIGHT = { ["Red Giant Ant"] = 10, ["Bear Bee"] = 10, ["Tanchozuru"] = 10 },
     DISCORD_ID = "111zzz",
-    WEBHOOK_NOTE = "PC",
+    WEBHOOK_NOTE = "Testtttttttt",
     SHOW_WEBHOOK_USERNAME = true,
     SHOW_WEBHOOK_JOBID = false,
 }
