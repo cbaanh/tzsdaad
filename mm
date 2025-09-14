@@ -35,6 +35,7 @@ getgenv().gagConfig = {
     KEEP_PETS = { 
 			"Swan",
 			"Barn Owl",
+			"Space Squirrel",
 			"Phoenix",
 			"Cockatrice",
 			"Griffin",
@@ -86,6 +87,7 @@ getgenv().gagConfig = {
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1351616809014657164/ZEEMHqCCH8vkNEYHdN_J9oX_e0XtXDxEJH7aEcREDrG18_oCVpMY7q5c5StSXwl-LsiJ",
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = {
+				"Swan",
 				"Phoenix",
 				"Cockatrice",
 				"Kitsune",
