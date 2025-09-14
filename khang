@@ -35,6 +35,7 @@ getgenv().gagConfig = {
     KEEP_PETS = { 
 			"Swan",
 			"Barn Owl",
+			"Space Squirrel",
 			"Phoenix",
 			"Cockatrice",
 			"Griffin",
