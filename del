@@ -2,9 +2,7 @@
 _G.KeepAmount = {
     ["Apple"] = 1
 }
-_G.Treelist = {
-    "Dragot"
-}
+_G.Treelist = {}
 _G.Remove = true
 
 -- Không cần chỉnh đoạn dưới nếu bạn không biết rõ
