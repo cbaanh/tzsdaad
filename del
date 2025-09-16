@@ -25,11 +25,13 @@ local function getOwnedPlot()
 end
 
 local function EquipShovel()
-    local shovel = player.Backpack:FindFirstChild("Shovel [Destroy Plants]")
-    if shovel then
+    local shovel = player.Backpack:FindFirstChild("Shovel [Destroy Plants]") 
+                or player.Character:FindFirstChild("Shovel [Destroy Plants]")
+    if shovel and shovel.Parent ~= player.Character then
         shovel.Parent = player.Character
     end
 end
+
 
 -- Kiểm tra tên cây có trong danh sách không
 local function isInTreelist(treeName)
