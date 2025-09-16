@@ -1,173 +1,47 @@
-getgenv().ConfigsKaitun = {
-	Beta_Fix_Data_Sync = false,
-	["Block Pet Gift"] = true,
+setfpscap(3)
+getgenv().gagConfig = {
+    -- Event:
+    BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
+    BUY_EVENT_SHOP = { "Marmot", "Fall Egg", "Golden Acorn", "Sugar Glider", "Space Squirrel" },
+    
+    PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
+    PLACE_COSMETIC = { "Cooking Kit" },
+    
+    -- General:
+    AUTO_UPDATE_RESTART = true,
+    REDEEM_CODES = {},
+    EXTRA_PET_SLOTS = 5,
+    EXTRA_EGG_SLOTS = 5,
+    MAX_REBIRTH_SHECKLES = 0,
+    ADD_FRIEND = true,
+    OPEN_ALL_SEED_PACK = true,
 
-	Collect_Cooldown = 60, -- cooldown to collect fruit
-	JustFuckingCollectAll = false, -- Collect all (fruit not wait mutation)
+    BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
 
-	["Low Cpu"] = true,
-	["Auto Rejoin"] = false,
+    -- MAX_PLANTS = 450,
+    -- DESTROY_UNTIL_MIN_PLANTS = 400,
+    -- DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
+    
+    BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Zen Egg"},
+    PLANT_EGGS = { "Bug Egg", "Paradise Egg", "Anti Bee Egg", "Fall Egg"},
+    
+    BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Sunbulb", "Glowthorn", "Lightshoot", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50, ["Corn"] = 50 },
+    KEEP_SEEDS = {},
+    KEEP_SEEDS_AFTER_MAX_PLANTS = {},
+    
+    FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
+    SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-	["Rejoin When Update"] = false,
-	["Limit Tree"] = {
-		["Limit"] = 230,
-		["Destroy Untill"] = 180,
-
-		["Safe Tree"] = {
-			"Tranquil Bloom",
-			"Maple Apple",
-			"Sunflower",
-			"Dragon Pepper",
-			"Elephant Ears",
-			"Moon Melon",
-			"Easter Egg",
-			"Moon Mango",
-			"Bone Blossom",
-			"Fossilight",
-      
-			-- locked fruit for zen event
-			["Tomato"] = 1, ["Strawberry"] = 1, ["Blueberry"] = 1,
-			["Orange Tulip"] = 1, ["Corn"] = 1, ["Daffodil"] = 1,
-			["Bamboo"] = 1, ["Apple"] = 1, ["Coconut"] = 1,
-			["Pumpkin"] = 1, ["Watermelon"] = 1, ["Cactus"] = 1,
-			["Dragon Fruit"] = 1, ["Mango"] = 1, ["Grape"] = 1,
-			["Mushroom"] = 1, ["Pepper"] = 1, ["Cacao"] = 1
-		}
-	},
-
-	Seed = {
-		Buy = {
-			Mode = "Auto", -- Custom , Auto
-			Custom = { -- any fruit u need to place
-				"Carrot",
-			}
-		},
-		Place = {
-			Mode = "Lock", -- Select , Lock
-			Select = {
-				"Carrot"
-			},
-			Lock = {
-				"Maple Apple",
-				"Sunflower",
-				"Dragon Pepper",
-				"Elephant Ears",
-				"Moon Melon",
-				"Easter Egg",
-				"Moon Mango",
-				"Bone Blossom",
-				"Fossilight",
-			}
-		}
-	},
-
-	["Seed Pack"] = {
-		Locked = {
-
-		}
-	},
-
-	Events = {
-		["Cook Event"] = {
-			Minimum_Money = 1_000_000, -- minimum money to start play this event
-		},
-		["Traveling Shop"] = {
-			"Bee Egg",
-			"Bell Pepper",
-			"Feijoa",
-		},
-		Craft = {
-			"Ancient Seed Pack",
-			"Anti Bee Egg",
-			"Small Toy",
-			"Small Treat",
-		},
-		Shop = {
-			"Zen Egg",
-			"Zen Seed Pack",
-			"Spiked Mango",
-			"Pet Shard Tranquil",
-			"Pet Shard Corrupted",
-			"Soft Sunshine",
-			"Bell Pepper",
-			"Feijoa",
-		},
-		Start_Do_Honey = 2_000_000 -- start trade fruit for honey at money
-	},
-
-	Gear = {
-		Buy = { 
-			"Watering Can",
-			"Trowel",
-			"Recall Wrench",
-			"Magnifying Glass",
-			"Tanning Mirror",
-			"Cleaning Spray",
-			"Favorite Tool",
-			"Harvest Tool",
-			"Friendship Pot",
-			"Master Sprinkler",
-			"Basic Sprinkler",
-			"Godly Sprinkler",
-			"Advanced Sprinkler",
-			"Medium Toy",
-			"Medium Treat",
-			"Levelup Lollipop",
-			"Lightning Rod",
-		},
-		Lock = {
-			"Master Sprinkler",
-			"Godly Sprinkler",
-			"Advanced Sprinkler",
-			"Basic Sprinkler",
-			"Lightning Rod",
-		},
-	},
-
-	Eggs = {
-		Place = {
-			"Gourmet Egg",
-			"Zen Egg",
-			"Primal Egg",
-			"Dinosaur Egg",
-			"Oasis Egg",
-			"Anti Bee Egg",
-			"Night Egg",
-			"Bug Egg",
-			"Paradise Egg",
-		},
-		Buy = {
-			"Bee Egg",
-			"Oasis Egg",
-			"Paradise Egg",
-			"Anti Bee Egg",
-			"Night Egg",
-			"Bug Egg",
-		}
-	},
-
-	Pets = {
-		["Start Delete Pet At"] = 50,
-		["Upgrade Slot"] = {
-			["Pet"] = {
-				["Starfish"] = { 5, 100, 1}, -- the "true" on the last is auto equip (use for like only need to use for upgrade pet)
-			},
-			["Limit Upgrade"] = 5,
-			["Equip When Done"] = {
-				["Caterpillar"] = { 4, 100, 1 },
-				["Giant Ant"] = { 3, 100, 2 },
-				["Shiba Inu"] = { 1, 100, 3 },
-				["Blood Kiwi"] = { 8, 100, 4 },
-				["Rooster"] = { 8, 100, 5 },
-			},
-		},
-		Favorite_LockedPet = true,
-		Locked_Pet_Age = 60, -- pet that age > 60 will lock
-		Locked = {
+    KEEP_PETS = { 
+			"Swan",
+			"Barn Owl",
+			"Phoenix",
+			"Cockatrice",
+			"Griffin",
+			"Golden Goose",
+			"Lobster Thermidor",
 			"French Fry Ferret",
-			"Spaghetti Sloth",
 			"Corrupted Kitsune",
-			"Raiju",
 			"Kitsune",
 			"Dilophosaurus",
 			"Moon Cat",
@@ -182,30 +56,44 @@ getgenv().ConfigsKaitun = {
 			"Mimic Octopus",
 			"Red Fox",
 			"Blood Owl",
-			["Starfish"] = 10,
-			["Caterpillar"] = 4,
-			["Giant Ant"] = 3,
+			["Space Squirrel"] = 5,
+			["Marmot"] = 5,
+			["Golden Acorn"] = 5,
+			["Sugar Glider"] = 5,
+			["Drake"] = 5,
+			["Wisp"] = 5,
+			["Luminous Sprite"] = 5,
+			["Glimmering Sprite"] = 5,
+			["Starfish"] = 8,
 			["Shiba Inu"] = 1,
-		},
-		LockPet_Weight = 10, -- if Weight >= 10 they will locked
+			["Blood Kiwi"] = 2,
+			["Ronin"] = 8,
+			["Rooster"] = 8
 	},
+    KEEP_PETS_WEIGHT = { ["Red Giant Ant"] = 5 },
+    KEEP_PETS_AGE = { ["Starfish"] = 75 },
 
-	Webhook = {
-		UrlPet = "https://discord.com/api/webhooks/1342556846862504045/vEh50mbTp8HZg6Na7bSZIwjiEjuvlG2ToFrKLfoEbrCbK2ez6MwGT811ETvTaT_3qxeR",
-		UrlSeed = "xxx",
-		PcName = "xxx",
+	-- test
+	EQUIP_PET_SHARD = { ["Glimmering Sprite"] = "Glimmering" },
+	MAX_REBIRTH_SHECKLES = 1_000_000_000_000,
+	BUY_ASCEND_SHOP = {"Egg Capacity Upgrade"},
 
-		Noti = {
-			Seeds = {
-				"Sunflower",
-				"Dragon Pepper",
-				"Elephant Ears",
-			},
-			SeedPack = {
-				"Idk"
-			},
-			Pets = {
-				"French Fry Ferret",
+    EQUIP_PETS = { 
+				["Ronin"] = 8,
+				["Rooster"] = 8
+	},
+    USE_PETS_FOR_UPGRADE_SLOT = { "Ronin" },
+    REMOVE_PET_MAX_UPGRADE = { "Ronin", "Starfish" },  -- Unequip from garden
+
+    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", ["Harvest Tool"] = 10 },
+    USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
+
+    PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1351616809014657164/ZEEMHqCCH8vkNEYHdN_J9oX_e0XtXDxEJH7aEcREDrG18_oCVpMY7q5c5StSXwl-LsiJ",
+    SEED_WEBHOOK_URL = "", 
+    NOTIFY_PETS = {
+				"Swan",
+				"Phoenix",
+				"Cockatrice",
 				"Kitsune",
 				"Spinosaurus",
 				"T-Rex",
@@ -216,9 +104,13 @@ getgenv().ConfigsKaitun = {
 				"Fennec Fox",
 				"Dragonfly",
 				"Raccoon",
-			},
-			Pet_Weight_Noti = true,
-		}
-	},
+				"Red Fox",
+				},
+    NOTIFY_PETS_WEIGHT = { ["Red Giant Ant"] = 10, ["Bear Bee"] = 10, ["Tanchozuru"] = 10 },
+    DISCORD_ID = "accnew",
+    WEBHOOK_NOTE = "PCCC",
+    SHOW_WEBHOOK_USERNAME = true,
+    SHOW_WEBHOOK_JOBID = false,
 }
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Real-Aya/Loader/main/Init.lua'))()
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c916e5b90dc37c71ecf1ec00dfce3d5d.lua"))()
