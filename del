@@ -1,32 +1,9 @@
 -- Config
 _G.KeepAmount = {
-    -- Event Beanstalk (~120)
-    ["Beanstalk"] = 20,
-    ["Burning Bud"] = 20,
-    ["Ember Lily"] = 20,
-    ["Flare Daisy"] = 20,
-    ["Duskpuff"] = 15,
-    ["Pepper"] = 15,
-    ["Jalapeño"] = 10,
-    ["Badlands Pepper"] = 5,
-    ["Sugarglaze"] = 10,
-
-    -- Farm tiền (~100)
-    ["Sugar Apple"] = 30,
-    ["Apple"] = 10,
-    ["Mango"] = 10,
-    ["Grape"] = 10,
-    ["Blueberry"] = 10,
-    ["Coconut"] = 10,
-    ["Corn"] = 10,
-    ["Onion"] = 10,
-    ["Strawberry"] = 10,
-    ["Tomato"] = 10,
-    ["Pumpkin"] = 5,
-    ["Watermelon"] = 5
+    ["Apple"] = 1
 }
 _G.Treelist = {
-    "Dragon Fruit"
+    "Dragot"
 }
 _G.Remove = true
 
