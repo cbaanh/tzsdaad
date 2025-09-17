@@ -1,12 +1,36 @@
-getgenv().Settings = {
-    ["Auto Buy Pet"] = true,
-    ["Auto Buy Pet Spam"] = true,
-    ["Boost Speed"] = true,
-    ["Sell Pet Low Price when have New Pet"] = true,
-    ["Auto Collect"] = true,
-    ["Auto Kick If Have Player"] = true,
-    ["Rarity Send"] = {"Secret"},
-    ["Auto Shutdown If Script Update"] = true,
-    ["Webhook Url"] = 'https://discord.com/api/webhooks/1342556846862504045/vEh50mbTp8HZg6Na7bSZIwjiEjuvlG2ToFrKLfoEbrCbK2ez6MwGT811ETvTaT_3qxeR'
+setfpscap(5)
+
+getgenv().sabConfig = {
+    -- General
+    PRIVATE_SERVER = true,  -- if true -> autokick when in public for safety
+    CHASE_BRAINROT = false,  -- true -> chase | false -> stand at end of conveyor
+    MAX_CASH = math.huge,  -- can add number 999999, math.huge = always collect
+    COLLECT_CASH_COOLDOWN = 120,
+    LOCK_GATE = false,
+
+    -- Brainrot
+    PRIORITY_BRAINROT = { "Secret Lucky Block", "Admin Lucky Block", "Taco Lucky Block" },  -- Keep brainrot & priority buy
+    OPEN_LUCKY_BLOCK = { "Mythic Lucky Block" },
+
+    -- Tools
+    AUTO_BUY_TOOL = { "Speed Coil" },
+    EQUIP_TOOL = { "Speed Coil" },  -- Equip left to right
+
+    -- Rebirth
+    MAX_REBIRTH = 6,
+    KICK_AFTER_REBIRTH = true,
+    BRAINROT_RARITY_STOP_REBIRTH = { "Secret", "Admin", "OG" },
+    IGNORE_BRAINROT_GENERATION_STOP_REBIRTH = 300000,  -- Stop Rebirth if have 300k+/s brainrot 
+
+    -- Webhook
+    BRAINROT_WEBHOOK_URL = "https://discord.com/api/webhooks/1346782737692098571/CqncaOg2IMSeVbDEUqlfI-t9IfpHvtLcVmCNQ0xRI1OeZEF12gMJF3he0ZF7fcRnA6LS",
+    NOTIFY_GENERATION = 300000,
+    NOTIFY_NAME = { "Secret Lucky Block", "Admin Lucky Block", "Taco Lucky Block" },
+    NOTIFY_RARITY = {},  -- "Secret", "Admin", "OG", any rarity
+    DISCORD_ID = "zzaa1",
+    WEBHOOK_NOTE = "",
+    SHOW_WEBHOOK_USERNAME = true,
+    SHOW_WEBHOOK_JOBID = true,
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a289b4828831d3446caed93ddfb4c279.lua"))() 
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a43e08bf148ac388b48fa78091494ebd.lua"))()
