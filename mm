@@ -74,7 +74,7 @@ getgenv().gagConfig = {
 
 	-- test
 	EQUIP_PET_SHARD = { ["Glimmering Sprite"] = "Glimmering" },
-	MAX_REBIRTH_SHECKLES = 1_000_000_000_000,
+	MAX_REBIRTH_SHECKLES = 1_000_000_000_000_000,
 	BUY_ASCEND_SHOP = {"Egg Capacity Upgrade"},
 
     EQUIP_PETS = { 
