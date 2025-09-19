@@ -1,4 +1,4 @@
-setfpscap(5)
+setfpscap(12)
 
 getgenv().sabConfig = {
     CLONE_PRIVATE_SERVER = false,
