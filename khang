@@ -35,7 +35,6 @@ getgenv().gagConfig = {
     KEEP_PETS = { 
 			"Swan",
 			"Barn Owl",
-			"Space Squirrel",
 			"Phoenix",
 			"Cockatrice",
 			"Griffin",
@@ -57,42 +56,43 @@ getgenv().gagConfig = {
 			"Mimic Octopus",
 			"Red Fox",
 			"Blood Owl",
-			["Drake"] = 10,
+			["Space Squirrel"] = 5,
+			["Marmot"] = 5,
+			["Golden Acorn"] = 5,
+			["Sugar Glider"] = 5,
+			["Drake"] = 5,
 			["Wisp"] = 5,
 			["Luminous Sprite"] = 5,
-			["Glimmering Sprite"] = 10,
-			["Imp"] = 5,
-			["Pixie"] = 5,
-			["Golem"] = 5,
-			["Jackalope"] = 5,
-			["Sunny-Side Chicken"] = 5,
-			["Spaghetti Sloth"] = 2,
+			["Glimmering Sprite"] = 5,
 			["Starfish"] = 8,
-			["Bald Eagle"] = 1,
-			["Caterpillar"] = 3,
-			["Giant Ant"] = 2,
 			["Shiba Inu"] = 1,
 			["Blood Kiwi"] = 2,
-			["Rooster"] = 2
+			["Rooster"] = 8
 	},
     KEEP_PETS_WEIGHT = { ["Red Giant Ant"] = 5 },
     KEEP_PETS_AGE = { ["Starfish"] = 75 },
+
+	-- test
+	EQUIP_PET_SHARD = { ["Glimmering Sprite"] = "Glimmering" },
+	MAX_REBIRTH_SHECKLES = 1_000_000_000_000_000,
+	BUY_ASCEND_SHOP = {"Egg Capacity Upgrade"},
 
     EQUIP_PETS = { 
 				["Glimmering Sprite"] = 8,
 				["Rooster"] = 8
 	},
     USE_PETS_FOR_UPGRADE_SLOT = { "Glimmering Sprite" },
-    REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },  -- Unequip from garden
+    REMOVE_PET_MAX_UPGRADE = { "Glimmering Sprite", "Starfish" },  -- Unequip from garden
 
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", ["Harvest Tool"] = 10 },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
 
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1393821040903192597/5dT0bXgHsawpApNIvE6tzRjQBgiGq9_jp87i3Z5JDPRmcXcqMTMPevtEFGV8QWxg07i-",
     SEED_WEBHOOK_URL = "", 
+	SHOW_PUBLIC_DISCORD_ID = false,
     NOTIFY_PETS = {
-				"Swan",
 				"Phoenix",
+				"Swan",
 				"Cockatrice",
 				"Kitsune",
 				"Spinosaurus",
@@ -108,7 +108,7 @@ getgenv().gagConfig = {
 				},
     NOTIFY_PETS_WEIGHT = { ["Red Giant Ant"] = 10, ["Bear Bee"] = 10, ["Tanchozuru"] = 10 },
     DISCORD_ID = "111zzz",
-    WEBHOOK_NOTE = "PC",
+    WEBHOOK_NOTE = "Testtttttttt",
     SHOW_WEBHOOK_USERNAME = true,
     SHOW_WEBHOOK_JOBID = false,
 }
