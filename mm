@@ -2,7 +2,8 @@ setfpscap(3)
 getgenv().gagConfig = {
     -- Event:
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Red Panda", "Marmot", "Fall Egg", "Golden Acorn", "Sugar Glider", "Space Squirrel" },
+    BUY_EVENT_SHOP = { "Red Panda", "Fall Egg", "Golden Acorn" },
+    MAX_QUEST_REROLL_SHECKLES = 48000001,
     
     PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
     PLACE_COSMETIC = { "Cooking Kit" },
