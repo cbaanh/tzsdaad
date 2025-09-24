@@ -23,8 +23,8 @@ getgenv().gagConfig = {
     -- DESTROY_UNTIL_MIN_PLANTS = 400,
     -- DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
     
-    BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Zen Egg"},
-    PLANT_EGGS = { "Bug Egg", "Paradise Egg", "Anti Bee Egg", "Fall Egg"},
+    BUY_EGGS = { "Rare Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Zen Egg"},
+    PLANT_EGGS = { "Rare Egg", "Bug Egg", "Paradise Egg", "Anti Bee Egg", "Fall Egg"},
     
     BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Sunbulb", "Glowthorn", "Lightshoot", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50, ["Corn"] = 50 },
     KEEP_SEEDS = {},
@@ -69,7 +69,7 @@ getgenv().gagConfig = {
 			["Starfish"] = 8,
 			["Shiba Inu"] = 1,
 			["Blood Kiwi"] = 2,
-			["Rooster"] = 8
+			["Rooster"] = 13
 	},
     KEEP_PETS_WEIGHT = { ["Red Giant Ant"] = 5 },
     KEEP_PETS_AGE = { ["Starfish"] = 75 },
@@ -80,8 +80,7 @@ getgenv().gagConfig = {
 	BUY_ASCEND_SHOP = {"Egg Capacity Upgrade"},
 
     EQUIP_PETS = { 
-				["Glimmering Sprite"] = 8,
-				["Rooster"] = 8
+				["Rooster"] = 13,
 	},
     USE_PETS_FOR_UPGRADE_SLOT = { "Glimmering Sprite" },
     REMOVE_PET_MAX_UPGRADE = { "Glimmering Sprite", "Starfish" },  -- Unequip from garden
