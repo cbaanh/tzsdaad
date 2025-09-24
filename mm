@@ -2,7 +2,7 @@ setfpscap(3)
 getgenv().gagConfig = {
     -- Event:
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Red Panda", "Fall Egg", "Golden Acorn" },
+    BUY_EVENT_SHOP = { "Fall Egg", "Golden Acorn" },
     MAX_QUEST_REROLL_SHECKLES = 48000001,
     
     PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
@@ -34,7 +34,6 @@ getgenv().gagConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = { 
-			"Red Panda",
 			"Swan",
 			"Barn Owl",
 			"Phoenix",
@@ -58,12 +57,8 @@ getgenv().gagConfig = {
 			"Mimic Octopus",
 			"Red Fox",
 			"Blood Owl",
-			["Space Squirrel"] = 5,
-			["Marmot"] = 5,
-			["Golden Acorn"] = 5,
-			["Sugar Glider"] = 5,
+			["Red Panda"] = 10,
 			["Drake"] = 5,
-			["Wisp"] = 5,
 			["Luminous Sprite"] = 5,
 			["Glimmering Sprite"] = 5,
 			["Starfish"] = 8,
