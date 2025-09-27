@@ -5,8 +5,8 @@ getgenv().gagConfig = {
     BUY_EVENT_SHOP = { "Evo Beetroot I", "Evo Blueberry I", "Evo Pumpkin I", "Evo Mushroom I" },
     MAX_QUEST_REROLL_SHECKLES = 48000001,
     
-    MAX_PLANTS = 200,
-    DESTROY_UNTIL_MIN_PLANTS = 150,
+    MAX_PLANTS = 400,
+    DESTROY_UNTIL_MIN_PLANTS = 350,
     DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
     KEEP_SEEDS = { "Bone Blossom" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
