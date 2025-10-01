@@ -7,7 +7,6 @@ getgenv().gagConfig = {
     
     MAX_PLANTS = 50,
     DESTROY_UNTIL_MIN_PLANTS = 40,
-    DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
     KEEP_SEEDS = { "Bone Blossom" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
 	
