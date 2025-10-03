@@ -78,11 +78,12 @@ getgenv().gagConfig = {
 	BUY_ASCEND_SHOP = {"Egg Capacity Upgrade"},
 
     EQUIP_PETS = { 
-				["Barn Owl"] = 1,
-				["Robin"] = 8
+				["Barn Owl"] = 4,
+				["Rooster"] = 8,
+				["Robin"] = 4
 	},
-    USE_PETS_FOR_UPGRADE_SLOT = { "Robin" },
-    REMOVE_PET_MAX_UPGRADE = { "Robin", "Starfish" },  -- Unequip from garden
+    USE_PETS_FOR_UPGRADE_SLOT = { "Robin", "Barn Owl" },
+    REMOVE_PET_MAX_UPGRADE = { "Robin", "Barn Owl", "Starfish" },  -- Unequip from garden
 
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", ["Harvest Tool"] = 10, ["Watering Can"] = 20 },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
