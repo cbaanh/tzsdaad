@@ -34,6 +34,7 @@ getgenv().gagConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = { 
+			"Chubby Chipmunk",
 			"Mizuchi",
 			"Tiger",
 			"Swan",
