@@ -1,15 +1,12 @@
 setfpscap(3)
 getgenv().gagConfig = {
-    -- Event:
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Evo Beetroot I", "Evo Blueberry I", "Evo Pumpkin I", "Evo Mushroom I" },
-    MAX_QUEST_REROLL_SHECKLES = 48000001,
     
-    MAX_PLANTS = 50,
-    DESTROY_UNTIL_MIN_PLANTS = 40,
+    MAX_PLANTS = 100,
+    DESTROY_UNTIL_MIN_PLANTS = 80,
     KEEP_SEEDS = { "Bone Blossom" },
-    KEEP_SEEDS_AFTER_MAX_PLANTS = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
-	
+    KEEP_SEEDS_AFTER_MAX_PLANTS = {},
+
     PLACE_COSMETIC = { "Cooking Kit" },
     
     -- General:
@@ -26,7 +23,7 @@ getgenv().gagConfig = {
     BUY_EGGS = { "Jungle Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Zen Egg"},
     PLANT_EGGS = { "Jungle Egg", "Fall Egg"},
     
-    BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
+    BUY_SEED_SHOP = { "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
     KEEP_SEEDS = {},
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
     
@@ -34,6 +31,8 @@ getgenv().gagConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = { 
+		 	"Fortune Squirrel", 
+			"Chinchilla",
 			"Chubby Chipmunk",
 			"Mizuchi",
 			"Tiger",
@@ -79,12 +78,13 @@ getgenv().gagConfig = {
 	BUY_ASCEND_SHOP = {"Egg Capacity Upgrade"},
 
     EQUIP_PETS = { 
-				["Rooster"] = 8,
+		["Chubby Chipmunk"] = 1, 
+		["Rooster"] = 7 
 	},
     USE_PETS_FOR_UPGRADE_SLOT = { "Glimmering Sprite" },
     REMOVE_PET_MAX_UPGRADE = { "Glimmering Sprite", "Starfish" },  -- Unequip from garden
 
-    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", ["Harvest Tool"] = 10, ["Watering Can"] = 20 },
+    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", "Watering Can", "Levelup Lollipop" },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
 
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1351616809014657164/ZEEMHqCCH8vkNEYHdN_J9oX_e0XtXDxEJH7aEcREDrG18_oCVpMY7q5c5StSXwl-LsiJ",
