@@ -32,7 +32,6 @@ getgenv().gagConfig = {
 
     KEEP_PETS = { 
 		 	"Chicken Zombie", 
-		 	"Fortune Squirrel", 
 			"Chinchilla",
 			"Chubby Chipmunk",
 			"Mizuchi",
