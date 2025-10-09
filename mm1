@@ -32,13 +32,11 @@ getgenv().gagConfig = {
 
     KEEP_PETS = { 
 		 	"Chicken Zombie", 
-		 	"Fortune Squirrel", 
 			"Chinchilla",
 			"Chubby Chipmunk",
 			"Mizuchi",
 			"Tiger",
 			"Swan",
-			"Barn Owl",
 			"Phoenix",
 			"Cockatrice",
 			"Griffin",
@@ -60,6 +58,7 @@ getgenv().gagConfig = {
 			"Mimic Octopus",
 			"Red Fox",
 			"Blood Owl",
+			["Barn Owl"] = 3,
 			["Chimpanzee"] = 8,
 			["Red Panda"] = 10,
 			["Drake"] = 5,
