@@ -33,6 +33,7 @@ getgenv().gagConfig = {
 
     KEEP_PETS = { 
 		 	"Headless Horseman", 
+            "Reaper",
 		 	"Chicken Zombie", 
 			"Chinchilla",
 			"Chubby Chipmunk",
