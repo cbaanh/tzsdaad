@@ -20,8 +20,9 @@ getgenv().gagConfig = {
 
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
     
-    BUY_EGGS = { "Jungle Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Zen Egg"},
-    PLANT_EGGS = { "Paradise Egg", "Jungle Egg", "Fall Egg", "Bug Egg"},
+    BUY_EGGS = { "Spooky Egg", "Jungle Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Zen Egg"},
+    PLANT_EGGS = { "Spooky Egg" },
+    -- PLANT_EGGS = { "Spooky Egg", "Paradise Egg", "Jungle Egg", "Fall Egg", "Bug Egg"},
     
     BUY_SEED_SHOP = { "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
     KEEP_SEEDS = {},
@@ -31,6 +32,7 @@ getgenv().gagConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = { 
+		 	"Headless Horseman", 
 		 	"Chicken Zombie", 
 			"Chinchilla",
 			"Chubby Chipmunk",
@@ -59,13 +61,13 @@ getgenv().gagConfig = {
 			"Red Fox",
 			"Blood Owl",
 			"Capybara",
+			["Black Cat"] = 10,
+			["Spider"] = 5,
 			["Peacock"] = 10,
 			["Scarlet Macaw"] = 10,
-			["Barn Owl"] = 3,
 			["Red Panda"] = 10,
 			["Drake"] = 5,
 			["Luminous Sprite"] = 5,
-			["Glimmering Sprite"] = 5,
 			["Starfish"] = 8,
 			["Shiba Inu"] = 1,
 			["Blood Kiwi"] = 2,
@@ -93,9 +95,7 @@ getgenv().gagConfig = {
 	SHOW_PUBLIC_DISCORD_ID = false,
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = {
-				"Chinchilla",
-				"Tiger",
-				"Swan",
+		 		"Headless Horseman", 
 				"Phoenix",
 				"Cockatrice",
 				"Kitsune",
