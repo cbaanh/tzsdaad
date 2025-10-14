@@ -84,7 +84,10 @@ getgenv().gagConfig = {
 	BUY_ASCEND_SHOP = {"Egg Capacity Upgrade"},
 
     
-    EQUIP_PETS = { ["Rooster"] = 8 },
+    EQUIP_PETS = {
+		["Ghost Bear"] = 3,
+		["Rooster"] = 5,
+	},
 	
     USE_PETS_FOR_UPGRADE_SLOT = { "Glimmering Sprite" },
     REMOVE_PET_MAX_UPGRADE = { "Glimmering Sprite", "Starfish" },  -- Unequip from garden
