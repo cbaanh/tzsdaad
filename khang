@@ -1,7 +1,7 @@
 setfpscap(3)
 getgenv().gagConfig = {
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Spooky Egg", ["Ghost Bear"] = 8, "Reaper" },
+    BUY_EVENT_SHOP = { "Spooky Egg", ["Ghost Bear"] = 8 },
     MAX_PLANTS = 100,
     DESTROY_UNTIL_MIN_PLANTS = 80,
     KEEP_SEEDS = { "Bone Blossom" },
@@ -64,7 +64,7 @@ getgenv().gagConfig = {
 			"Blood Owl",
 			"Capybara",
 			["Ghost Bear"] = 8,
-			["Black Cat"] = 10,
+			["Black Cat"] = 5,
 			["Spider"] = 5,
 			["Peacock"] = 10,
 			["Scarlet Macaw"] = 10,
