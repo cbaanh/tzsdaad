@@ -87,7 +87,8 @@ getgenv().gagConfig = {
 
     
     EQUIP_PETS = {
-		["Rooster"] = 8,
+		{"Ghost Bear", 8, 1},
+		{"Rooster", 8, 2},
 	},
 	
     USE_PETS_FOR_UPGRADE_SLOT = { "Rooster" },
