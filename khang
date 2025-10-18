@@ -33,6 +33,9 @@ getgenv().gagConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = { 
+			"Hex Serpent",
+			"Lich",
+			"Goat",
 		 	"Headless Horseman", 
 		 	"Reaper",
 		 	"Chicken Zombie", 
