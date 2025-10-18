@@ -1,8 +1,7 @@
-
 setfpscap(3)
 getgenv().gagConfig = {
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Spooky Egg", ["Ghost Bear"] = 8 },
+    BUY_EVENT_SHOP = { "Spooky Egg", "Goat", "Hex Serpent", "Lich" },
     MAX_PLANTS = 100,
     DESTROY_UNTIL_MIN_PLANTS = 80,
     KEEP_SEEDS = { "Bone Blossom" },
@@ -34,6 +33,9 @@ getgenv().gagConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = { 
+			"Hex Serpent",
+			"Lich",
+			"Goat",
 		 	"Headless Horseman", 
 		 	"Reaper",
 		 	"Chicken Zombie", 
@@ -64,9 +66,8 @@ getgenv().gagConfig = {
 			"Red Fox",
 			"Blood Owl",
 			"Capybara",
+			"Barn Owl",
 			["Ghost Bear"] = 8,
-			["Black Cat"] = 5,
-			["Spider"] = 5,
 			["Peacock"] = 10,
 			["Scarlet Macaw"] = 5,
 			["Red Panda"] = 10,
@@ -76,8 +77,8 @@ getgenv().gagConfig = {
 			["Blood Kiwi"] = 2,
 			["Rooster"] = 8
 	},
-    KEEP_PETS_WEIGHT = { ["Red Giant Ant"] = 5 },
-    KEEP_PETS_AGE = { ["Starfish"] = 75 },
+    KEEP_PETS_WEIGHT = 5,
+    KEEP_PETS_AGE = 60,
 
 	-- test
 	EQUIP_PET_SHARD = { ["Glimmering Sprite"] = "Glimmering" },
@@ -91,7 +92,7 @@ getgenv().gagConfig = {
 	},
 	
     USE_PETS_FOR_UPGRADE_SLOT = { "Glimmering Sprite" },
-    REMOVE_PET_MAX_UPGRADE = { "Glimmering Sprite", "Starfish" },  -- Unequip from garden
+    REMOVE_PET_MAX_UPGRADE = { "Glimmering Sprite", "Starfish", "Robin", "Barn Owl" },  -- Unequip from garden
 
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", "Watering Can", "Levelup Lollipop" },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
