@@ -1,7 +1,7 @@
 setfpscap(3)
 getgenv().gagConfig = {
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Spooky Egg", "Goat", "Hex Serpent", "Lich" },
+    BUY_EVENT_SHOP = { "Spooky Egg", "Hex Serpent", "Lich" },
     MAX_PLANTS = 100,
     DESTROY_UNTIL_MIN_PLANTS = 80,
     KEEP_SEEDS = { "Bone Blossom" },
@@ -87,8 +87,8 @@ getgenv().gagConfig = {
 
     
     EQUIP_PETS = {
-		["Ghost Bear"] = 3,
-		["Rooster"] = 5,
+		{"Ghost Bear", 8, 1},
+		{"Rooster", 8, 2},
 	},
 	
     USE_PETS_FOR_UPGRADE_SLOT = { "Glimmering Sprite" },
@@ -101,6 +101,8 @@ getgenv().gagConfig = {
 	SHOW_PUBLIC_DISCORD_ID = false,
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = {
+				"Hex Serpent",
+				"Lich",
 		 		"Headless Horseman", 
 				"Phoenix",
 				"Cockatrice",
