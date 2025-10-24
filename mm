@@ -1,4 +1,3 @@
-setfpscap(3)
 getgenv().gagConfig = {
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     BUY_EVENT_SHOP = { "Spooky Egg", "Hex Serpent", "Lich" },
