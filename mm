@@ -1,6 +1,6 @@
 getgenv().gagConfig = {
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Spooky Egg", "Hex Serpent", "Lich" },
+    BUY_EVENT_SHOP = { "Spooky Egg", "Spooky Chest", "Lich" },
     MAX_PLANTS = 100,
     DESTROY_UNTIL_MIN_PLANTS = 80,
     KEEP_SEEDS = { "Bone Blossom" },
@@ -31,6 +31,8 @@ getgenv().gagConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = { 
+			"Wereplant",
+			"Mummy",
 			"Hex Serpent",
 			"Lich",
 			"Goat",
@@ -65,6 +67,9 @@ getgenv().gagConfig = {
 			"Blood Owl",
 			"Capybara",
 			"Barn Owl",
+			["Tomb Marmot"] = 10,
+			["Devilroot"] = 10,
+			["Scarab"] = 10,
 			["Ghost Bear"] = 8,
 			["Peacock"] = 10,
 			["Scarlet Macaw"] = 5,
@@ -99,6 +104,8 @@ getgenv().gagConfig = {
 	SHOW_PUBLIC_DISCORD_ID = false,
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = {
+				"Wereplant",
+				"Mummy",
 				"Hex Serpent",
 				"Lich",
 		 		"Headless Horseman", 
