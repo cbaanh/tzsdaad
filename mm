@@ -31,7 +31,6 @@ getgenv().gagConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = { 
-			"Wereplant",
 			"Mummy",
 			"Hex Serpent",
 			"Lich",
@@ -104,7 +103,6 @@ getgenv().gagConfig = {
 	SHOW_PUBLIC_DISCORD_ID = false,
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = {
-				"Wereplant",
 				"Mummy",
 				"Hex Serpent",
 				"Lich",
