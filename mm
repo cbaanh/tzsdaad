@@ -92,6 +92,7 @@ getgenv().gagConfig = {
 		{"Ghost Bear", 8, 1},
 		{"Rooster", 8, 2},
 	},
+    LEVELUP_LOLLIPOP_MIN_LEVEL = 90,
 	
     USE_PETS_FOR_UPGRADE_SLOT = { "Glimmering Sprite" },
     REMOVE_PET_MAX_UPGRADE = { "Glimmering Sprite", "Starfish", "Robin", "Barn Owl" },  -- Unequip from garden
