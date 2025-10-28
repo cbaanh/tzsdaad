@@ -46,4 +46,4 @@ getgenv().pvbConfig = {
     GIFTING_COOLDOWN = 5,
 }
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/1955a9eeb0a6b663051651121e75f7f7.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fb22292fbed43e6aeb163a93df81a968.lua"))()
