@@ -105,7 +105,6 @@ getgenv().gagConfig = {
     NOTIFY_PETS = {
 				"Wereplant",
 				"Mummy",
-				"Hex Serpent",
 				"Lich",
 		 		"Headless Horseman", 
 				"Phoenix",
