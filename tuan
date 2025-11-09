@@ -85,6 +85,7 @@ getgenv().gagConfig = {
     
     EQUIP_PETS = {
 		{"Rhino", 8, 1},
+		{"Rooster", 8, 2},
 	},
     LEVELUP_LOLLIPOP_MIN_LEVEL = 90,
 	
