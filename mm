@@ -22,7 +22,7 @@ getgenv().gagConfig = {
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
     
     BUY_EGGS = { "Spooky Egg", "Jungle Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Zen Egg", "Safari Egg"},
-    PLANT_EGGS = { "Safari Egg", "Paradise Egg", "Spooky Egg", "Jungle Egg" },
+    PLANT_EGGS = { "Paradise Egg", "Safari Egg", "Spooky Egg", "Jungle Egg" },
     
     BUY_SEED_SHOP = { "Great Pumpkin", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
 	    
@@ -85,7 +85,6 @@ getgenv().gagConfig = {
     
     EQUIP_PETS = {
 		{"Rhino", 8, 1},
-		{"Rooster", 8, 2},
 	},
     LEVELUP_LOLLIPOP_MIN_LEVEL = 90,
 	
