@@ -1,7 +1,7 @@
 getgenv().gagConfig = {
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     BUY_EVENT_SHOP = { "Safari Egg", "Lion" },
-    SUBMIT_SAFARI_JOE_PET = {"Giraffe", "Zebra", "Oxpecker"},  -- Add as many pet names
+    SUBMIT_SAFARI_JOE_PET = {},  -- Add as many pet names
     DISABLE_REAPER_EVENT = false,
     MAX_PLANTS = 250,
     DESTROY_UNTIL_MIN_PLANTS = 180,
