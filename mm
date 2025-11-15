@@ -106,6 +106,7 @@ getgenv().gagConfig = {
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = {
 			"Ruby Squid",
+			"Diamond Panther",
 				},
     NOTIFY_PETS_WEIGHT = { ["Red Giant Ant"] = 10, ["Bear Bee"] = 10, ["Tanchozuru"] = 10 },
     DISCORD_ID = "111zzz",
