@@ -2,6 +2,7 @@ getgenv().gagConfig = {
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     BUY_EVENT_SHOP = { "Gem Egg", "Safari Egg", "Lion" },
     CRAFT_EVENT = { "Gem Egg", "Cheetah" },
+    IGNORE_SUBMIT_EVENT_FORGE = { "Gem Egg", "Coal" },  -- "Coal" will ignore all types of Coal
 	
     MAX_PLANTS = 250,
     DESTROY_UNTIL_MIN_PLANTS = 180,
