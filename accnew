@@ -2,10 +2,10 @@ getgenv().gagConfig = {
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     BUY_EVENT_SHOP = { "Gem Egg", "Safari Egg", "Lion" },
     CRAFT_EVENT = { "Gem Egg" },
-	IGNORE_SUBMIT_EVENT_FORGE = { "Gem Egg", "Coal", "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", "Watering Can", "Levelup Lollipop", "Spooky Egg", "Jungle Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Zen Egg", "Safari Egg", "Rare Egg", "Enchanted Egg", "Fall Egg", "Common Summer Egg", "Sprout Egg" },
+	IGNORE_SUBMIT_EVENT_FORGE = { "Gem Egg", "Coal", "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", "Watering Can", "Levelup Lollipop", "Spooky Egg", "Jungle Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Zen Egg", "Safari Egg", "Enchanted Egg", "Fall Egg", "Common Summer Egg", "Sprout Egg" },
 	
-    MAX_PLANTS = 250,
-    DESTROY_UNTIL_MIN_PLANTS = 180,
+    MAX_PLANTS = 50,
+    DESTROY_UNTIL_MIN_PLANTS = 40,
     KEEP_SEEDS = { "Bone Blossom" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
 
@@ -22,7 +22,7 @@ getgenv().gagConfig = {
 
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
     
-    BUY_EGGS = { "Gem Egg", "Spooky Egg", "Jungle Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Zen Egg", "Safari Egg", "Rare Egg", "Common Egg" },
+    BUY_EGGS = { "Gem Egg", "Spooky Egg", "Jungle Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Zen Egg", "Safari Egg", "Rare Egg", "Common Egg", "Uncommon Egg", "Mythical Egg", "Legendary Egg" },
     PLANT_EGGS = { "Gem Egg", "Spooky Egg" },
     -- PLANT_EGGS = { "Paradise Egg", "Safari Egg", "Spooky Egg", "Jungle Egg" },
     
@@ -32,6 +32,7 @@ getgenv().gagConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = { 
+			"Goblin Miner",
 			"Ruby Squid",
 			"Diamond Panther",
 			"Lion",
