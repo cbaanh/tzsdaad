@@ -2,7 +2,7 @@ getgenv().gagConfig = {
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     BUY_EVENT_SHOP = { "Gem Egg", "Safari Egg", "Lion" },
     CRAFT_EVENT = { "Gem Egg" },
-	IGNORE_SUBMIT_EVENT_FORGE = { "Gem Egg", "Coal", "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", "Watering Can", "Levelup Lollipop", "Spooky Egg", "Jungle Egg", "Paradise Egg", "Zen Egg", "Safari Egg", "Sprout Egg" },
+	IGNORE_SUBMIT_EVENT_FORGE = { "Gem Egg", "Coal", "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", "Watering Can", "Levelup Lollipop", "Spooky Egg", "Jungle Egg", "Paradise Egg", "Zen Egg", "Safari Egg", "Sprout Egg", "Common Egg" },
 	
     MAX_PLANTS = 50,
     DESTROY_UNTIL_MIN_PLANTS = 40,
