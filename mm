@@ -2,10 +2,10 @@ getgenv().gagConfig = {
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     BUY_EVENT_SHOP = { "Gem Egg", "Safari Egg", "Lion" },
     CRAFT_EVENT = { "Gem Egg" },
-	IGNORE_SUBMIT_EVENT_FORGE = { "Gem Egg", "Coal", "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", "Levelup Lollipop", "Spooky Egg", "Jungle Egg", "Paradise Egg", "Zen Egg", "Safari Egg", "Sprout Egg" },
+	IGNORE_SUBMIT_EVENT_FORGE = { "Gem Egg", "Coal", "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", "Watering Can", "Levelup Lollipop", "Spooky Egg", "Jungle Egg", "Paradise Egg", "Zen Egg", "Safari Egg", "Sprout Egg" },
 	
-    MAX_PLANTS = 50,
-    DESTROY_UNTIL_MIN_PLANTS = 40,
+    MAX_PLANTS = 250,
+    DESTROY_UNTIL_MIN_PLANTS = 180,
     KEEP_SEEDS = { "Bone Blossom" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
 
@@ -31,6 +31,9 @@ getgenv().gagConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = { 
+			"Pack Mule",
+			"Bearded Dragon",
+			"Chimera",
 			"Goblin Miner",
 			"Ruby Squid",
 			"Diamond Panther",
@@ -104,7 +107,7 @@ getgenv().gagConfig = {
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = {
 			"Ruby Squid",
-			"Diamond Panther",
+			"Bearded Dragon",
 				},
     NOTIFY_PETS_WEIGHT = { ["Red Giant Ant"] = 10, ["Bear Bee"] = 10, ["Tanchozuru"] = 10 },
     DISCORD_ID = "111zzz",
