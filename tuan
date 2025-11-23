@@ -3,8 +3,8 @@ getgenv().gagConfig = {
     BUY_EVENT_SHOP = { "Gem Egg" },
     PLANT_EVENT_TREES = true,
 	
-    MAX_PLANTS = 300,
-    DESTROY_UNTIL_MIN_PLANTS = 250,
+    MAX_PLANTS = 320,
+    DESTROY_UNTIL_MIN_PLANTS = 270,
     KEEP_SEEDS = { "Bone Blossom" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
 
@@ -18,6 +18,7 @@ getgenv().gagConfig = {
     MAX_REBIRTH_SHECKLES = 0,
     ADD_FRIEND = true,
     OPEN_ALL_SEED_PACK = true,
+    COLLECT_FRUIT_PER_SECOND = 3,
 
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
     
