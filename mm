@@ -25,7 +25,7 @@ getgenv().gagConfig = {
     BUY_EGGS = { "Gem Egg", "Spooky Egg", "Jungle Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Zen Egg", "Safari Egg", "Rare Egg", "Common Egg", "Uncommon Egg", "Mythical Egg", "Legendary Egg" },
     PLANT_EGGS = { "Gem Egg", "Paradise Egg", "Spooky Egg", "Jungle Egg", "Safari Egg" },
     
-    BUY_SEED_SHOP = { "Octobloom Seed", "Zebrazinkle", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Sunflower", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, ["Buttercup"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
+    BUY_SEED_SHOP = { "Octobloom Seed", "Zebrazinkle", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Sunflower", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 160, ["Bamboo"] = 160, ["Apple"] = 160, ["Pumpkin"] = 160, ["Watermelon"] = 160, ["Daffodil"] = 160, ["Corn"] = 160, ["Tomato"] = 160, ["Buttercup"] = 160, ["Blueberry"] = 160, ["Strawberry"] = 160, ["Carrot"] = 160 },
 	
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
