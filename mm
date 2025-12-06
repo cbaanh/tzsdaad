@@ -31,6 +31,8 @@ getgenv().gagConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = { 
+			"Gift Rat",
+			"Penguin",
 			"Bearded Dragon",
 			"Chimera",
 			"Goblin Miner",
@@ -108,6 +110,8 @@ getgenv().gagConfig = {
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = {
 			"Ruby Squid",
+			"Gift Rat",
+			"Penguin",
 				},
     NOTIFY_PETS_WEIGHT = { ["Red Giant Ant"] = 10, ["Bear Bee"] = 10, ["Tanchozuru"] = 10 },
     DISCORD_ID = "111zzz",
