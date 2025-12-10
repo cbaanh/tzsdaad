@@ -3,8 +3,8 @@ getgenv().gagConfig = {
     BUY_EVENT_SHOP = { "Santa's Surprise Present" },
     OPEN_ALL_PRESENT = true,
 	
-    MAX_PLANTS = 400,
-    DESTROY_UNTIL_MIN_PLANTS = 350,
+    MAX_PLANTS = 200,
+    DESTROY_UNTIL_MIN_PLANTS = 180,
     KEEP_SEEDS = { "Bone Blossom" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
 
@@ -114,9 +114,7 @@ getgenv().gagConfig = {
 	SHOW_PUBLIC_DISCORD_ID = false,
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = {
-			"Ruby Squid",
-			"Gift Rat",
-			"Penguin",
+			"Krampus",
 				},
     NOTIFY_PETS_WEIGHT = { ["Red Giant Ant"] = 10, ["Bear Bee"] = 10, ["Tanchozuru"] = 10 },
     DISCORD_ID = "111zzz",
