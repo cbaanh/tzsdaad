@@ -4,7 +4,7 @@ getgenv().gagConfig = {
     OPEN_ALL_PRESENT = true,
 	
     MAX_PLANTS = 200,
-    DESTROY_UNTIL_MIN_PLANTS = 180,
+    DESTROY_UNTIL_MIN_PLANTS = 160,
     KEEP_SEEDS = { "Bone Blossom" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
 
