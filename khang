@@ -34,6 +34,7 @@ getgenv().gagConfig = {
     KEEP_PETS = { 
 "Krampus",
     "Mistletoad",
+			"Arctic Fox",
 			"Christmas Gorilla",
     "Penguin",
     "Frost Dragon",
