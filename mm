@@ -1,6 +1,6 @@
 getgenv().gagConfig = {
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant", "Christmas Egg" },
-    BUY_EVENT_SHOP = { "Santa's Surprise Present", "Christmas Egg" },
+    BUY_EVENT_SHOP = { "Santa's Surprise Present", "Christmas Egg", "Jingle Bells" },
     OPEN_ALL_PRESENT = true,
 
     MAX_PLANTS = 200,
@@ -8,7 +8,7 @@ getgenv().gagConfig = {
     KEEP_SEEDS = { "Bone Blossom" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
 
-    PLACE_COSMETIC = { "Cooking Kit" },
+    PLACE_COSMETIC = { "Cooking Kit", "Jingle Bells" },
     
     -- General:
     AUTO_UPDATE_RESTART = true,
