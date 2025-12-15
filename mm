@@ -2,6 +2,7 @@ getgenv().gagConfig = {
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant", "Christmas Egg" },
     BUY_EVENT_SHOP = { "Santa's Surprise Present", "Christmas Egg", "Jingle Bells" },
     OPEN_ALL_PRESENT = true,
+	USE_CHRISTMAS_GEAR = {"Jingle Bells", "Ice Wand"},
 
     MAX_PLANTS = 200,
     DESTROY_UNTIL_MIN_PLANTS = 160,
