@@ -34,7 +34,7 @@ getgenv().gagConfig = {
     KEEP_PETS = { 
 			"Wendigo",
 			"Frost Squirrel",
-			"Snowman Sprout",
+			"Snowman",
 			"Yeti",
 			"Ice Golem",
 			"Arctic Fox",
