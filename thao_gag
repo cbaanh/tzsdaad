@@ -1,6 +1,6 @@
 getgenv().gagConfig = {
-    BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant", "Winter Egg", "Christmas Egg" },
-    BUY_EVENT_SHOP = { "Winter Egg", "Santa's Surprise Present", "Christmas Egg", "Jingle Bells" },
+    BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
+    BUY_EVENT_SHOP = { "Santa's Surprise Present", "Jingle Bells", "Christmas Stocking" },
     OPEN_ALL_PRESENT = true,
     USE_CHRISTMAS_GEAR = {"Jingle Bells", "Ice Wand"},
 
@@ -107,6 +107,7 @@ getgenv().gagConfig = {
     
     EQUIP_PETS = {
 		{"Rhino", 8, 1},
+		{"Rooster", 8, 2},
 	},
     LEVELUP_LOLLIPOP_MIN_LEVEL = 90,
 	
@@ -121,10 +122,7 @@ getgenv().gagConfig = {
 	SHOW_PUBLIC_DISCORD_ID = false,
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = {
-			"Ruby Squid",
-			"Bearded Dragon",
-			"Gift Rat",
-			"Penguin",
+			"Wendigo",
 				},
     NOTIFY_PETS_WEIGHT = { ["Red Giant Ant"] = 10, ["Bear Bee"] = 10, ["Tanchozuru"] = 10 },
     DISCORD_ID = "111zzz",
