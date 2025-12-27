@@ -17,7 +17,7 @@ task.spawn(function()
         end
 
         pcall(function()
-            if LastCheck + 180 <= tick() then
+            if LastCheck + 360 <= tick() then
                 game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, game.Players.LocalPlayer)
             end
         end)
