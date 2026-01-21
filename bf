@@ -1,5 +1,5 @@
 getgenv().SettingFarm ={
-    ["Hide UI"] = false,
+    ["Hide UI"] = true,
 
     ["Reset Teleport"] = {
         ["Enabled"] = false,
