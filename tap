@@ -1,4 +1,5 @@
 getgenv().Settings = {
+    FPS_CAP = 10,
     STARTER = true,
     STARTER_UPGRADES = {
         ["Hatch Speed"] = true,
