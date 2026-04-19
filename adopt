@@ -7,9 +7,9 @@
         BabyFarm = false, -- Does baby farm
         AutoCertificate = false, -- Auto use Pet Handler Pro Certificate when less than 30 days remaining
         PetFarm = {
-            Enabled = false, -- Enables the Pet Farm
-            FarmEggs = false, -- If true, equips eggs to hatch them. If false, equips regular pets
-            BuyEggs = false, -- If FarmEggs is true and no eggs in inventory, buy eggs automatically
+            Enabled = true, -- Enables the Pet Farm
+            FarmEggs = true, -- If true, equips eggs to hatch them. If false, equips regular pets
+            BuyEggs = true, -- If FarmEggs is true and no eggs in inventory, buy eggs automatically
             EggTypes = {}, -- Which eggs to equip ({} = any egg, or {"cracked_egg", "royal_egg"} for specific)
             BuyEggType = "any", -- Which egg to buy when BuyEggs is true ("any" or specific egg ID)
             MaxPets = 1, -- How many pets to equip at once (1 = free, 2 = requires Robux gamepass)
@@ -72,7 +72,7 @@
             TargetPlayer = "", -- Username of player to pay bucks to
         },
         AutoOpen = {
-            Enabled = false, -- Open gift boxes, baits, etc automatically
+            Enabled = true, -- Open gift boxes, baits, etc automatically
             Items = {}, -- Item IDs to auto open
         },
         AutoRecycle = {
@@ -123,7 +123,7 @@
         Settings = {
             AutoShowUI = true, -- Load the UI on script start (main overlay disable for less memory usage)
             ShowOverlay = false, -- Show stats oReduce verlay (disables 3D rendering)
-            ReduceGraphics = false, -- Reduce graphics quality to minimum
+            ReduceGraphics = true, -- Reduce graphics quality to minimum
             FPSCap = 0, -- FPS cap option (0 = uncapped)
             LureId = "ice_dimension_2025_ice_soup_bait", -- what lure to use for example: "ice_dimension_2025_ice_soup_bait"
             TradeInvites = "Everyone", -- "Everyone" or "Friends"
