@@ -1,138 +1,146 @@
-setfpscap(2)
-getgenv().Config = {
-    ["Time To Sell"] = 35, -- Seconds
-    ["Craft Event"] = {
-        ["Crafters Seed Pack"] = true,
-        ["Anti Bee Egg"] = true
-    },
-    ["Dont Open Pack"] = false,
-    ["Mode Plant"] = "Auto", -- "Custom"
+  getgenv().Config = {
+      Dashboard = {
+            Enabled = true,       -- Send stats to dashboard
+            SyncConfig = true,    -- Accept config pushes from dashboard
+            GroupName = "vps1",   -- Group name for organising accounts on dashboard (https://zekehub.com/dashboard/adoptme)
+        },
+        BabyFarm = false, -- Does baby farm
+        AutoCertificate = false, -- Auto use Pet Handler Pro Certificate when less than 30 days remaining
+        PetFarm = {
+            Enabled = true, -- Enables the Pet Farm
+            FarmEggs = true, -- If true, equips eggs to hatch them. If false, equips regular pets
+            BuyEggs = true, -- If FarmEggs is true and no eggs in inventory, buy eggs automatically
+            EggTypes = {}, -- Which eggs to equip ({} = any egg, or {"cracked_egg", "royal_egg"} for specific)
+            BuyEggType = "any", -- Which egg to buy when BuyEggs is true ("any" or specific egg ID)
+            MaxPets = 1, -- How many pets to equip at once (1 = free, 2 = requires Robux gamepass)
+            FarmUntilFullGrown = false, -- If true, selects pets that aren't full grown first
+            PrioritizeFriendship = false, -- If true, selects pets with higher friendship level first
+            SelectiveFarm = false, -- If true, only farm pets in SelecatedPetTypes list
+            SelectedPetTypes = {}, -- Pet IDs to farm when SelectiveFarm is true (e.g., {"dog", "cat"})
+        },
+        AutoTrade = {
+            Enabled = false, -- Enable auto trading
+            AutoAcceptTrades = false, -- Accept incoming trade requests
+            AutoLeaveAfterTrades = false, -- Leave the game after completing trades
+            Usernames = {}, -- Players to send trades to (e.g. {"player1", "player2"})
+            TradeMode = "all", -- "all" = everything in categories, "specific" = only Items list
+            Categories = {}, -- {"pets", "toys", "food", "transport", "gifts", "stickers", "pet_accessories", "roleplay"}
+            Items = {}, -- Item IDs when TradeMode = "specific" (e.g. {"dog", "cat", "turtle"})
+            ItemCounts = {}, -- Max count per item matching Items order (e.g. {30, 12, 5} = 30 dogs, 12 cats, 5 turtles. {} = unlimited all)
+            GlobalPetFilter = {
+                Versions = {}, -- {} = all versions, {"regular", "neon", "mega"} = only these. Fallback for pets NOT in PetFilters
+                Ages = {}, -- {} = all ages, {1, 2, 3, 4, 5, 6} = only these. Mega ignores ages. Fallback for pets NOT in PetFilters
+            },
+            PetFilters = {}, -- Per-pet overrides. If a pet is listed here, GlobalPetFilter is IGNORED for that pet
+            -- Version not listed = NOT traded. {} after version = all ages. {6} = only full grown. Mega always ignores ages
+            -- Example:
+            -- PetFilters = {
+            --     sugarfest_2026_mochi_meow = {
+            --         regular = {6},      -- only full grown regulars
+            --         neon = {4, 5, 6},   -- only flare/sunshine/luminous neons
+            --         mega = {},           -- all megas (ages always ignored for mega)
+            --     },
+            --     turtle = {
+            --         mega = {},           -- ONLY mega turtles (regular and neon NOT traded because not listed)
+            --     },
+            --     dog = {
+            --         regular = {5, 6},   -- post-teen + full grown regulars only
+            --         neon = {},           -- all neon ages
+            --                              -- mega NOT listed = mega dogs NOT traded
+            --     },
+            -- },
+        },
+        AutoNeon = {
+            Enabled = false, -- Enable auto neon/mega fusion
+            MakeMega = false, -- Fuse neons into mega neons
+            NeonAll = true, -- Neon everything possible
+            SelectedPets = {}, -- {} when NeonAll = true, otherwise {"dog", "cat"} etc
+            MaxPerType = {}, -- {} = unlimited, {dog = 2, cat = 1} = limits per pet type
+        },
+        AutoPotion = {
+            Enabled = false, -- Use age potions on pets to level them up
+            SelectedPets = {"lny_2026_fire_foal"}, -- Pet IDs to use potions on (empty = does nothing)
+            PotionVersionFilter = {}, -- Per-pet version filter e.g. {dog = {"neon"}, cat = {"regular", "neon"}} - empty = all versions
+        },
+        AutoBuy = {
+            Enabled = false, -- Automatically buy items from shops
+            SelectedItems = {}, -- Item IDs to buy
+            BuyAmounts = {}, -- How many of each item to buy. Example: {5, 10} buys 5 cracked_eggs and 10 sandwiches. Empty {} buys infinite of each item. If there are more items than amounts, remaining items default to infinite.
+        },
+        AutoPay = {
+            Enabled = false, -- Send bucks to another player
+            TargetPlayer = "", -- Username of player to pay bucks to
+        },
+        AutoOpen = {
+            Enabled = true, -- Open gift boxes, baits, etc automatically
+            Items = {}, -- Item IDs to auto open
+        },
+        AutoRecycle = {
+            Enabled = false, -- Toggle auto recycling on/off
+            RarityFilter = {
+                -- Each rarity maps to a list of versions to recycle
+                -- Versions: "regular", "neon", "mega"
+                -- If a rarity is not listed or empty, pets of that rarity will NOT be recycled
+                -- If a rarity has versions listed, ONLY those versions will be recycled
 
-    ["Seed"] = { -- Seed Plant Custom
-        ["Strawberry"] = 44,
-        ["Blueberry"] = 44,
-        ["Tomato"] = 44,
-        ["Loquat"] = 44,
-        ["Pineapple"] = 44,
-        ["Carrot"] = 44,
-        ["Bell Pepper"] = 44,
-        ["Green Apple"] = 44,
-        ["Feijoa"] = 44,
-        ["Avocado"] = 44,
-        ["Sugar Apple"] = 44,
-        ["Banana"] = 44,
-        ["Prickly Pear"] = 44,
-        ["Watermelon"] = 44,
-        ["Kiwi"] = 44
-    },
-    ["Keep Seed"] = {"Dragon Pepper", "Elephant Ears", "Sunflower", "Candy Blossom"},
-    ["Egg"] = {
-        ["Mythical Egg"] = {
-            ["Buy"] = true,
-            ["Place"] = true,
-            ["Priority"] = 7
+                -- common = {"regular", "neon", "mega"},  -- Recycle all common versions
+                -- uncommon = {"neon"},                    -- Only recycle neon uncommons
+                -- rare = {"regular", "neon", "mega"},     -- Recycle all rare versions
+                -- ultra_rare = {"regular", "neon", "mega"}, -- Recycle all ultra rare versions
+                -- legendary = {"mega"},                   -- Only recycle mega legendaries
+            },
+            AgeFilter = {}, -- Empty = all ages, or specific ages e.g. {1, 2, 3, 4, 5, 6} (1=Newborn, 6=Full Grown)
+            ExcludedPets = {}, -- Pet IDs to never recycle e.g. {"dog", "cat", "shadow_dragon"}
         },
-        ["Dinosaur Egg"] = {
-            ["Place"] = true,
-            ["Priority"] = 5
+        IdleProgression = {
+            Enabled = false, -- Put pets in pet pen for idle leveling
+            SelectedPets = {"cracked_egg"}, -- Pet IDs to put in pet pen (empty = use all)
+            ExcludedPets = {}, -- Pet IDs to never put in pet pen
+            PriorityOrder = {}, -- Order: first = highest priority for pen slots (e.g. {"neon", "regular", "mega"})
+            PenVersionFilter = {}, -- Per-pet version filter e.g. {dog = {"neon"}, cat = {"regular"}} - empty = all versions
         },
-        ["Primal Egg"] = {
-            ["Place"] = true,
-            ["Priority"] = 1
+        AccountManager = {
+            Enabled = false, -- Master toggle for account management
+            Tool = "", -- "yummy", "farmsync", "kick" = kick tool means it will just kick you from the game instead of yummy or farmsync actions
+            Yummy = {
+                Action = "completed", -- "completed" = remove cookie/stop, "swap" = next cookie
+                Reason = "Done", -- Suffix for completed file (Completed-{Reason})
+            },
+            FarmSync = {
+                Action = "completed", -- "completed" = move to done folder, "swap" = move and replace, "disable" = disable account on FarmSync (requires ApiKey)
+                FromFolderId = "", -- Fresh cookies folder ID
+                ToFolderId = "", -- Done cookies folder ID
+                ChangeWithoutReplacement = false, -- Remove even if no replacement available
+                ConfigId = nil, -- Config for new account (nil = same config)
+                ApiKey = "", -- FarmSync API key (device key)
+            },
+            Triggers = {
+                AfterTradeComplete = false, -- Requires AutoTrade.AutoLeaveAfterTrades to be enabled
+                MinBucks = 0, -- Change account when bucks >= this (0 = off)
+                MinPotions = 0, -- Change account when potions >= this (0 = off)
+            },
         },
-        ["Oasis Egg"] = {
-            ["Place"] = true,
-            ["Priority"] = 6
+        Settings = {
+            AutoShowUI = false, -- Load the UI on script start (main overlay disable for less memory usage)
+            ShowOverlay = false, -- Show stats oReduce verlay (disables 3D rendering)
+            ReduceGraphics = true, -- Reduce graphics quality to minimum
+            FPSCap = 0, -- FPS cap option (0 = uncapped)
+            LureId = "ice_dimension_2025_ice_soup_bait", -- what lure to use for example: "ice_dimension_2025_ice_soup_bait"
+            TradeInvites = "Everyone", -- "Everyone" or "Friends"
         },
-        ["Anti Bee Egg"] = {
-            ["Place"] = true,
-            ["Priority"] = 1
+        Webhook = {
+            Enabled = false, -- Send webhook notifications to Discord
+            URL = "https://discord.com/api/", -- Discord webhook URL for notifications
+            PetUnlock = {
+                Enabled = false, -- Send webhook when hatching/unlocking a pet
+                URL = "https://discord.com/api/webhooks/", -- Webhook URL for pet unlocks
+                FilterRarities = {"legendary", "ultra_rare"}, -- Only send for these rarities
+            },
         },
-        ["Night Egg"] = {
-            ["Place"] = true,
-            ["Priority"] = 4
+        TaskExclusion = {
+            Enabled = false, -- Skip certain farming tasks
+            ExcludedTasks = {}, -- Task IDs to skip (e.g., {"buccaneer_band", "summerfest_bonfire"})
         },
-        ["Bug Egg"] = {
-            ["Buy"] = true,
-            ["Place"] = true,
-            ["Priority"] = 2
-        },
-        ["Paradise Egg"] = {
-            ["Buy"] = true,
-            ["Place"] = true,
-            ["Priority"] = 3
-        },
-        ["Bee Egg"] = {
-            ["Buy"] = true,
-            ["Place"] = false,
-            ["Priority"] = 3
-        },
-        ["Zen Egg"] = {
-            ["Place"] = true,
-            ["Priority"] = 1
-        }
-    },
-
-    ["Limit Tree"] = 250,
-    ["Sprinkler"] = {
-        ["Place Sprinkler"] = true,
-        ["Buy Sprinkler"] = true,
-        ["Basic Sprinkler"] = true,
-        ["Advanced Sprinkler"] = true,
-        ["Master Sprinkler"] = true,
-        ["Godly Sprinkler"] = true
-    },
-    ["PetNeedSend"] = {"Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus", "Kitsune"},
-    ["Destroy Mode"] = {
-        ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
-        ["Mode Destroy"] = "Custom", -- "Custom"
-        ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Tomato", "Orange Tulip", "Carrot", "Apple", "Coconut", "Cactus", "Dragon Fruit", "Mango", "Grape"},
-        ["Rarity Destroy Auto"] = {"Common", "Uncommon", "Rare", "Legendary"},
-        ["Destroy Untill"] = 150
-    },
-    ["Zen Event"] = {
-        ["Restock Max Cost"] = 16000000,
-        ["Zen Seed Pack"] = true,
-        ["Zen Egg"] = true,
-        ["Koi"] = true,
-        ["Spiked Mango"] = true
-    },
-    ["Url"] = "https://discord.com/api/webhooks/1311066762426450024/HjEF8KTulv902w-WYqoOtEM9O6Lj5NjK3o1XuSaV-r_H_8PB1E3KxtFyVYnnky3U36G-", -- Webhook 
-    ["Boost FPS"] = true,
-    ["Black Screen"] = true,
-    ["Note"] = "Cyndral Hub",
-    ["Pet Mode"] = {
-        ["Sell Pet"] = true,
-        ["Equip Pet"] = true,
-        ["Name Pet Equip"] = {
-            ["Kitsune"] = 5, -- Limit Pet Equip
-            ["Dragonfly"] = 5, -- Limit Pet Equip
-            ["Raccoon"] = 5, -- Limit Pet Equip
-            ["Disco Bee"] = 5, -- Limit Pet Equip
-            ["Butterfly"] = 5, -- Limit Pet Equip
-            ["Mimic Octopus"] = 5, -- Limit Pet Equip
-            ["Red Fox"] = 5, -- Limit Pet Equip
-            ["Queen Bee"] = 5, -- Limit Pet Equip
-            ["T-Rex"] = 5, -- Limit Pet Equip
-            ["Fennec Fox"] = 5, -- Limit Pet Equip
-            ["Spinosaurus"] = 5, -- Limit Pet Equip
-            ["Starfish"] = 2, -- Limit Pet Equip
-
-        },
-        ["Max Slot Pet To Sell"] = 40, -- If Total Pet In Inventory >= ["Max Slot Pet To Sell"] script will sell pet
-        ["Upgrade Slot Egg"] = {
-            ["Enable"] = true,
-            ["Pet"] = {"Starfish"}
-
-        },
-        ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
-                               "Mimic Octopus", "Fennec Fox", "T-Rex", "Spinosaurus", "Dilophosaurus", "Kitsune", "Kappa", "Koi", "Starfish"},
-        ["Dont Sell Pet If Weight > x"] = 10 -- Script dont sell pet if this weight >= 10
-    },
-    ["Webhook Mode"] = {
-        ["Enable Send Pet Weight"] = true,
-        ["Weight"] = 10 -- if Weight >= 10 they will send wh
-    }
-
-}
-loadstring(game:HttpGet("https://cdn.shouko.dev/RokidManager/neyoshiiuem/main/v2.lua"))()
+    };
+getgenv().scriptkey="JASaGDUzhTFhMYAgOJOzoRFDtJaOhLfz"
+loadstring(game:HttpGet("https://zekehub.com/scripts/AdoptMe/MassFarm.lua"))()
