@@ -1,39 +1,25 @@
-getgenv().GGFX_MODE = 1  --2 = LOW_GFX: still see what they do, 1 = REMOVE_GFX : no visuals, 3 = FULL_GFX
-getgenv().GRANK_TO = 40 -- Set your desired rank
-getgenv().GFOCUS_RANK_TO = 22 -- don't put too high because they will not get to end of game before hitting this rank, but they rank faster.
-getgenv().GZONE_TO = 999 -- FOR NEW fresh accounts I would put 230 but PLEASE READ FAQ about this property!!! it's important to understand. 99 means last zone W1 only!! 999: go to final zone of game
-getgenv().GMAX_EGG_SLOTS = 99
-getgenv().GMAX_EQUIP_SLOTS = 99
-getgenv().GHATCH_BETTER_PETS = true -- can put false if you give them good pets
-getgenv().GMAX_ZONE_UPGRADE_COST = 200000000
---Final Zone Time Trial:
-getgenv().GDO_TIME_TRIAL = true
-getgenv().GTIME_TRIAL_MIN_TIME_TO_BOSS3 = 200
-getgenv().GTIME_TRIAL_CHEST_TO_CLAIM = 3
-getgenv().GTIME_TRIAL_HATCH_FIRST_SECONDS = 1200
--- these is just a sample config, choose your own enchant setup.. see FAQ
-getgenv().GTIME_TRIAL_ENCHANTS = {"Tap Power","Super Lightning","Lightning", "Fireworks","Criticals","Strong Pets","Tap Power","Criticals","Strong Pets"}
---Final zone present farming:
-getgenv().GLOOTBOXES = {"Titanic Fantasy Present"}
-getgenv().GCOMBINE_MACHINE_OUTPUT = "Titanic Fantasy Present"
---General:
-getgenv().GAUTO_UPGRADE_PETS = true
-getgenv().GOPEN_ITEMS_IN_BULK = true
-getgenv().GPOTIONS = {"Coins","Lucky","Treasure Hunter","Walkspeed","Diamonds","Damage"}
-getgenv().GPOTIONS_MAX_TIER = 99
--- these is just a sample config, choose your own enchant setup.. see FAQ
-getgenv().GENCHANTS = {"Tap Power", "Coins", "Treasure Hunter", "Strong Pets", "Criticals", "Diamonds"}
-getgenv().GUSE_SPRINKLERS = true
-getgenv().GUSE_FLAGS = {"Strength Flag","Hasty Flag","Rainbow Flag","Shiny Flag"}
-getgenv().GKICK_ON_STAFF = false
-getgenv().GHOP_ON_STAFF = false
-getgenv().GINVENTORY_COUNTS = {
-    ["Small"] = {Class = "Lootbox", Id = "Small Fantasy Present"},
-	["Medium"] = {Class = "Lootbox", Id = "Medium Fantasy Present"},
-	["Large"] = {Class = "Lootbox", Id = "Large Fantasy Present"},
-	["X-Large"] = {Class = "Lootbox", Id = "X-Large Fantasy Present"},
-	["Titanic"] = {Class = "Lootbox", Id = "Titanic Fantasy Present"},
+getgenv().GGFX_MODE = 1
+getgenv().GZONE_TO = 1 -- to enter event from W1 put 1, from W2 put 100, from W3 200, from W4 240
+getgenv().GDO_RNG_INSTANCE = true
+getgenv().GUSE_BOOSTS = true
+getgenv().GRNG_SELL_PETS = true
+getgenv().GRNG_CRAFT_DICE = true
+getgenv().GRNG_ALLOW_BOOST_DICE_WITHOUT_LIGHTNING_WHEN_HAVE_OVER = 10
+getgenv().GRNG_USE_MEGA1 = false
+getgenv().GEVENT_UPGRADES = {
+    { Id = "RNGEggLuck",    MaxTier = 20 },
+    { Id = "RNGHatchSpeed", MaxTier = 15 },
+    { Id = "RNGBonusLuck",  MaxTier = 10 },
+    { Id = "RNGHugeLuck",   MaxTier = 15 },
+    { Id = "RNGExtraEgg",   MaxTier = 8  },
 }
-
--- you can create many more rules for other items...
+getgenv().GWEBHOOK_USERID = ""
+getgenv().GWEBHOOK_LINK = ""
+getgenv().GHUGE_COUNT = 0 -- amount of huges to keep/not mail
+getgenv().GMAIL_RECEIVERS = {"your-receiver-mule"}
+getgenv().GMAIL_ITEMS = {
+["All Huges"] = {Class = "Pet", Id = "All Huges", MinAmount = 1},
+["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "5m", MinAmount = "9999b"}, -- mail diamonds, to enable lower MinAmount..
+}
+getgenv().GMAX_MAIL_COST = "2m"
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
