@@ -7,7 +7,7 @@ getgenv().GMAX_EQUIP_SLOTS = 99
 getgenv().GHATCH_BETTER_PETS = true -- can put false if you give them good pets
 getgenv().GMAX_ZONE_UPGRADE_COST = 200000000
 --Final Zone Time Trial:
-getgenv().GDO_TIME_TRIAL = true
+getgenv().GDO_TIME_TRIAL = false
 getgenv().GTIME_TRIAL_MIN_TIME_TO_BOSS3 = 200
 getgenv().GTIME_TRIAL_CHEST_TO_CLAIM = 3
 getgenv().GTIME_TRIAL_HATCH_FIRST_SECONDS = 1200
