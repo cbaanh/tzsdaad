@@ -1,0 +1,42 @@
+
+getgenv().GGFX_MODE = 1
+getgenv().GZONE_TO = 99
+getgenv().GDO_RNG_INSTANCE = true
+getgenv().GUSE_BOOSTS = true
+getgenv().GRNG_SELL_PETS = true
+getgenv().GRNG_CRAFT_DICE = true
+getgenv().GRNG_USE_MEGA1 = false
+getgenv().GEVENT_UPGRADES = {
+    { Id = "RNGEggLuck",    MaxTier = 20 },
+    { Id = "RNGHatchSpeed", MaxTier = 15 },
+    { Id = "RNGBonusLuck",  MaxTier = 10 },
+    { Id = "RNGHugeLuck",   MaxTier = 15 },
+    { Id = "RNGExtraEgg",   MaxTier = 8  },
+}
+getgenv().GRNG_CRAFT_DICE_SELECT =  {
+        "Lucky Dice II V2",
+        "Lucky Dice III V2",
+        "Mega Lucky Dice V2",
+        "Mega Lucky Dice II V2",
+}
+getgenv().GDAYCARE_NAME_PARTS_TO_EXCLUDE = {
+    "Pixel Hippomelon",
+    "Vibrant Zebra",
+    "Holographic Shark",
+}
+getgenv().GRNG_ALLOW_BOOST_DICE_WITHOUT_LIGHTNING = true
+getgenv().GENCHANTS = {"Happy Pets", "Tap Teamwork", "Strong Pets", "Strong Pets", "Criticals", "Criticals"}
+getgenv().GWEBHOOK_USERID = ""
+getgenv().GWEBHOOK_LINK = ""
+getgenv().GOPEN_ITEMS_IN_BULK = true
+getgenv().GCOMBINE_KEYS = true
+getgenv().GCONSUME_CHARMS = true
+getgenv().GLOOTBOXES = {"Locked Hype Egg"}
+getgenv().GHUGE_COUNT = 0 -- amount of huges to keep/not mail
+getgenv().GMAIL_RECEIVERS = {""}
+getgenv().GMAIL_ITEMS = {
+["All Huges"] = {Class = "Pet", Id = "All Huges", MinAmount = 1},
+["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "5m", MinAmount = "9999b"},
+}
+getgenv().GMAX_MAIL_COST = "2m"
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
