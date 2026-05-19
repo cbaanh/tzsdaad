@@ -1,13 +1,13 @@
 getgenv().GGFX_MODE = 1  --2 = LOW_GFX: still see what they do, 1 = REMOVE_GFX : no visuals, 3 = FULL_GFX
 getgenv().GRANK_TO = 40 -- Set your desired rank
-getgenv().GFOCUS_RANK_TO = 11 -- don't put too high because they will not get to end of game before hitting this rank, but they rank faster.
+getgenv().GFOCUS_RANK_TO = 22 -- don't put too high because they will not get to end of game before hitting this rank, but they rank faster.
 getgenv().GZONE_TO = 999 -- FOR NEW fresh accounts I would put 230 but PLEASE READ FAQ about this property!!! it's important to understand. 99 means last zone W1 only!! 999: go to final zone of game
 getgenv().GMAX_EGG_SLOTS = 99
 getgenv().GMAX_EQUIP_SLOTS = 99
 getgenv().GHATCH_BETTER_PETS = true -- can put false if you give them good pets
 getgenv().GMAX_ZONE_UPGRADE_COST = 200000000
 --Final Zone Time Trial:
-getgenv().GDO_TIME_TRIAL = false
+getgenv().GDO_TIME_TRIAL = true
 getgenv().GTIME_TRIAL_MIN_TIME_TO_BOSS3 = 200
 getgenv().GTIME_TRIAL_CHEST_TO_CLAIM = 3
 getgenv().GTIME_TRIAL_HATCH_FIRST_SECONDS = 1200
@@ -35,6 +35,5 @@ getgenv().GINVENTORY_COUNTS = {
 	["Titanic"] = {Class = "Lootbox", Id = "Titanic Fantasy Present"},
 }
 
-getgenv().GMAX_MAIL_COST = "2m"
 -- you can create many more rules for other items...
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
