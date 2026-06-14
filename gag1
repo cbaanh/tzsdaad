@@ -30,7 +30,7 @@ getgenv().GAG2Config = {
         ["Tulip"] = 4,
         ["Tomato"] = 4,
         ["Apple"] = 4,
-        ["Bamboo"] = 0,
+        ["Bamboo"] = 5,
         ["Corn"] = 4,
         ["Cactus"] = 4,
         ["Pineapple"] = 4,
@@ -87,7 +87,7 @@ getgenv().GAG2Config = {
 
     -- Auto Mail
     AUTO_MAIL_USERNAME = {"zinikox"},  -- Username (Randomized)
-    AUTO_MAIL_ITEM_NAME = {["Bamboo"] = 50},  -- ["Item Name"] = Amount
+    AUTO_MAIL_ITEM_NAME = {},  -- ["Item Name"] = Amount
     COLLECT_MAIL = true,
 
     -- Discord
