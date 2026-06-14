@@ -77,17 +77,17 @@ getgenv().GAG2Config = {
     USE_SPRINKLER = {},  -- "Sprinkler Name"
 
     -- Auto Mail
-    AUTO_MAIL_USERNAME = {},  -- Username (Randomized)
-    AUTO_MAIL_ITEM_NAME = {},  -- ["Item Name"] = Amount
+    AUTO_MAIL_USERNAME = {"zinikox"},  -- Username (Randomized)
+    AUTO_MAIL_ITEM_NAME = {"Black Dragon" = 1, "Raccoon" = 1, "Ice Serpent" = 1},  -- ["Item Name"] = Amount
     COLLECT_MAIL = true,
 
     -- Discord
-    WEBHOOK_PET_NAME = {},
+    WEBHOOK_PET_NAME = {"Black Dragon", "Raccoon", "Ice Serpent"},
     WEBHOOK_PET_RARITY = { "Mythic", "Super", "Secret" },
-    WEBHOOK_URL = "",
-    DISCORD_ID = "",
+    WEBHOOK_URL = "https://discord.com/api/webhooks/1311066762426450024/HjEF8KTulv902w-WYqoOtEM9O6Lj5NjK3o1XuSaV-r_H_8PB1E3KxtFyVYnnky3U36G-",
+    DISCORD_ID = "zzz",
     WEBHOOK_NOTE = "",  -- Private Webhook
-    SHOW_PUBLIC_DISCORD_ID = true,
+    SHOW_PUBLIC_DISCORD_ID = false,
     SHOW_WEBHOOK_USERNAME = true,  -- Private Webhook
     SHOW_WEBHOOK_JOBID = true,  -- Private Webhook
 }
