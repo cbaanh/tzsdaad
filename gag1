@@ -40,15 +40,6 @@ getgenv().GAG2Config = {
         ["Grape"] = 50,
         ["Coconut"] = 50,
         ["Mango"] = 50,
-        ["Dragon Fruit"] = 50,
-        ["Acorn"] = 50,
-        ["Cherry"] = 50,
-        ["Sunflower"] = 50,
-        ["Venus Fly Trap"] = 50,
-        ["Pomegranate"] = 50,
-        ["Poison Apple"] = 50,
-        ["Moon Bloom"] = 50,
-        ["Dragon's Breath"] = 50,
     },
 
     BUY_SEED = {  -- ["Seed Name"] = Amount
