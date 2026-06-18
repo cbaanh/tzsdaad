@@ -61,15 +61,17 @@ getgenv().UserConfig = {
         ["Horned Melon"] = {"Rainbow", "Gold"},
     },
     ["Buy Pets"] = {
-        ["Monkey"] = 99,
-        ["Bee"] = 99,
-        ["Black Dragon"] = 99,
-        ["Golden Dragonfly"] = 99,
-        ["Unicorn"] = 99,
-        ["Raccoon"] = 99,
-        ["Ice Serpent"] = 99,
-        ["Robin"] = 5,
-        ["Deer"] = 5,
+        ["Frog"] = {Huge = 99, Rainbow = 99}, -- mua 99 Huge, 99 Rainbow (không mua pet Normal, Big)
+        ["Bunny"] = {Huge = 99, Rainbow = 99}, -- mua 99 Huge, 99 Rainbow (không mua pet Normal, Big)
+        ["Owl"] = {Huge = 99, Rainbow = 99}, -- mua 99 Huge, 99 Rainbow (không mua pet Normal, Big)
+        ["Deer"] = {Normal = 6, Big = 10, Huge = 99, Rainbow = 99}, -- mua 6 Normal, 10 Big, 99 Huge, 99 Rainbow (không mua pet Normal, Big)
+        ["Robin"] = {Big = 99, Huge = 99, Rainbow = 99}, -- mua 99 Big, 99 Huge, 99 Rainbow (không mua pet Normal)
+        ["Bee"] = {Big = 99, Huge = 99, Rainbow = 99}, -- mua 99 Big, 99 Huge, 99 Rainbow (không mua pet Normal)
+        ["Monkey"] = 999, -- mua 999 tất cả loại
+        ["Golden Dragonfly"] = 999, -- mua 999 tất cả loại
+        ["Unicorn"] = 999, -- mua 999 tất cả loại
+        ["Raccoon"] = 999, -- mua 999 tất cả loại
+        ["Black Dragon"] = 999, -- mua 999 tất cả loại
     },
     ["Equip Pets"] = {
         {"Unicorn", 5, 1},
