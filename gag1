@@ -1,4 +1,4 @@
-wait(10)
+wait(60)
 script_key = "mFeSGiijwdLxhWlgKDGEfSihuBozfOAp";
 getgenv().UserConfig = {
     ["FPS Cap"] = 5,
