@@ -11,7 +11,7 @@ getgenv().UserConfig = {
         ["Tulip"] = 10,
         ["Tomato"] = 10,
         ["Apple"] = 10,
-        ["Bamboo"] = 20,
+        ["Bamboo"] = 50,
         ["Corn"] = 10,
         ["Cactus"] = 10,
         ["Pineangle"] = 10,
@@ -42,7 +42,7 @@ getgenv().UserConfig = {
         ["Corn"] = 10,
         ["Cactus"] = 10,
         ["Pineangle"] = 10,
-        ["Mushroom"] = 99999,
+        ["Mushroom"] = 9999,
         ["Green Bean"] = 10,
         ["Banana"] = 10,
         ["Grape"] = 10,
@@ -130,7 +130,7 @@ getgenv().UserConfig = {
     },
     ["Claim Mail"] = true,
     ["Auto Plant"] = true,
-    ["Limit Auto Plant"] = 400,
-    ["Blacklist Seed"] = {"Rainbow", "Gold","Mushroom","Venus Fly Trap","Pomegranate","Poison Apple","Moon Bloom","Dragon's Breath"},
+    ["Limit Auto Plant"] = 250,
+    ["Blacklist Seed"] = {"Rainbow", "Gold", "Venus Fly Trap","Pomegranate","Poison Apple","Moon Bloom","Dragon's Breath"},
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
