@@ -1,7 +1,6 @@
-wait(60)
 script_key = "mFeSGiijwdLxhWlgKDGEfSihuBozfOAp";
 getgenv().UserConfig = {
-    ["FPS Cap"] = 5,
+    ["FPS Cap"] = 7,
     ["Auto Buy Seed"] = true,
     ["Auto Plant Seed"] = true,
     ["Limit Plant Seed"] = {
@@ -32,7 +31,7 @@ getgenv().UserConfig = {
     },
     ["Limit Buy Seed"] = {
         ["Carrot"] = 10, 
-        ["Strawberry"] = 0,
+        ["Strawberry"] = 10,
         ["Blueberry"] = 10,
         ["Tulip"] = 10,
         ["Tomato"] = 10,
