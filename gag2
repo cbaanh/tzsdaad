@@ -1,7 +1,7 @@
-setfpscap(5)
+setfpscap(3)
 script_key = "mFeSGiijwdLxhWlgKDGEfSihuBozfOAp";
 getgenv().UserConfig = {
-    ["FPS Cap"] = 5,
+    ["FPS Cap"] = 3,
     ["Auto Double Or Nothing"] = false, -- muốn chơi tài xỉu thì true
     ["Double Or Nothing Target Wins"] = 1,
     ["Auto Buy Seed"] = true,
