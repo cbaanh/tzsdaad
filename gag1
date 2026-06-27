@@ -108,7 +108,7 @@ getgenv().UserConfig = {
         },
         ["Seed"] = {
             ["Rainbow"] = 1,
-            ["Gold"] = {Amount = 2, To = "doziniko"}, 
+            ["Gold"] = {Amount = 10, To = "doziniko"}, 
             ["Venus Fly Trap"] = 1,
             ["Venom Spitter"] = 1,
             ["Moon Bloom"] = 1,
