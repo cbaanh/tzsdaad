@@ -119,7 +119,7 @@ getgenv().UserConfig = {
 			["Hypno Bloom"] = 1,
         },
         ["Gear"] = {
-            ["Super Watering Can"] = {Amount = 10, To = "doziniko"},
+            ["Super Watering Can"] = {Amount = 5, To = "doziniko"},
             ["Super Sprinkler"] = 1,
         },
     },
