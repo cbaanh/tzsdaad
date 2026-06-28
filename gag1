@@ -1,5 +1,4 @@
 setfpscap(5)
-wait(30)
 script_key = "mFeSGiijwdLxhWlgKDGEfSihuBozfOAp";
 getgenv().UserConfig = {
     ["FPS Cap"] = 5,
