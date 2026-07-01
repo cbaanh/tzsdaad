@@ -1,7 +1,7 @@
-setfpscap(10)
+setfpscap(3)
 script_key = "mFeSGiijwdLxhWlgKDGEfSihuBozfOAp";
 getgenv().UserConfig = {
-    ["FPS Cap"] = 5,
+    ["FPS Cap"] = 3,
     ["Auto Double Or Nothing"] = false, -- muốn chơi tài xỉu thì true
     ["Double Or Nothing Target Wins"] = 1,
 	["Shovel Plant Once"] = {"Corn", "Pineapple", "Strawberry", "Banana", "Grape", "Cactus"},
@@ -51,10 +51,10 @@ getgenv().UserConfig = {
         ["Dragon Fruit"] = 50,
         ["Acorn"] = 50,
         ["Cherry"] = 50,
-        ["Venus Fly Trap"] = 999,
-		["Venom Spitter"] = 999,
-        ["Moon Bloom"] = 999,
-        ["Dragon's Breath"] = 999,
+        ["Ghost Pepper"] = 999,
+		-- ["Venom Spitter"] = 999,
+        -- ["Moon Bloom"] = 999,
+        -- ["Dragon's Breath"] = 999,
         ["Hypno Bloom"] = 999,
     },
     ["Favorite"] = {
@@ -67,8 +67,9 @@ getgenv().UserConfig = {
         ["Raccoon"] = 999,
         ["Black Dragon"] = 999,
     },
-    ["Equip Pets"] = {
-        {"Bunny", 6, 1},
+	["Equip Pets"] = { -- Petname, Amount, Priority
+        {"Unicorn", 6, 1},
+        {"Bunny", 6, 2},
     },
     ["Expand Plot"] = true,
     ["Plot Expansions"] = 3,
@@ -76,47 +77,46 @@ getgenv().UserConfig = {
     ["Auto Collect Seed Packs"] = true,
     ["Gears"] = {
         ["Buy Gear"] = {
-			"Super Sprinkler",
-            "Super Watering Can",
+			["Super Sprinkler"] = 100,
+            ["Super Watering Can"] = 100,
 		},
         ["Gears To Use"] = {},
     },
-    ["Webhook Pet URL"] = "https://discord.com/api/webhooks/1311066762426450024/HjEF8KTulv902w-WYqoOtEM9O6Lj5NjK3o1XuSaV-r_H_8PB1E3KxtFyVYnnky3U36G-",
+    ["Webhook Pet URL"] = "https://discord.com/api/webhooks/1342556846862504045/vEh50mbTp8HZg6Na7bSZIwjiEjuvlG2ToFrKLfoEbrCbK2ez6MwGT811ETvTaT_3qxeR",
     ["Webhook Pet Name"] = {"Golden Dragonfly","Unicorn","Raccoon","Monkey","Ice Serpent"},
     ["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"},
-	["Webhook Seed URL"] = "https://discord.com/api/webhooks/1311066762426450024/HjEF8KTulv902w-WYqoOtEM9O6Lj5NjK3o1XuSaV-r_H_8PB1E3KxtFyVYnnky3U36G-",
+	["Webhook Seed URL"] = "https://discord.com/api/webhooks/1342556846862504045/vEh50mbTp8HZg6Na7bSZIwjiEjuvlG2ToFrKLfoEbrCbK2ez6MwGT811ETvTaT_3qxeR",
     ["Webhook Seed Name"] = {"Rainbow"},
-	["Webhook Gear URL"] = "https://discord.com/api/webhooks/1311066714108330015/6qwj90MVS6BnVAK4oXsBNnAFalyMZnEiQ8R9fjIvfr_t8lSdf18C8PY74JgEys5i-qZT",
+	["Webhook Gear URL"] = "https://discord.com/api/webhooks/1351616809014657164/ZEEMHqCCH8vkNEYHdN_J9oX_e0XtXDxEJH7aEcREDrG18_oCVpMY7q5c5StSXwl-LsiJ",
 	["Webhook Gear Name"] = {"Super Sprinkler"},
-    ["Webhook Note"] = "xx",
+    ["Webhook Note"] = "vip",
     ["Discord ID"] = "xxx",
-    ["Mail To Username"] = {"yesziniko"},
+    ["Mail To Username"] = {"doziniko1"},
     ["Items To Mail"] = {
         ["Pet"] = {
             ["Golden Dragonfly"] = 1, 
-            ["Unicorn"] = 1, 
             ["Raccoon"] = 1,
             ["Monkey"] = 1,
             ["Ice Serpent"] = 1,
             ["Bear"] = 1,
         },
         ["Seed"] = {
-            ["Rainbow"] = {Amount = 1, To = "noziniko"}, 
-            ["Mega"] = {Amount = 1, To = "noziniko"}, 
-            ["Venus Fly Trap"] = {Amount = 1, To = "noziniko"}, 
-            ["Venom Spitter"] = {Amount = 1, To = "noziniko"}, 
-            ["Moon Bloom"] = {Amount = 1, To = "noziniko"}, 
-            ["Dragon's Breath"] = {Amount = 1, To = "noziniko"}, 
-			["Hypno Bloom"] = {Amount = 1, To = "noziniko"}, 
+            ["Rainbow"] = {Amount = 1, To = "noziniko1"},
+            ["Mega"] = {Amount = 1, To = "noziniko1"},
+            ["Venus Fly Trap"] = {Amount = 1, To = "noziniko1"},
+            ["Venom Spitter"] = {Amount = 1, To = "noziniko1"},
+            ["Moon Bloom"] = {Amount = 1, To = "noziniko1"},
+            ["Dragon's Breath"] = {Amount = 1, To = "noziniko1"},
+			["Hypno Bloom"] = {Amount = 1, To = "noziniko1"},
         },
         ["Gear"] = {
-            ["Super Watering Can"] = {Amount = 1, To = "doziniko"},
-            ["Super Sprinkler"] = {Amount = 1, To = "doziniko"},
+            ["Super Watering Can"] = 1,
+            ["Super Sprinkler"] = 1,
         },
     },
     ["Claim Mail"] = false,
     ["Auto Plant"] = true,
     ["Limit Auto Plant"] = 800,
-    ["Blacklist Seed"] = {"Rainbow", "Dragon's Breath", "Venus Fly Trap", "Moon Bloom", "Venom Spitter", "Hypno Bloom", "Mega"}
+    ["Blacklist Seed"] = {"Rainbow", "Dragon's Breath", "Venus Fly Trap", "Moon Bloom", "Venom Spitter", "Hypno Bloom", "Mega", "Ghost Pepper"}
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
