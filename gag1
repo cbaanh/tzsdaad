@@ -52,10 +52,12 @@ getgenv().UserConfig = {
         ["Acorn"] = 50,
         ["Cherry"] = 50,
         ["Ghost Pepper"] = 999,
-		-- ["Venom Spitter"] = 999,
-        -- ["Moon Bloom"] = 999,
-        -- ["Dragon's Breath"] = 999,
+		["Venom Spitter"] = 999,
+        ["Moon Bloom"] = 999,
+        ["Dragon's Breath"] = 999,
         ["Hypno Bloom"] = 999,
+        ["Fire Fern"] = 999,
+        ["Rocket Pop"] = 999,
     },
     ["Favorite"] = {
         -- ["Horned Melon"] = {"Rainbow", "Gold"},
@@ -99,6 +101,8 @@ getgenv().UserConfig = {
             ["Monkey"] = 1,
             ["Ice Serpent"] = 1,
             ["Bear"] = 1,
+            ["Bald Eagle"] = 1,
+            ["Butterfly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "koziniko1"},
         },
         ["Seed"] = {
             ["Rainbow"] = {Amount = 1, To = "noziniko1"},
@@ -108,15 +112,17 @@ getgenv().UserConfig = {
             ["Moon Bloom"] = {Amount = 1, To = "noziniko1"},
             ["Dragon's Breath"] = {Amount = 1, To = "noziniko1"},
 			["Hypno Bloom"] = {Amount = 1, To = "noziniko1"},
+	        ["Fire Fern"] = {Amount = 10, To = "koziniko1"},
+	        ["Rocket Pop"] = {Amount = 10, To = "koziniko1"},
         },
         ["Gear"] = {
-            ["Super Watering Can"] = 1,
-            ["Super Sprinkler"] = 1,
+            ["Super Watering Can"] = {Amount = 1, To = "noziniko1"},
+            ["Super Sprinkler"] = {Amount = 1, To = "noziniko1"},
         },
     },
     ["Claim Mail"] = false,
     ["Auto Plant"] = true,
     ["Limit Auto Plant"] = 800,
-    ["Blacklist Seed"] = {"Rainbow", "Dragon's Breath", "Venus Fly Trap", "Moon Bloom", "Venom Spitter", "Hypno Bloom", "Mega", "Ghost Pepper"}
+    ["Blacklist Seed"] = {"Rainbow", "Dragon's Breath", "Venus Fly Trap", "Moon Bloom", "Venom Spitter", "Hypno Bloom", "Mega", "Ghost Pepper", "Fire Fern", "Rocket Pop"}
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
