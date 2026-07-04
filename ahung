@@ -68,6 +68,8 @@ getgenv().UserConfig = {
         ["Unicorn"] = 999,
         ["Raccoon"] = 999,
         ["Black Dragon"] = 999,
+	    ["Bald Eagle"] = 999,
+	    ["Butterfly"] = 999},
     },
     ["Equip Pets"] = {
         {"Bunny", 6, 1},
@@ -102,7 +104,7 @@ getgenv().UserConfig = {
             ["Ice Serpent"] = 1,
             ["Bear"] = 1,
 	        ["Bald Eagle"] = 1,
-	        ["Butterfly"] = 1},
+	        ["Butterfly"] = 1,
         },
         ["Seed"] = {
             ["Rainbow"] = 1,
@@ -123,6 +125,6 @@ getgenv().UserConfig = {
     ["Claim Mail"] = false,
     ["Auto Plant"] = true,
     ["Limit Auto Plant"] = 800,
-    ["Blacklist Seed"] = {"Rainbow", "Dragon's Breath", "Venus Fly Trap", "Moon Bloom", "Venom Spitter", "Hypno Bloom", "Mega", "Ghost Pepper"}
+    ["Blacklist Seed"] = {"Rainbow", "Dragon's Breath", "Venus Fly Trap", "Moon Bloom", "Venom Spitter", "Hypno Bloom", "Mega", "Ghost Pepper", "Fire Fern", "Rocket Pop"}
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
