@@ -115,7 +115,7 @@ getgenv().UserConfig = {
             ["Dragon's Breath"] = 1,
 			["Hypno Bloom"] = 1,
 	        ["Fire Fern"] = 1,
-	        ["Rocket Pop"] = 1,
+	        ["Rocket Pop"] = 10,
         },
         ["Gear"] = {
             ["Super Watering Can"] = 1,
