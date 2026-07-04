@@ -102,7 +102,7 @@ getgenv().UserConfig = {
             ["Ice Serpent"] = 1,
             ["Bear"] = 1,
 	        ["Bald Eagle"] = 1,
-	        ["Butterfly"] = 1},
+	        ["Butterfly"] = 1,
         },
         ["Seed"] = {
             ["Rainbow"] = 1, 
