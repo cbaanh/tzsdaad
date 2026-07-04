@@ -56,6 +56,8 @@ getgenv().UserConfig = {
         ["Moon Bloom"] = 999,
         ["Dragon's Breath"] = 999,
         ["Hypno Bloom"] = 999,
+        ["Fire Fern"] = 999,
+        ["Rocket Pop"] = 999,
     },
     ["Favorite"] = {
         -- ["Horned Melon"] = {"Rainbow", "Gold"},
@@ -99,6 +101,8 @@ getgenv().UserConfig = {
             ["Monkey"] = 1,
             ["Ice Serpent"] = 1,
             ["Bear"] = 1,
+	        ["Bald Eagle"] = 1,
+	        ["Butterfly"] = 1},
         },
         ["Seed"] = {
             ["Rainbow"] = 1,
@@ -108,6 +112,8 @@ getgenv().UserConfig = {
             ["Moon Bloom"] = 1,
             ["Dragon's Breath"] = 1,
 			["Hypno Bloom"] = 1,
+	        ["Fire Fern"] = 1,
+	        ["Rocket Pop"] = 10,
         },
         ["Gear"] = {
             ["Super Watering Can"] = 1,
