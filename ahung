@@ -69,7 +69,7 @@ getgenv().UserConfig = {
         ["Raccoon"] = 999,
         ["Black Dragon"] = 999,
 	    ["Bald Eagle"] = 999,
-	    ["Butterfly"] = 999},
+	    ["Butterfly"] = 999,
     },
     ["Equip Pets"] = {
         {"Bunny", 6, 1},
