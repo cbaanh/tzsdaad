@@ -4,7 +4,7 @@ getgenv().UserConfig = {
     ["FPS Cap"] = 3,
     ["Auto Double Or Nothing"] = false, -- muốn chơi tài xỉu thì true
     ["Double Or Nothing Target Wins"] = 1,
-	-- ["Shovel Plant Once"] = {},
+	-- ["Shovel Plant Once"] = {"Corn", "Pineapple", "Strawberry", "Banana", "Grape", "Cactus"},
 	["Blacklist Shovel"] = {"Dragon's Breath", "Moon Bloom", "Ghost Pepper", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap"},
     ["Auto Buy Seed"] = true,
     ["Auto Plant Seed"] = true,
@@ -52,10 +52,12 @@ getgenv().UserConfig = {
         ["Acorn"] = 50,
         ["Cherry"] = 50,
         ["Ghost Pepper"] = 999,
-		-- ["Venom Spitter"] = 999,
-        -- ["Moon Bloom"] = 999,
-        -- ["Dragon's Breath"] = 999,
+		["Venom Spitter"] = 999,
+        ["Moon Bloom"] = 999,
+        ["Dragon's Breath"] = 999,
         ["Hypno Bloom"] = 999,
+        ["Fire Fern"] = 999,
+        ["Rocket Pop"] = 999,
     },
     ["Favorite"] = {
         -- ["Horned Melon"] = {"Rainbow", "Gold"},
@@ -68,7 +70,7 @@ getgenv().UserConfig = {
         ["Black Dragon"] = 999,
     },
 	["Equip Pets"] = { -- Petname, Amount, Priority
-       -- {"Unicorn", 6, 1},
+        -- {"Unicorn", 6, 1},
         {"Bunny", 6, 1},
     },
     ["Expand Plot"] = true,
@@ -82,14 +84,14 @@ getgenv().UserConfig = {
 		},
         ["Gears To Use"] = {},
     },
-    ["Webhook Pet URL"] = "https://discord.com/api/webhooks/1342556846862504045/vEh50mbTp8HZg6Na7bSZIwjiEjuvlG2ToFrKLfoEbrCbK2ez6MwGT811ETvTaT_3qxeR",
+    ["Webhook Pet URL"] = "https://discord.com/api/webhooks/1311066762426450024/HjEF8KTulv902w-WYqoOtEM9O6Lj5NjK3o1XuSaV-r_H_8PB1E3KxtFyVYnnky3U36G-",
     ["Webhook Pet Name"] = {"Golden Dragonfly","Unicorn","Raccoon","Monkey","Ice Serpent"},
     ["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"},
-	["Webhook Seed URL"] = "https://discord.com/api/webhooks/1342556846862504045/vEh50mbTp8HZg6Na7bSZIwjiEjuvlG2ToFrKLfoEbrCbK2ez6MwGT811ETvTaT_3qxeR",
+	["Webhook Seed URL"] = "https://discord.com/api/webhooks/1311066762426450024/HjEF8KTulv902w-WYqoOtEM9O6Lj5NjK3o1XuSaV-r_H_8PB1E3KxtFyVYnnky3U36G-",
     ["Webhook Seed Name"] = {"Rainbow", "Mega"},
-	["Webhook Gear URL"] = "https://discord.com/api/webhooks/1351616809014657164/ZEEMHqCCH8vkNEYHdN_J9oX_e0XtXDxEJH7aEcREDrG18_oCVpMY7q5c5StSXwl-LsiJ",
+	["Webhook Gear URL"] = "https://discord.com/api/webhooks/1311066714108330015/6qwj90MVS6BnVAK4oXsBNnAFalyMZnEiQ8R9fjIvfr_t8lSdf18C8PY74JgEys5i-qZT",
 	["Webhook Gear Name"] = {"Super Sprinkler", "Super Watering Can"},
-    ["Webhook Note"] = "vip",
+    ["Webhook Note"] = "xx",
     ["Discord ID"] = "xxx",
     ["Mail To Username"] = {"doziniko1"},
     ["Items To Mail"] = {
@@ -99,7 +101,8 @@ getgenv().UserConfig = {
             ["Monkey"] = 1,
             ["Ice Serpent"] = 1,
             ["Bear"] = 1,
-            ["Unicorn"] = 1,
+            ["Bald Eagle"] = 1,
+            ["Butterfly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "koziniko1"},
         },
         ["Seed"] = {
             ["Rainbow"] = {Amount = 1, To = "noziniko1"},
@@ -109,15 +112,17 @@ getgenv().UserConfig = {
             ["Moon Bloom"] = {Amount = 1, To = "noziniko1"},
             ["Dragon's Breath"] = {Amount = 1, To = "noziniko1"},
 			["Hypno Bloom"] = {Amount = 1, To = "noziniko1"},
+	        ["Fire Fern"] = {Amount = 10, To = "koziniko1"},
+	        ["Rocket Pop"] = {Amount = 10, To = "koziniko1"},
         },
         ["Gear"] = {
-            ["Super Watering Can"] = 1,
-            ["Super Sprinkler"] = 1,
+            ["Super Watering Can"] = {Amount = 1, To = "noziniko1"},
+            ["Super Sprinkler"] = {Amount = 1, To = "noziniko1"},
         },
     },
     ["Claim Mail"] = false,
     ["Auto Plant"] = true,
     ["Limit Auto Plant"] = 800,
-    ["Blacklist Seed"] = {"Rainbow", "Dragon's Breath", "Venus Fly Trap", "Moon Bloom", "Venom Spitter", "Hypno Bloom", "Mega", "Ghost Pepper"}
+    ["Blacklist Seed"] = {"Rainbow", "Dragon's Breath", "Venus Fly Trap", "Moon Bloom", "Venom Spitter", "Hypno Bloom", "Mega", "Ghost Pepper", "Fire Fern", "Rocket Pop"}
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
