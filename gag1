@@ -26,6 +26,7 @@ getgenv().UserConfig = {
         ["Cherry"] = 50,
         ["Sunflower"] = 50,
         ["Gold"] = 50,
+        ["Rocket Pop"] = 50,
         -- ["Venus Fly Trap"] = 50,
         ["Pomegranate"] = 50,
         ["Poison Apple"] = 50,
@@ -104,7 +105,7 @@ getgenv().UserConfig = {
             ["Ice Serpent"] = 1,
             ["Bear"] = 1,
             ["Bald Eagle"] = 1,
-            ["Butterfly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "koziniko1"},
+            ["Butterfly"] = 1,
         },
         ["Seed"] = {
             ["Rainbow"] = {Amount = 1, To = "noziniko1"},
@@ -114,8 +115,7 @@ getgenv().UserConfig = {
             ["Moon Bloom"] = {Amount = 1, To = "noziniko1"},
             ["Dragon's Breath"] = {Amount = 1, To = "noziniko1"},
 			["Hypno Bloom"] = {Amount = 1, To = "noziniko1"},
-	        ["Fire Fern"] = {Amount = 1, To = "koziniko1"},
-	        ["Rocket Pop"] = {Amount = 10, To = "koziniko1"},
+	        ["Fire Fern"] = {Amount = 1, To = "noziniko1"},
         },
         ["Gear"] = {
             ["Super Watering Can"] = {Amount = 1, To = "noziniko1"},
@@ -125,6 +125,6 @@ getgenv().UserConfig = {
     ["Claim Mail"] = false,
     ["Auto Plant"] = true,
     ["Limit Auto Plant"] = 800,
-    ["Blacklist Seed"] = {"Rainbow", "Dragon's Breath", "Venus Fly Trap", "Moon Bloom", "Venom Spitter", "Hypno Bloom", "Mega", "Ghost Pepper", "Fire Fern", "Rocket Pop"}
+    ["Blacklist Seed"] = {"Rainbow", "Dragon's Breath", "Venus Fly Trap", "Moon Bloom", "Venom Spitter", "Hypno Bloom", "Mega", "Ghost Pepper", "Fire Fern"}
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
