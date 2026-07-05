@@ -110,7 +110,7 @@ getgenv().UserConfig = {
         },
         ["Seed"] = {
             ["Rainbow"] = {Amount = 1, To = "noziniko1"},
-            ["Mega"] = {Amount = 1, To = "noziniko1"},
+            ["Mega"] = {Amount = 1, To = "coziniko1"},
             ["Venus Fly Trap"] = {Amount = 1, To = "noziniko1"},
             ["Venom Spitter"] = {Amount = 1, To = "noziniko1"},
             ["Moon Bloom"] = {Amount = 1, To = "noziniko1"},
@@ -119,7 +119,7 @@ getgenv().UserConfig = {
 	        ["Fire Fern"] = {Amount = 1, To = "noziniko1"},
         },
         ["Gear"] = {
-            ["Super Watering Can"] = {Amount = 1, To = "noziniko1"},
+            ["Super Watering Can"] = {Amount = 1, To = "coziniko1"},
             ["Super Sprinkler"] = {Amount = 1, To = "noziniko1"},
         },
     },
