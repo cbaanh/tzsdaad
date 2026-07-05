@@ -30,6 +30,7 @@ getgenv().UserConfig = {
 		-- ["Venom Spitter"] = 50,
         -- ["Moon Bloom"] = 50,
         -- ["Dragon's Breath"] = 50,
+        ["Rocket Pop"] = 50,
     },
     ["Limit Buy Seed"] = {
         ["Carrot"] = 10, 
@@ -92,7 +93,7 @@ getgenv().UserConfig = {
 	["Webhook Gear Name"] = {"Super Sprinkler"},
     ["Webhook Note"] = "xx",
     ["Discord ID"] = "xxx",
-    ["Mail To Username"] = {"TitanrhMagic523"},
+    ["Mail To Username"] = {"Xz_Crims0nF3Gh0st63T"},
     ["Items To Mail"] = {
         ["Pet"] = {
             ["Golden Dragonfly"] = 1, 
@@ -113,7 +114,6 @@ getgenv().UserConfig = {
             ["Dragon's Breath"] = 1, 
 			["Hypno Bloom"] = 1, 
 	        ["Fire Fern"] = 1,
-	        ["Rocket Pop"] = 10,
         },
         ["Gear"] = {
             ["Super Watering Can"] = 1,
@@ -123,6 +123,6 @@ getgenv().UserConfig = {
     ["Claim Mail"] = false,
     ["Auto Plant"] = true,
     ["Limit Auto Plant"] = 800,
-    ["Blacklist Seed"] = {"Rainbow", "Dragon's Breath", "Venus Fly Trap", "Moon Bloom", "Venom Spitter", "Hypno Bloom", "Mega", "Ghost Pepper", "Rocket Pop", "Fire Fern"}
+    ["Blacklist Seed"] = {"Rainbow", "Dragon's Breath", "Venus Fly Trap", "Moon Bloom", "Venom Spitter", "Hypno Bloom", "Mega", "Ghost Pepper", "Fire Fern"}
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
