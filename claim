@@ -1,2 +1,12 @@
 script_key = "mFeSGiijwdLxhWlgKDGEfSihuBozfOAp";
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/f7b552a1c506e9094ca861ff7ea1016f.lua"))()
+getgenv().UserConfig = {
+    ["Auto Claim Mail"] = true,
+    ["Auto Send Mail"] = true,
+    ["Mail To Username"] = {"hiziniko1"}, -- Send all amount to username1 first then username2
+    ["Items To Mail"] = {
+        ["Pet"] = {
+            ["Bald Eagle"] = 100,
+        },
+    }
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/790db43174cb636cf5fa1d87166bf85f.lua"))()
