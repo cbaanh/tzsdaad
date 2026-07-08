@@ -1,2 +1,2 @@
 script_key = "mFeSGiijwdLxhWlgKDGEfSihuBozfOAp";
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/061a0bc22adc53d4c6e9b4267655fcd9.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/f7b552a1c506e9094ca861ff7ea1016f.lua"))()
