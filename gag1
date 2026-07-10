@@ -24,7 +24,7 @@ getgenv().UserConfig = {
         ["Cherry"] = 50,
         ["Sunflower"] = 50,
         ["Gold"] = 50,
-        ["Rocket Pop"] = 50,
+        -- ["Rocket Pop"] = 50,
         -- ["Venus Fly Trap"] = 50,
         ["Pomegranate"] = 50,
         ["Poison Apple"] = 50,
@@ -55,7 +55,7 @@ getgenv().UserConfig = {
         ["Moon Bloom"] = 999,
         ["Dragon's Breath"] = 999,
         ["Hypno Bloom"] = 999,
-        ["Rocket Pop"] = 999,
+        -- ["Rocket Pop"] = 999,
 		-- ["Pineapple"] = 999,
     },
     ["Favorite"] = {
