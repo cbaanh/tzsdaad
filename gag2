@@ -56,7 +56,7 @@ getgenv().UserConfig = {
         ["Dragon's Breath"] = 999,
         ["Hypno Bloom"] = 999,
         ["Rocket Pop"] = 999,
-		["Pineapple"] = 999,
+		-- ["Pineapple"] = 999,
     },
     ["Favorite"] = {
         -- ["Horned Melon"] = {"Rainbow", "Gold"},
