@@ -30,7 +30,7 @@ getgenv().UserConfig = {
 		-- ["Venom Spitter"] = 50,
         -- ["Moon Bloom"] = 50,
         -- ["Dragon's Breath"] = 50,
-        ["Rocket Pop"] = 50,
+        -- ["Rocket Pop"] = 50,
     },
     ["Limit Buy Seed"] = {
         ["Carrot"] = 10, 
@@ -56,7 +56,7 @@ getgenv().UserConfig = {
         ["Dragon's Breath"] = 999,
         ["Hypno Bloom"] = 999,
         ["Fire Fern"] = 999,
-        ["Rocket Pop"] = 999,
+        -- ["Rocket Pop"] = 999,
 		-- ["Pineapple"] = 999,
     },
     ["Favorite"] = {
