@@ -109,8 +109,8 @@ getgenv().UserConfig = {
             ["Unicorn"] = {Normal = 100, Big = 1, Huge = 1, Rainbow = 1, To = "biziniko1"},
         },
         ["Seed"] = {
-            ["Rainbow"] = {Amount = 1, To = {"biziniko1", "hiziniko1"}},
-            ["Mega"] = {Amount = 1, To = {"biziniko1", "noziniko1"}},
+            ["Rainbow"] = {Amount = 2, To = {"biziniko1", "hiziniko1"}},
+            ["Mega"] = {Amount = 2, To = {"biziniko1", "noziniko1"}},
             ["Venus Fly Trap"] = {Amount = 1, To = "noziniko1"},
             ["Venom Spitter"] = {Amount = 1, To = "noziniko1"},
             ["Moon Bloom"] = {Amount = 1, To = "noziniko1"},
@@ -119,8 +119,8 @@ getgenv().UserConfig = {
 	        ["Fire Fern"] = {Amount = 1, To = {"biziniko1", "hiziniko1"}},
         },
         ["Gear"] = {
-            ["Super Watering Can"] = {Amount = 1, To = {"biziniko1", "hiziniko1"}},
-            ["Super Sprinkler"] = {Amount = 1, To = {"noziniko1", "doziniko1"}},
+            ["Super Watering Can"] = {Amount = 2, To = {"biziniko1", "hiziniko1"}},
+            ["Super Sprinkler"] = {Amount = 2, To = {"noziniko1", "doziniko1"}},
         },
     },
     ["Claim Mail"] = false,
