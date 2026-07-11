@@ -106,11 +106,11 @@ getgenv().UserConfig = {
             ["Bald Eagle"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hiziniko1"},
             ["Butterfly"] = 1,
             ["Kitsune"] = 1,
-            ["Unicorn"] = {Normal = 100, Big = 1, Huge = 1, Rainbow = 1, To = "biziniko1"},
+            ["Unicorn"] = {Normal = 100, Big = 1, Huge = 1, Rainbow = 1, To = "coziniko1"},
         },
         ["Seed"] = {
-            ["Rainbow"] = {Amount = 1, To = {"biziniko1", "hiziniko1"}},
-            ["Mega"] = {Amount = 1, To = {"biziniko1", "noziniko1"}},
+            ["Rainbow"] = {Amount = 1, To = {"coziniko1", "hiziniko1"}},
+            ["Mega"] = {Amount = 1, To = {"coziniko1", "noziniko1"}},
             ["Venus Fly Trap"] = {Amount = 1, To = "noziniko1"},
             ["Venom Spitter"] = {Amount = 1, To = "noziniko1"},
             ["Moon Bloom"] = {Amount = 1, To = "noziniko1"},
@@ -119,7 +119,7 @@ getgenv().UserConfig = {
 	        ["Fire Fern"] = {Amount = 1, To = {"biziniko1", "hiziniko1"}},
         },
         ["Gear"] = {
-            ["Super Watering Can"] = {Amount = 1, To = {"biziniko1", "hiziniko1"}},
+            ["Super Watering Can"] = {Amount = 1, To = {"coziniko1", "hiziniko1"}},
             ["Super Sprinkler"] = {Amount = 1, To = {"noziniko1", "doziniko1"}},
         },
     },
