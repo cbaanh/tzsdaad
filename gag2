@@ -67,7 +67,6 @@ getgenv().UserConfig = {
         ["Unicorn"] = 999,
         ["Raccoon"] = 999,
         ["Black Dragon"] = 999,
-        ["Bald Eagle"] = 999,
         ["Butterfly"] = 999,
         ["Kitsune"] = 999,
     },
