@@ -71,6 +71,7 @@ getgenv().UserConfig = {
         ["Black Dragon"] = 999,
 	    ["Butterfly"] = 999,
         ["Kitsune"] = 999,
+        ["Firefly"] = 1,
     },
     ["Equip Pets"] = {
         {"Bunny", 6, 1},
@@ -107,6 +108,7 @@ getgenv().UserConfig = {
 	        ["Bald Eagle"] = 2,
 	        ["Butterfly"] = 1,
             ["Kitsune"] = 1,
+        	["Firefly"] = 1,
         },
         ["Seed"] = {
             ["Rainbow"] = {Amount = 1, To = "nhtththt3"},
