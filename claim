@@ -1,4 +1,4 @@
-if not game:IsLoaded() then game.Loaded:Wait(100) end
+wait(150)
 script_key = "mFeSGiijwdLxhWlgKDGEfSihuBozfOAp";
 getgenv().autoClaimMail = true -- để sẵn khi mở hoặc false để tắt
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/061a0bc22adc53d4c6e9b4267655fcd9.lua"))()
