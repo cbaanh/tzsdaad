@@ -130,7 +130,7 @@ getgenv().UserConfig = {
             ["Bald Eagle"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hiziniko1"},
             ["Butterfly"] = 1,
             ["Kitsune"] = 1,
-            ["Firefly"] = 1,
+            ["Firefly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "biziniko1"},
             ["Unicorn"] = {Normal = 100, Big = 1, Huge = 1, Rainbow = 1, To = "coziniko1"},
         },
         ["Seed"] = {
