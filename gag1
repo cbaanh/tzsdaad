@@ -122,16 +122,15 @@ getgenv().UserConfig = {
     ["Mail To Username"] = {"noziniko1"},
     ["Items To Mail"] = {
         ["Pet"] = {
-            ["Golden Dragonfly"] = 1, 
+            ["Golden Dragonfly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "SpencerChampion26"},
             ["Raccoon"] = 1,
             ["Monkey"] = 1,
             ["Ice Serpent"] = 1,
             ["Bear"] = 1,
-            ["Bald Eagle"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hiziniko1"},
             ["Butterfly"] = 1,
             ["Kitsune"] = 1,
-            ["Firefly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "biziniko1"},
-            ["Unicorn"] = {Normal = 100, Big = 1, Huge = 1, Rainbow = 1, To = "coziniko1"},
+            ["Firefly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "doziniko1"},
+            ["Unicorn"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "KernelIQ215"},
         },
         ["Seed"] = {
             ["Rainbow"] = {Amount = 1, To = {"biziniko1", "hiziniko1"}},
@@ -148,7 +147,7 @@ getgenv().UserConfig = {
         },
         ["Gear"] = {
             ["Super Watering Can"] = {Amount = 1, To = {"biziniko1", "hiziniko1"}},
-            ["Super Sprinkler"] = {Amount = 1, To = {"noziniko1", "doziniko1"}},
+            ["Super Sprinkler"] = {Amount = 1, To = {"biziniko1", "hiziniko1"}},
         },
     },
     ["Claim Mail"] = false,
