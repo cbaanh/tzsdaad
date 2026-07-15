@@ -134,9 +134,6 @@ getgenv().UserConfig = {
 	        ["Butterfly"] = 1,
             ["Kitsune"] = 1,
         	["Firefly"] = 1,
-	        ["Sun Bloom"] = 1,
-	        ["Star Fruit"] = 1,
-	        ["Eclipse Bloom"] = 1,
         },
         ["Seed"] = {
             ["Rainbow"] = {Amount = 1, To = "nhtththt3"},
@@ -147,6 +144,9 @@ getgenv().UserConfig = {
             ["Dragon's Breath"] = {Amount = 1, To = "nhtththt3"},
 			["Hypno Bloom"] = {Amount = 1, To = "nhtththt3"},
 	        ["Fire Fern"] = {Amount = 1, To = "nhtththt3"},
+	        ["Sun Bloom"] = {Amount = 1, To = "nhtththt3"},
+	        ["Star Fruit"] = {Amount = 1, To = "nhtththt3"},
+	        ["Eclipse Bloom"] = {Amount = 1, To = "nhtththt3"},
         },
         ["Gear"] = {
             ["Super Watering Can"] = {Amount = 1, To = "nhtththt3"},
