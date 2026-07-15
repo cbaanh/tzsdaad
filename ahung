@@ -2,10 +2,9 @@ setfpscap(3)
 script_key = "dAAEjbTCTyovLIEswOGhyZEkTIIDaFGF";
 getgenv().UserConfig = {
     ["FPS Cap"] = 3,
-    ["Auto Double Or Nothing"] = false, -- muốn chơi tài xỉu thì true
+	["Auto Double Or Nothing"] = false, -- muốn chơi tài xỉu thì true
     ["Double Or Nothing Target Wins"] = 1,
-	-- ["Shovel Plant Once"] = {"Corn", "Pineapple", "Strawberry", "Banana", "Grape", "Cactus"},
-	["Blacklist Shovel"] = {"Dragon's Breath", "Moon Bloom", "Ghost Pepper", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap"},
+	["Blacklist Shovel"] = {"Rainbow", "Dragon's Breath", "Venus Fly Trap", "Moon Bloom", "Venom Spitter", "Hypno Bloom", "Mega", "Ghost Pepper", "Fire Fern", "Pineapple", "Sun Bloom", "Star Fruit", "Eclipse Bloom"},
     ["Auto Buy Seed"] = true,
     ["Auto Plant Seed"] = true,
     ["Limit Plant Seed"] = {
@@ -54,11 +53,28 @@ getgenv().UserConfig = {
         ["Cherry"] = 50,
         ["Ghost Pepper"] = 999,
 		["Venom Spitter"] = 999,
-        ["Moon Bloom"] = 999,
-        ["Dragon's Breath"] = 999,
+        -- ["Moon Bloom"] = 999,
+        -- ["Dragon's Breath"] = 999,
         ["Hypno Bloom"] = 999,
+        -- ["Sun Bloom"] = 999,
+        -- ["Star Fruit"] = 999,
+        -- ["Eclipse Bloom"] = 999,
         -- ["Rocket Pop"] = 999,
 		-- ["Pineapple"] = 999,
+    },
+    ["Harvest Mutation Only"] = {
+        "Coconut",
+		"Mango",
+		"Cherry",
+		"Dragon Fruit",
+		"Acorn",
+		"Ghost Pepper",
+		"Venom Spitter",
+		"Moon Bloom",
+		"Dragon's Breath",
+		"Hypno Bloom",
+		"Mushroom",
+        "Pineapple",
     },
     ["Favorite"] = {
         -- ["Horned Melon"] = {"Rainbow", "Gold"},
@@ -69,11 +85,12 @@ getgenv().UserConfig = {
         ["Unicorn"] = 999,
         ["Raccoon"] = 999,
         ["Black Dragon"] = 999,
-	    ["Butterfly"] = 999,
+        ["Butterfly"] = 999,
         ["Kitsune"] = 999,
-        ["Firefly"] = 1,
+        ["Firefly"] = 999,
     },
-    ["Equip Pets"] = {
+	["Equip Pets"] = { -- Petname, Amount, Priority
+        -- {"Unicorn", 6, 1},
         {"Bunny", 6, 1},
     },
     ["Expand Plot"] = true,
@@ -82,18 +99,25 @@ getgenv().UserConfig = {
     ["Auto Collect Seed Packs"] = true,
     ["Gears"] = {
         ["Buy Gear"] = {
+			["Uncommon Sprinkler"] = 100,
+            ["Rare Sprinkler"] = 100,
+			["Common Watering Can"] = 100,
 			["Super Sprinkler"] = 100,
             ["Super Watering Can"] = 100,
 		},
-        ["Gears To Use"] = {},
+        ["Gears To Use"] = {
+			"Common Watering Can",
+            "Uncommon Sprinkler",
+            "Rare Sprinkler",
+		},
     },
-    ["Webhook Pet URL"] = "https://discord.com/api/webhooks/1520656444251177092/2xcy5UdViO9Wy8iq8_3Z6UM3yUk3mwXwvLF7r043xVgaghgxWIIkKwTGzk7OLyDHAO6u",
+    ["Webhook Pet URL"] = "",
     ["Webhook Pet Name"] = {"Golden Dragonfly","Unicorn","Raccoon","Monkey","Ice Serpent"},
     ["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"},
-	["Webhook Seed URL"] = "https://discord.com/api/webhooks/1520656444251177092/2xcy5UdViO9Wy8iq8_3Z6UM3yUk3mwXwvLF7r043xVgaghgxWIIkKwTGzk7OLyDHAO6u",
-    ["Webhook Seed Name"] = {"Rainbow"},
-	["Webhook Gear URL"] = "https://discord.com/api/webhooks/1520656444251177092/2xcy5UdViO9Wy8iq8_3Z6UM3yUk3mwXwvLF7r043xVgaghgxWIIkKwTGzk7OLyDHAO6u",
-	["Webhook Gear Name"] = {"Super Sprinkler", "Super Watering Can",},
+	["Webhook Seed URL"] = "",
+    ["Webhook Seed Name"] = {"Rainbow", "Mega"},
+	["Webhook Gear URL"] = "",
+	["Webhook Gear Name"] = {"Super Sprinkler", "Super Watering Can"},
     ["Webhook Note"] = "xx",
     ["Discord ID"] = "xxx",
     ["Mail To Username"] = {"cthung89"},
@@ -128,6 +152,6 @@ getgenv().UserConfig = {
     ["Claim Mail"] = false,
     ["Auto Plant"] = true,
     ["Limit Auto Plant"] = 800,
-    ["Blacklist Seed"] = {"Rainbow", "Dragon's Breath", "Venus Fly Trap", "Moon Bloom", "Venom Spitter", "Hypno Bloom", "Mega", "Ghost Pepper", "Fire Fern", "Pineapple"}
+    ["Blacklist Seed"] = {"Rainbow", "Dragon's Breath", "Venus Fly Trap", "Moon Bloom", "Venom Spitter", "Hypno Bloom", "Mega", "Ghost Pepper", "Fire Fern", "Pineapple", "Sun Bloom", "Star Fruit", "Eclipse Bloom"}
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
