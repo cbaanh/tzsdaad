@@ -134,6 +134,9 @@ getgenv().UserConfig = {
 	        ["Butterfly"] = 1,
             ["Kitsune"] = 1,
         	["Firefly"] = 1,
+	        ["Sun Bloom"] = 1,
+	        ["Star Fruit"] = 1,
+	        ["Eclipse Bloom"] = 1,
         },
         ["Seed"] = {
             ["Rainbow"] = {Amount = 1, To = "nhtththt3"},
