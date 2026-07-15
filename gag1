@@ -137,8 +137,8 @@ getgenv().UserConfig = {
         ["Seed"] = {
             ["Rainbow"] = {Amount = 1, To = {"MikhailJF898", "MahdiPaladin22"}},
             ["Mega"] = {Amount = 1, To = {"MikhailJF898", "MahdiPaladin22"}},
-            ["Venus Fly Trap"] = {"MikhailJF898", "MahdiPaladin22"}},
-            ["Venom Spitter"] = {"MikhailJF898", "MahdiPaladin22"}},
+            ["Venus Fly Trap"] = {Amount = 1, To = {"MikhailJF898", "MahdiPaladin22"}},
+            ["Venom Spitter"] = {Amount = 1, To = {"MikhailJF898", "MahdiPaladin22"}},
             ["Moon Bloom"] = {Amount = 1, To = "yesziniko"},
             ["Dragon's Breath"] = {Amount = 1, To = "yesziniko"},
 			["Hypno Bloom"] = {Amount = 1, To = "yesziniko"},
