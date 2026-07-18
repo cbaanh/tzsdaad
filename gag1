@@ -41,7 +41,7 @@ getgenv().UserConfig = {
         ["Tulip"] = 10,
         ["Tomato"] = 10,
         ["Apple"] = 10,
-        ["Bamboo"] = 9999,
+        -- ["Bamboo"] = 9999,
         ["Cactus"] = 10,
         ["Mushroom"] = 9999,
         ["Green Bean"] = 200,
@@ -145,6 +145,7 @@ getgenv().UserConfig = {
 	        ["Sun Bloom"] = {Amount = 1, To = {"hiziniko1", "noziniko"}},
 	        ["Star Fruit"] = {Amount = 1, To = {"hiziniko1", "noziniko"}},
 	        ["Eclipse Bloom"] = {Amount = 1, To = {"hiziniko1", "noziniko"}},
+	        ["Bamboo"] = {Amount = 999, To = {"Natalie_MG845", "CortexNadia95","MariaMoose96", "NebulaHC150"}},
         },
         ["Gear"] = {
             ["Super Watering Can"] = {Amount = 1, To = {"hiziniko1", "noziniko"}},
