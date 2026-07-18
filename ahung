@@ -40,7 +40,7 @@ getgenv().UserConfig = {
         ["Tulip"] = 10,
         ["Tomato"] = 10,
         ["Apple"] = 10,
-        ["Bamboo"] = 9999,
+        -- ["Bamboo"] = 9999,
         ["Cactus"] = 10,
         ["Mushroom"] = 9999,
         ["Green Bean"] = 200,
@@ -146,6 +146,7 @@ getgenv().UserConfig = {
 	        ["Sun Bloom"] = 1,
 	        ["Star Fruit"] = 1,
 	        ["Eclipse Bloom"] = 1,
+            ["Dragon's Breath"] = {Amount = 1, To = "BlazeYQ683"},
         },
         ["Gear"] = {
             ["Super Watering Can"] = 1,
