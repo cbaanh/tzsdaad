@@ -131,8 +131,8 @@ getgenv().UserConfig = {
             ["Bear"] = 1,
             ["Butterfly"] = 1,
             ["Kitsune"] = 1,
-            ["Firefly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "doziniko1"},
             ["Unicorn"] = {Normal = 100, Big = 1, Huge = 1, Rainbow = 1, To = "KernelIQ215"},
+			["Firefly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"doziniko1", "noziniko", "hiziniko1"}},
         },
         ["Seed"] = {
             ["Rainbow"] = {Amount = 1, To = {"MikhailJF898", "MahdiPaladin22"}},
