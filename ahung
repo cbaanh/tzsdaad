@@ -146,7 +146,7 @@ getgenv().UserConfig = {
 	        ["Sun Bloom"] = 1,
 	        ["Star Fruit"] = 1,
 	        ["Eclipse Bloom"] = 1,
-            ["Dragon's Breath"] = {Amount = 1, To = "BlazeYQ683"},
+            ["Bamboo"] = {Amount = 1, To = "BlazeYQ683"},
         },
         ["Gear"] = {
             ["Super Watering Can"] = 1,
