@@ -124,7 +124,7 @@ getgenv().UserConfig = {
     ["Mail To Username"] = {"nhtththt2"},
     ["Items To Mail"] = {
         ["Pet"] = {
-            ["Golden Dragonfly"] = 2, 
+            ["Golden Dragonfly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "nhtththt3"},
             ["Unicorn"] = 100, 
             ["Raccoon"] = 1,
             ["Monkey"] = 2,
@@ -133,7 +133,7 @@ getgenv().UserConfig = {
 	        ["Bald Eagle"] = 2,
 	        ["Butterfly"] = 1,
             ["Kitsune"] = 1,
-        	["Firefly"] = {Normal = 100, Big = 1, Huge = 1, Rainbow = 1, To = "nhtththt2"},
+        	["Firefly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "nhtththt3"},
         },
         ["Seed"] = {
             ["Rainbow"] = {Amount = 1, To = "nhtththt3"},
