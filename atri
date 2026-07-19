@@ -4,7 +4,7 @@ getgenv().UserConfig = {
     ["FPS Cap"] = 3,
 	["Auto Double Or Nothing"] = false, -- muốn chơi tài xỉu thì true
     ["Double Or Nothing Target Wins"] = 1,
-	["Shovel Plant Once"] = {"Acorn"},
+	-- ["Shovel Plant Once"] = {"Acorn"},
 	["Blacklist Shovel"] = {"Rainbow", "Dragon's Breath", "Venus Fly Trap", "Moon Bloom", "Venom Spitter", "Hypno Bloom", "Mega", "Ghost Pepper", "Fire Fern", "Pineapple", "Sun Bloom", "Star Fruit", "Eclipse Bloom"},
     ["Auto Buy Seed"] = true,
     ["Auto Plant Seed"] = true,
@@ -41,7 +41,7 @@ getgenv().UserConfig = {
         ["Tulip"] = 10,
         ["Tomato"] = 10,
         ["Apple"] = 10,
-        -- ["Bamboo"] = 9999,
+        ["Bamboo"] = 9999,
         ["Cactus"] = 10,
         ["Mushroom"] = 9999,
         ["Green Bean"] = 200,
@@ -147,7 +147,7 @@ getgenv().UserConfig = {
 	        ["Sun Bloom"] = {Amount = 1, To = "nhtththt3"},
 	        ["Star Fruit"] = {Amount = 1, To = "nhtththt3"},
 	        ["Eclipse Bloom"] = {Amount = 1, To = "nhtththt3"},
-	        ["Bamboo"] = {Amount = 1, To = "Alice_LF464"},
+	        -- ["Bamboo"] = {Amount = 1, To = "Alice_LF464"},
         },
         ["Gear"] = {
             ["Super Watering Can"] = {Amount = 1, To = "nhtththt3"},
