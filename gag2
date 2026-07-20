@@ -100,16 +100,35 @@ getgenv().UserConfig = {
             "Rare Sprinkler",
 		},
     },
-    ["Mail To Username"] = {""},
+    ["Mail To Username"] = {"yesziniko"},
     ["Items To Mail"] = {
         ["Pet"] = {
-			
+			["Golden Dragonfly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"SpencerChampion26", "MahdiPaladin22", "MikhailJF898"}},
+            ["Raccoon"] = 1,
+            ["Monkey"] = 1,
+            ["Ice Serpent"] = 1,
+            ["Bear"] = 1,
+            ["Butterfly"] = 1,
+            ["Kitsune"] = 1,
+            ["Unicorn"] = {Normal = 100, Big = 1, Huge = 1, Rainbow = 1, To = "KernelIQ215"},
+			["Firefly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"doziniko1", "noziniko", "hiziniko1"}},
         },
         ["Seed"] = {
-            
+            ["Rainbow"] = {Amount = 1, To = {"MikhailJF898", "MahdiPaladin22"}},
+            ["Mega"] = {Amount = 1, To = {"MikhailJF898", "MahdiPaladin22"}},
+            ["Venus Fly Trap"] = {Amount = 1, To = {"MikhailJF898", "MahdiPaladin22"}},
+            ["Venom Spitter"] = {Amount = 1, To = {"MikhailJF898", "MahdiPaladin22"}},
+            ["Moon Bloom"] = {Amount = 1, To = "yesziniko"},
+            ["Dragon's Breath"] = {Amount = 1, To = "yesziniko"},
+			["Hypno Bloom"] = {Amount = 1, To = "yesziniko"},
+	        ["Sun Bloom"] = {Amount = 1, To = {"hiziniko1", "noziniko"}},
+	        ["Star Fruit"] = {Amount = 1, To = {"hiziniko1", "noziniko"}},
+	        ["Eclipse Bloom"] = {Amount = 1, To = {"hiziniko1", "noziniko"}},
+	        -- ["Bamboo"] = {Amount = 1, To = {"Natalie_MG845", "CortexNadia95","MariaMoose96", "NebulaHC150"}},
         },
         ["Gear"] = {
-            
+            ["Super Watering Can"] = {Amount = 1, To = {"hiziniko1", "noziniko"}},
+            ["Super Sprinkler"] = {Amount = 1, To = {"hiziniko1", "noziniko"}},
         },
     },
     ["Claim Mail"] = false,
