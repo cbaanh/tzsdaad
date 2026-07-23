@@ -1,10 +1,9 @@
-setfpscap(3)
+setfpscap(5)
 script_key = "mFeSGiijwdLxhWlgKDGEfSihuBozfOAp";
 getgenv().UserConfig = {
-    ["FPS Cap"] = 3,
+    ["FPS Cap"] = 5,
     ["Auto Double Or Nothing"] = false, -- muốn chơi tài xỉu thì true
     ["Double Or Nothing Target Wins"] = 1,
-	-- ["Shovel Plant Once"] = {"Acorn"},
 	["Blacklist Shovel"] = {"Rainbow", "Dragon's Breath", "Venus Fly Trap", "Moon Bloom", "Venom Spitter", "Hypno Bloom", "Mega", "Ghost Pepper", "Fire Fern", "Pineapple", "Sun Bloom", "Star Fruit", "Eclipse Bloom"},
     ["Auto Buy Seed"] = true,
     ["Auto Plant Seed"] = true,
@@ -26,13 +25,8 @@ getgenv().UserConfig = {
         ["Cherry"] = 50,
         ["Sunflower"] = 50,
         ["Gold"] = 50,
-        -- ["Rocket Pop"] = 50,
-        -- ["Venus Fly Trap"] = 50,
         ["Pomegranate"] = 50,
         ["Poison Apple"] = 50,
-		-- ["Venom Spitter"] = 50,
-        -- ["Moon Bloom"] = 50,
-        -- ["Dragon's Breath"] = 50,
     },
     ["Limit Buy Seed"] = {
         ["Carrot"] = 10, 
@@ -60,8 +54,6 @@ getgenv().UserConfig = {
         ["Sun Bloom"] = 999,
         ["Star Fruit"] = 999,
         ["Eclipse Bloom"] = 999,
-        -- ["Rocket Pop"] = 999,
-		-- ["Pineapple"] = 999,
     },
     ["Harvest Mutation Only"] = {
         "Coconut",
@@ -77,9 +69,6 @@ getgenv().UserConfig = {
 		"Mushroom",
         "Pineapple",
     },
-    ["Favorite"] = {
-        -- ["Horned Melon"] = {"Rainbow", "Gold"},
-    },
     ["Buy Pets"] = {
         ["Bunny"] = 6,
         ["Golden Dragonfly"] = 999,
@@ -90,8 +79,7 @@ getgenv().UserConfig = {
         ["Kitsune"] = 999,
         ["Firefly"] = 999,
     },
-	["Equip Pets"] = { -- Petname, Amount, Priority
-        -- {"Unicorn", 6, 1},
+	["Equip Pets"] = { 
         {"Bunny", 6, 1},
     },
     ["Expand Plot"] = true,
@@ -112,49 +100,40 @@ getgenv().UserConfig = {
             "Rare Sprinkler",
 		},
     },
-    ["Webhook Pet URL"] = "https://discord.com/api/webhooks/1311066762426450024/HjEF8KTulv902w-WYqoOtEM9O6Lj5NjK3o1XuSaV-r_H_8PB1E3KxtFyVYnnky3U36G-",
-    ["Webhook Pet Name"] = {"Golden Dragonfly","Unicorn","Raccoon","Monkey","Ice Serpent"},
-    ["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"},
-	["Webhook Seed URL"] = "https://discord.com/api/webhooks/1311066762426450024/HjEF8KTulv902w-WYqoOtEM9O6Lj5NjK3o1XuSaV-r_H_8PB1E3KxtFyVYnnky3U36G-",
-    ["Webhook Seed Name"] = {"Rainbow", "Mega"},
-	["Webhook Gear URL"] = "https://discord.com/api/webhooks/1311066714108330015/6qwj90MVS6BnVAK4oXsBNnAFalyMZnEiQ8R9fjIvfr_t8lSdf18C8PY74JgEys5i-qZT",
-	["Webhook Gear Name"] = {"Super Sprinkler", "Super Watering Can"},
-    ["Webhook Note"] = "xx",
-    ["Discord ID"] = "xxx",
-    ["Mail To Username"] = {"yesziniko"},
+    ["Mail To Username"] = {"FranklinMonica3"},
     ["Items To Mail"] = {
         ["Pet"] = {
-			["Golden Dragonfly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"SpencerChampion26", "MahdiPaladin22", "MikhailJF898"}},
+			["Golden Dragonfly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"GarnerStacy2", "BergerPatricia9", "RuizWalter871"}},
             ["Raccoon"] = 1,
             ["Monkey"] = 1,
             ["Ice Serpent"] = 1,
             ["Bear"] = 1,
             ["Butterfly"] = 1,
             ["Kitsune"] = 1,
-            ["Unicorn"] = {Normal = 100, Big = 1, Huge = 1, Rainbow = 1, To = "KernelIQ215"},
-			["Firefly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"doziniko1", "noziniko", "hiziniko1"}},
+            ["Unicorn"] = {Normal = 100, Big = 1, Huge = 1, Rainbow = 1, To = "MunozSabrina6"},
+			["Firefly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"LawsonAlvin3388", "BruceIan5", "WalkerConnor15"}},
         },
         ["Seed"] = {
-            ["Rainbow"] = {Amount = 1, To = {"MikhailJF898", "MahdiPaladin22"}},
-            ["Mega"] = {Amount = 1, To = {"MikhailJF898", "MahdiPaladin22"}},
-            ["Venus Fly Trap"] = {Amount = 1, To = {"MikhailJF898", "MahdiPaladin22"}},
-            ["Venom Spitter"] = {Amount = 1, To = {"MikhailJF898", "MahdiPaladin22"}},
-            ["Moon Bloom"] = {Amount = 1, To = "yesziniko"},
-            ["Dragon's Breath"] = {Amount = 1, To = "yesziniko"},
-			["Hypno Bloom"] = {Amount = 1, To = "yesziniko"},
-	        ["Sun Bloom"] = {Amount = 1, To = {"hiziniko1", "noziniko"}},
-	        ["Star Fruit"] = {Amount = 1, To = {"hiziniko1", "noziniko"}},
-	        ["Eclipse Bloom"] = {Amount = 1, To = {"hiziniko1", "noziniko"}},
+            ["Rainbow"] = {Amount = 1, To = {"FranklinMonica3", "ParrishDale115", "CreamSloth911", "MontgomeryShane732", "doziniko1", "RubyAmy844", "LoweryGabriella4", "MikhailJF898"}},
+            ["Mega"] = {Amount = 1, To = {"FranklinMonica3", "ParrishDale115", "CreamSloth911", "MontgomeryShane732", "doziniko1", "RubyAmy844", "LoweryGabriella4", "MikhailJF898"}},
+            ["Venus Fly Trap"] = {Amount = 1, To = {"FranklinMonica3", "ParrishDale115", "CreamSloth911", "MontgomeryShane732", "doziniko1", "RubyAmy844", "LoweryGabriella4", "MikhailJF898"}},
+            ["Venom Spitter"] = {Amount = 1, To = {"FranklinMonica3", "ParrishDale115", "CreamSloth911", "MontgomeryShane732", "doziniko1", "RubyAmy844", "LoweryGabriella4", "MikhailJF898"}},
+            ["Moon Bloom"] = {Amount = 1, To = {"FranklinMonica3", "ParrishDale115", "CreamSloth911", "MontgomeryShane732", "doziniko1", "RubyAmy844", "LoweryGabriella4", "MikhailJF898"}},
+            ["Dragon's Breath"] = {Amount = 1, To = {"FranklinMonica3", "ParrishDale115", "CreamSloth911", "MontgomeryShane732", "doziniko1", "RubyAmy844", "LoweryGabriella4", "MikhailJF898"}},
+			["Hypno Bloom"] = {Amount = 1, To = {"FranklinMonica3", "ParrishDale115", "CreamSloth911", "MontgomeryShane732", "doziniko1", "RubyAmy844", "LoweryGabriella4", "MikhailJF898"}},
+	        ["Sun Bloom"] = {Amount = 1, To = {"FranklinMonica3", "ParrishDale115", "CreamSloth911", "MontgomeryShane732", "doziniko1", "RubyAmy844", "LoweryGabriella4", "MikhailJF898"}},
+	        ["Star Fruit"] = {Amount = 1, To = {"FranklinMonica3", "ParrishDale115", "CreamSloth911", "MontgomeryShane732", "doziniko1", "RubyAmy844", "LoweryGabriella4", "MikhailJF898"}},
+	        ["Eclipse Bloom"] = {Amount = 1, To = {"FranklinMonica3", "ParrishDale115", "CreamSloth911", "MontgomeryShane732", "doziniko1", "RubyAmy844", "LoweryGabriella4", "MikhailJF898"}},
 	        -- ["Bamboo"] = {Amount = 1, To = {"Natalie_MG845", "CortexNadia95","MariaMoose96", "NebulaHC150"}},
         },
         ["Gear"] = {
-            ["Super Watering Can"] = {Amount = 1, To = {"hiziniko1", "noziniko"}},
-            ["Super Sprinkler"] = {Amount = 1, To = {"hiziniko1", "noziniko"}},
+            ["Super Watering Can"] = {Amount = 1, To = {"FranklinMonica3", "ParrishDale115", "CreamSloth911", "MontgomeryShane732", "doziniko1", "RubyAmy844", "LoweryGabriella4", "MikhailJF898"}},
+            ["Super Sprinkler"] = {Amount = 1, To = {"FranklinMonica3", "ParrishDale115", "CreamSloth911", "MontgomeryShane732", "doziniko1", "RubyAmy844", "LoweryGabriella4", "MikhailJF898"}},
         },
     },
     ["Claim Mail"] = false,
     ["Auto Plant"] = true,
     ["Limit Auto Plant"] = 800,
-    ["Blacklist Seed"] = {"Rainbow", "Dragon's Breath", "Venus Fly Trap", "Moon Bloom", "Venom Spitter", "Hypno Bloom", "Mega", "Ghost Pepper", "Fire Fern", "Pineapple", "Sun Bloom", "Star Fruit", "Eclipse Bloom"}
+    ["Blacklist Seed"] = {"Rainbow", "Dragon's Breath", "Venus Fly Trap", "Moon Bloom", "Venom Spitter", "Hypno Bloom", "Mega", "Ghost Pepper", "Sun Bloom", "Star Fruit", "Eclipse Bloom"}
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/979cba1a5b965fbc24d274454049b447.lua"))()
