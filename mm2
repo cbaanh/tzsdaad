@@ -1,0 +1,37 @@
+script_key = "JvKsMMlwaQYTLSHbYVKbgVBesTcolawi";
+setfpscap(5)
+-- [ USER CONFIGURATION ]
+getgenv().UserConfig = {
+    ["Enable Auto Hop"] = true,
+    ["Min Coin Hop Threshold"] = 250,
+    ["Coin Check Interval"] = 1800,
+    ["Auto Change"] = {
+        ["Level"] = 10,
+        ["Farmsync"] = {
+            ["Enabled"] = false,
+            ["Folder From"] = "folder_id_from",
+            ["Folder To"] = "folder_id_to",
+            ["Without Replace"] = false,
+            ["Config ID"] = nil
+        },
+        ["Yummy"] = {
+            ["Enabled"] = false
+        }
+    },
+
+    -- Auto Unbox Settings
+    ["Auto Unbox"] = true,
+    ["Selected Box"] = "Summer2026Box",
+    ["Currency Type"] = "Shells",
+    ["Min Balance Keep"] = 1,
+
+    -- Webhook Settings
+    ["Webhook URL"] = "https://discord.com/api/webhooks/1346782737692098571/CqncaOg2IMSeVbDEUqlfI-t9IfpHvtLcVmCNQ0xRI1OeZEF12gMJF3he0ZF7fcRnA6LS",
+    ["Discord ID"] = "xxx",
+    ["Webhook Note"] = "mm2",
+
+    -- Webhook Filters
+    ["Webhook Rarity Items"] = { "Godly", "Ancient", "Unique", "Legendary", "Rare", "Uncommon", "Common" },
+    ["Webhook Name Items"] = { "Gemstone", "BioBlade" }
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/6ed8b62881ce64364e782a23a42b9977.lua"))()
