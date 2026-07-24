@@ -1,5 +1,5 @@
 script_key = "JvKsMMlwaQYTLSHbYVKbgVBesTcolawi";
-setfpscap(5)
+setfpscap(20)
 -- [ USER CONFIGURATION ]
 getgenv().UserConfig = {
     ["Enable Auto Hop"] = true,
