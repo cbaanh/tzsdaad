@@ -1,3 +1,4 @@
+setfpscap(5)
 script_key = "SbhAruisFYufCypcLFFpwiNLbJhTizbG";
 getgenv().UserConfig = {
     -- Auto Hop
@@ -43,13 +44,4 @@ getgenv().UserConfig = {
     ["Webhook Rarity Items"] = { "Godly"},
     ["Webhook Name Items"] = {}
 }
-local success, result = pcall(function()
-    return game:HttpGet("https://api.luarmor.net/files/v4/loaders/cac9b40893744a110589b260d9c6eccf.lua")
-end)
-
-if success and result then
-    print("Dữ liệu LuArmor đã tải xong, đang kích hoạt script...")
-    loadstring(result)()
-else
-    warn("Lỗi tải LuArmor: " .. tostring(result))
-end
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/cac9b40893744a110589b260d9c6eccf.lua"))()
