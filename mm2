@@ -24,7 +24,7 @@ getgenv().UserConfig = {
             ["Enabled"] = false -- true if use yummy
         },
         ["Farmerv5"] = {
-            ["Enabled"] = false, -- true if use farmv5
+            ["Enabled"] = true, -- true if use farmv5
             ["API Key"] = "ak_ce5d0775136463b0dd76b4d4b68c3048b758b86e0afe7957272cd735d86151e9",
              ["Normal"] = 1,
             ["Godly"] = 2,
