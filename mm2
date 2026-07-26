@@ -2,7 +2,7 @@ if not game:IsLoaded() then game.Loaded:Wait() end
 setfpscap(5)
 script_key = "SbhAruisFYufCypcLFFpwiNLbJhTizbG";
 getgenv().UserConfig = {
-    ["FPS Cap"] = 10,
+    ["FPS Cap"] = 5,
     -- Auto Hop
     ["Enable Auto Hop"] = true,
     ["Min Coin Hop Threshold"] = 250,
