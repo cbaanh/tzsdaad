@@ -44,4 +44,11 @@ getgenv().UserConfig = {
     ["Webhook Rarity Items"] = { "Godly"},
     ["Webhook Name Items"] = {}
 }
+task.spawn(function()
+    local s = os.clock()
+    repeat task.wait(1) until getgenv().QuackQuack or os.clock() - s >= 240
+    if not getgenv().QuackQuack then
+        pcall(function() game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, game.Players.LocalPlayer) end)
+    end
+end)
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/cac9b40893744a110589b260d9c6eccf.lua"))()
