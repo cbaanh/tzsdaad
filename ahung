@@ -130,8 +130,8 @@ getgenv().UserConfig = {
         	["Firefly"] = 1000,
         },
         ["Seed"] = {
-            ["Rainbow"] = 1,
-            ["Mega"] = 2, 
+            -- ["Rainbow"] = 1,
+            -- ["Mega"] = 2, 
             ["Venus Fly Trap"] = 1,
             ["Venom Spitter"] = 1,
             ["Moon Bloom"] = 1,
