@@ -110,8 +110,8 @@ getgenv().UserConfig = {
 			["Firefly"] = {Normal = 1000, Big = 1, Huge = 1, Rainbow = 1, To = "ArchieCosmic4308"},
         },
         ["Seed"] = {
-            ["Rainbow"] = {Amount = 1, To = {"ComposerFluffy5134", "Alexander_B0SS0N", "DriftPRO9189", "EliteFlorian170", "coziniko1"}},
-            ["Mega"] = {Amount = 1, To = {"ComposerFluffy5134", "Alexander_B0SS0N", "DriftPRO9189", "EliteFlorian170", "coziniko1"}},
+            -- ["Rainbow"] = {Amount = 1, To = {"ComposerFluffy5134", "Alexander_B0SS0N", "DriftPRO9189", "EliteFlorian170", "coziniko1"}},
+            -- ["Mega"] = {Amount = 1, To = {"ComposerFluffy5134", "Alexander_B0SS0N", "DriftPRO9189", "EliteFlorian170", "coziniko1"}},
             ["Venus Fly Trap"] = {Amount = 1, To = {"ComposerFluffy5134", "Alexander_B0SS0N", "DriftPRO9189", "EliteFlorian170", "coziniko1"}},
             ["Venom Spitter"] = {Amount = 1, To = {"ComposerFluffy5134", "Alexander_B0SS0N", "DriftPRO9189", "EliteFlorian170", "coziniko1"}},
             ["Moon Bloom"] = {Amount = 1, To = {"ComposerFluffy5134", "Alexander_B0SS0N", "DriftPRO9189", "EliteFlorian170", "coziniko1"}},
