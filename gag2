@@ -47,8 +47,9 @@ getgenv().UserConfig = {
 		["Maple Banana"] = 50,
 		["Maple Coconut"] = 50,
 		["Conifer Cone"] = 50,
+		["Romanesco"] = 50,
 		["Atlantic Giant Pumpkin"] = 50,
-		["Amber Cranberry"] = 50,
+		["Amber Cranberry"] = 500,
     },
 	["Harvest Mutation Only"] = {}, -- Danh sách chỉ thu hoạch khi có đột biến (Mutation)
     ["Favorite"] = {}, -- Danh sách mục yêu thích
@@ -114,8 +115,8 @@ getgenv().UserConfig = {
             ["Fox"] = 1,
         },
         ["Seed"] = {
-            -- ["Rainbow"] = {Amount = 1, To = {"ComposerFluffy5134", "Alexander_B0SS0N", "DriftPRO9189", "EliteFlorian170", "ArchieCosmic4308"}},
-            -- ["Mega"] = {Amount = 1, To = {"ComposerFluffy5134", "Alexander_B0SS0N", "DriftPRO9189", "EliteFlorian170", "ArchieCosmic4308"}},
+            ["Maple Bamboo"] = {Amount = 14, To = {"Omiron97497ojsa", "Uthon10544jurg", "Wendry84294uuh", "Jonith58247zzv", "Lodrin49293vrh", "Ryven78491bqq"}},
+            ["Maple Mushroom"] = {Amount = 14, To = {"Omiron97497ojsa", "Uthon10544jurg", "Wendry84294uuh", "Jonith58247zzv", "Lodrin49293vrh", "Ryven78491bqq"}},
             -- ["Venus Fly Trap"] = {Amount = 1, To = {"ComposerFluffy5134", "Alexander_B0SS0N", "DriftPRO9189", "EliteFlorian170", "ArchieCosmic4308"}},
             -- ["Venom Spitter"] = {Amount = 1, To = {"ComposerFluffy5134", "Alexander_B0SS0N", "DriftPRO9189", "EliteFlorian170", "ArchieCosmic4308"}},
             -- ["Moon Bloom"] = {Amount = 1, To = {"ComposerFluffy5134", "Alexander_B0SS0N", "DriftPRO9189", "EliteFlorian170", "ArchieCosmic4308"}},
@@ -134,7 +135,7 @@ getgenv().UserConfig = {
 	-- [ CẤU HÌNH NÂNG CAO ]
     ["Auto Plant"] = true, -- Bật tự động trồng cây
     ["Limit Auto Plant"] = 800, -- Giới hạn số lượng trồng tự động tối đa (800)
-    ["Blacklist Seed"] = {"Amber Cranberry"}, -- Danh sách hạt giống bị cấm (Đã fix thêm dấu phẩy ở cuối dòng để tránh lỗi script)
+    ["Blacklist Seed"] = {"Amber Cranberry", "Maple Bamboo", "Maple Mushroom"}, -- Danh sách hạt giống bị cấm (Đã fix thêm dấu phẩy ở cuối dòng để tránh lỗi script)
     ["Blacklist Shovel"] = {
         -- Danh sách các loại cây cấm dùng xẻng xúc theo cấp độ
 	"Maple Venus Fly Trap", 
