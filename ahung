@@ -47,7 +47,7 @@ getgenv().UserConfig = {
 		["Maple Banana"] = 50,
 		["Maple Coconut"] = 50,
 		["Conifer Cone"] = 50,
-		["Atlantic Giant Pumpkin"] = 50,
+		["Atlantic Giant Pumpkin"] = 999,
 		["Amber Cranberry"] = 50,
     },
 	["Harvest Mutation Only"] = {}, -- Danh sách chỉ thu hoạch khi có đột biến (Mutation)
@@ -113,6 +113,7 @@ getgenv().UserConfig = {
             ["Fox"] = 1,
         },
         ["Seed"] = {
+			["Atlantic Giant Pumpkin"] = 1,
         },
         ["Gear"] = {
             ["Super Syrup Watering Can"] = 1,
@@ -124,7 +125,7 @@ getgenv().UserConfig = {
 	-- [ CẤU HÌNH NÂNG CAO ]
     ["Auto Plant"] = true, -- Bật tự động trồng cây
     ["Limit Auto Plant"] = 800, -- Giới hạn số lượng trồng tự động tối đa (800)
-    ["Blacklist Seed"] = {"Amber Cranberry", "Maple Bamboo", "Maple Mushroom"}, -- Danh sách hạt giống bị cấm (Đã fix thêm dấu phẩy ở cuối dòng để tránh lỗi script)
+    ["Blacklist Seed"] = {"Amber Cranberry", "Maple Bamboo", "Maple Mushroom", "Atlantic Giant Pumpkin"}, -- Danh sách hạt giống bị cấm (Đã fix thêm dấu phẩy ở cuối dòng để tránh lỗi script)
     ["Blacklist Shovel"] = {
         -- Danh sách các loại cây cấm dùng xẻng xúc theo cấp độ
 	"Maple Venus Fly Trap", 
