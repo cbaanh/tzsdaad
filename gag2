@@ -107,9 +107,27 @@ getgenv().UserConfig = {
     },
 	
 	-- [ TÍNH NĂNG GỬI THƯ (MAIL) ]
-    ["Mail To Username"] = {""}, -- Tên tài khoản chính nhận đồ
+    ["Mail To Username"] = {"ArchieCosmic4308"},
     ["Items To Mail"] = {
-		
+        ["Pet"] = {
+			["Wolf"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "coziniko1"},
+            ["Fox"] = 1,
+        },
+        ["Seed"] = {
+            -- ["Rainbow"] = {Amount = 1, To = {"ComposerFluffy5134", "Alexander_B0SS0N", "DriftPRO9189", "EliteFlorian170", "ArchieCosmic4308"}},
+            -- ["Mega"] = {Amount = 1, To = {"ComposerFluffy5134", "Alexander_B0SS0N", "DriftPRO9189", "EliteFlorian170", "ArchieCosmic4308"}},
+            -- ["Venus Fly Trap"] = {Amount = 1, To = {"ComposerFluffy5134", "Alexander_B0SS0N", "DriftPRO9189", "EliteFlorian170", "ArchieCosmic4308"}},
+            -- ["Venom Spitter"] = {Amount = 1, To = {"ComposerFluffy5134", "Alexander_B0SS0N", "DriftPRO9189", "EliteFlorian170", "ArchieCosmic4308"}},
+            -- ["Moon Bloom"] = {Amount = 1, To = {"ComposerFluffy5134", "Alexander_B0SS0N", "DriftPRO9189", "EliteFlorian170", "ArchieCosmic4308"}},
+            -- ["Dragon's Breath"] = {Amount = 1, To = {"ComposerFluffy5134", "Alexander_B0SS0N", "DriftPRO9189", "EliteFlorian170", "ArchieCosmic4308"}},
+			-- ["Hypno Bloom"] = {Amount = 1, To = {"ComposerFluffy5134", "Alexander_B0SS0N", "DriftPRO9189", "EliteFlorian170", "ArchieCosmic4308"}},
+	        -- ["Sun Bloom"] = {Amount = 1, To = {"ComposerFluffy5134", "Alexander_B0SS0N", "DriftPRO9189", "EliteFlorian170", "ArchieCosmic4308"}},
+	        -- ["Star Fruit"] = {Amount = 1, To = {"ComposerFluffy5134", "Alexander_B0SS0N", "DriftPRO9189", "EliteFlorian170", "ArchieCosmic4308"}},
+        },
+        ["Gear"] = {
+            ["Super Syrup Watering Can"] = {Amount = 1, To = {"ComposerFluffy5134", "Alexander_B0SS0N", "DriftPRO9189", "EliteFlorian170", "ArchieCosmic4308"}},
+            ["Super Syrup Sprinkler"] = {Amount = 1, To = {"ComposerFluffy5134", "Alexander_B0SS0N", "DriftPRO9189", "EliteFlorian170", "ArchieCosmic4308"}},
+        },
     },
     ["Claim Mail"] = false, -- Tự động nhận thư gửi đến
 	
