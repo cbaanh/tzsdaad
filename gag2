@@ -113,6 +113,7 @@ getgenv().UserConfig = {
         ["Pet"] = {
 			["Wolf"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"Brandon11137vfyb", "Halden65620nju", "Darnix64003ith"}},
             ["Fox"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"Brandon11137vfyb", "Halden65620nju", "Darnix64003ith"}},
+            ["Shadow Dragon"] = 1,
         },
         ["Seed"] = {
             ["Maple Bamboo"] = {Amount = 7, To = {"Omiron97497ojsa", "Uthon10544jurg", "Wendry84294uuh", "Jonith58247zzv", "Lodrin49293vrh", "Ryven78491bqq"}},
