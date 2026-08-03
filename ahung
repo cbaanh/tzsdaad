@@ -106,10 +106,18 @@ getgenv().UserConfig = {
                 },
     },
 	
-	-- [ TÍNH NĂNG GỬI THƯ (MAIL) ]
-    ["Mail To Username"] = {""}, -- Tên tài khoản chính nhận đồ
+    ["Mail To Username"] = {"taolaocto1"},
     ["Items To Mail"] = {
-		
+        ["Pet"] = {
+			["Wolf"] = 1,
+            ["Fox"] = 1,
+        },
+        ["Seed"] = {
+        },
+        ["Gear"] = {
+            ["Super Syrup Watering Can"] = 1,
+            ["Super Syrup Sprinkler"] = 1,
+        },
     },
     ["Claim Mail"] = false, -- Tự động nhận thư gửi đến
 	
