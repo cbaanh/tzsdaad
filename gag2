@@ -117,7 +117,7 @@ getgenv().UserConfig = {
         ["Seed"] = {
             ["Maple Bamboo"] = {Amount = 14, To = {"Omiron97497ojsa", "Uthon10544jurg", "Wendry84294uuh", "Jonith58247zzv", "Lodrin49293vrh", "Ryven78491bqq"}},
             ["Maple Mushroom"] = {Amount = 14, To = {"Omiron97497ojsa", "Uthon10544jurg", "Wendry84294uuh", "Jonith58247zzv", "Lodrin49293vrh", "Ryven78491bqq"}},
-["Atlantic Giant Pumpkin"] = {Amount = 1, To = {"Omiron97497ojsa", "Uthon10544jurg", "Wendry84294uuh", "Jonith58247zzv", "Lodrin49293vrh", "Ryven78491bqq"}},
+			["Atlantic Giant Pumpkin"] = {Amount = 1, To = {"Vorian28258clp", "Selenor93787pvcg", "Fereon46492ftij", "Grylan86962kdvq", "Rygorin43754edru", "Kerdon79644vlne"}},
             -- ["Venus Fly Trap"] = {Amount = 1, To = {"Alexander_B0SS0N", "DriftPRO9189", "ArchieCosmic4308"}},
             -- ["Venom Spitter"] = {Amount = 1, To = {"Alexander_B0SS0N", "DriftPRO9189", "ArchieCosmic4308"}},
             -- ["Moon Bloom"] = {Amount = 1, To = {"Alexander_B0SS0N", "DriftPRO9189", "ArchieCosmic4308"}},
@@ -127,8 +127,8 @@ getgenv().UserConfig = {
 	        -- ["Star Fruit"] = {Amount = 1, To = {"Alexander_B0SS0N", "DriftPRO9189", "ArchieCosmic4308"}},
         },
         ["Gear"] = {
-            ["Super Syrup Watering Can"] = {Amount = 1, To = {"Alexander_B0SS0N", "DriftPRO9189", "ArchieCosmic4308"}},
-            ["Super Syrup Sprinkler"] = {Amount = 1, To = {"Alexander_B0SS0N", "DriftPRO9189", "ArchieCosmic4308"}},
+            ["Super Syrup Watering Can"] = {Amount = 1, To = {"Vorian28258clp", "Selenor93787pvcg", "Fereon46492ftij", "Grylan86962kdvq", "Rygorin43754edru", "Kerdon79644vlne"}},
+            ["Super Syrup Sprinkler"] = {Amount = 1, To = {"Vorian28258clp", "Selenor93787pvcg", "Fereon46492ftij", "Grylan86962kdvq", "Rygorin43754edru", "Kerdon79644vlne"}},
         },
     },
     ["Claim Mail"] = false, -- Tự động nhận thư gửi đến
