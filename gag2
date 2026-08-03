@@ -108,11 +108,11 @@ getgenv().UserConfig = {
     },
 	
 	-- [ TÍNH NĂNG GỬI THƯ (MAIL) ]
-    ["Mail To Username"] = {"ArchieCosmic4308"},
+    ["Mail To Username"] = {"Brandon11137vfyb"},
     ["Items To Mail"] = {
         ["Pet"] = {
-			["Wolf"] = 1,
-            ["Fox"] = 1,
+			["Wolf"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"Brandon11137vfyb", "Halden65620nju", "Darnix64003ith"}},
+            ["Fox"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"Brandon11137vfyb", "Halden65620nju", "Darnix64003ith"}},
         },
         ["Seed"] = {
             ["Maple Bamboo"] = {Amount = 14, To = {"Omiron97497ojsa", "Uthon10544jurg", "Wendry84294uuh", "Jonith58247zzv", "Lodrin49293vrh", "Ryven78491bqq"}},
