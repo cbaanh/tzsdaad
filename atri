@@ -68,7 +68,7 @@ getgenv().UserConfig = {
         
         -- Mythic
         ["Fox"] = 999,
-        ["Wolf"] = 999,
+        -- ["Wolf"] = 999,
 
         -- Super
         ["Shadow Dragon"] = 999,
@@ -107,18 +107,18 @@ getgenv().UserConfig = {
     },
 	
 	-- [ TÍNH NĂNG GỬI THƯ (MAIL) ]
-    ["Mail To Username"] = {"nhtththt2"},
+    ["Mail To Username"] = {"Nhtththt12"},
     ["Items To Mail"] = {
         ["Pet"] = {
 			["Wolf"] = 1000,
-            ["Fox"] = 1000,
+            ["Fox"] = 1,
         },
         ["Seed"] = {
 			["Atlantic Giant Pumpkin"] = 1,
         },
         ["Gear"] = {
-            ["Super Syrup Watering Can"] = {Amount = 1, To = {"Nhtththt11", "nhtththt2"}},
-            ["Super Syrup Sprinkler"] = {Amount = 1, To = {"Nhtththt11", "nhtththt2"}},
+            ["Super Syrup Watering Can"] = {Amount = 1, To = {"Nhtththt12", "nhtththt2"}},
+            ["Super Syrup Sprinkler"] = {Amount = 1, To = {"Nhtththt12", "nhtththt2"}},
         },
     },
     ["Claim Mail"] = false, -- Tự động nhận thư gửi đến
