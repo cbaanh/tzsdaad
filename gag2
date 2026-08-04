@@ -28,11 +28,11 @@ getgenv().UserConfig = {
 		["Maple Tulip"] = 20,
 		["Maple Tomato"] = 20,
 		["Maple Apple"] = 20,
-		["Maple Bamboo"] = 9999,
+		["Maple Bamboo"] = 999,
 		["Maple Corn"] = 20,
 		["Maple Cactus"] = 20,
 		["Maple Pineapple"] = 20,
-		["Maple Mushroom"] = 9999,
+		["Maple Mushroom"] = 999,
 		["Maple Green Bean"] = 20,
 		["Maple Venus Fly Trap"] = 10,
 		["Maple Pomegranate"] = 10,
@@ -108,17 +108,17 @@ getgenv().UserConfig = {
     },
 	
 	-- [ TÍNH NĂNG GỬI THƯ (MAIL) ]
-    ["Mail To Username"] = {"Brandon11137vfyb"},
+    ["Mail To Username"] = {"Draxil41790dkh"},
     ["Items To Mail"] = {
         ["Pet"] = {
-			["Wolf"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"Brandon11137vfyb", "Halden65620nju", "Darnix64003ith"}},
-            ["Fox"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"Brandon11137vfyb", "Halden65620nju", "Darnix64003ith"}},
+			["Wolf"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"Draxil41790dkh", "Zelvan55523oihb", "Beldrin55146yiw","Jarnix81327ows", "Lenvik43797odeu", "Nivron48313hblw"}},
+            ["Fox"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = {"Draxil41790dkh", "Zelvan55523oihb", "Beldrin55146yiw","Jarnix81327ows", "Lenvik43797odeu", "Nivron48313hblw"}},
             ["Shadow Dragon"] = 1,
         },
         ["Seed"] = {
+			["Atlantic Giant Pumpkin"] = {Amount = 1, To = {"Kylon95384zqiu", "Hecton62278aayz", "Yelton57072zbjg", "Lyndan63178eapw", "Ulvon26910bmzz", "Rekorn29869rrt"}},
             -- ["Maple Bamboo"] = {Amount = 7, To = {"Omiron97497ojsa", "Uthon10544jurg", "Wendry84294uuh", "Jonith58247zzv", "Lodrin49293vrh", "Ryven78491bqq"}},
-            ["Maple Mushroom"] = {Amount = 5, To = {"Omiron97497ojsa", "Uthon10544jurg", "Wendry84294uuh", "Jonith58247zzv", "Lodrin49293vrh", "Ryven78491bqq"}},
-			["Atlantic Giant Pumpkin"] = {Amount = 1, To = {"Vorian28258clp", "Selenor93787pvcg", "Fereon46492ftij", "Grylan86962kdvq", "Rygorin43754edru", "Kerdon79644vlne"}},
+            -- ["Maple Mushroom"] = {Amount = 5, To = {"Omiron97497ojsa", "Uthon10544jurg", "Wendry84294uuh", "Jonith58247zzv", "Lodrin49293vrh", "Ryven78491bqq"}},
             -- ["Venus Fly Trap"] = {Amount = 1, To = {"Alexander_B0SS0N", "DriftPRO9189", "ArchieCosmic4308"}},
             -- ["Venom Spitter"] = {Amount = 1, To = {"Alexander_B0SS0N", "DriftPRO9189", "ArchieCosmic4308"}},
             -- ["Moon Bloom"] = {Amount = 1, To = {"Alexander_B0SS0N", "DriftPRO9189", "ArchieCosmic4308"}},
@@ -128,8 +128,8 @@ getgenv().UserConfig = {
 	        -- ["Star Fruit"] = {Amount = 1, To = {"Alexander_B0SS0N", "DriftPRO9189", "ArchieCosmic4308"}},
         },
         ["Gear"] = {
-            ["Super Syrup Watering Can"] = {Amount = 1, To = {"Vorian28258clp", "Selenor93787pvcg", "Fereon46492ftij", "Grylan86962kdvq", "Rygorin43754edru", "Kerdon79644vlne"}},
-            ["Super Syrup Sprinkler"] = {Amount = 1, To = {"Vorian28258clp", "Selenor93787pvcg", "Fereon46492ftij", "Grylan86962kdvq", "Rygorin43754edru", "Kerdon79644vlne"}},
+            ["Super Syrup Watering Can"] = {Amount = 1, To = {"Kylon95384zqiu", "Hecton62278aayz", "Yelton57072zbjg", "Lyndan63178eapw", "Ulvon26910bmzz", "Rekorn29869rrt"}},
+            ["Super Syrup Sprinkler"] = {Amount = 1, To = {"Kylon95384zqiu", "Hecton62278aayz", "Yelton57072zbjg", "Lyndan63178eapw", "Ulvon26910bmzz", "Rekorn29869rrt"}},
         },
     },
     ["Claim Mail"] = false, -- Tự động nhận thư gửi đến
@@ -137,7 +137,7 @@ getgenv().UserConfig = {
 	-- [ CẤU HÌNH NÂNG CAO ]
     ["Auto Plant"] = true, -- Bật tự động trồng cây
     ["Limit Auto Plant"] = 800, -- Giới hạn số lượng trồng tự động tối đa (800)
-    ["Blacklist Seed"] = {"Amber Cranberry", "Maple Mushroom", "Atlantic Giant Pumpkin"}, -- Danh sách hạt giống bị cấm (Đã fix thêm dấu phẩy ở cuối dòng để tránh lỗi script)
+    ["Blacklist Seed"] = {"Amber Cranberry", "Atlantic Giant Pumpkin"}, -- Danh sách hạt giống bị cấm (Đã fix thêm dấu phẩy ở cuối dòng để tránh lỗi script)
     ["Blacklist Shovel"] = {
         -- Danh sách các loại cây cấm dùng xẻng xúc theo cấp độ
 	"Maple Venus Fly Trap", 
