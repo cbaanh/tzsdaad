@@ -112,6 +112,7 @@ getgenv().UserConfig = {
         ["Pet"] = {
 			["Wolf"] = 1000,
             ["Fox"] = 1,
+			["Shadow Dragon"] = 1,
         },
         ["Seed"] = {
 			["Atlantic Giant Pumpkin"] = 1,
