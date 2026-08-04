@@ -111,6 +111,7 @@ getgenv().UserConfig = {
         ["Pet"] = {
 			["Wolf"] = 1,
             ["Fox"] = 1,
+			["Shadow Dragon"] = 1,
         },
         ["Seed"] = {
 			["Atlantic Giant Pumpkin"] = {Amount = 1, To = {"taolaocto1", "taolaocto2"}},
