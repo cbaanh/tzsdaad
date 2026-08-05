@@ -1,5 +1,5 @@
 setfpscap(5)
-script_key = "mFeSGiijwdLxhWlgKDGEfSihuBozfOAp";
+script_key = "dAAEjbTCTyovLIEswOGhyZEkTIIDaFGF";
 getgenv().UserConfig = {
     ["FPS Cap"] = 5,
 	["Auto Double Or Nothing"] = false, -- Tự động bật tính năng Double Or Nothing (Cược nhân đôi)
