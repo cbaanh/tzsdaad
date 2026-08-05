@@ -28,16 +28,14 @@ getgenv().UserConfig = {
 		["Maple Tulip"] = 20,
 		["Maple Tomato"] = 20,
 		["Maple Apple"] = 20,
-		["Maple Bamboo"] = 999,
+		["Maple Bamboo"] = 500,
 		["Maple Corn"] = 20,
 		["Maple Cactus"] = 20,
 		["Maple Pineapple"] = 20,
-		["Maple Mushroom"] = 999,
+		["Maple Mushroom"] = 99,
 		["Maple Green Bean"] = 20,
-		["Maple Venus Fly Trap"] = 10,
-		["Maple Pomegranate"] = 10,
-		["Maple Poison Apple"] = 10,
-		["Maple Venom Spitter"] = 10,
+		-- ["Maple Venus Fly Trap"] = 10,
+		-- ["Maple Pomegranate"] = 10,
 		["Maple Sunflower"] = 20,
 		["Maple Cherry"] = 20,
 		["Maple Acorn"] = 20,
@@ -46,12 +44,25 @@ getgenv().UserConfig = {
 		["Maple Grape"] = 50,
 		["Maple Banana"] = 50,
 		["Maple Coconut"] = 50,
+		["Maple Venom Spitter"] = 50,
 		["Conifer Cone"] = 50,
-		["Romanesco"] = 50,
 		["Atlantic Giant Pumpkin"] = 9999,
 		["Amber Cranberry"] = 500,
     },
-	["Harvest Mutation Only"] = {}, -- Danh sách chỉ thu hoạch khi có đột biến (Mutation)
+    ["Harvest Mutation Only"] = {
+        "Maple Coconut",
+		"Maple Mango",
+		"Maple Cherry",
+		"Maple Dragon Fruit",
+		"Maple Acorn",
+		"Romanesco",
+		"Maple Venom Spitter",
+		"Conifer Cone",
+		"Maple Mushroom",
+		"Amber Cranberry",
+        "Maple Pineapple",
+        "Maple Pomegranate",
+    },
     ["Favorite"] = {}, -- Danh sách mục yêu thích
     ["Buy Pets"] = {
         -- Cấu hình tự động mua các loại pet (Thêm dấu `--` ở đầu để tạm tắt mua pet đó)
@@ -116,17 +127,10 @@ getgenv().UserConfig = {
             ["Shadow Dragon"] = 1,
         },
         ["Seed"] = {
-			["Amber Cranberry"] = {Amount = 1, To = {"Kylon95384zqiu", "Hecton62278aayz"}},
+			["Amber Cranberry"] = {Amount = 1, To = {"Kylon95384zqiu", "Hecton62278aayz", "Yelton57072zbjg", "Lyndan63178eapw", "Ulvon26910bmzz", "Rekorn29869rrt"}},
 			["Atlantic Giant Pumpkin"] = {Amount = 1, To = {"Kylon95384zqiu", "Hecton62278aayz", "Yelton57072zbjg", "Lyndan63178eapw", "Ulvon26910bmzz", "Rekorn29869rrt"}},
-            -- ["Maple Bamboo"] = {Amount = 7, To = {"Omiron97497ojsa", "Uthon10544jurg", "Wendry84294uuh", "Jonith58247zzv", "Lodrin49293vrh", "Ryven78491bqq"}},
-            -- ["Maple Mushroom"] = {Amount = 5, To = {"Omiron97497ojsa", "Uthon10544jurg", "Wendry84294uuh", "Jonith58247zzv", "Lodrin49293vrh", "Ryven78491bqq"}},
-            -- ["Venus Fly Trap"] = {Amount = 1, To = {"Alexander_B0SS0N", "DriftPRO9189", "ArchieCosmic4308"}},
-            -- ["Venom Spitter"] = {Amount = 1, To = {"Alexander_B0SS0N", "DriftPRO9189", "ArchieCosmic4308"}},
-            -- ["Moon Bloom"] = {Amount = 1, To = {"Alexander_B0SS0N", "DriftPRO9189", "ArchieCosmic4308"}},
-            -- ["Dragon's Breath"] = {Amount = 1, To = {"Alexander_B0SS0N", "DriftPRO9189", "ArchieCosmic4308"}},
-			-- ["Hypno Bloom"] = {Amount = 1, To = {"Alexander_B0SS0N", "DriftPRO9189", "ArchieCosmic4308"}},
-	        -- ["Sun Bloom"] = {Amount = 1, To = {"Alexander_B0SS0N", "DriftPRO9189", "ArchieCosmic4308"}},
-	        -- ["Star Fruit"] = {Amount = 1, To = {"Alexander_B0SS0N", "DriftPRO9189", "ArchieCosmic4308"}},
+			["Maple Venom Spitter"] = {Amount = 1, To = {"Kylon95384zqiu", "Hecton62278aayz", "Yelton57072zbjg", "Lyndan63178eapw", "Ulvon26910bmzz", "Rekorn29869rrt"}},
+			["Conifer Cone"] = {Amount = 1, To = {"Kylon95384zqiu", "Hecton62278aayz", "Yelton57072zbjg", "Lyndan63178eapw", "Ulvon26910bmzz", "Rekorn29869rrt"}},
         },
         ["Gear"] = {
             ["Super Syrup Watering Can"] = {Amount = 1, To = {"Kylon95384zqiu", "Hecton62278aayz", "Yelton57072zbjg", "Lyndan63178eapw", "Ulvon26910bmzz", "Rekorn29869rrt"}},
@@ -136,9 +140,12 @@ getgenv().UserConfig = {
     ["Claim Mail"] = false, -- Tự động nhận thư gửi đến
 	
 	-- [ CẤU HÌNH NÂNG CAO ]
+	["Auto Use Cornucopia"] = true, -- Mặc định là true không cần set cũng được, vì nó cũng không thể gift để bán
+    ["Auto Use Egg"] = "All",
+    ["Auto Use Seed Pack"] = "All",
     ["Auto Plant"] = true, -- Bật tự động trồng cây
     ["Limit Auto Plant"] = 800, -- Giới hạn số lượng trồng tự động tối đa (800)
-    ["Blacklist Seed"] = {"Amber Cranberry", "Atlantic Giant Pumpkin"}, -- Danh sách hạt giống bị cấm (Đã fix thêm dấu phẩy ở cuối dòng để tránh lỗi script)
+    ["Blacklist Seed"] = {"Amber Cranberry", "Atlantic Giant Pumpkin", "Maple Venom Spitter", "Conifer Cone"}, -- Danh sách hạt giống bị cấm (Đã fix thêm dấu phẩy ở cuối dòng để tránh lỗi script)
     ["Blacklist Shovel"] = {
         -- Danh sách các loại cây cấm dùng xẻng xúc theo cấp độ
 	"Maple Venus Fly Trap", 
