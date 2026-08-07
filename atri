@@ -35,6 +35,7 @@ getgenv().UserConfig = {
 		["Maple Mushroom"] = 200,
 		["Maple Green Bean"] = 20,
 		["Maple Venus Fly Trap"] = 50,
+		["Maple Venom Spitter"] = 50,
 		-- ["Maple Pomegranate"] = 10,
 		["Maple Sunflower"] = 20,
 		["Maple Cherry"] = 20,
