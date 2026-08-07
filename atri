@@ -119,7 +119,7 @@ getgenv().UserConfig = {
     },
 	
 	-- [ TÍNH NĂNG GỬI THƯ (MAIL) ]
-    ["Mail To Username"] = {"nhtththt14"},
+    ["Mail To Username"] = {"Nhtththt15"},
     ["Items To Mail"] = {
         ["Pet"] = {
 			["Wolf"] = 1,
@@ -127,14 +127,14 @@ getgenv().UserConfig = {
             ["Shadow Dragon"] = 1,
         },
         ["Seed"] = {
-			["Amber Cranberry"] = {Amount = 1, To = {"nhtththt14", "nhtththt13"}},
-			["Atlantic Giant Pumpkin"] = {Amount = 1, To = {"nhtththt14", "nhtththt13"}},
-			["Maple Venom Spitter"] = {Amount = 1, To = {"nhtththt14", "nhtththt13"}},
-			["Conifer Cone"] = {Amount = 1, To = {"nhtththt14", "nhtththt13"}},
+			["Amber Cranberry"] = {Amount = 1, To = {"Nhtththt15", "Nhtththt16"}},
+			["Atlantic Giant Pumpkin"] = {Amount = 1, To = {"Nhtththt15", "Nhtththt16"}},
+			["Maple Venom Spitter"] = {Amount = 1, To = {"Nhtththt15", "Nhtththt16"}},
+			["Conifer Cone"] = {Amount = 1, To = {"Nhtththt15", "Nhtththt16"}},
         },
         ["Gear"] = {
-            ["Super Syrup Watering Can"] = {Amount = 1, To = {"nhtththt14", "nhtththt13"}},
-            ["Super Syrup Sprinkler"] = {Amount = 1, To = {"nhtththt14", "nhtththt13"}},
+            ["Super Syrup Watering Can"] = {Amount = 1, To = {"Nhtththt15", "Nhtththt16"}},
+            ["Super Syrup Sprinkler"] = {Amount = 1, To = {"Nhtththt15", "Nhtththt16"}},
         },
     },
     ["Claim Mail"] = false, -- Tự động nhận thư gửi đến
