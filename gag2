@@ -97,7 +97,7 @@ getgenv().UserConfig = {
         
         -- Legendary
         -- ["Squirrel"] = {Big = 99, Huge = 99, Rainbow = 99},
-        -- ["Swan"] = {Normal =1, Big = 99, Huge = 99, Rainbow = 99},
+        ["Kitsune"] = {Normal =1, Big = 99, Huge = 99, Rainbow = 99},
         
         -- Mythic
         -- ["Fox"] = 999,
@@ -144,6 +144,7 @@ getgenv().UserConfig = {
     ["Items To Mail"] = {
         ["Pet"] = {
             ["Shadow Dragon"] = 1,
+            ["Kitsune"] = 1,
         },
         ["Seed"] = {
 			["Amber Cranberry"] = {Amount = 1, To = {"masonnetcode2003", "masonzx8989", "mathiasaviator1643", "MathiasTR8275", "matthewboulder22", "MatthewCompile06", "MateoRBX4351"}},
