@@ -103,8 +103,9 @@ getgenv().UserConfig = {
         -- ["Fox"] = 999,
         -- ["Wolf"] = 999,
 
-        -- Super
+        -- Supery
         ["Shadow Dragon"] = 999,
+        ["Kitsune"] = 999,
     },
 	["Equip Pets"] = {
 		{"Dog", 6, 1} -- Tự động trang bị pet Unicorn
@@ -144,6 +145,7 @@ getgenv().UserConfig = {
     ["Items To Mail"] = {
         ["Pet"] = {
             ["Shadow Dragon"] = 1,
+            ["Kitsune"] = 1,
         },
         ["Seed"] = {
 			["Amber Cranberry"] = {Amount = 1, To = {"thhungcto1", "thhungcto2"}},
