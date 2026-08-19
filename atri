@@ -1,5 +1,5 @@
 setfpscap(5)
-script_key = "lQNhpfpkgwoTtiFVFVONwuECNaFwhPnJ";
+script_key = "iQBoQPIReVQCMdTutkkUuMDpVbRfOzwH";
 getgenv().UserConfig = {
     -- Auto Hop
     ["Enable Auto Hop"] = true,
