@@ -1,15 +1,18 @@
+if not game:IsLoaded() then game.Loaded:Wait() end
+script_key = "gxUYOMtDygQoMGtoSZbqvJoQglBknzrm";
 setfpscap(5)
-script_key = "lQNhpfpkgwoTtiFVFVONwuECNaFwhPnJ";
+-- [ USER CONFIGURATION ]
 getgenv().UserConfig = {
     -- Auto Hop
     ["Enable Auto Hop"] = true,
     ["Min Coin Hop Threshold"] = 250,
     ["Coin Check Interval"] = 1800,
+
     -- Auto Change
     ["Auto Change"] = {
         ["Level"] = 10,
         ["Farmsync"] = {
-            ["Enabled"] = false, -- true if use farmsync
+            ["Enabled"] = false,
             ["Without Replace"] = false,
             ["Config ID"] = nil,
             ["Normal"] = {
@@ -22,26 +25,34 @@ getgenv().UserConfig = {
             },
         },
         ["Yummy"] = {
-            ["Enabled"] = false -- true if use yummy
+            ["Enabled"] = false
         },
         ["Farmerv5"] = {
-            ["Enabled"] = true, -- true if use farmv5
-            ["API Key"] = "ak_ce5d0775136463b0dd76b4d4b68c3048b758b86e0afe7957272cd735d86151e9",
-             ["Normal"] = 1,
+            ["Enabled"] = true,
+            ["API Key"] = "ak_db74bd06b2203f64579c4426784e8967df436b5d581da8fca3547ffe72ab1d1d",
+            ["Normal"] = 1,
             ["Godly"] = 2,
         }
     },
-    -- Auto Unbox Settings
+
+    -- Candies Spending Mode: "Box" = mở Halloween2026Box, "BattlePass" = tích candies mua BattlePass
+    ["Candies Mode"] = "Box",
+    -- BattlePass Mode: "Instant" = mua tier ngay khi đủ, "SaveAll" = đợi đủ full rồi mua 1 lần
+    ["BattlePass Mode"] = "SaveAll",
+
+    -- Auto Unbox Settings (box Candies chỉ mở khi Candies Mode = "Box" hoặc BP đã xong)
     ["Auto Unbox"] = true,
-    ["Selected Box"] = "Summer2026Box",
-    ["Currency Type"] = "Shells",
+    ["Selected Box"] = {"Halloween2026Box", "GunBox1"},
     ["Min Balance Keep"] = 1,
+    ["Unbox Coins"] = true,
+
     -- Webhook Settings
     ["Webhook URL"] = "https://discord.com/api/webhooks/1346782737692098571/CqncaOg2IMSeVbDEUqlfI-t9IfpHvtLcVmCNQ0xRI1OeZEF12gMJF3he0ZF7fcRnA6LS",
-    ["Discord ID"] = "x",
-    ["Webhook Note"] = "x",
+    ["Discord ID"] = "a",
+    ["Webhook Note"] = "a",
+
     -- Webhook Filters
-    ["Webhook Rarity Items"] = { "Godly"},
+    ["Webhook Rarity Items"] = {"Godly"},
     ["Webhook Name Items"] = {}
 }
   task.spawn(function()
@@ -54,4 +65,4 @@ getgenv().UserConfig = {
           end
       end
   end)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/dannyhuynh25/Duck-Hub/refs/heads/main/mm2.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/bac9ea944901dfbe5e0785325959c15d.lua"))()
