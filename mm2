@@ -8,8 +8,9 @@ getgenv().UserConfig = {
     ["Coin Check Interval"] = 1800,
 
     -- Auto Change
-    ["Auto Change"] = {
+["Auto Change"] = {
         ["Level"] = 10,
+        ["Trigger"] = "Godly", -- "Quest", "QuestOrGodly", default = "Godly"
         ["Farmsync"] = {
             ["Enabled"] = false,
             ["Without Replace"] = false,
