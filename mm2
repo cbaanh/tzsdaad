@@ -1,4 +1,3 @@
-if not game:IsLoaded() then game.Loaded:Wait() end
 script_key = "gxUYOMtDygQoMGtoSZbqvJoQglBknzrm";
 setfpscap(5)
 -- [ USER CONFIGURATION ]
